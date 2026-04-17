@@ -23,8 +23,12 @@ The user's real money ($1,000) mirrors the portfolio at 10% proportional sizing.
    headers, fresh `x-request-id` per call, and the 3s post-write sleep.
 
 4. **Key-type sanity check first, every run.** Before any other eToro call:
-   `bash scripts/etoro.sh agent-portfolios`. Last line `HTTP_CODE=403` = OK
-   (agent-portfolio scope). `HTTP_CODE=200` = main-account key = ABORT.
+   `bash scripts/etoro.sh key-check` → one of `KEY=agent` (proceed),
+   `KEY=main` (ABORT — main-account token), `KEY=unknown` (ABORT — transient
+   API error; retry next cron). The wrapper inspects `GET /agent-portfolios`:
+   HTTP 403, or HTTP 200 with `agentPortfolios: []`, means the token is scoped
+   to a single portfolio (OK). HTTP 200 with a non-empty list means the token
+   is the main-account key and can trade real money directly (ABORT).
 
 5. **Never create `.env` at runtime.** In cloud routines, required env vars are
    exported by the Routine config; if missing, alert and exit. In local slash
@@ -59,7 +63,8 @@ bash scripts/etoro.sh search AAPL                 # → instrumentID
 bash scripts/etoro.sh rates 1000                  # current rate
 bash scripts/etoro.sh candles 1000 OneDay 30      # last 30 daily candles
 bash scripts/etoro.sh instrument 1000             # metadata
-bash scripts/etoro.sh agent-portfolios            # sanity check (expect HTTP_CODE=403)
+bash scripts/etoro.sh key-check                   # sanity check (expect KEY=agent)
+bash scripts/etoro.sh agent-portfolios            # raw GET /agent-portfolios (debug)
 
 # Writes (each sleeps 3s internally)
 bash scripts/etoro.sh open '{"InstrumentID":1000,"IsBuy":true,"Leverage":1,"Amount":2000,"StopLossRate":135.42}'

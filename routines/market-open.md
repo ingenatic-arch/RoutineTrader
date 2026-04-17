@@ -28,9 +28,10 @@ opens new positions.**
   their own fallbacks.
 
 ## IMPORTANT — KEY-TYPE SANITY (run FIRST)
-- `bash scripts/etoro.sh agent-portfolios` → last line must be `HTTP_CODE=403`.
-- If `HTTP_CODE=200`: main-account key. ClickUp-alert
-  `"🛑 ABORT market-open: main-account key detected"` and exit — do NOT trade.
+- `bash scripts/etoro.sh key-check`
+  - `KEY=agent` → proceed.
+  - `KEY=main` → **ABORT — do NOT trade.** `bash scripts/clickup.sh "🛑 ABORT market-open: ETORO_USER_KEY is a main-account key"` and exit.
+  - `KEY=unknown` → transient API error. `bash scripts/clickup.sh "⚠️ market-open: key-check inconclusive — retrying next cron."` and exit.
 
 ## IMPORTANT — PERSISTENCE
 - Fresh clone. Commit + push or today's trades disappear from memory.

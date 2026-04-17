@@ -10,11 +10,12 @@ Rules:
 
 Steps:
 
-1. **Key-type sanity**: `bash scripts/etoro.sh agent-portfolios`.
-   - Last line `HTTP_CODE=403` → agent-portfolio key, proceed.
-   - `HTTP_CODE=200` → main-account key, STOP. Tell the user the token in
+1. **Key-type sanity**: `bash scripts/etoro.sh key-check`.
+   - `KEY=agent` → portfolio-scoped token, proceed.
+   - `KEY=main` → main-account token, STOP. Tell the user the token in
      `.env` is the wrong scope and must be replaced with an agent-portfolio token.
-   - Anything else → show the HTTP code and the response body; stop.
+   - `KEY=unknown` → transient API error (5xx, DNS); show the `HTTP_CODE` line
+     and tell the user to retry in a minute.
 
 2. `bash scripts/etoro.sh pnl`.
 

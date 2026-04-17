@@ -22,10 +22,12 @@ cp env.template .env
 # Edit .env: set ETORO_USER_KEY (your agent-portfolio token) + optional Perplexity/ClickUp.
 chmod +x scripts/*.sh
 
-bash scripts/etoro.sh agent-portfolios
-# Expect the last line to be:  HTTP_CODE=403
-# If you see HTTP_CODE=200, the token is a MAIN-ACCOUNT key — STOP and replace it.
-# Trading with a main-account key moves real money outside the agent-portfolio scope.
+bash scripts/etoro.sh key-check
+# Expect:  KEY=agent
+# If you see KEY=main, the token is a MAIN-ACCOUNT key — STOP and replace it with
+# the agent-portfolio token. A main-account key can trade real money directly.
+# If you see KEY=unknown, the eToro API returned an unexpected response (likely
+# transient 5xx or DNS flap) — re-run after a minute.
 
 bash scripts/etoro.sh pnl
 # → JSON with credit, positions, orders, mirrors, etc.
@@ -70,7 +72,7 @@ In the Claude Routines UI, for EACH of the five files under `routines/`:
 | Var                     | Where             | Required for                 | Notes |
 |-------------------------|-------------------|------------------------------|-------|
 | `ETORO_API_KEY`         | all 5 routines    | every eToro call             | Constant public key (see `env.template`) |
-| `ETORO_USER_KEY`        | all 5 routines    | every eToro call             | **Agent-portfolio token** — HTTP 403 on `/agent-portfolios` |
+| `ETORO_USER_KEY`        | all 5 routines    | every eToro call             | **Agent-portfolio token** — `bash scripts/etoro.sh key-check` must print `KEY=agent` |
 | `ETORO_API_BASE`        | optional          | override for staging         | Default `https://public-api.etoro.com/api/v1` |
 | `PERPLEXITY_API_KEY`    | pre-market, midday, weekly-review | research; fallback to WebSearch if unset | — |
 | `PERPLEXITY_MODEL`      | optional          | —                            | Default `sonar` |

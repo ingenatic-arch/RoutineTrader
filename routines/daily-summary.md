@@ -28,7 +28,10 @@ Your job: compute today's P&L, append the EOD snapshot to TRADE-LOG.md
   their own fallbacks.
 
 ## IMPORTANT — KEY-TYPE SANITY
-- `bash scripts/etoro.sh agent-portfolios` → `HTTP_CODE=403` required. 200 → ABORT.
+- `bash scripts/etoro.sh key-check`
+  - `KEY=agent` → proceed.
+  - `KEY=main` → ABORT. `bash scripts/clickup.sh "🛑 ABORT daily-summary: main-account key detected"` and exit.
+  - `KEY=unknown` → ABORT. `bash scripts/clickup.sh "⚠️ daily-summary: key-check inconclusive — retrying next cron."` and exit.
 
 ## IMPORTANT — PERSISTENCE
 - **The daily EOD commit is mandatory.** Tomorrow's Day-P&L is computed as

@@ -20,7 +20,8 @@
 #   rates ID[,ID,...]                    # current rates for one or more ids
 #   candles ID INTERVAL COUNT            # historical candles
 #   instrument ID                        # instrument metadata
-#   agent-portfolios                     # key-type sanity check (expect HTTP 403)
+#   agent-portfolios                     # raw GET /agent-portfolios (body + HTTP_CODE)
+#   key-check                            # key-type sanity: prints KEY=agent|main|unknown
 #   open '<json>'                        # POST /market-open-orders/by-amount
 #   close POSITION_ID INSTRUMENT_ID      # full close
 #   close-partial PID IID UNITS          # partial close via UnitsToDeduct
@@ -169,12 +170,46 @@ print(json.dumps([p for p in d.get("positions", []) if p.get("mirrorID", 0) == 0
     _read GET "/market-data/instruments?instrumentIds=${id}"
     ;;
   agent-portfolios)
-    # Sanity check. HTTP 403 = agent-portfolio key (OK). HTTP 200 = main-account
-    # key (ABORT — wrong scope for trading). We do NOT exit nonzero on 4xx here.
+    # Raw fetch of GET /agent-portfolios. Prints body, then HTTP_CODE=<n>.
+    # See `key-check` for the sanity-check interpretation.
     out=$(_curl GET "/agent-portfolios")
     code="${out##*$'\n'}"
     body="${out%$'\n'*}"
     printf '%s\n'  "$body"
+    printf 'HTTP_CODE=%s\n' "$code"
+    ;;
+  key-check)
+    # Key-type sanity. Rules (empirically verified against both key types):
+    #   HTTP 403                              → portfolio-scoped token  (OK)
+    #   HTTP 200 + agentPortfolios[] EMPTY    → portfolio-scoped token  (OK)
+    #   HTTP 200 + agentPortfolios[] NONEMPTY → main-account token      (ABORT)
+    #   anything else                         → unknown                 (ABORT)
+    # A main-account token CAN enumerate the portfolios it owns; a scoped
+    # token cannot (it lives inside one portfolio, sees no siblings).
+    out=$(_curl GET "/agent-portfolios")
+    code="${out##*$'\n'}"
+    body="${out%$'\n'*}"
+    if [[ "$code" == "403" ]]; then
+      printf 'KEY=agent\n'
+    elif [[ "$code" == "200" ]]; then
+      count=$(printf '%s' "$body" | python3 -c '
+import json, sys
+try:
+    d = json.loads(sys.stdin.read() or "{}")
+    print(len(d.get("agentPortfolios", [])))
+except Exception:
+    print(-1)
+')
+      if [[ "$count" == "0" ]]; then
+        printf 'KEY=agent\n'
+      elif [[ "$count" -gt 0 ]] 2>/dev/null; then
+        printf 'KEY=main\n'
+      else
+        printf 'KEY=unknown\n'
+      fi
+    else
+      printf 'KEY=unknown\n'
+    fi
     printf 'HTTP_CODE=%s\n' "$code"
     ;;
   open)

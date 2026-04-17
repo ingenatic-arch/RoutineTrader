@@ -27,8 +27,10 @@ class over the 50% cap. **You do not open new positions here.**
   their own fallbacks.
 
 ## IMPORTANT — KEY-TYPE SANITY (run FIRST)
-- `bash scripts/etoro.sh agent-portfolios` → expect `HTTP_CODE=403`.
-- 200 → abort with ClickUp alert. Any other non-403 → alert + abort.
+- `bash scripts/etoro.sh key-check`
+  - `KEY=agent` → proceed.
+  - `KEY=main` → ABORT. `bash scripts/clickup.sh "🛑 ABORT midday: main-account key detected"` and exit.
+  - `KEY=unknown` → ABORT. `bash scripts/clickup.sh "⚠️ midday: key-check inconclusive — retrying next cron."` and exit.
 
 ## IMPORTANT — PERSISTENCE
 - Commit & push at end IF any action was taken. No-op midday = no commit.

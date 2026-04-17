@@ -28,7 +28,10 @@ or failed), send ONE ClickUp recap, commit.
   their own fallbacks.
 
 ## IMPORTANT — KEY-TYPE SANITY
-- `bash scripts/etoro.sh agent-portfolios` → `HTTP_CODE=403`. 200 → ABORT.
+- `bash scripts/etoro.sh key-check`
+  - `KEY=agent` → proceed.
+  - `KEY=main` → ABORT. `bash scripts/clickup.sh "🛑 ABORT weekly-review: main-account key detected"` and exit.
+  - `KEY=unknown` → ABORT. `bash scripts/clickup.sh "⚠️ weekly-review: key-check inconclusive — retrying next week."` and exit.
 
 ## IMPORTANT — PERSISTENCE
 - End with a commit — the review is the persistent artifact of the week.

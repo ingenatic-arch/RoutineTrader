@@ -17,8 +17,10 @@ Steps:
 1. **Parse args**: extract `SYMBOL`, `SIZE_PCT` (an integer 1–20), `SIDE` (must
    equal `buy`). If parse fails or SIDE ≠ `buy`, print usage and stop.
 
-2. **Key-type sanity**: `bash scripts/etoro.sh agent-portfolios` → must end
-   with `HTTP_CODE=403`. If 200, tell the user to replace `ETORO_USER_KEY` and stop.
+2. **Key-type sanity**: `bash scripts/etoro.sh key-check` → must print
+   `KEY=agent`. If `KEY=main`, tell the user to replace `ETORO_USER_KEY` with
+   the agent-portfolio token and stop. If `KEY=unknown`, a transient API error
+   — tell the user to retry.
 
 3. **Resolve instrument**:
    `bash scripts/etoro.sh search <SYMBOL>` → find the entry with

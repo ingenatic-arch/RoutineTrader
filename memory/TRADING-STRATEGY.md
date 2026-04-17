@@ -72,6 +72,10 @@ disciplined — patience > activity.
   Otherwise you'll see stale position data and over-trade.
 
 ## Key-type sanity check (run first, every routine)
-- `bash scripts/etoro.sh agent-portfolios` → expect `HTTP_CODE=403` ("Access denied").
-- If `HTTP_CODE=200`, the token is a **main-account key** — **ABORT**. Wrong scope,
-  will move real money if you trade with it.
+- `bash scripts/etoro.sh key-check` → expect `KEY=agent`.
+- `KEY=main` → the token can enumerate owned portfolios, so it's a **main-account
+  key** — **ABORT**. Wrong scope; will move real money if you trade with it.
+- `KEY=unknown` → transient 5xx or unexpected API response — ABORT, retry next cron.
+- (Internals: the wrapper inspects `GET /agent-portfolios`. HTTP 403, or HTTP 200
+  with an empty `agentPortfolios` list, both indicate the token is scoped to a
+  single portfolio — safe to trade.)

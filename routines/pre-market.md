@@ -27,12 +27,14 @@ routine will trade from. **You do not place trades here.**
   back to native `WebSearch`.
 
 ## IMPORTANT — KEY-TYPE SANITY (run FIRST)
-- `bash scripts/etoro.sh agent-portfolios`
-- Parse the last line `HTTP_CODE=<n>`:
-  - `403` → agent-portfolio key (CORRECT scope). Proceed.
-  - `200` → **main-account key, ABORT.** This token moves real money. Alert ClickUp:
-    `bash scripts/clickup.sh "🛑 ABORT: ETORO_USER_KEY is a main-account key (HTTP 200 on /agent-portfolios). Wrong scope — fix in Routine config."` and exit.
-  - Anything else → alert and exit.
+- `bash scripts/etoro.sh key-check`
+- Parse the `KEY=<type>` line:
+  - `KEY=agent` → portfolio-scoped token (CORRECT). Proceed.
+  - `KEY=main` → **main-account token, ABORT.** This token can enumerate owned
+    portfolios, which means it can also trade the main account directly. Alert:
+    `bash scripts/clickup.sh "🛑 ABORT: ETORO_USER_KEY is a main-account key — use the agent-portfolio token instead."` and exit.
+  - `KEY=unknown` → transient 5xx, DNS flap, or unexpected response. Alert:
+    `bash scripts/clickup.sh "⚠️ pre-market: key-check inconclusive ($HTTP_CODE) — retrying next cron."` and exit.
 
 ## IMPORTANT — PERSISTENCE
 - Fresh clone. File changes VANISH unless committed AND pushed.

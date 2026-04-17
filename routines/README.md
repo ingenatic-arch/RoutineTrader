@@ -70,7 +70,7 @@ pass or the git-as-memory contract is broken.
 
 **In the routine run log:**
 - [ ] env-var `for`-loop prints all required vars as `set` (no `MISSING`)
-- [ ] `bash scripts/etoro.sh agent-portfolios` → `HTTP_CODE=403`
+- [ ] `bash scripts/etoro.sh key-check` → `KEY=agent`
 - [ ] `bash scripts/etoro.sh pnl` returns JSON (not an error)
 - [ ] `git add memory/RESEARCH-LOG.md` succeeds
 - [ ] `git commit` succeeds — **NOT** "Author identity unknown"
@@ -93,7 +93,7 @@ After creating the `pre-market` routine:
 1. Hit **Run Now** once.
 2. Watch the run log:
    - env-var check passes (all vars `set`, not `MISSING`)
-   - `agent-portfolios` sanity check returns `HTTP_CODE=403`
+   - `key-check` returns `KEY=agent`
    - `pnl` returns JSON
    - A new commit on `main`: `routine: pre-market YYYY-MM-DD`
 3. `git pull` locally and confirm the new entry in `memory/RESEARCH-LOG.md`.
