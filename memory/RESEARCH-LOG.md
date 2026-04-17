@@ -6,46 +6,36 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
-### 2026-04-17 — Friday Pre-Market
+### 2026-04-17 — Friday Pre-Market (08:00 ET refresh)
 
-**Snapshot:** Equity 100.0% of start | Cash 34.9% | Open positions: 2 | Week opens so far: 0 logged (2 present on account — see Anomaly below)
+**Snapshot:** Equity 100.2% of start | Cash 100.0% | Open positions: 0 | Week opens so far: 0 (net of one round-trip on SPY+QQQ — see "Resolved" below)
 
-**Anomaly flagged**
-- Account state does not match `memory/TRADE-LOG.md` (which shows Day 0 baseline, zero positions). Two positions are open and were opened today pre-cron (~04:58 ET):
-  - SPY (iID 3000) opened 703.17, 35.0% of equity, `stopLossRate=0.0001` (no effective stop) — violates rule 9.
-  - QQQ (iID 3006) opened 641.35, 30.0% of equity, `stopLossRate=0.0001` (no effective stop) — violates rule 9.
-- Each individually exceeds the 20% per-position cap (rule 4). Combined 65.0% of equity in US equity-index ETFs exceeds the 50% asset-class cap (rule 5). Cash buffer 34.9% is above the 15–25% target band — under-deployed, not over-deployed, so no risk-of-margin problem, just a concentration problem.
-- eToro has no modify-position endpoint, so stops cannot be patched in place — only fixed by close-and-reopen with a correct `StopLossRate`. `market-open` decision below prescribes a TRIM to restore caps.
+**Resolved from earlier entry**
+- The two pre-cron anomaly positions flagged earlier (SPY 35% and QQQ 30%, both with `stopLossRate=0.0001`) are no longer on the account. `pnl` now returns `positions: []`, `credit: $10,020.59`. The cap and broken-stop violations are cleared; equity sits ~+0.2% vs $10k baseline. TRADE-LOG still shows Day 0 only — the closes were not logged through the routines (manual or platform-side action). **Action:** `daily-summary` should reconcile today and add the missing trade entries; pre-market does not write to TRADE-LOG.
 
-**Market context** (all figures as-of early 2026-04-17, percentages only)
-- S&P 500 futures (ES front-month): +0.13% overnight to ~7086; Polymarket pegs 88% probability of a higher open vs prior close.
-- VIX: 18.22, +1.56% — moderate regime, not stressed.
-- US 10Y yield: not retrievable this morning (data unavailable from research source).
-- WTI crude: +0.42%, ~$93.7 handle; energy still the laggard sector.
-- DXY: last print +0.2% yesterday; no fresh overnight read.
-- BTC: ~+0.9% overnight in the low-$74k area; ETH overnight data unclear. Crypto consolidating since February; no fresh catalyst.
-- Today's catalysts: no major earnings before the open. Econ docket — NFIB 10:00 ET (cons. 97, prev 98.6); ADP weekly 12:15 ET; **PPI MoM + YoY 12:30 ET (prev 3.5% MoM / 5.9% YoY)** — the key market-mover; Import Prices 12:30 ET; NAHB 2:00 ET (cons. 37); EIA crude stocks 2:30 ET.
-- Geopolitics: US–Iran two-week ceasefire (April 7) still the dominant backdrop — has been a tailwind to equities and a drag on oil.
-- Sector momentum (week ending April 10 per research): XLK +4.8%, XLI +4.7%, XLF +2.5%, XLV +0.4%, XLE −4.1%. Tech + industrials leading; energy lagging. Friday intra-week readings on April 15 showed financials +0.76%, healthcare −0.72%, industrials −1.24%.
+**Market context** (as-of 2026-04-17 ~08:00 ET, percentages only)
+- S&P 500 futures (ES front-month): ~+0.1% to +0.3% overnight; cash S&P referenced near 7050. Quiet bid.
+- VIX: 17.74, −1.11% vs prior close 17.94 — calm regime, easing further.
+- US 10Y yield: ~4.29–4.31% area (no fresh overnight print); range-bound.
+- WTI crude: noisy reads — one source −3.9% to ~$91.0, another flat at ~$91.4. Likely a meaningful overnight fade on Iran-truce extension hopes; will reconcile midday.
+- DXY: 98.27, +0.05%; dollar firm above 98 on the same Iran-deal optimism.
+- BTC: +0.45% overnight to ~$75,146. ETH: −0.50% to ~$2,348. Crypto Fear & Greed Index 21 (Extreme Fear). ETH/BTC ratio at YTD high; ETH ETFs taking inflows while BTC ETFs see outflows — rotation, not trend break.
+- Today's catalysts: **no pre-open US earnings** (Nasdaq calendar: "no reports on this date"). **No scheduled top-tier US macro releases** today (CPI/PPI/retail-sales/sentiment/housing all not scheduled). Light tape.
+- Geopolitics: April 7 US–Iran two-week truce holding; **expiry around April 21** — next-week event risk, not today.
+- Sector momentum (YTD through ~April 15–16): XLE +25.5% (clear leader, extended), XLK +4.5%, XLF −4.3%, XLV −4.2%. Energy is far ahead but stretched; tech is the only other green YTD print.
 
 **Holdings check**
-- **SPY (iID 3000)** — unrealized +0.12%. No overnight gap. Thesis intact: tech leadership + ceasefire tailwind support broad US equity. **Action flag:** OVER-CAP at 35% (vs 20% limit) and broken stop — market-open must TRIM to ≤ 20%, and ideally close-and-reopen to install a proper 10%-below-ask stop.
-- **QQQ (iID 3006)** — unrealized +0.14%. No overnight gap. Thesis intact: Nasdaq-100 tracks the leading sector (tech +4.8% last week). **Action flag:** OVER-CAP at 30% (vs 20% limit) and broken stop — same TRIM/reopen treatment.
+- No open positions. Nothing to evaluate.
 
 **Trade ideas** (0–3 per day; HOLD is the default)
-- **None today.** The account is already over-concentrated in US equity-index ETFs (65% combined vs 50% class cap). Any new open would compound the violation. Priority is to restore caps, not to add risk.
+- **None today.** Rationale: (1) zero scheduled US catalysts on a Friday — opening into a low-information tape is asymmetric risk; (2) account just transitioned from over-concentrated to fully flat — re-deploying immediately into the same names would look like revenge-trading; (3) Iran truce expiry (~April 21) is a known near-term binary that argues for reserving dry powder until Monday's pre-market with a fresh catalyst read; (4) energy is up 25% YTD and doji-prone — wrong moment to chase the leader; tech is up only 4.5% but has no fresh trigger today. Patience > activity.
 
 **Risk factors**
-- 12:30 ET PPI: hot print (> consensus, versus prev 3.5% MoM / 5.9% YoY) would re-price rate-cut odds and hit long-duration tech harder than broad S&P → bigger drag on QQQ than SPY. A cool print is the opposite.
-- Both held positions have **no effective stop loss** — a sudden adverse intraday move has no server-side backstop; only the midday −7% rule-cut + thesis-exit protects them. This elevates tail risk until the stops are fixed via close-and-reopen.
-- US–Iran ceasefire is only a two-week pause (agreed April 7) — expiry risk around April 21; not today, but on the near horizon.
-- VIX 18.22 with a +1.56% tick and a doji on SPY April 16 suggests indecision at resistance (~$697 prior context, spot now ~$704); a failed breakout is the main downside setup.
+- Iran-truce extension headlines either way (bull on extension, bear on collapse) could whipsaw equity + oil + DXY; this is the dominant intraday wildcard given an empty US calendar.
+- Quiet tapes can drift — a benign +0.1–0.3% open could turn into a passive grind higher and we'd watch from the sidelines. Acceptable opportunity cost vs the discipline of waiting for documented catalysts.
+- Crypto Fear & Greed at 21 (Extreme Fear) with ETH outperforming BTC suggests selective bid; it is **not** a green light to add crypto today without a specific catalyst — adding into Extreme Fear without a thesis is closer to averaging into a downtrend than buying capitulation.
 
-**Decision:** **HOLD + prescribe TRIM at market-open.** Market-open routine should:
-1. Trim SPY from 35% → ≤ 20% of equity (partial close ~15%).
-2. Trim QQQ from 30% → ≤ 20% of equity (partial close ~10%).
-3. Ideally, after trims, full-close-and-reopen the remaining stakes with proper `StopLossRate = round(ask*0.90, 4)` to replace the broken `0.0001` stops. This is the only way to install stops given eToro's API.
-4. No new opens today — class exposure recovery takes priority. Week opens-so-far remains 0; room for up to 3 new opens in the week once caps are clean.
+**Decision:** **HOLD.** No new opens today. No trims required (account is flat). Cash 100% (above the 15–25% target band, by design — the band is for invested days, not for a deliberate dry-powder posture into a no-catalyst session). Week opens-so-far stays at 0; budget for next week begins fresh Monday.
 
 ---
 
