@@ -48,6 +48,18 @@ routine will trade from. **You do not place trades here.**
 
 ## Steps
 
+**Step 0 — Set git identity.** The fresh-clone container has no global git config,
+so `git commit` later will fail with "Author identity unknown" unless you set these.
+Run once at the very start of the routine; exported env vars are picked up by
+`git` directly (no `git config` file is written):
+
+```bash
+export GIT_AUTHOR_NAME="RoutineTrader"
+export GIT_AUTHOR_EMAIL="routinetrader@users.noreply.github.com"
+export GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+```
+
 1. **Read context** — in this order:
    - `memory/TRADING-STRATEGY.md` (rulebook)
    - tail of `memory/TRADE-LOG.md` (yesterday's EOD snapshot; current positions)

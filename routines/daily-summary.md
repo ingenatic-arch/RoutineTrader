@@ -11,9 +11,21 @@ Your job: compute today's P&L, append the EOD snapshot to TRADE-LOG.md
 ---
 
 ## IMPORTANT — ENVIRONMENT VARIABLES
-- Exported: `ETORO_API_KEY`, `ETORO_USER_KEY`, `CLICKUP_API_KEY`,
+- Exported by the Routine: `ETORO_API_KEY`, `ETORO_USER_KEY`,
+  `PERPLEXITY_API_KEY`, `PERPLEXITY_MODEL`, `CLICKUP_API_KEY`,
   `CLICKUP_WORKSPACE_ID`, `CLICKUP_CHANNEL_ID`.
-- No `.env` creation — ever. Verify vars; if ETORO vars missing, ClickUp-alert + exit.
+- **NO `.env` file exists and you MUST NOT create, write, or source one.**
+- Verify vars before the first wrapper call:
+  ```bash
+  for v in ETORO_API_KEY ETORO_USER_KEY PERPLEXITY_API_KEY CLICKUP_API_KEY \
+           CLICKUP_WORKSPACE_ID CLICKUP_CHANNEL_ID; do
+    [ -n "${!v}" ] && echo "$v=set" || echo "$v=MISSING"
+  done
+  ```
+- If `ETORO_API_KEY` or `ETORO_USER_KEY` is missing:
+  `bash scripts/clickup.sh "⚠️ daily-summary aborted: <VAR> not set"` then exit.
+- A missing `PERPLEXITY_*` or `CLICKUP_*` is non-fatal — those wrappers handle
+  their own fallbacks.
 
 ## IMPORTANT — KEY-TYPE SANITY
 - `bash scripts/etoro.sh agent-portfolios` → `HTTP_CODE=403` required. 200 → ABORT.
@@ -30,6 +42,18 @@ Your job: compute today's P&L, append the EOD snapshot to TRADE-LOG.md
 ---
 
 ## Steps
+
+**Step 0 — Set git identity.** The fresh-clone container has no global git config,
+so `git commit` later will fail with "Author identity unknown" unless you set these.
+Run once at the very start of the routine; exported env vars are picked up by
+`git` directly (no `git config` file is written):
+
+```bash
+export GIT_AUTHOR_NAME="RoutineTrader"
+export GIT_AUTHOR_EMAIL="routinetrader@users.noreply.github.com"
+export GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+```
 
 1. **Read context**:
    - `memory/TRADING-STRATEGY.md` (for the user-facing % rule)

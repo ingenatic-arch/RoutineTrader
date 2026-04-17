@@ -46,6 +46,47 @@ Configuration for each routine:
   origin main` silently fails and no memory persists. This is the #1 first-run
   gotcha.
 
+## Git identity (already handled)
+
+The fresh-clone container that runs each routine has **no global git config**,
+so `git commit` would otherwise fail with "Author identity unknown". Each
+routine prompt handles this itself at Step 0 by exporting:
+
+```bash
+export GIT_AUTHOR_NAME="RoutineTrader"
+export GIT_AUTHOR_EMAIL="routinetrader@users.noreply.github.com"
+export GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+```
+
+Git reads these env vars natively — no `git config` file is written and no
+per-routine identity config is needed in the Routines UI. All memory commits
+land as `RoutineTrader <routinetrader@users.noreply.github.com>`.
+
+## Verify the push works
+
+After the first `pre-market` Run Now, walk this checklist — each step must
+pass or the git-as-memory contract is broken.
+
+**In the routine run log:**
+- [ ] env-var `for`-loop prints all required vars as `set` (no `MISSING`)
+- [ ] `bash scripts/etoro.sh agent-portfolios` → `HTTP_CODE=403`
+- [ ] `bash scripts/etoro.sh pnl` returns JSON (not an error)
+- [ ] `git add memory/RESEARCH-LOG.md` succeeds
+- [ ] `git commit` succeeds — **NOT** "Author identity unknown"
+- [ ] `git push origin main` succeeds — **NOT** "permission denied" or
+      "non-fast-forward"
+
+**Locally:**
+```bash
+git pull origin main
+git log -1 --format='%an <%ae>  %s'
+```
+Expect: `RoutineTrader <routinetrader@users.noreply.github.com>  routine: pre-market YYYY-MM-DD`.
+
+If any box is unticked, see **Failure modes** below before registering the
+other four routines.
+
 ## Smoke test
 
 After creating the `pre-market` routine:
