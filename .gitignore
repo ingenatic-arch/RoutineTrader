@@ -1,0 +1,25 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.template
+
+# Local-mode fallback notifications (when ClickUp env vars missing).
+# Anchored to repo root so it doesn't swallow routines/daily-summary.md
+# on case-insensitive filesystems (macOS APFS default).
+/DAILY-SUMMARY.md
+
+# Runtime caches
+.cache/
+*.pyc
+__pycache__/
+.venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor state
+.vscode/
+.idea/
+*.swp
+*~
