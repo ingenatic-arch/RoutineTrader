@@ -1,0 +1,102 @@
+---
+import Base from '../layouts/Base.astro';
+import SnapshotCard from '../components/SnapshotCard.astro';
+import EquityCurve from '../components/EquityCurve.tsx';
+import DayPnlBars from '../components/DayPnlBars.tsx';
+import CashBand from '../components/CashBand.tsx';
+import PositionsPie from '../components/PositionsPie.tsx';
+import { loadAll } from '../lib/data';
+import { pct, pctBare } from '../components/format';
+import type { OpenPosition } from '../types/schema';
+
+const data = loadAll();
+const latest = data.latestSnapshot;
+
+/**
+ * Positions used in donuts: prefer the most recent weekly review's open
+ * positions (structured). Fall back to an empty list if weekly-review has
+ * no real entries yet.
+ */
+const currentWeekly = data.weekly[0];
+const positions: OpenPosition[] = currentWeekly?.openEow ?? [];
+---
+
+<Base title="Portfolio — RoutineTrader" buildTs={data.buildTs}>
+  <section class="mb-6">
+    <h1 class="text-2xl font-semibold">Portfolio</h1>
+    <p class="mt-1 text-sm text-ink-muted">
+      EOD snapshots, daily P&L, and the latest-known allocation. All values are percentages of starting equity.
+    </p>
+  </section>
+
+  <section class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 mb-6">
+    <SnapshotCard label="Equity" value={latest ? pctBare(latest.equityPct, 1) : '—'} tone={latest && latest.equityPct >= 100 ? 'pos' : 'neg'} />
+    <SnapshotCard label="Cash" value={latest ? pctBare(latest.cashPct, 1) : '—'} tone="info" />
+    <SnapshotCard label="Day P&L" value={latest ? pct(latest.dayPnlPct, 2) : '—'} tone={latest && latest.dayPnlPct >= 0 ? 'pos' : 'neg'} />
+    <SnapshotCard label="Phase P&L" value={latest ? pct(latest.phasePnlPct, 2) : '—'} tone={latest && latest.phasePnlPct >= 0 ? 'pos' : 'neg'} />
+  </section>
+
+  <section class="card p-5 mb-6">
+    <div class="mb-3 flex items-center justify-between">
+      <h2 class="text-sm font-semibold">Equity curve</h2>
+      <span class="text-xs text-ink-muted">{data.snapshots.length} snapshot{data.snapshots.length === 1 ? '' : 's'}</span>
+    </div>
+    <EquityCurve client:visible snapshots={data.snapshots} height={340} />
+  </section>
+
+  <section class="grid gap-4 lg:grid-cols-2 mb-6">
+    <div class="card p-5">
+      <h2 class="text-sm font-semibold mb-3">Day P&L</h2>
+      <DayPnlBars client:visible snapshots={data.snapshots} height={260} />
+    </div>
+    <div class="card p-5">
+      <h2 class="text-sm font-semibold mb-3">Cash vs target band (15–25%)</h2>
+      <CashBand client:visible snapshots={data.snapshots} height={260} />
+    </div>
+  </section>
+
+  <section class="grid gap-4 lg:grid-cols-2 mb-6">
+    <div class="card p-5">
+      <h2 class="text-sm font-semibold mb-3">Allocation by symbol</h2>
+      <PositionsPie client:visible positions={positions} groupBy="symbol" height={280} />
+    </div>
+    <div class="card p-5">
+      <h2 class="text-sm font-semibold mb-3">Allocation by asset class</h2>
+      <PositionsPie client:visible positions={positions} groupBy="assetClass" height={280} />
+    </div>
+  </section>
+
+  <section class="card p-5">
+    <h2 class="text-sm font-semibold mb-3">EOD snapshot history</h2>
+    {data.snapshots.length === 0 ? (
+      <p class="text-sm text-ink-muted">No snapshots yet.</p>
+    ) : (
+      <div class="overflow-x-auto">
+        <table>
+          <thead>
+            <tr>
+              <th class="text-left">Day</th>
+              <th class="text-right">Equity</th>
+              <th class="text-right">Cash</th>
+              <th class="text-right">Day P&L</th>
+              <th class="text-right">Phase P&L</th>
+              <th class="text-left">Note</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[...data.snapshots].reverse().map((s) => (
+              <tr>
+                <td class="font-mono">D{s.day}</td>
+                <td class="text-right num">{pctBare(s.equityPct, 2)}</td>
+                <td class="text-right num">{pctBare(s.cashPct, 2)}</td>
+                <td class={`text-right num ${s.dayPnlPct > 0 ? 'text-pos' : s.dayPnlPct < 0 ? 'text-neg' : ''}`}>{pct(s.dayPnlPct, 2)}</td>
+                <td class={`text-right num ${s.phasePnlPct > 0 ? 'text-pos' : s.phasePnlPct < 0 ? 'text-neg' : ''}`}>{pct(s.phasePnlPct, 2)}</td>
+                <td class="text-ink-muted">{s.note ?? ''}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    )}
+  </section>
+</Base>

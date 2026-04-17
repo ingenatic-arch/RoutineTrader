@@ -1,0 +1,54 @@
+---
+import Base from '../layouts/Base.astro';
+import IssueList from '../components/IssueList.tsx';
+import RoutineHeatmap from '../components/RoutineHeatmap.tsx';
+import { loadAll } from '../lib/data';
+
+const data = loadAll();
+const alerts = data.issues.filter((i) => i.severity === 'alert').length;
+const warns = data.issues.filter((i) => i.severity === 'warn').length;
+const info = data.issues.filter((i) => i.severity === 'info').length;
+---
+
+<Base title="Issues — RoutineTrader" buildTs={data.buildTs}>
+  <section class="mb-6">
+    <h1 class="text-2xl font-semibold">Issues</h1>
+    <p class="mt-1 text-sm text-ink-muted">
+      Routine health, stop-loss hits, thesis breaks, and anything the routines escalated to the events log.
+    </p>
+  </section>
+
+  <section class="grid gap-3 sm:grid-cols-3 mb-6">
+    <div class="card p-5">
+      <div class="text-[11px] uppercase text-ink-muted">Alerts</div>
+      <div class={`mt-2 text-3xl font-semibold ${alerts > 0 ? 'text-neg' : 'text-ink-muted'}`}>{alerts}</div>
+    </div>
+    <div class="card p-5">
+      <div class="text-[11px] uppercase text-ink-muted">Warnings</div>
+      <div class={`mt-2 text-3xl font-semibold ${warns > 0 ? 'text-warn' : 'text-ink-muted'}`}>{warns}</div>
+    </div>
+    <div class="card p-5">
+      <div class="text-[11px] uppercase text-ink-muted">Info</div>
+      <div class={`mt-2 text-3xl font-semibold ${info > 0 ? 'text-info' : 'text-ink-muted'}`}>{info}</div>
+    </div>
+  </section>
+
+  <section class="card p-5 mb-6">
+    <h2 class="text-sm font-semibold mb-3">Routine cadence — last 28 days</h2>
+    <RoutineHeatmap client:visible commits={data.commits} days={28} />
+  </section>
+
+  <section>
+    <h2 class="text-sm font-semibold mb-3">All issues</h2>
+    <IssueList client:visible issues={data.issues} />
+  </section>
+
+  <section class="mt-10 card p-5 text-sm text-ink-muted">
+    <h3 class="text-ink font-semibold mb-2">Where issues come from</h3>
+    <ul class="list-disc list-outside pl-5 space-y-1">
+      <li><strong class="text-ink">Missed routines</strong> — detected by scanning git history. If a weekday's scheduled fire time has passed and no matching <code>routine:</code> commit exists, that counts as a missed run.</li>
+      <li><strong class="text-ink">Stop-loss / thesis-break</strong> — parsed from <code>TRADE-LOG.md</code> close entries.</li>
+      <li><strong class="text-ink">Events</strong> — every non-<code>ok</code> line in <code>memory/EVENTS-LOG.md</code> (written by routines and by <code>scripts/clickup.sh</code>).</li>
+    </ul>
+  </section>
+</Base>

@@ -1,0 +1,95 @@
+---
+/**
+ * Minimal markdown renderer — intentionally narrow in scope:
+ * headings, bullet lists, ordered lists, bold, italic, inline code, links.
+ * The input has already been scrubbed of dollar references by the parsers.
+ * We re-scrub here as defence-in-depth.
+ */
+interface Props {
+  md: string;
+  tight?: boolean;
+}
+const { md, tight = false }: Props = Astro.props;
+
+function escapeHtml(s: string) {
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function scrubDollars(s: string): string {
+  return s
+    .split('\n')
+    .filter((l) => !l.includes('$'))
+    .join('\n');
+}
+
+function inline(s: string): string {
+  let out = escapeHtml(s);
+  out = out.replace(/`([^`]+)`/g, '<code>$1</code>');
+  out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  out = out.replace(/\b_([^_]+)_\b/g, '<em>$1</em>');
+  out = out.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" rel="noopener noreferrer">$1</a>');
+  return out;
+}
+
+function render(raw: string): string {
+  const clean = scrubDollars(raw);
+  const lines = clean.split('\n');
+  const html: string[] = [];
+  let listType: 'ul' | 'ol' | null = null;
+
+  const closeList = () => {
+    if (listType) {
+      html.push(`</${listType}>`);
+      listType = null;
+    }
+  };
+
+  for (const raw of lines) {
+    const line = raw.trimEnd();
+    if (!line.trim()) {
+      closeList();
+      continue;
+    }
+    const hdr = line.match(/^(#{1,4})\s+(.*)$/);
+    if (hdr) {
+      closeList();
+      const level = hdr[1].length;
+      html.push(`<h${level}>${inline(hdr[2])}</h${level}>`);
+      continue;
+    }
+    const ul = line.match(/^\s*-\s+(.*)$/);
+    const ol = line.match(/^\s*(\d+)\.\s+(.*)$/);
+    if (ul) {
+      if (listType !== 'ul') {
+        closeList();
+        html.push('<ul>');
+        listType = 'ul';
+      }
+      html.push(`<li>${inline(ul[1])}</li>`);
+      continue;
+    }
+    if (ol) {
+      if (listType !== 'ol') {
+        closeList();
+        html.push('<ol>');
+        listType = 'ol';
+      }
+      html.push(`<li>${inline(ol[2])}</li>`);
+      continue;
+    }
+    closeList();
+    html.push(`<p>${inline(line)}</p>`);
+  }
+  closeList();
+  return html.join('\n');
+}
+
+const html = render(md);
+---
+
+<div class:list={[tight ? 'prose-md text-sm' : 'prose-md']} set:html={html} />

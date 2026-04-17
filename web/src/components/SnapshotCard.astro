@@ -1,0 +1,30 @@
+---
+interface Props {
+  label: string;
+  value: string;
+  sub?: string;
+  tone?: 'pos' | 'neg' | 'neutral' | 'info' | 'warn';
+  icon?: string;
+}
+
+const { label, value, sub, tone = 'neutral', icon }: Props = Astro.props;
+
+const toneClass = {
+  pos: 'text-pos',
+  neg: 'text-neg',
+  neutral: 'text-ink',
+  info: 'text-info',
+  warn: 'text-warn',
+}[tone];
+---
+
+<div class="card p-5">
+  <div class="flex items-center justify-between text-[11px] uppercase tracking-wide text-ink-muted">
+    <span>{label}</span>
+    {icon && <span class="text-ink-dim">{icon}</span>}
+  </div>
+  <div class={`mt-2 text-3xl font-semibold tabular-nums ${toneClass}`}>
+    {value}
+  </div>
+  {sub && <div class="mt-1 text-xs text-ink-muted">{sub}</div>}
+</div>

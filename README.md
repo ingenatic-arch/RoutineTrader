@@ -100,6 +100,33 @@ falls back to native `WebSearch` — no hard failure.
 See `memory/PROJECT-CONTEXT.md` for the fuller architectural context and
 `CLAUDE.md` for the rules auto-loaded every session.
 
+## Dashboard
+
+An Astro-based static dashboard lives in `web/` and deploys to GitHub Pages
+on every push to `main`. It reads `memory/*.md` and the git log at build time,
+so it refreshes automatically as routines commit.
+
+- Live URL (once Pages is enabled in repo settings → Source: "GitHub Actions"):
+  `https://ingenatic-arch.github.io/RoutineTrader/`
+- Pages: Overview, Portfolio, Research (per-day detail), Weekly, Issues.
+- Charts: equity curve, day P&L, cash vs 15–25% target band, positions donuts,
+  portfolio vs S&P weekly bars, decision mix, routine-cadence heatmap.
+- Data safety: the build runs a `check-no-dollars` gate — any `$` in the
+  rendered HTML fails the build, enforcing the percentages-only rule.
+
+Local dev:
+```bash
+cd web
+npm install
+npm run dev              # http://localhost:4321
+npm run build            # static output to web/dist
+npm run preview          # serve the built site locally
+```
+
+Issues surface comes from three sources: git commit history (missed routine
+runs), `memory/TRADE-LOG.md` (stop-loss / thesis-break closes), and
+`memory/EVENTS-LOG.md` (every non-`ok` routine event).
+
 ## Safety posture
 
 - Leverage = 1 always. Longs only. StopLossRate set at open (10% below entry ask).
@@ -150,7 +177,14 @@ memory/
   TRADE-LOG.md                  # trades + EOD snapshots (append-only)
   RESEARCH-LOG.md               # daily pre-market research
   WEEKLY-REVIEW.md              # Friday recaps
+  EVENTS-LOG.md                 # structured event stream for the dashboard
   PROJECT-CONTEXT.md            # mission + platform notes
+web/
+  src/                          # Astro + React dashboard
+  scripts/build-commits.mjs     # prebuild: dumps git log → commits.json
+  scripts/check-no-dollars.mjs  # CI gate: zero $ in rendered HTML
+.github/workflows/
+  deploy-dashboard.yml          # builds web/ and deploys to GitHub Pages
 eToroSKILL.md                                         # reference (untouched)
 etoro-rest-api-agent-portfolios-claude-context.md     # reference (untouched)
 Opus 4.7 Trading Bot — Setup Guide.pdf                # reference (untouched)

@@ -23,3 +23,10 @@ Thumbs.db
 .idea/
 *.swp
 *~
+
+# Dashboard — build output and generated data
+web/node_modules/
+web/dist/
+web/.astro/
+web/src/data/commits.json
+web/public/last-build.json

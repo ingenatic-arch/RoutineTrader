@@ -126,9 +126,19 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
    Today: opened 1 (AAPL), closed 0, trimmed 0.
    ```
 
-5. **Commit & push (MANDATORY)**:
+5. **Log the event** to `memory/EVENTS-LOG.md`:
    ```bash
-   git add memory/TRADE-LOG.md
+   printf '%s | daily-summary | %s | %s\n' \
+     "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
+     "ok" \
+     "EOD snapshot committed; day P&L <±X.X>%; equity <X.X>%" \
+     >> memory/EVENTS-LOG.md
+   ```
+   Pipe-free. One line. `abort` if reconciliation failed.
+
+6. **Commit & push (MANDATORY)**:
+   ```bash
+   git add memory/TRADE-LOG.md memory/EVENTS-LOG.md
    git commit -m "routine: daily-summary $(date +%Y-%m-%d) (equity ±X.X%)"
    git push origin HEAD:main || { git pull --rebase origin main && git push origin HEAD:main; }
    ```

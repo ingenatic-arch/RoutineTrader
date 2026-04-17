@@ -120,9 +120,19 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
    Next week: <one line — adjustment if any>
    ```
 
-8. **Commit & push**:
+8. **Log the event** to `memory/EVENTS-LOG.md`:
    ```bash
-   git add memory/WEEKLY-REVIEW.md memory/TRADING-STRATEGY.md
+   printf '%s | weekly-review | %s | %s\n' \
+     "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
+     "ok" \
+     "Week committed; grade=<A..F>; return=<±X.X>%; alpha=<±X.X>%" \
+     >> memory/EVENTS-LOG.md
+   ```
+   Pipe-free. One line. `alert` if broken discipline (grade F); `abort` on failure.
+
+9. **Commit & push**:
+   ```bash
+   git add memory/WEEKLY-REVIEW.md memory/TRADING-STRATEGY.md memory/EVENTS-LOG.md
    git commit -m "routine: weekly-review $(date +%Y-%m-%d) (grade: B, ±X.X%)"
    git push origin HEAD:main || { git pull --rebase origin main && git push origin HEAD:main; }
    ```

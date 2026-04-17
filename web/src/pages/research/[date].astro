@@ -1,0 +1,104 @@
+---
+import Base from '../../layouts/Base.astro';
+import Markdown from '../../components/Markdown.astro';
+import { loadAll } from '../../lib/data';
+import { pctBare } from '../../components/format';
+
+export async function getStaticPaths() {
+  const data = loadAll();
+  return data.research.map((r) => ({
+    params: { date: r.date },
+    props: { entry: r, buildTs: data.buildTs },
+  }));
+}
+
+const { entry, buildTs } = Astro.props;
+const base = (import.meta.env.BASE_URL ?? '/').replace(/\/$/, '');
+---
+
+<Base title={`${entry.date} pre-market — RoutineTrader`} buildTs={buildTs}>
+  <a href={`${base}/research`} class="text-sm text-info">← all research</a>
+  <div class="mt-3 flex flex-wrap items-center gap-3">
+    <h1 class="text-2xl font-semibold">{entry.date}</h1>
+    <span class="text-ink-muted">{entry.weekday} pre-market</span>
+    <span class:list={[
+      entry.decisionKind === 'HOLD' ? 'chip-muted' :
+      entry.decisionKind === 'OPEN' ? 'chip-pos' :
+      entry.decisionKind === 'TRIM' ? 'chip-warn' : 'chip-info',
+    ]}>
+      {entry.decisionKind}
+    </span>
+  </div>
+
+  {entry.snapshot && (
+    <section class="mt-5 grid gap-3 grid-cols-2 md:grid-cols-4">
+      <div class="card p-4">
+        <div class="text-[11px] uppercase text-ink-muted">Equity</div>
+        <div class="mt-1 text-xl font-semibold tabular-nums">{pctBare(entry.snapshot.equityPct, 1)}</div>
+      </div>
+      <div class="card p-4">
+        <div class="text-[11px] uppercase text-ink-muted">Cash</div>
+        <div class="mt-1 text-xl font-semibold tabular-nums">{pctBare(entry.snapshot.cashPct, 1)}</div>
+      </div>
+      <div class="card p-4">
+        <div class="text-[11px] uppercase text-ink-muted">Open positions</div>
+        <div class="mt-1 text-xl font-semibold tabular-nums">{entry.snapshot.openPositions}</div>
+      </div>
+      <div class="card p-4">
+        <div class="text-[11px] uppercase text-ink-muted">Week opens</div>
+        <div class="mt-1 text-xl font-semibold tabular-nums">{entry.snapshot.weekOpensSoFar}</div>
+      </div>
+    </section>
+  )}
+
+  {entry.tradeIdeas.length > 0 && (
+    <section class="mt-8">
+      <h2 class="text-sm font-semibold mb-3">Trade ideas</h2>
+      <div class="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+        {entry.tradeIdeas.map((idea) => (
+          <div class="card p-4">
+            <div class="flex items-center justify-between">
+              <span class="font-mono font-semibold">{idea.symbol}</span>
+              {idea.assetClass && <span class="chip-info">{idea.assetClass}</span>}
+            </div>
+            {idea.catalyst && (
+              <div class="mt-2 text-sm text-ink-muted line-clamp-3">{idea.catalyst}</div>
+            )}
+            <dl class="mt-3 grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
+              {idea.entryText && <><dt class="text-ink-dim">Entry</dt><dd class="text-right font-mono">{idea.entryText}</dd></>}
+              {idea.stopText && <><dt class="text-ink-dim">Stop</dt><dd class="text-right font-mono text-neg">{idea.stopText}</dd></>}
+              {idea.targetText && <><dt class="text-ink-dim">Target</dt><dd class="text-right font-mono text-pos">{idea.targetText}</dd></>}
+              {idea.sizePct !== undefined && <><dt class="text-ink-dim">Size</dt><dd class="text-right">{idea.sizePct}%</dd></>}
+              {idea.rr && <><dt class="text-ink-dim">R:R</dt><dd class="text-right">{idea.rr}</dd></>}
+            </dl>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <div class="mt-8 grid gap-6 lg:grid-cols-2">
+    {entry.marketContextMd && (
+      <section class="card p-5">
+        <h2 class="text-sm font-semibold mb-3">Market context</h2>
+        <Markdown md={entry.marketContextMd} tight />
+      </section>
+    )}
+    {entry.holdingsCheckMd && (
+      <section class="card p-5">
+        <h2 class="text-sm font-semibold mb-3">Holdings check</h2>
+        <Markdown md={entry.holdingsCheckMd} tight />
+      </section>
+    )}
+    {entry.riskFactorsMd && (
+      <section class="card p-5">
+        <h2 class="text-sm font-semibold mb-3">Risk factors</h2>
+        <Markdown md={entry.riskFactorsMd} tight />
+      </section>
+    )}
+    <section class="card p-5 bg-info/5 border-info/30">
+      <h2 class="text-sm font-semibold mb-2">Decision</h2>
+      <p class="text-ink">{entry.decision}</p>
+    </section>
+  </div>
+</Base>

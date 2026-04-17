@@ -1,0 +1,33 @@
+{
+  "name": "routinetrader-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prebuild": "node scripts/build-commits.mjs",
+    "dev": "astro dev",
+    "build": "astro build && node scripts/check-no-dollars.mjs",
+    "preview": "astro preview",
+    "check:no-dollars": "node scripts/check-no-dollars.mjs",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.6.2",
+    "@astrojs/tailwind": "^5.1.2",
+    "astro": "^4.16.0",
+    "mdast-util-to-string": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.13.0",
+    "remark-parse": "^11.0.0",
+    "tailwindcss": "^3.4.13",
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.2"
+  }
+}

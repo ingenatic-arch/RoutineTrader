@@ -141,9 +141,22 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
    ```
    If zero trades fired: skip ClickUp entirely (silence = nothing to say).
 
-6. **Commit & push** (only if trades fired):
+6. **Log the event** to `memory/EVENTS-LOG.md` — always, even on a no-trade day:
    ```bash
-   git add memory/TRADE-LOG.md
+   printf '%s | market-open | %s | %s\n' \
+     "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
+     "ok" \
+     "Opened: <comma-sep SYMBOLS or 'none'>; positions=<N>" \
+     >> memory/EVENTS-LOG.md
+   ```
+   Use `warn`/`alert`/`abort` per the convention in pre-market.md step 7.
+   Pipe-free message. One line.
+
+7. **Commit & push**:
+   ```bash
+   git add memory/TRADE-LOG.md memory/EVENTS-LOG.md
    git commit -m "routine: market-open $(date +%Y-%m-%d) (opened: SYM1, SYM2)"
    git push origin HEAD:main || { git pull --rebase origin main && git push origin HEAD:main; }
    ```
+   Even if zero trades fired, still commit the EVENTS-LOG line so the
+   dashboard records the routine run.

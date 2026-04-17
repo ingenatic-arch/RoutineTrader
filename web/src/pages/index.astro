@@ -1,0 +1,161 @@
+---
+import Base from '../layouts/Base.astro';
+import SnapshotCard from '../components/SnapshotCard.astro';
+import EquityCurve from '../components/EquityCurve.tsx';
+import { loadAll } from '../lib/data';
+import { pct, pctBare, signColor } from '../components/format';
+
+const data = loadAll();
+const base = (import.meta.env.BASE_URL ?? '/').replace(/\/$/, '');
+const latest = data.latestSnapshot;
+const prev = data.snapshots.length >= 2 ? data.snapshots[data.snapshots.length - 2] : null;
+const equityDelta = latest && prev ? latest.equityPct - prev.equityPct : null;
+const latestResearch = data.latestResearch;
+const openAlerts = data.issues.filter((i) => i.severity === 'alert').length;
+const openWarns = data.issues.filter((i) => i.severity === 'warn').length;
+const last30 = data.snapshots.slice(-30);
+---
+
+<Base title="Overview — RoutineTrader" buildTs={data.buildTs}>
+  <section class="mb-8">
+    <div class="flex flex-wrap items-end justify-between gap-3">
+      <div>
+        <h1 class="text-2xl font-semibold">Overview</h1>
+        <p class="mt-1 text-sm text-ink-muted">
+          Agent-portfolio at a glance. All figures are percentages of the virtual starting equity.
+        </p>
+      </div>
+      <div class="flex items-center gap-2 text-xs text-ink-muted">
+        {data.commits[0] && (
+          <>
+            <span class="chip-muted">HEAD</span>
+            <span class="font-mono text-ink-dim">{data.commits[0].sha.slice(0, 7)}</span>
+            <span class="hidden sm:inline truncate max-w-[50ch]">{data.commits[0].message}</span>
+          </>
+        )}
+      </div>
+    </div>
+  </section>
+
+  <section class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+    <SnapshotCard
+      label="Equity"
+      value={latest ? pctBare(latest.equityPct, 1) : '—'}
+      sub={equityDelta !== null ? `${pct(equityDelta, 2)} vs previous close` : 'of starting equity'}
+      tone={latest && latest.equityPct >= 100 ? 'pos' : latest ? 'neg' : 'neutral'}
+    />
+    <SnapshotCard
+      label="Cash"
+      value={latest ? pctBare(latest.cashPct, 1) : '—'}
+      sub={latest ? (latest.cashPct >= 15 && latest.cashPct <= 25 ? 'Inside 15–25% target' : latest.cashPct > 25 ? 'Above target (dry powder)' : 'Below target') : undefined}
+      tone={latest && latest.cashPct >= 15 && latest.cashPct <= 25 ? 'info' : latest && latest.cashPct < 15 ? 'warn' : 'neutral'}
+    />
+    <SnapshotCard
+      label="Day P&L"
+      value={latest ? pct(latest.dayPnlPct, 2) : '—'}
+      sub="Change from prior close"
+      tone={latest ? (latest.dayPnlPct > 0 ? 'pos' : latest.dayPnlPct < 0 ? 'neg' : 'neutral') : 'neutral'}
+    />
+    <SnapshotCard
+      label="Phase P&L"
+      value={latest ? pct(latest.phasePnlPct, 2) : '—'}
+      sub="Since phase start"
+      tone={latest ? (latest.phasePnlPct > 0 ? 'pos' : latest.phasePnlPct < 0 ? 'neg' : 'neutral') : 'neutral'}
+    />
+  </section>
+
+  <section class="mt-6 grid gap-4 lg:grid-cols-3">
+    <div class="card p-5 lg:col-span-2">
+      <div class="mb-3 flex items-center justify-between">
+        <div>
+          <h2 class="text-sm font-semibold text-ink">Equity curve</h2>
+          <p class="text-xs text-ink-muted">Last {last30.length} EOD snapshot{last30.length === 1 ? '' : 's'}</p>
+        </div>
+        <a href={`${base}/portfolio`} class="text-xs text-info">full view →</a>
+      </div>
+      <EquityCurve client:visible snapshots={last30} height={260} />
+    </div>
+
+    <div class="card p-5 flex flex-col">
+      <div class="flex items-center justify-between">
+        <h2 class="text-sm font-semibold">Today's research</h2>
+        {latestResearch && (
+          <span class:list={[
+            latestResearch.decisionKind === 'HOLD' ? 'chip-muted' :
+            latestResearch.decisionKind === 'OPEN' ? 'chip-pos' :
+            latestResearch.decisionKind === 'TRIM' ? 'chip-warn' : 'chip-info',
+          ]}>
+            {latestResearch.decisionKind}
+          </span>
+        )}
+      </div>
+      {latestResearch ? (
+        <>
+          <div class="mt-2 text-xs text-ink-muted">
+            {latestResearch.date} · {latestResearch.weekday}
+          </div>
+          <div class="mt-3 text-sm leading-relaxed text-ink-muted line-clamp-6">
+            {latestResearch.decision || 'No decision line found.'}
+          </div>
+          {latestResearch.tradeIdeas.length > 0 && (
+            <div class="mt-3">
+              <div class="text-[11px] uppercase text-ink-dim">Ideas today</div>
+              <ul class="mt-1 space-y-1 text-sm">
+                {latestResearch.tradeIdeas.slice(0, 3).map((t) => (
+                  <li><span class="font-mono font-medium">{t.symbol}</span> <span class="text-ink-muted">· {t.catalyst?.slice(0, 40) ?? 'no catalyst'}</span></li>
+                ))}
+              </ul>
+            </div>
+          )}
+          <a href={`${base}/research/${latestResearch.date}`} class="mt-auto pt-3 text-xs text-info">read in full →</a>
+        </>
+      ) : (
+        <p class="mt-2 text-sm text-ink-muted">No research entries yet.</p>
+      )}
+    </div>
+  </section>
+
+  <section class="mt-6 grid gap-4 md:grid-cols-3">
+    <a href={`${base}/issues`} class="card p-5 !no-underline hover:bg-bg-surface transition-colors">
+      <div class="text-[11px] uppercase tracking-wide text-ink-muted">Open issues</div>
+      <div class="mt-2 flex items-baseline gap-3">
+        <span class={`text-3xl font-semibold ${openAlerts > 0 ? 'text-neg' : openWarns > 0 ? 'text-warn' : 'text-ink-muted'}`}>
+          {openAlerts + openWarns}
+        </span>
+        <span class="text-xs text-ink-muted">
+          {openAlerts} alert{openAlerts === 1 ? '' : 's'} · {openWarns} warning{openWarns === 1 ? '' : 's'}
+        </span>
+      </div>
+    </a>
+
+    <div class="card p-5">
+      <div class="text-[11px] uppercase tracking-wide text-ink-muted">Week opens</div>
+      <div class="mt-2 text-3xl font-semibold">
+        {latestResearch?.snapshot?.weekOpensSoFar ?? 0}
+        <span class="text-base text-ink-muted font-normal"> / 3 max</span>
+      </div>
+    </div>
+
+    <div class="card p-5">
+      <div class="text-[11px] uppercase tracking-wide text-ink-muted">Open positions</div>
+      <div class="mt-2 text-3xl font-semibold">
+        {latestResearch?.snapshot?.openPositions ?? 0}
+        <span class="text-base text-ink-muted font-normal"> / 6 max</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-10">
+    <h2 class="text-sm font-semibold mb-3">Recent routine activity</h2>
+    <ul class="space-y-1.5 text-sm">
+      {data.commits.slice(0, 8).map((c) => (
+        <li class="flex items-center gap-3 text-ink-muted">
+          <span class="font-mono text-xs text-ink-dim w-16">{c.sha.slice(0, 7)}</span>
+          <span class="text-xs text-ink-dim w-32 whitespace-nowrap">{c.ts.slice(0, 16).replace('T', ' ')}Z</span>
+          {c.routine && <span class="chip-info">{c.routine}</span>}
+          <span class="truncate">{c.message}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Base>

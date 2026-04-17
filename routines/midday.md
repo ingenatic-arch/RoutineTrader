@@ -120,9 +120,22 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
    ```
    If no-op: skip ClickUp (don't spam with "all quiet").
 
-8. **Commit & push** (only if any action fired):
+8. **Log the event** to `memory/EVENTS-LOG.md` — always, even on a no-action day:
    ```bash
-   git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md
+   printf '%s | midday | %s | %s\n' \
+     "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
+     "ok" \
+     "Closed: <syms>; trimmed: <syms>; positions=<N>" \
+     >> memory/EVENTS-LOG.md
+   ```
+   Use `warn` if a position is down but thesis holds, `alert` if you cut
+   something, `abort` if the routine bailed. Pipe-free. One line.
+
+9. **Commit & push**:
+   ```bash
+   git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md memory/EVENTS-LOG.md
    git commit -m "routine: midday $(date +%Y-%m-%d) (closed: SYM1; trimmed: SYM2)"
    git push origin HEAD:main || { git pull --rebase origin main && git push origin HEAD:main; }
    ```
+   Even on a no-op day, still commit the EVENTS-LOG line so the dashboard
+   records the routine run.

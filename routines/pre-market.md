@@ -121,11 +121,24 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
    - a major geopolitical event (war, central bank, regulator) affects open positions.
    Percentages only. Otherwise silence.
 
-7. **Commit & push**:
+7. **Log the event** to `memory/EVENTS-LOG.md` — one line, pipe-delimited,
+   for the dashboard's observability stream:
    ```bash
-   git add memory/RESEARCH-LOG.md
+   printf '%s | pre-market | %s | %s\n' \
+     "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
+     "ok" \
+     "Research committed; decision=<HOLD|OPEN N|TRIM X>; ideas=<N>" \
+     >> memory/EVENTS-LOG.md
+   ```
+   Use `warn` if something soft was flagged, `alert` if you posted to ClickUp,
+   `abort` if the routine bailed out (in that case, exit after this step).
+   Keep the message to one line, no `|` characters (use `/` instead).
+
+8. **Commit & push**:
+   ```bash
+   git add memory/RESEARCH-LOG.md memory/EVENTS-LOG.md
    git commit -m "routine: pre-market $(date +%Y-%m-%d)"
    git push origin HEAD:main || { git pull --rebase origin main && git push origin HEAD:main; }
    ```
    If there was no actual change (rare — only if research was skipped due to
-   aborts), skip the commit rather than creating an empty one.
+   aborts), still commit the EVENTS-LOG line so the dashboard sees the abort.

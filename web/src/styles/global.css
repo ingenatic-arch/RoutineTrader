@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html,
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+    min-height: 100%;
+  }
+
+  body {
+    background-image: radial-gradient(
+      circle at 20% 0%,
+      rgba(96, 165, 250, 0.06),
+      transparent 45%
+    ),
+    radial-gradient(circle at 100% 100%, rgba(74, 222, 128, 0.04), transparent 50%);
+  }
+
+  a {
+    @apply text-info hover:underline underline-offset-2;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-semibold tracking-tight;
+  }
+
+  code, .num {
+    @apply font-mono tabular-nums;
+  }
+
+  table {
+    @apply w-full text-sm;
+  }
+  th {
+    @apply text-left font-medium text-ink-muted px-3 py-2 border-b border-line;
+  }
+  td {
+    @apply px-3 py-2 border-b border-line/60 align-top;
+  }
+  tr:last-child td {
+    @apply border-b-0;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-lg bg-bg-surface/80 border border-line shadow-card backdrop-blur-sm;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium;
+  }
+  .chip-pos { @apply chip bg-pos/10 text-pos; }
+  .chip-neg { @apply chip bg-neg/10 text-neg; }
+  .chip-warn { @apply chip bg-warn/10 text-warn; }
+  .chip-info { @apply chip bg-info/10 text-info; }
+  .chip-muted { @apply chip bg-ink-muted/10 text-ink-muted; }
+
+  .kbd {
+    @apply font-mono text-[0.7rem] rounded border border-line bg-bg-muted px-1.5 py-0.5 text-ink-muted;
+  }
+
+  .prose-md :where(p, ul, ol) { @apply my-2 leading-relaxed; }
+  .prose-md :where(ul) { @apply list-disc list-outside pl-5; }
+  .prose-md :where(ol) { @apply list-decimal list-outside pl-5; }
+  .prose-md :where(strong) { @apply text-ink; }
+  .prose-md :where(em) { @apply text-ink-muted; }
+  .prose-md :where(h3, h4) { @apply mt-4 mb-2; }
+}

@@ -15,6 +15,34 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
 
+# Append a one-line event to memory/EVENTS-LOG.md so the dashboard can surface
+# every notification (ClickUp-reachable or not). Never fails the notifier.
+# Status is inferred from prefix emoji: 🛑 → abort, ⚠️ → warn, others → ok.
+append_event() {
+  local raw="$1"
+  local status="ok"
+  case "$raw" in
+    🛑*|"🛑 "*) status="abort" ;;
+    ⚠️*|"⚠️ "*) status="warn" ;;
+    ❌*|"❌ "*) status="alert" ;;
+  esac
+  # Derive routine name from ROUTINE env var if set (routines can export it),
+  # otherwise "unknown".
+  local routine="${ROUTINE:-unknown}"
+  # Flatten to a single line, strip pipes (delimiter), collapse whitespace,
+  # truncate to 240 chars.
+  local flat
+  flat=$(printf '%s' "$raw" \
+    | tr '\n' ' ' \
+    | tr '|' '/' \
+    | tr -s ' ' \
+    | cut -c1-240)
+  local ts
+  ts=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
+  printf '%s | %s | %s | %s\n' "$ts" "$routine" "$status" "$flat" \
+    >> "${REPO_DIR}/memory/EVENTS-LOG.md" 2>/dev/null || true
+}
+
 if [[ -f "${REPO_DIR}/.env" ]] && {
      [[ -z "${CLICKUP_API_KEY:-}"      ]] \
   || [[ -z "${CLICKUP_WORKSPACE_ID:-}" ]] \
@@ -31,6 +59,9 @@ if [[ -z "$msg" ]]; then
   printf 'clickup.sh: missing message\n' >&2
   exit 2
 fi
+
+# Mirror every notification to the events log regardless of ClickUp outcome.
+append_event "$msg"
 
 # Local fallback if any var is missing.
 if [[ -z "${CLICKUP_API_KEY:-}" \

@@ -1,0 +1,76 @@
+---
+import Base from '../../layouts/Base.astro';
+import DecisionMix from '../../components/DecisionMix.tsx';
+import { loadAll } from '../../lib/data';
+import { pctBare } from '../../components/format';
+
+const data = loadAll();
+const base = (import.meta.env.BASE_URL ?? '/').replace(/\/$/, '');
+const entries = data.research;
+const totalIdeas = entries.reduce((acc, e) => acc + e.tradeIdeas.length, 0);
+---
+
+<Base title="Research — RoutineTrader" buildTs={data.buildTs}>
+  <section class="mb-6">
+    <h1 class="text-2xl font-semibold">Research</h1>
+    <p class="mt-1 text-sm text-ink-muted">
+      Daily pre-market research. Each entry is the gate for that day's market-open — no entry, no opens.
+    </p>
+  </section>
+
+  <section class="grid gap-4 lg:grid-cols-3 mb-6">
+    <div class="card p-5">
+      <div class="text-[11px] uppercase text-ink-muted">Entries</div>
+      <div class="mt-2 text-3xl font-semibold">{entries.length}</div>
+      <div class="text-xs text-ink-muted mt-1">
+        {entries.length > 0 ? `First: ${entries[entries.length - 1].date}` : 'No entries yet'}
+      </div>
+    </div>
+    <div class="card p-5">
+      <div class="text-[11px] uppercase text-ink-muted">Trade ideas logged</div>
+      <div class="mt-2 text-3xl font-semibold">{totalIdeas}</div>
+      <div class="text-xs text-ink-muted mt-1">Across all research entries</div>
+    </div>
+    <div class="card p-5 lg:row-span-2">
+      <div class="text-sm font-semibold mb-2">Decision mix</div>
+      <DecisionMix client:visible research={entries} height={220} />
+    </div>
+  </section>
+
+  <section class="card p-0">
+    {entries.length === 0 ? (
+      <div class="p-8 text-center text-ink-muted">No research entries yet.</div>
+    ) : (
+      <ul class="divide-y divide-line/70">
+        {entries.map((e) => (
+          <li>
+            <a href={`${base}/research/${e.date}`} class="block p-5 hover:bg-bg-muted/40 !no-underline !text-ink transition-colors">
+              <div class="flex flex-wrap items-center gap-3">
+                <span class="font-mono text-sm">{e.date}</span>
+                <span class="text-ink-muted text-sm">{e.weekday}</span>
+                <span class:list={[
+                  e.decisionKind === 'HOLD' ? 'chip-muted' :
+                  e.decisionKind === 'OPEN' ? 'chip-pos' :
+                  e.decisionKind === 'TRIM' ? 'chip-warn' : 'chip-info',
+                ]}>
+                  {e.decisionKind}
+                </span>
+                {e.tradeIdeas.length > 0 && (
+                  <span class="chip-info">{e.tradeIdeas.length} idea{e.tradeIdeas.length === 1 ? '' : 's'}</span>
+                )}
+                {e.snapshot && (
+                  <span class="text-xs text-ink-dim">
+                    Equity {pctBare(e.snapshot.equityPct)} · Cash {pctBare(e.snapshot.cashPct)} · {e.snapshot.openPositions} open
+                  </span>
+                )}
+              </div>
+              <p class="mt-2 text-sm text-ink-muted line-clamp-2">
+                {e.decision}
+              </p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </section>
+</Base>

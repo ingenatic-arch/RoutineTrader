@@ -1,0 +1,161 @@
+---
+import Base from '../layouts/Base.astro';
+import AlphaVsSpx from '../components/AlphaVsSpx.tsx';
+import Markdown from '../components/Markdown.astro';
+import { loadAll } from '../lib/data';
+import { pct, pctBare } from '../components/format';
+
+const data = loadAll();
+const weekly = data.weekly;
+
+const GRADE_TONE: Record<string, string> = {
+  A: 'chip-pos',
+  B: 'chip-pos',
+  C: 'chip-info',
+  D: 'chip-warn',
+  F: 'chip-neg',
+};
+---
+
+<Base title="Weekly review — RoutineTrader" buildTs={data.buildTs}>
+  <section class="mb-6">
+    <h1 class="text-2xl font-semibold">Weekly review</h1>
+    <p class="mt-1 text-sm text-ink-muted">
+      Friday recaps with honest grading against the rulebook. Alpha is portfolio minus S&P for the same week.
+    </p>
+  </section>
+
+  {weekly.length === 0 ? (
+    <div class="card p-8 text-center text-ink-muted">
+      No weekly reviews yet. The first Friday run of the <code>weekly-review</code> routine will populate this view.
+    </div>
+  ) : (
+    <>
+      <section class="card p-5 mb-6">
+        <h2 class="text-sm font-semibold mb-3">Portfolio vs S&P 500 — weekly</h2>
+        <AlphaVsSpx client:visible weekly={weekly} height={300} />
+      </section>
+
+      {weekly.map((w) => (
+        <section class="card p-5 mb-6">
+          <header class="flex flex-wrap items-center gap-3">
+            <h3 class="text-lg font-semibold">{w.weekStart} → {w.weekEnd}</h3>
+            {w.grade && <span class={`${GRADE_TONE[w.grade] ?? 'chip-muted'} !px-3 !py-1 !text-base font-bold`}>Grade {w.grade}</span>}
+            <span class="ml-auto text-sm text-ink-muted">Phase-to-date: <span class={w.phaseToDatePct >= 0 ? 'text-pos' : 'text-neg'}>{pct(w.phaseToDatePct, 2)}</span></span>
+          </header>
+
+          <div class="mt-4 grid gap-3 sm:grid-cols-3">
+            <div class="rounded-md border border-line p-3">
+              <div class="text-[11px] uppercase text-ink-muted">Portfolio</div>
+              <div class={`text-xl font-semibold ${w.returnPct >= 0 ? 'text-pos' : 'text-neg'}`}>{pct(w.returnPct, 2)}</div>
+            </div>
+            <div class="rounded-md border border-line p-3">
+              <div class="text-[11px] uppercase text-ink-muted">S&P 500</div>
+              <div class={`text-xl font-semibold ${w.spxPct >= 0 ? 'text-pos' : 'text-neg'}`}>{pct(w.spxPct, 2)}</div>
+            </div>
+            <div class="rounded-md border border-line p-3">
+              <div class="text-[11px] uppercase text-ink-muted">Alpha</div>
+              <div class={`text-xl font-semibold ${w.alphaPct >= 0 ? 'text-pos' : 'text-neg'}`}>{pct(w.alphaPct, 2)}</div>
+            </div>
+          </div>
+
+          {Object.keys(w.stats).length > 0 && (
+            <div class="mt-4 overflow-x-auto">
+              <table>
+                <thead>
+                  <tr>
+                    <th class="text-left">Metric</th>
+                    <th class="text-right">Value</th>
+                    <th class="text-left">Metric</th>
+                    <th class="text-right">Value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Trades opened</td><td class="text-right num">{w.stats.opened ?? '—'}</td>
+                    <td>Trades closed</td><td class="text-right num">{w.stats.closed ?? '—'}</td>
+                  </tr>
+                  <tr>
+                    <td>Win rate</td><td class="text-right num">{w.stats.winRatePct !== undefined ? `${w.stats.winRatePct}%` : '—'}</td>
+                    <td>Profit factor</td><td class="text-right num">{w.stats.profitFactor ?? '—'}</td>
+                  </tr>
+                  <tr>
+                    <td>Best trade</td><td class="text-right num text-pos">{w.stats.bestPct !== undefined ? pct(w.stats.bestPct, 1) : '—'}</td>
+                    <td>Worst trade</td><td class="text-right num text-neg">{w.stats.worstPct !== undefined ? pct(w.stats.worstPct, 1) : '—'}</td>
+                  </tr>
+                  <tr>
+                    <td>Avg hold (days)</td><td class="text-right num">{w.stats.avgHoldDays ?? '—'}</td>
+                    <td>Open positions EOW</td><td class="text-right num">{w.stats.openEow ?? '—'}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          )}
+
+          {w.closed.length > 0 && (
+            <div class="mt-4">
+              <h4 class="text-sm font-semibold mb-2">Closed this week</h4>
+              <div class="overflow-x-auto">
+                <table>
+                  <thead><tr><th>Symbol</th><th>Class</th><th>Hold</th><th class="text-right">P&L</th><th>Reason</th></tr></thead>
+                  <tbody>
+                    {w.closed.map((t) => (
+                      <tr>
+                        <td class="font-mono">{t.symbol}</td>
+                        <td class="text-ink-muted">{t.assetClass ?? ''}</td>
+                        <td>{t.holdDays ?? ''}</td>
+                        <td class={`text-right num ${t.pnlPct !== undefined && t.pnlPct > 0 ? 'text-pos' : t.pnlPct !== undefined && t.pnlPct < 0 ? 'text-neg' : ''}`}>
+                          {t.pnlPct !== undefined ? pct(t.pnlPct, 1) : '—'}
+                        </td>
+                        <td class="text-ink-muted">{t.reason ?? ''}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+
+          {w.openEow.length > 0 && (
+            <div class="mt-4">
+              <h4 class="text-sm font-semibold mb-2">Open positions (EOW)</h4>
+              <div class="overflow-x-auto">
+                <table>
+                  <thead><tr><th>Symbol</th><th>Class</th><th class="text-right">Weight</th><th class="text-right">Unrealized</th><th>Stop</th></tr></thead>
+                  <tbody>
+                    {w.openEow.map((p) => (
+                      <tr>
+                        <td class="font-mono">{p.symbol}</td>
+                        <td class="text-ink-muted">{p.assetClass ?? ''}</td>
+                        <td class="text-right num">{p.weightPct !== undefined ? pctBare(p.weightPct) : '—'}</td>
+                        <td class={`text-right num ${p.unrealizedPct !== undefined && p.unrealizedPct > 0 ? 'text-pos' : p.unrealizedPct !== undefined && p.unrealizedPct < 0 ? 'text-neg' : ''}`}>
+                          {p.unrealizedPct !== undefined ? pct(p.unrealizedPct, 1) : '—'}
+                        </td>
+                        <td class="text-ink-muted font-mono">{p.stop ?? ''}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+
+          <div class="mt-6 grid gap-4 md:grid-cols-2">
+            {w.worked.length > 0 && (
+              <div><h4 class="text-sm font-semibold text-pos mb-1">What worked</h4><ul class="list-disc list-outside pl-5 text-sm space-y-1 text-ink-muted">{w.worked.map((b) => <li>{b}</li>)}</ul></div>
+            )}
+            {w.didnt.length > 0 && (
+              <div><h4 class="text-sm font-semibold text-neg mb-1">What didn't</h4><ul class="list-disc list-outside pl-5 text-sm space-y-1 text-ink-muted">{w.didnt.map((b) => <li>{b}</li>)}</ul></div>
+            )}
+            {w.lessons.length > 0 && (
+              <div><h4 class="text-sm font-semibold text-info mb-1">Lessons</h4><ul class="list-disc list-outside pl-5 text-sm space-y-1 text-ink-muted">{w.lessons.map((b) => <li>{b}</li>)}</ul></div>
+            )}
+            {w.adjustments.length > 0 && (
+              <div><h4 class="text-sm font-semibold text-warn mb-1">Adjustments next week</h4><ul class="list-disc list-outside pl-5 text-sm space-y-1 text-ink-muted">{w.adjustments.map((b) => <li>{b}</li>)}</ul></div>
+            )}
+          </div>
+        </section>
+      ))}
+    </>
+  )}
+</Base>
