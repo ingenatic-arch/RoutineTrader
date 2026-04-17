@@ -50,6 +50,14 @@ routine will trade from. **You do not place trades here.**
 - On HTTP **429** from any wrapper call: sleep **15 → 30 → 60** seconds before retrying;
   after the third failure, ClickUp-alert and abort this routine.
 
+## IMPORTANT — WRAPPER CALL TIMEOUTS
+The wrapper scripts handle transient-5xx retry internally (~8 min worst case).
+When invoking them via the Bash tool, **pass `timeout: 600000` (10 min) explicitly**
+so the default 2-min timeout doesn't cut them off mid-retry. **Do NOT** run wrapper
+scripts with `run_in_background: true` and **do NOT** switch to the Monitor tool —
+those require permission prompts and break the routine's autonomy. Let each wrapper
+call run to completion in the foreground; it is designed for this.
+
 ---
 
 ## Steps

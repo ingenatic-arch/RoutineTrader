@@ -68,9 +68,12 @@ _uuid() {
 #
 # On transient failures (curl transport error, or HTTP 5xx from eToro /
 # its edge — "DNS cache overflow" 503s recur on the Claude Routines egress
-# layer), retries up to 8 attempts with capped-exponential backoff + ±20%
+# layer), retries up to 6 attempts with capped-exponential backoff + ±20%
 # jitter:
-#     15s / 30s / 60s / 90s / 120s / 180s / 240s   (7 sleeps, ~12 min total)
+#     15s / 30s / 60s / 90s / 180s   (5 sleeps, ~8 min total worst case)
+# Envelope chosen to fit inside the Bash tool's 10-min max timeout so the
+# routine Claude never switches to background/Monitor mode (which would
+# break autonomy by requiring tool-approval prompts).
 # Jitter breaks lockstep when multiple wrappers retry simultaneously.
 # 429 is NOT retried here — the calling prompt owns write-rate backoff so it
 # can re-sequence the batch. 4xx is not transient — returned immediately.
@@ -90,7 +93,7 @@ _curl() {
     args+=(-H "Content-Type: application/json" --data "$data")
   fi
 
-  local backoffs=(15 30 60 90 120 180 240)
+  local backoffs=(15 30 60 90 180)
   local max_attempts=$(( ${#backoffs[@]} + 1 ))
   local attempt out code base jitter sleep_time
   for (( attempt=1; attempt<=max_attempts; attempt++ )); do

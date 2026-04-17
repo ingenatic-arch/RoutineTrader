@@ -50,9 +50,10 @@ print(json.dumps({
 ' "$query" "$MODEL")
 
 # Retry policy for transient 5xx / transport errors (matches etoro.sh):
-# 8 attempts, backoffs 15 / 30 / 60 / 90 / 120 / 180 / 240 with ±20% jitter
-# (~12 min worst-case). 4xx is non-transient — returned immediately.
-backoffs=(15 30 60 90 120 180 240)
+# 6 attempts, backoffs 15 / 30 / 60 / 90 / 180 with ±20% jitter (~8 min
+# worst-case, fits inside Bash 10-min max so the routine doesn't switch
+# to background/Monitor). 4xx is non-transient — returned immediately.
+backoffs=(15 30 60 90 180)
 max_attempts=$(( ${#backoffs[@]} + 1 ))
 resp=""
 code=""
