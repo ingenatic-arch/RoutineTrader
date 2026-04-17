@@ -93,7 +93,23 @@ function collectBullets(md: string): string[] {
     .split('\n')
     .map((l) => l.trim())
     .filter((l) => l.startsWith('- ') && !/^-\s*…\s*$/.test(l))
-    .map((l) => l.replace(/^-\s+/, ''));
+    .map((l) => l.replace(/^-\s+/, ''))
+    .filter((l) => !l.includes('$'));
+}
+
+// Drop any line that contains `$` so the percentages-only rule survives
+// island serialization. AlphaVsSpx receives the whole weekly[] array as a
+// React prop — if a body contains "$10,020.59" (from the routine's Context
+// paragraph) it would be serialized into the HTML even though nothing
+// renders it. Scrub at parse time to keep rendered payloads clean.
+function scrubDollarLines(md: string): string {
+  if (!md) return md;
+  return md
+    .split('\n')
+    .filter((line) => !line.includes('$'))
+    .join('\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
 }
 
 function extractSection(body: string, label: string): string {
@@ -144,7 +160,7 @@ export function parseWeeklyReview(md: string): WeeklyReview[] {
       didnt: collectBullets(didntMd),
       lessons: collectBullets(lessonsMd),
       adjustments: collectBullets(adjustmentsMd),
-      bodyMd: body,
+      bodyMd: scrubDollarLines(body),
     });
     current = null;
   };
