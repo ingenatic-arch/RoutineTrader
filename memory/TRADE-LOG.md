@@ -10,6 +10,22 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-04-17 — EOD Snapshot (Day 1, Friday)
+
+**Equity:** 100.2% of start | **Cash:** 100.0% | **Day P&L:** +0.2% | **Phase P&L:** +0.2%
+
+_(no positions)_
+
+**Notes:** First operational EOD. No positions opened or closed today; cash fully unallocated. Equity drift +0.2% reflects platform credit accrual on the idle virtual balance, not trading activity. HOLD remains the default — strategy caps respected by definition.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $10,020.59
+- Virtual cash: $10,020.59
+- Opens this week: 0
+- Real mirror (10%): $1,002.06
+
+---
+
 ## Day 0 — EOD Snapshot (pre-launch baseline)
 
 **Equity:** 100.0% of start | **Cash:** 100.0% | **Day P&L:** 0.0% | **Phase P&L:** 0.0%
