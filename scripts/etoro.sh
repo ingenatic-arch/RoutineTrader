@@ -67,8 +67,11 @@ _uuid() {
 # _curl METHOD PATH [DATA] → prints "<body>\n<http_code>" (newline-delimited).
 #
 # On transient failures (curl transport error, or HTTP 5xx from eToro /
-# its edge — "DNS cache overflow" 503s happen intermittently on the Claude
-# Routines egress path), retries up to 3 times with 15s → 30s → 60s backoff.
+# its edge — "DNS cache overflow" 503s recur on the Claude Routines egress
+# layer), retries up to 8 attempts with capped-exponential backoff + ±20%
+# jitter:
+#     15s / 30s / 60s / 90s / 120s / 180s / 240s   (7 sleeps, ~12 min total)
+# Jitter breaks lockstep when multiple wrappers retry simultaneously.
 # 429 is NOT retried here — the calling prompt owns write-rate backoff so it
 # can re-sequence the batch. 4xx is not transient — returned immediately.
 _curl() {
@@ -87,27 +90,32 @@ _curl() {
     args+=(-H "Content-Type: application/json" --data "$data")
   fi
 
-  local attempt out code backoff
-  for attempt in 1 2 3 4; do
+  local backoffs=(15 30 60 90 120 180 240)
+  local max_attempts=$(( ${#backoffs[@]} + 1 ))
+  local attempt out code base jitter sleep_time
+  for (( attempt=1; attempt<=max_attempts; attempt++ )); do
     if out=$(curl "${args[@]}" "$url" 2>/dev/null); then
       code="${out##*$'\n'}"
       if [[ ! "$code" =~ ^5 ]]; then
         printf '%s' "$out"
         return 0
       fi
-      printf 'etoro.sh: HTTP %s on %s %s (attempt %d/4)\n' "$code" "$method" "$path" "$attempt" >&2
+      printf 'etoro.sh: HTTP %s on %s %s (attempt %d/%d)\n' \
+        "$code" "$method" "$path" "$attempt" "$max_attempts" >&2
     else
-      printf 'etoro.sh: curl transport error on %s %s (attempt %d/4)\n' "$method" "$path" "$attempt" >&2
+      printf 'etoro.sh: curl transport error on %s %s (attempt %d/%d)\n' \
+        "$method" "$path" "$attempt" "$max_attempts" >&2
     fi
-    case "$attempt" in
-      1) backoff=15 ;;
-      2) backoff=30 ;;
-      3) backoff=60 ;;
-      *) backoff=0  ;;
-    esac
-    [[ $backoff -gt 0 ]] && sleep "$backoff"
+    if (( attempt < max_attempts )); then
+      base=${backoffs[$((attempt - 1))]}
+      # ±20% jitter: pick an offset in [-base/5, +base/5]
+      jitter=$(( (RANDOM % (base * 2 / 5 + 1)) - (base / 5) ))
+      sleep_time=$(( base + jitter ))
+      (( sleep_time < 1 )) && sleep_time=1
+      sleep "$sleep_time"
+    fi
   done
-  # All 4 attempts failed — return last response (caller inspects code).
+  # All attempts failed — return last response (caller inspects code).
   if [[ -n "${out:-}" ]]; then
     printf '%s' "$out"
     return 0

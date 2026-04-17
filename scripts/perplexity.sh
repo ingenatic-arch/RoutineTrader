@@ -49,18 +49,47 @@ print(json.dumps({
 }))
 ' "$query" "$MODEL")
 
-resp=$(curl -sS -X POST "https://api.perplexity.ai/chat/completions" \
-  -H "Authorization: Bearer ${PERPLEXITY_API_KEY}" \
-  -H "Content-Type: application/json" \
-  -H "Accept: application/json" \
-  --data "$body" \
-  -w $'\n%{http_code}') || { printf 'perplexity.sh: curl transport error\n' >&2; exit 1; }
+# Retry policy for transient 5xx / transport errors (matches etoro.sh):
+# 8 attempts, backoffs 15 / 30 / 60 / 90 / 120 / 180 / 240 with ±20% jitter
+# (~12 min worst-case). 4xx is non-transient — returned immediately.
+backoffs=(15 30 60 90 120 180 240)
+max_attempts=$(( ${#backoffs[@]} + 1 ))
+resp=""
+code=""
+for (( attempt=1; attempt<=max_attempts; attempt++ )); do
+  if resp=$(curl -sS -X POST "https://api.perplexity.ai/chat/completions" \
+      -H "Authorization: Bearer ${PERPLEXITY_API_KEY}" \
+      -H "Content-Type: application/json" \
+      -H "Accept: application/json" \
+      --data "$body" \
+      -w $'\n%{http_code}' 2>/dev/null); then
+    code="${resp##*$'\n'}"
+    # 2xx or 4xx → done (4xx is non-transient; don't burn retries on auth/validation)
+    [[ "$code" =~ ^[24] ]] && break
+    printf 'perplexity.sh: HTTP %s on POST (attempt %d/%d)\n' \
+      "$code" "$attempt" "$max_attempts" >&2
+  else
+    printf 'perplexity.sh: curl transport error on POST (attempt %d/%d)\n' \
+      "$attempt" "$max_attempts" >&2
+  fi
+  if (( attempt < max_attempts )); then
+    base=${backoffs[$((attempt - 1))]}
+    jitter=$(( (RANDOM % (base * 2 / 5 + 1)) - (base / 5) ))
+    sleep_time=$(( base + jitter ))
+    (( sleep_time < 1 )) && sleep_time=1
+    sleep "$sleep_time"
+  fi
+done
 
-code="${resp##*$'\n'}"
+if [[ -z "$resp" ]]; then
+  printf 'perplexity.sh: curl transport error after retries\n' >&2
+  exit 1
+fi
+
 payload="${resp%$'\n'*}"
 
 if [[ ! "$code" =~ ^2 ]]; then
-  printf 'perplexity.sh: HTTP %s\n%s\n' "$code" "$payload" >&2
+  printf 'perplexity.sh: HTTP %s after retries\n%s\n' "${code:-???}" "$payload" >&2
   exit 1
 fi
 
