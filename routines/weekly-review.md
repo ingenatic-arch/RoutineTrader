@@ -116,5 +116,5 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
    ```bash
    git add memory/WEEKLY-REVIEW.md memory/TRADING-STRATEGY.md
    git commit -m "routine: weekly-review $(date +%Y-%m-%d) (grade: B, ±X.X%)"
-   git push origin main || { git pull --rebase origin main && git push origin main; }
+   git push origin HEAD:main || { git pull --rebase origin main && git push origin HEAD:main; }
    ```

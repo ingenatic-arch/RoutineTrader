@@ -74,8 +74,11 @@ pass or the git-as-memory contract is broken.
 - [ ] `bash scripts/etoro.sh pnl` returns JSON (not an error)
 - [ ] `git add memory/RESEARCH-LOG.md` succeeds
 - [ ] `git commit` succeeds — **NOT** "Author identity unknown"
-- [ ] `git push origin main` succeeds — **NOT** "permission denied" or
-      "non-fast-forward"
+- [ ] `git push origin HEAD:main` succeeds — **NOT** "permission denied" or
+      "non-fast-forward". The `HEAD:main` form pushes the current commit to
+      remote `main` regardless of what local branch Claude is on; a plain
+      `git push origin main` is a no-op when Claude is on a system-created
+      `claude/*` branch.
 
 **Locally:**
 ```bash

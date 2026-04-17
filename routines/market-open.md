@@ -35,8 +35,11 @@ opens new positions.**
 
 ## IMPORTANT — PERSISTENCE
 - Fresh clone. Commit + push or today's trades disappear from memory.
-- End with: `git add memory/TRADE-LOG.md && git commit -m "..." && git push origin main`.
+- End with: `git add memory/TRADE-LOG.md && git commit -m "..." && git push origin HEAD:main`.
   If you placed zero trades, skip the commit.
+- **Use `HEAD:main`, not `main`**: the Routines runtime may place Claude on a
+  `claude/*` work branch; `HEAD:main` pushes the commit to remote main
+  regardless of local branch.
 
 ## IMPORTANT — RATE LIMITS & CACHE
 - **Writes must be ≥3s apart.** `scripts/etoro.sh open|close` sleeps 3s
@@ -134,5 +137,5 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
    ```bash
    git add memory/TRADE-LOG.md
    git commit -m "routine: market-open $(date +%Y-%m-%d) (opened: SYM1, SYM2)"
-   git push origin main || { git pull --rebase origin main && git push origin main; }
+   git push origin HEAD:main || { git pull --rebase origin main && git push origin HEAD:main; }
    ```

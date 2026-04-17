@@ -38,8 +38,12 @@ routine will trade from. **You do not place trades here.**
 
 ## IMPORTANT — PERSISTENCE
 - Fresh clone. File changes VANISH unless committed AND pushed.
-- You MUST end with: `git add memory/RESEARCH-LOG.md && git commit -m "..." && git push origin main`.
+- You MUST end with: `git add memory/RESEARCH-LOG.md && git commit -m "..." && git push origin HEAD:main`.
 - On push failure: `git pull --rebase origin main` then push. **Never force-push.**
+- **Use `HEAD:main`, not `main`**: the Routines runtime may run Claude on a
+  system-created `claude/*` work branch. `git push origin main` would push the
+  untouched local main (no-op); `git push origin HEAD:main` pushes the current
+  commit onto remote main regardless of local branch.
 
 ## IMPORTANT — RATE LIMITS & CACHE
 - Reads 60 / min, writes 20 / min. This routine only reads — no write spacing needed.
@@ -113,7 +117,7 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
    ```bash
    git add memory/RESEARCH-LOG.md
    git commit -m "routine: pre-market $(date +%Y-%m-%d)"
-   git push origin main || { git pull --rebase origin main && git push origin main; }
+   git push origin HEAD:main || { git pull --rebase origin main && git push origin HEAD:main; }
    ```
    If there was no actual change (rare — only if research was skipped due to
    aborts), skip the commit rather than creating an empty one.

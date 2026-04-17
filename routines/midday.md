@@ -116,5 +116,5 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
    ```bash
    git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md
    git commit -m "routine: midday $(date +%Y-%m-%d) (closed: SYM1; trimmed: SYM2)"
-   git push origin main || { git pull --rebase origin main && git push origin main; }
+   git push origin HEAD:main || { git pull --rebase origin main && git push origin HEAD:main; }
    ```

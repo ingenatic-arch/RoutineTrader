@@ -37,7 +37,9 @@ Your job: compute today's P&L, append the EOD snapshot to TRADE-LOG.md
 - **The daily EOD commit is mandatory.** Tomorrow's Day-P&L is computed as
   `(today_equity − yesterday_equity_from_TRADE-LOG) / yesterday_equity`. If this
   commit doesn't land, tomorrow's reporting is wrong.
-- End with: `git add memory/TRADE-LOG.md && git commit && git push origin main`.
+- End with: `git add memory/TRADE-LOG.md && git commit && git push origin HEAD:main`.
+  (`HEAD:main` — the runtime may put Claude on a `claude/*` work branch; this
+  form pushes the current commit onto remote main regardless.)
 
 ## IMPORTANT — RATE LIMITS
 - This routine only reads. On 429: 15/30/60 backoff.
@@ -120,7 +122,7 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
    ```bash
    git add memory/TRADE-LOG.md
    git commit -m "routine: daily-summary $(date +%Y-%m-%d) (equity ±X.X%)"
-   git push origin main || { git pull --rebase origin main && git push origin main; }
+   git push origin HEAD:main || { git pull --rebase origin main && git push origin HEAD:main; }
    ```
    If push still fails after rebase: ClickUp-alert
    `"🛑 daily-summary push failed — tomorrow's Day-P&L math will be wrong until fixed"`.
