@@ -95,9 +95,9 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
       looks stale (timestamp older than 5 min) or the bid/ask spread is wider
       than 0.5%, skip this idea and log "wide spread / stale rate".
    b. Run the **PRE-BUY GATE** (all must pass or skip + log):
-      - positions-after-fill ≤ 6
-      - opens-this-week + 1 ≤ 3
-      - size ≤ 20% of equity
+      - positions-after-fill ≤ 8
+      - opens-this-week + 1 ≤ 5
+      - size ≤ 30% of equity
       - `Amount_usd` ≤ `available_cash` AND post-fill cash ≥ 5% of equity
       - `class_exposure[class] + size ≤ 50%`
       - RESEARCH-LOG entry for today names this symbol with a catalyst
