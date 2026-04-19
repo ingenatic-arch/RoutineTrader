@@ -119,6 +119,6 @@ Claude Routines UI.
 
 ## Default posture
 
-**HOLD is the default decision.** Zero-trade days are fine. Zero-trade weeks are
-fine. The strategy is disciplined, not hyperactive — max 3 new opens per week,
-max 5–6 positions, max 20% per name, max 50% per asset class, 15–25% cash buffer.
+**Act on any A-grade thesis.** The strategy is opportunistic within risk limits
+— max 5 new opens per week, max 8 positions, max 30% per name, max 50% per
+asset class, 5–10% cash buffer. HOLD only when no idea clears the pre-buy gate.

@@ -105,14 +105,15 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
    - **Snapshot**: equity %, cash %, open positions N, week-opens-so-far N.
    - **Market context**: the research above, percentages only.
    - **Holdings check**: one line per position with thesis-intact? y/n and reason.
-   - **Trade ideas**: 0–3 for today. For each:
+   - **Trade ideas**: 0–5 for today. For each:
      symbol, `instrumentID`, asset class, catalyst, entry ask, stop ($ask × 0.90),
-     target (min 2:1 R:R), position size as % of equity (≤ 20%, respects 50%
+     target (min 2:1 R:R), position size as % of equity (≤ 30%, respects 50%
      class cap), R:R ratio.
    - **Risk factors**: what could break the ideas (earnings surprise direction,
      macro event timing, crypto leverage unwind, etc.).
-   - **Decision**: default is HOLD. Only propose OPEN N if catalysts + size gate
-     pass. TRIM only if over-concentrated at open.
+   - **Decision**: propose OPEN N for every A-grade thesis that clears catalysts
+     + size gate. Default to HOLD only if no idea qualifies. TRIM only if
+     over-concentrated at open.
 
 6. **ClickUp alert (only if urgent)** — send ONE ClickUp message via
    `bash scripts/clickup.sh "..."` ONLY if:

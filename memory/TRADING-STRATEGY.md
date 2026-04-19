@@ -23,25 +23,26 @@ disciplined — patience > activity.
 ## Core Rules (hard guardrails — enforce in code path, not prose)
 1. **Leverage = 1 always.** No CFDs, no options-equivalents, no leveraged products.
 2. **Longs only.** `IsBuy: true`. Shorts require explicit strategy opt-in (not v1).
-3. Max **5–6 open positions** simultaneously.
-4. Max **20% of equity per position** ($2,000 virtual / $200 real mirror).
+3. Max **8 open positions** simultaneously.
+4. Max **30% of equity per position** ($3,000 virtual / $300 real mirror).
 5. Max **50% per asset class** (stocks, crypto, commodities, forex, indices).
    Prevents crypto runaway when it ranks well.
-6. Target **75–85% deployed**, **15–25% cash buffer** at all times.
+6. Target **90–95% deployed**, **5–10% cash buffer** at all times.
 7. **`StopLossRate` set at position open** — 10% below entry ask (server-side,
    24/7, survives market close).
 8. **Manual exit at −7% unrealized** via midday scan (backstop ahead of the
    server stop; catches crypto weekend gaps).
 9. **Thesis-exit overrides** the stop — if the catalyst is broken or the sector
    is rolling, close even above −7%.
-10. Max **3 new position opens per week** (Mon–Fri).
+10. Max **5 new position opens per week** (Mon–Fri).
 11. Exit a sector / asset-class after 2 consecutive losers in it — cool off a week.
-12. Patience > activity. Zero-trade weeks are fine. HOLD is the default action.
+12. Act on any A-grade thesis that clears the pre-buy gate. HOLD only when no
+    idea qualifies — not as a default disposition.
 
 ## Pre-buy gate (ALL must pass before any open order)
-- [ ] Positions-after-fill ≤ 6
-- [ ] Opens-this-week + 1 ≤ 3
-- [ ] Position cost ≤ 20% of virtual equity
+- [ ] Positions-after-fill ≤ 8
+- [ ] Opens-this-week + 1 ≤ 5
+- [ ] Position cost ≤ 30% of virtual equity
 - [ ] Cost ≤ available cash **AND** leaves ≥ 5% cash buffer
 - [ ] Asset-class exposure after fill ≤ 50%
 - [ ] Catalyst documented in **today's** RESEARCH-LOG entry
