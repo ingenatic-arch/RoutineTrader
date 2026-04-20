@@ -22,3 +22,5 @@ Percentages only — no dollar references.
 2026-04-17T20:47:55Z | weekly-review | ok | Week committed; grade=B; return=+0.2%; alpha=-0.9% vs SPX; alpha=-1.3% vs 60/40; 0 routine trades
 2026-04-20T13:24:48Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; watchlist=XLP/XLU/BAC/MS
 2026-04-20T13:39:10Z | market-open | ok | Opened: none; positions=0; reason=research HOLD (no catalyst today)
+2026-04-20T20:29:23Z | unknown | warn | ⚠️ daily-summary: key-check inconclusive — retrying next cron.
+2026-04-20T20:29:49Z | daily-summary | abort | key-check inconclusive (HTTP 503 x6); retrying next cron
