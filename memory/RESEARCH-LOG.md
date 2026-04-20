@@ -6,6 +6,46 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-04-20 — Monday Pre-Market (08:00 ET)
+
+**Snapshot:** Equity 100.2% of start | Cash 100.0% | Open positions: 0 | Week opens so far: 0 (fresh week)
+
+**Market context** (as-of 2026-04-20 ~08:00 ET, percentages only)
+- S&P 500 futures (ES Jun-2026): **7119.00, −0.59% overnight** (−42.50 pts). Soft open expected.
+- VIX / US 10Y: no fresh overnight print available (Perplexity source thin); last-known baselines from Friday are VIX ~17.7 and 10Y ~4.30%. Treat as carry-forward until cash-market opens.
+- **WTI crude: big bearish re-rate.** May futures closed **−11.45% Friday** and sit in the **$83–86** range on reports the Strait of Hormuz has reopened to commercial traffic. Forecasts now target $76–78. This **contradicts** last Thursday's working thesis of an Iran-truce expiry around April 21 driving oil higher — the de-escalation headline already happened and the commodity has re-priced. Energy sector setups built on "Iran premium" are void.
+- DXY: no current print available; carry-forward ~98.2.
+- BTC: ~+0%, stable near **$74–75k**. ETH: near-flat at **~$2,300**. ETH/BTC ratio ~0.0313 (three-month high; ETH still relatively stronger). Weekend was quiet, no new regulatory / ETF headlines of note. BTC YTD −19%, ETH YTD −27% (context: crypto still in Extreme-Fear regime).
+- Today's catalysts: **no confirmed pre-open earnings** and **no top-tier macro releases** scheduled for April 20. Bank-earnings tail (BAC / MS) reports "this week" but the specific day is not confirmed for Monday. Light tape.
+- Sector momentum (5-day to 4/17 close): **XLK −2.2%** (Lagging), **XLE +0.6%** (still Leading YTD but now under pressure from the oil crash), **XLF −0.3%** (Lagging), **XLI −0.7%** (still Leading despite the dip), XLV Weakening (no 5-day print). Rotation signals: flight-to-safety building — **XLP making new highs**, XLU improving. This matches 2000/2007-style defensive leadership patterns called out by sector-rotation screens.
+- Geopolitics: Strait of Hormuz reopening is the dominant weekend story. Iran-US "truce expiry" narrative that headlined last Thursday is no longer live — the market has already digested the de-escalation. No other fresh macro/regulatory wildcards.
+
+**Holdings check**
+- No open positions. Nothing to evaluate.
+
+**Trade ideas** (0–5 per day; HOLD is default when no idea clears the gate)
+- **None today.** Rationale:
+  1. **No catalyst today.** Pre-buy gate requires a catalyst documented in today's RESEARCH-LOG entry. Sector rotation (defensives leading) is a multi-day theme, not a Monday-specific trigger. BAC/MS earnings are "this week" but unconfirmed for today.
+  2. **Soft open into an empty calendar** is the worst setup to chase: a −0.6% futures drift on no news often drags through the first hour, then reverses on thin flows.
+  3. **Energy thesis reversed over the weekend.** The working assumption into Thursday was Iran-premium tailwinds; the Hormuz reopening killed that. XLE / XOM / CVX are still YTD leaders but now fighting a −11% WTI gap — not a clean long-side setup.
+  4. **Defensive ETFs (XLP, XLU) are legitimate watchlist items** but chasing them on Monday after a week of leadership isn't A-grade — entry is extended and there's no fresh catalyst today. Better read mid-week if rotation persists.
+  5. **Crypto** is range-bound with no catalyst; Extreme-Fear regime without a trigger is averaging-into-downtrend, not a setup.
+
+**Watchlist for the rest of the week**
+- **XLP / XLU** — defensive rotation continuation. Confirmation signal: XLP new high holding with XLK continuing to lag. Re-evaluate Tuesday pre-market.
+- **BAC and MS earnings** — bank-earnings tail. Last week's prints (JPM +13%, WFC, C, BLK beats) set a bullish bar. If confirmed for Tuesday/Wednesday, set up a pre-open long with a tight stop.
+- **Energy re-test** — if WTI stabilizes ≥ $82 after the Hormuz flush, XLE could offer a mean-reversion long, but not today.
+
+**Risk factors**
+- **Cash drag.** Account is at 100% cash vs strategy's 5–10% buffer target. Acceptable for the moment — deliberate dry-powder posture into a no-catalyst session — but another no-catalyst day on Tuesday with no earnings confirmation will push the "patience vs inaction" balance toward needing to deploy on any B+ setup.
+- **Fed / yield surprise.** 10Y print is stale; any sudden move in yields on a low-news Monday could drive sector rotation in either direction.
+- **Oil second leg.** If WTI breaks $82 intraday, expect energy equities to extend down and broader cyclicals to follow.
+- **Bank-earnings surprise.** A BAC or MS miss this week (unconfirmed Monday timing) would shift the "financials lagging" note from noise into confirmation.
+
+**Decision:** **HOLD.** No new opens today. No trims required (account is flat). Opens-this-week stays at 0; budget resets fresh today — still 5 available through Friday.
+
+---
+
 ### 2026-04-17 — Friday Pre-Market (08:00 ET refresh)
 
 **Snapshot:** Equity 100.2% of start | Cash 100.0% | Open positions: 0 | Week opens so far: 0 (net of one round-trip on SPY+QQQ — see "Resolved" below)
