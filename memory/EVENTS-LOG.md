@@ -27,3 +27,5 @@ Percentages only — no dollar references.
 2026-04-21T13:21:05Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; screened=6 (XLP/XLU/XLE/BAC-MS/QBTS/crypto) all rejected — defensive rotation cooling + catalyst direction unknown pre-Retail-Sales
 2026-04-21T13:37:28Z | market-open | ok | Opened: none; HOLD per RESEARCH-LOG (all 6 candidates rejected); positions=0
 2026-04-21T15:31:43Z | midday | ok | No-op; positions=0; no cuts/trims/thesis-exits (account flat)
+2026-04-21T20:30:26Z | unknown | ok | 📊 Daily summary 2026-04-21 (Day 2) Equity: 100.2% of start / Day P&L: +0.2% / Phase: +0.2% Cash: 100.0% / Positions: 0 / Opens this week: 0/5 Positions: none — account flat. Today: opened 0, closed 0, trimmed 0. Pre-market HOLD (6 cand
+2026-04-21T20:30:47Z | daily-summary | ok | EOD snapshot committed; day P&L +0.2%; equity 100.2%; positions 0; opens-this-week 0/5
