@@ -6,6 +6,59 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-04-21 — Tuesday Pre-Market (08:00 ET)
+
+**Snapshot:** Equity 100.2% of start | Cash 100.0% | Open positions: 0 | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Market context** (as-of 2026-04-21 ~08:00 ET, percentages only; some data sources thin — flagged below)
+- S&P 500 futures (ES Jun-2026): **~+0.10% overnight**, modest recovery after yesterday's cash S&P −0.41% print. (Absolute level returned by Perplexity differs materially from yesterday's entry; treating the % direction as the usable signal, not the absolute.)
+- VIX / US 10Y yield: **no fresh overnight print** available from Perplexity this morning. Carry-forward VIX ~17.7 / 10Y ~4.30% from last confirmed reads; revisit midday if tape is orderly.
+- WTI crude: **~−1.7% overnight** to ~$88 area (May contract), ~$86 (June). Brent ~$94.5 (−1%). Driver: **US–Iran peace talks scheduled in Pakistan this week** — de-escalation premium continues to compress oil. Analyst tail-risk flag: $110/bbl scenario if talks fail. Iran "truce expiry" was yesterday (4/20) and the de-escalation path is still intact. This further confirms Thursday's Iran-premium-long thesis is dead.
+- DXY: no fresh print; carry-forward ~98.2.
+- BTC: ~flat near **$75k**, ETH ~flat near **$2.3k**. Perplexity explicitly lacks fresh 4/21 data — using 4/20 close as proxy. No fresh regulatory/ETF headlines. YTD BTC −19%, ETH −27%; still in Extreme-Fear regime with ETH/BTC ratio elevated on earlier-month post-ceasefire rotation.
+- **Today's catalysts (real, unlike yesterday's empty tape):**
+  - **Retail Sales (March)** — likely 8:30 AM ET standard release window (Perplexity said 9:30 ET, treating as possible time-zone confusion; standard BEA/Census window is 8:30 ET). Consumer-spending bellwether.
+  - **Durable Goods Orders** — same morning. Consensus figures not surfaced in research.
+  - **No confirmed pre-open earnings.** BAC / MS bank-earnings tail still "this week" but unconfirmed for today.
+  - D-Wave Quantum (QBTS) Extraordinary General Meeting scheduled today — agenda opaque, speculative catalyst only.
+- Sector momentum (YTD through 4/20, via Perplexity + eToro snapshots):
+  - **XLE +24.0% YTD** (still the leader but now fighting the sustained WTI crash — leadership probably breaking).
+  - **XLU +7.3% YTD** but **−0.9% past week** and price below 10DMA/50DMA.
+  - **XLP +6.1% YTD** but **−0.1% past week** and price (82.39) right at 10DMA / above 200DMA; slight pullback in uptrend.
+  - **XLF −3.4% YTD** (lagging).
+  - XLK / XLV / XLI YTD prints not available.
+  - **Read:** The Monday entry's "defensives leading" theme is cooling this week — XLU broke down a bit, XLP consolidating. Rotation is not accelerating.
+- Geopolitics: Iran-US talks in Pakistan this week = dominant risk-on catalyst. Truce de-escalation is the path being priced. Any breakdown from the talks would re-price oil sharply higher.
+
+**Holdings check**
+- **No open positions.** Nothing to evaluate. Cash 100%.
+
+**Trade ideas** (0–5 per day; HOLD is default only when no idea qualifies)
+
+Screened candidates + why each was rejected:
+
+1. **XLP (Consumer Staples SPDR)** — instrumentID: `3022`, asset class: ETF. Catalyst: Retail Sales print + continuing defensive rotation narrative. Current ask ~$82.39, 10DMA $82.02, 50DMA $84.81, YTD +6.1%. **Rejected: B-grade, not A-grade.** Past-week change is **−0.08%**, MTD +0.5%, and price sits just above 10DMA after rolling off 50DMA — rotation theme is cooling, not accelerating. A Retail Sales print is binary and the direction-of-reaction is unknown; buying defensives ahead of a print that could trigger cyclical rotation either way is a coin flip. If XLP reclaims ~$83 post-print with confirmation, market-open can re-evaluate.
+2. **XLU (Utilities SPDR)** — instrumentID: `3013`, asset class: ETF. Catalyst: defensive rotation + rate-sensitive long on soft retail print. Current ask ~$45.75, 10DMA $46.43, 50DMA $46.19, YTD +7.3%. **Rejected: weaker setup than XLP.** Past-week −0.89%, MTD −0.31%, price **below 10DMA and 50DMA** — a cooling uptrend with bearish near-term structure. Don't chase a losing short-term flow.
+3. **XLE (Energy SPDR)** — YTD +24% leader. **Rejected.** Thesis broken: WTI printing another −1.7% overnight on Iran de-escalation. Energy equities fighting a persistent commodity headwind. Leader reversal setup, not a long.
+4. **Bank-earnings pre-positioning (BAC, MS)** — **Rejected.** Reports still "this week" but not confirmed for today. Pre-buy gate requires catalyst **today**; speculating ahead of unconfirmed timing violates the rule.
+5. **D-Wave Quantum (QBTS) EGM play** — **Rejected.** Agenda unknown. Event-driven without a thesis is a gamble, not an edge.
+6. **Crypto (BTC / ETH)** — **Rejected.** No fresh catalyst; range-bound in Extreme-Fear regime without a trigger. Strategy: buying into Extreme Fear without thesis ≈ averaging into downtrend.
+
+**Risk factors**
+- **Cash drag, Day 2.** 100% cash for a second consecutive day. The strategy's preferred posture is 90–95% deployed, 5–10% buffer. Deliberate dry-powder is defensible into a truly binary session (Retail Sales print can go either way), but another flat day Wednesday without conviction will force the "patience vs inaction" dial toward deploying on any B+ idea.
+- **Retail Sales whipsaw.** A strong print flips defensive rotation → cyclical bid; weak print extends defensives. Either way, market-open at 9:35 ET will have a post-print tape and is the correct entry window — not pre-market pre-commitment.
+- **Iran talks in Pakistan.** If talks collapse this week, oil re-prices violently higher (analyst tail: $110/bbl) → energy/industrials bid, defensives sold. If talks make progress, risk-on extends and defensives keep cooling.
+- **Data quality.** Perplexity returned thin/gapped data on VIX, 10Y, DXY, and fresh crypto prices; treat quantitative comparisons as directional, not precise.
+
+**Watchlist (for rest of the week)**
+- **XLP / XLU** — re-evaluate post-Retail-Sales reaction. If XLP reclaims 10DMA with volume, consider a ≤15% allocation with a 10% stop.
+- **BAC / MS** — once the earnings day is confirmed, pre-open setup candidate. Last week's bank prints (JPM +13%, WFC/C/BLK beats) set a bullish bar.
+- **Energy mean-reversion (XLE / XOM / CVX)** — only if WTI stabilizes ≥$85 and Iran talks clearly break down. Not today's trade.
+
+**Decision:** **HOLD.** No new opens today. No trims required (account is flat). Opens-this-week stays 0; weekly budget of 5 is untouched. Defer directional bets to market-open once today's Retail Sales + Durable Goods prints have hit the tape and sector reaction is readable.
+
+---
+
 ### 2026-04-20 — Monday Pre-Market (08:00 ET)
 
 **Snapshot:** Equity 100.2% of start | Cash 100.0% | Open positions: 0 | Week opens so far: 0 (fresh week)
