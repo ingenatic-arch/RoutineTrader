@@ -25,3 +25,4 @@ Percentages only — no dollar references.
 2026-04-20T20:29:23Z | unknown | warn | ⚠️ daily-summary: key-check inconclusive — retrying next cron.
 2026-04-20T20:29:49Z | daily-summary | abort | key-check inconclusive (HTTP 503 x6); retrying next cron
 2026-04-21T13:21:05Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; screened=6 (XLP/XLU/XLE/BAC-MS/QBTS/crypto) all rejected — defensive rotation cooling + catalyst direction unknown pre-Retail-Sales
+2026-04-21T13:37:28Z | market-open | ok | Opened: none; HOLD per RESEARCH-LOG (all 6 candidates rejected); positions=0
