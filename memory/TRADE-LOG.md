@@ -10,6 +10,31 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-04-22 — EOD Snapshot (Day 3, Wednesday)
+
+**Equity:** 100.0% of start | **Cash:** 85.0% | **Day P&L:** −0.2% | **Phase P&L:** +0.0%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  15.0%  |$78,765.12  |$78,626.33  |    −0.2%    |$70,888.59  |
+
+**Notes:** First position of the phase opened at 13:55 UTC — BTC long at 15%
+weight on Iran-ceasefire + MicroStrategy $2.54B-BTC-buy + 3mo-high breakout
+thesis (A-grade, research-log 2026-04-22). Fill 78,765.12 vs pre-buy ask
+78,785.25 (~2bp slippage). Midday no-op; thesis intact, stop untouched. Day
+drifted −0.2% on a BTC quote pullback to 78,626.33 (position-level −0.18%,
+well inside the 10% stop band). Market-wide character: post-Retail-Sales
+tone, no adverse BTC catalysts. No rule trips. 1 open this week (cap 5);
+1 position (cap 8); 15% crypto exposure (cap 50%).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $10,002.91
+- Virtual cash: $8,502.56
+- Opens this week: 1
+- Real mirror (10%): $1,000.29
+
+---
+
 ## 2026-04-21 — EOD Snapshot (Day 2, Tuesday)
 
 **Equity:** 100.2% of start | **Cash:** 100.0% | **Day P&L:** +0.2% | **Phase P&L:** +0.2%

@@ -37,3 +37,5 @@ Percentages only — no dollar references.
 2026-04-22T13:56:25Z | market-open | ok | Opened: BTC; positions=1
 2026-04-22T13:56:36Z | unknown | ok | Market-open 2026-04-22 — opened 1 position. • BTC 15% (stop −10%, target +20%, R:R 2.0:1) Post-fill: equity 100.2% of start / cash 85.0% / positions 1.
 2026-04-22T15:41:09Z | midday | ok | Closed: none; trimmed: none; positions=1 (BTC +0.7%)
+2026-04-22T20:27:55Z | unknown | ok | 📊 Daily summary 2026-04-22 (Day 3) Equity: 100.0% of start / Day P&L: −0.2% / Phase: +0.0% Cash: 85.0% / Positions: 1 / Opens this week: 1/5 Positions: • BTC (crypto) 15% / −0.2% / stop −10% Today: opened 1 (BTC), closed 0, trimm
+2026-04-22T20:27:58Z | daily-summary | ok | EOD snapshot committed; day P&L -0.2%; equity 100.0%
