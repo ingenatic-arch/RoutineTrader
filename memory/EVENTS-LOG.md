@@ -29,3 +29,5 @@ Percentages only — no dollar references.
 2026-04-21T15:31:43Z | midday | ok | No-op; positions=0; no cuts/trims/thesis-exits (account flat)
 2026-04-21T20:30:26Z | unknown | ok | 📊 Daily summary 2026-04-21 (Day 2) Equity: 100.2% of start / Day P&L: +0.2% / Phase: +0.2% Cash: 100.0% / Positions: 0 / Opens this week: 0/5 Positions: none — account flat. Today: opened 0, closed 0, trimmed 0. Pre-market HOLD (6 cand
 2026-04-21T20:30:47Z | daily-summary | ok | EOD snapshot committed; day P&L +0.2%; equity 100.2%; positions 0; opens-this-week 0/5
+2026-04-22T13:09:10Z | unknown | warn | ⚠️ pre-market: key-check inconclusive (503) — retrying next cron.
+2026-04-22T13:15:05Z | pre-market | abort | key-check inconclusive (HTTP 503); ClickUp also 503 / fell back to DAILY-SUMMARY; no research written
