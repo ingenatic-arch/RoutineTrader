@@ -33,3 +33,4 @@ Percentages only — no dollar references.
 2026-04-22T13:15:05Z | pre-market | abort | key-check inconclusive (HTTP 503); ClickUp also 503 / fell back to DAILY-SUMMARY; no research written
 2026-04-22T13:37:35Z | unknown | warn | ⚠️ market-open skipped: no RESEARCH-LOG entry for 2026-04-22 (pre-market aborted on 503 earlier)
 2026-04-22T13:37:41Z | market-open | abort | No RESEARCH-LOG entry for 2026-04-22 (pre-market aborted on 503); no trades placed
+2026-04-22T13:43:39Z | pre-market | ok | Research committed; decision=OPEN 1 (BTC 15%); ideas=1 A-grade / 5 screened (late — market-open already aborted 13:37Z; trade will not auto-fire today)
