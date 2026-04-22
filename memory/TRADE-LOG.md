@@ -48,3 +48,10 @@ No positions yet. Routines activate on next scheduled fire.
 ## Trade entries
 
 _(market-open and midday routines append under here. Newest on top.)_
+
+### 2026-04-22 — OPEN BTC (Crypto)
+- instrumentID: 100000 | order token: 26e1629d-0a21-4b8a-9eaf-08c0e8bb781f | orderID: 1435392803
+- side: long | leverage: 1
+- amount_usd (internal): $1,503.00 | amount_pct_equity: 15.0%
+- entry ask: $78,785.25 | stop: $70,906.7250 (−10%) | target: $94,542.30 (+20%) | R:R: 2.0:1
+- thesis: Iran-ceasefire-indefinite + MicroStrategy $2.54B BTC buy + 3mo-high breakout w/ $330M squeeze liqs (research-log 2026-04-22)

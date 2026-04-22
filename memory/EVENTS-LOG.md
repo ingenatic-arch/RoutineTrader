@@ -34,3 +34,5 @@ Percentages only — no dollar references.
 2026-04-22T13:37:35Z | unknown | warn | ⚠️ market-open skipped: no RESEARCH-LOG entry for 2026-04-22 (pre-market aborted on 503 earlier)
 2026-04-22T13:37:41Z | market-open | abort | No RESEARCH-LOG entry for 2026-04-22 (pre-market aborted on 503); no trades placed
 2026-04-22T13:43:39Z | pre-market | ok | Research committed; decision=OPEN 1 (BTC 15%); ideas=1 A-grade / 5 screened (late — market-open already aborted 13:37Z; trade will not auto-fire today)
+2026-04-22T13:56:25Z | market-open | ok | Opened: BTC; positions=1
+2026-04-22T13:56:36Z | unknown | ok | Market-open 2026-04-22 — opened 1 position. • BTC 15% (stop −10%, target +20%, R:R 2.0:1) Post-fill: equity 100.2% of start / cash 85.0% / positions 1.
