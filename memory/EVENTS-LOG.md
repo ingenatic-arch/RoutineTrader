@@ -43,3 +43,4 @@ Percentages only — no dollar references.
 2026-04-23T13:37:49Z | unknown | warn | ⚠️ market-open skipped: no RESEARCH-LOG entry for 2026-04-23
 2026-04-23T13:37:57Z | market-open | abort | No RESEARCH-LOG entry for 2026-04-23; no trades placed
 2026-04-23T13:39:20Z | pre-market | abort | key-check inconclusive (HTTP 503) after 6 retries; alerted ClickUp; no research written
+2026-04-23T14:57:08Z | pre-market | ok | Research committed; decision=HOLD; ideas=0 (BTC held intact /-1.0% unrealized); flagged oil narrative conflict
