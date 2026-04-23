@@ -46,3 +46,5 @@ Percentages only — no dollar references.
 2026-04-23T14:57:08Z | pre-market | ok | Research committed; decision=HOLD; ideas=0 (BTC held intact /-1.0% unrealized); flagged oil narrative conflict
 2026-04-23T14:59:25Z | market-open | ok | Opened: none; HOLD per RESEARCH-LOG (6 candidates screened/rejected: ETH/XLK-QQQ/BAC-MS/TSLA/XLE-XOM/biotech); positions=1 (BTC intact)
 2026-04-23T15:39:14Z | midday | ok | No-op: 1 position (BTC -0.27%); crypto 15%; no rule trips, thesis intact
+2026-04-23T20:28:33Z | unknown | ok | 📊 Daily summary 2026-04-23 (Day 4) Equity: 99.9% of start / Day P&L: −0.2% / Phase: −0.1% Cash: 85.1% / Positions: 1 / Opens this week: 1/5 Positions: • BTC (crypto) 14.9% / −1.2% / stop −10% Today: opened 0, closed 0, trimmed 
+2026-04-23T20:28:42Z | daily-summary | ok | EOD snapshot committed; day P&L -0.2%; equity 99.9%

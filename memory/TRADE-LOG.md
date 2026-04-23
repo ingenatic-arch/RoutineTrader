@@ -10,6 +10,30 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-04-23 — EOD Snapshot (Day 4, Thursday)
+
+**Equity:** 99.9% of start | **Cash:** 85.1% | **Day P&L:** −0.2% | **Phase P&L:** −0.1%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  14.9%  |$78,765.12  |$77,790.71  |    −1.2%    |$70,888.59  |
+
+**Notes:** Quiet day — no opens, no closes, no trims. Pre-market HOLD on the
+fresh slate (RESEARCH-LOG flagged macro-quiet tape, no A-grade non-BTC ideas).
+Market-open opened nothing; midday no-op (BTC thesis intact, stop untouched at
+−10%). BTC drifted from $78,626.33 → $77,790.71 (position-level −1.24%, well
+inside the 10% stop band) on broad crypto-tape softness, no adverse catalyst.
+Day P&L −0.16% on virtual equity. No rule trips. 1 open this week (cap 5);
+1 position (cap 8); 14.9% crypto exposure (cap 50%); 85.1% cash buffer.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,986.97
+- Virtual cash: $8,502.56
+- Opens this week: 1
+- Real mirror (10%): $998.70
+
+---
+
 ## 2026-04-22 — EOD Snapshot (Day 3, Wednesday)
 
 **Equity:** 100.0% of start | **Cash:** 85.0% | **Day P&L:** −0.2% | **Phase P&L:** +0.0%
