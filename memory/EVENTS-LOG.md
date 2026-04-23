@@ -39,5 +39,7 @@ Percentages only — no dollar references.
 2026-04-22T15:41:09Z | midday | ok | Closed: none; trimmed: none; positions=1 (BTC +0.7%)
 2026-04-22T20:27:55Z | unknown | ok | 📊 Daily summary 2026-04-22 (Day 3) Equity: 100.0% of start / Day P&L: −0.2% / Phase: +0.0% Cash: 85.0% / Positions: 1 / Opens this week: 1/5 Positions: • BTC (crypto) 15% / −0.2% / stop −10% Today: opened 1 (BTC), closed 0, trimm
 2026-04-22T20:27:58Z | daily-summary | ok | EOD snapshot committed; day P&L -0.2%; equity 100.0%
+2026-04-23T13:36:08Z | unknown | warn | ⚠️ pre-market: key-check inconclusive (503) — retrying next cron.
 2026-04-23T13:37:49Z | unknown | warn | ⚠️ market-open skipped: no RESEARCH-LOG entry for 2026-04-23
 2026-04-23T13:37:57Z | market-open | abort | No RESEARCH-LOG entry for 2026-04-23; no trades placed
+2026-04-23T13:39:20Z | pre-market | abort | key-check inconclusive (HTTP 503) after 6 retries; alerted ClickUp; no research written
