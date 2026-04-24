@@ -9,9 +9,9 @@ const WEEK_HEADER =
   /^###\s+Week of\s+(\d{4}-\d{2}-\d{2})\s*(?:→|->)\s*(\d{4}-\d{2}-\d{2})\s*$/;
 
 const HEADER_LINE =
-  /\*\*Week return:\*\*\s*([+-]?[\d.]+)%\s*\|\s*\*\*S&P 500 week:\*\*\s*([+-]?[\d.]+)%\s*\|\s*\*\*Alpha:\*\*\s*([+-]?[\d.]+)%/;
+  /\*\*Week return:\*\*\s*([+\-−]?[\d.]+)%\s*\|\s*\*\*S&P 500 week:\*\*\s*([+\-−]?[\d.]+)%\s*\|\s*\*\*Alpha:\*\*\s*([+\-−]?[\d.]+)%/;
 
-const PHASE_LINE = /\*\*Phase-to-date return:\*\*\s*([+-]?[\d.]+)%/;
+const PHASE_LINE = /\*\*Phase-to-date return:\*\*\s*([+\-−]?[\d.]+)%/;
 const GRADE_LINE = /\*\*Grade:\s*([A-F])\*\*/;
 
 function splitTable(block: string): string[][] {
@@ -35,22 +35,28 @@ function pctOrUndefined(s?: string): number | undefined {
   return m ? Number(m[1]) : undefined;
 }
 
+function num(s: string): number {
+  return Number(s.replace(/−/g, '-'));
+}
+
 function parseStatsTable(md: string): Partial<WeeklyStats> {
   const rows = splitTable(md);
   const stats: Partial<WeeklyStats> = {};
   for (const [metric, value] of rows.slice(1)) {
-    if (!metric || !value || /^x+%?$/i.test(value)) continue;
-    const num = Number(value.replace(/[^0-9.+-]/g, ''));
-    if (Number.isNaN(num)) continue;
+    if (!metric || !value || /^x+%?$/i.test(value) || /^(?:n\/a|—|-|…)\*?$/i.test(value.trim())) continue;
+    const cleaned = value.replace(/−/g, '-').replace(/[^0-9.+-]/g, '');
+    if (!cleaned) continue;
+    const parsed = Number(cleaned);
+    if (Number.isNaN(parsed)) continue;
     const m = metric.toLowerCase();
-    if (/opened/.test(m)) stats.opened = num;
-    else if (/closed/.test(m)) stats.closed = num;
-    else if (/win rate/.test(m)) stats.winRatePct = num;
-    else if (/best/.test(m)) stats.bestPct = num;
-    else if (/worst/.test(m)) stats.worstPct = num;
-    else if (/avg hold/.test(m)) stats.avgHoldDays = num;
-    else if (/profit factor/.test(m)) stats.profitFactor = num;
-    else if (/open positions/.test(m)) stats.openEow = num;
+    if (/opened/.test(m)) stats.opened = parsed;
+    else if (/closed/.test(m)) stats.closed = parsed;
+    else if (/win rate/.test(m)) stats.winRatePct = parsed;
+    else if (/best/.test(m)) stats.bestPct = parsed;
+    else if (/worst/.test(m)) stats.worstPct = parsed;
+    else if (/avg hold/.test(m)) stats.avgHoldDays = parsed;
+    else if (/profit factor/.test(m)) stats.profitFactor = parsed;
+    else if (/open positions/.test(m)) stats.openEow = parsed;
   }
   return stats;
 }
@@ -59,7 +65,7 @@ function parseClosed(md: string): ClosedTrade[] {
   const rows = splitTable(md).slice(1);
   const trades: ClosedTrade[] = [];
   for (const r of rows) {
-    if (!r[0] || r[0] === '…') continue;
+    if (!r[0] || r[0] === '…' || r[0] === '—') continue;
     const t: ClosedTrade = { symbol: r[0] };
     if (r[1]) t.assetClass = r[1];
     if (r[2]) t.holdDays = r[2];
@@ -75,7 +81,7 @@ function parseOpen(md: string): OpenPosition[] {
   const rows = splitTable(md).slice(1);
   const positions: OpenPosition[] = [];
   for (const r of rows) {
-    if (!r[0] || r[0] === '…') continue;
+    if (!r[0] || r[0] === '…' || r[0] === '—') continue;
     const p: OpenPosition = { symbol: r[0] };
     if (r[1]) p.assetClass = r[1];
     const w = pctOrUndefined(r[2]);
@@ -148,10 +154,10 @@ export function parseWeeklyReview(md: string): WeeklyReview[] {
     entries.push({
       weekStart,
       weekEnd,
-      returnPct: hdr ? Number(hdr[1]) : NaN,
-      spxPct: hdr ? Number(hdr[2]) : NaN,
-      alphaPct: hdr ? Number(hdr[3]) : NaN,
-      phaseToDatePct: phase ? Number(phase[1]) : NaN,
+      returnPct: hdr ? num(hdr[1]) : NaN,
+      spxPct: hdr ? num(hdr[2]) : NaN,
+      alphaPct: hdr ? num(hdr[3]) : NaN,
+      phaseToDatePct: phase ? num(phase[1]) : NaN,
       grade: grade ? (grade[1] as WeeklyReview['grade']) : null,
       stats: parseStatsTable(statsMd),
       closed: parseClosed(closedMd),

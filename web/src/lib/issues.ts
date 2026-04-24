@@ -39,17 +39,21 @@ function detectMissedRoutines(
 ): IssueItem[] {
   const out: IssueItem[] = [];
   const byDay = new Map<string, Set<RoutineName>>();
+  let firstRoutineDay: string | null = null;
   for (const c of commits) {
     if (!c.routine) continue;
     const day = c.ts.slice(0, 10);
+    if (!firstRoutineDay || day < firstRoutineDay) firstRoutineDay = day;
     if (!byDay.has(day)) byDay.set(day, new Set());
     byDay.get(day)!.add(c.routine);
   }
+  if (!firstRoutineDay) return out;
 
-  for (let back = 1; back <= days; back++) {
+  for (let back = 0; back < days; back++) {
     const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - back));
     if (!isWeekday(d)) continue;
     const dayKey = ymd(d);
+    if (dayKey < firstRoutineDay) continue;
     const ran = byDay.get(dayKey) ?? new Set<RoutineName>();
 
     for (const spec of ROUTINE_SCHEDULE) {

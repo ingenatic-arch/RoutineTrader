@@ -14,6 +14,8 @@ export interface EodSnapshot {
   cashPct: number;
   dayPnlPct: number;
   phasePnlPct: number;
+  opensThisWeek?: number;
+  positions?: OpenPosition[];
   note?: string;
 }
 
@@ -133,6 +135,7 @@ export interface IssueItem {
 export interface DashboardData {
   snapshots: EodSnapshot[];
   trades: TradeEntry[];
+  currentPositions: OpenPosition[];
   research: ResearchEntry[];
   weekly: WeeklyReview[];
   events: EventEntry[];

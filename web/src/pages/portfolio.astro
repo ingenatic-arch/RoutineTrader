@@ -7,25 +7,17 @@ import CashBand from '../components/CashBand.tsx';
 import PositionsPie from '../components/PositionsPie.tsx';
 import { loadAll } from '../lib/data';
 import { pct, pctBare } from '../components/format';
-import type { OpenPosition } from '../types/schema';
 
 const data = loadAll();
 const latest = data.latestSnapshot;
-
-/**
- * Positions used in donuts: prefer the most recent weekly review's open
- * positions (structured). Fall back to an empty list if weekly-review has
- * no real entries yet.
- */
-const currentWeekly = data.weekly[0];
-const positions: OpenPosition[] = currentWeekly?.openEow ?? [];
+const positions = data.currentPositions;
 ---
 
 <Base title="Portfolio — RoutineTrader" buildTs={data.buildTs}>
   <section class="mb-6">
     <h1 class="text-2xl font-semibold">Portfolio</h1>
     <p class="mt-1 text-sm text-ink-muted">
-      EOD snapshots, daily P&L, and the latest-known allocation. All values are percentages of starting equity.
+      EOD snapshots, daily P&L, and latest-known allocation. All values are percentages of starting equity.
     </p>
   </section>
 
@@ -50,7 +42,7 @@ const positions: OpenPosition[] = currentWeekly?.openEow ?? [];
       <DayPnlBars client:visible snapshots={data.snapshots} height={260} />
     </div>
     <div class="card p-5">
-      <h2 class="text-sm font-semibold mb-3">Cash vs target band (15–25%)</h2>
+      <h2 class="text-sm font-semibold mb-3">Cash vs target band (5–10%)</h2>
       <CashBand client:visible snapshots={data.snapshots} height={260} />
     </div>
   </section>

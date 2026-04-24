@@ -14,6 +14,8 @@ const latestResearch = data.latestResearch;
 const openAlerts = data.issues.filter((i) => i.severity === 'alert').length;
 const openWarns = data.issues.filter((i) => i.severity === 'warn').length;
 const last30 = data.snapshots.slice(-30);
+const opensThisWeek = latest?.opensThisWeek ?? latestResearch?.snapshot?.weekOpensSoFar ?? 0;
+const openPositions = latest?.positions?.length ?? data.currentPositions.length ?? latestResearch?.snapshot?.openPositions ?? 0;
 ---
 
 <Base title="Overview — RoutineTrader" buildTs={data.buildTs}>
@@ -47,8 +49,8 @@ const last30 = data.snapshots.slice(-30);
     <SnapshotCard
       label="Cash"
       value={latest ? pctBare(latest.cashPct, 1) : '—'}
-      sub={latest ? (latest.cashPct >= 15 && latest.cashPct <= 25 ? 'Inside 15–25% target' : latest.cashPct > 25 ? 'Above target (dry powder)' : 'Below target') : undefined}
-      tone={latest && latest.cashPct >= 15 && latest.cashPct <= 25 ? 'info' : latest && latest.cashPct < 15 ? 'warn' : 'neutral'}
+      sub={latest ? (latest.cashPct >= 5 && latest.cashPct <= 10 ? 'Inside 5–10% target' : latest.cashPct > 10 ? 'Above target (dry powder)' : 'Below target') : undefined}
+      tone={latest && latest.cashPct >= 5 && latest.cashPct <= 10 ? 'info' : latest && latest.cashPct < 5 ? 'warn' : 'neutral'}
     />
     <SnapshotCard
       label="Day P&L"
@@ -131,16 +133,16 @@ const last30 = data.snapshots.slice(-30);
     <div class="card p-5">
       <div class="text-[11px] uppercase tracking-wide text-ink-muted">Week opens</div>
       <div class="mt-2 text-3xl font-semibold">
-        {latestResearch?.snapshot?.weekOpensSoFar ?? 0}
-        <span class="text-base text-ink-muted font-normal"> / 3 max</span>
+        {opensThisWeek}
+        <span class="text-base text-ink-muted font-normal"> / 5 max</span>
       </div>
     </div>
 
     <div class="card p-5">
       <div class="text-[11px] uppercase tracking-wide text-ink-muted">Open positions</div>
       <div class="mt-2 text-3xl font-semibold">
-        {latestResearch?.snapshot?.openPositions ?? 0}
-        <span class="text-base text-ink-muted font-normal"> / 6 max</span>
+        {openPositions}
+        <span class="text-base text-ink-muted font-normal"> / 8 max</span>
       </div>
     </div>
   </section>

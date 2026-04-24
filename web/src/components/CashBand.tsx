@@ -17,7 +17,7 @@ interface Props {
 }
 
 /**
- * Cash % over time with the 15–25% target band from TRADING-STRATEGY.md
+ * Cash % over time with the 5–10% target band from TRADING-STRATEGY.md
  * overlayed. Above the band = conservative dry-powder posture; below = too
  * fully invested relative to the rulebook.
  */
@@ -43,9 +43,9 @@ export default function CashBand({ snapshots, height = 260 }: Props) {
           tickFormatter={(v) => `${v}%`}
           domain={[0, 105]}
         />
-        <ReferenceArea y1={15} y2={25} fill="#60a5fa" fillOpacity={0.12} stroke="none" />
-        <ReferenceLine y={15} stroke="#60a5fa" strokeDasharray="4 4" strokeOpacity={0.5} />
-        <ReferenceLine y={25} stroke="#60a5fa" strokeDasharray="4 4" strokeOpacity={0.5} />
+        <ReferenceArea y1={5} y2={10} fill="#60a5fa" fillOpacity={0.12} stroke="none" />
+        <ReferenceLine y={5} stroke="#60a5fa" strokeDasharray="4 4" strokeOpacity={0.5} />
+        <ReferenceLine y={10} stroke="#60a5fa" strokeDasharray="4 4" strokeOpacity={0.5} />
         <Tooltip
           contentStyle={{
             background: '#111827',

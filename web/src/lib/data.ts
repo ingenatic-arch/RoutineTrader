@@ -1,6 +1,5 @@
 import { readFileSync, existsSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
-import { dirname, resolve } from 'node:path';
+import { basename, resolve } from 'node:path';
 
 import type { DashboardData, CommitRecord } from '../types/schema';
 import { parseTradeLog } from './parsers/trade-log';
@@ -9,10 +8,10 @@ import { parseWeeklyReview } from './parsers/weekly-review';
 import { parseEventsLog } from './parsers/events-log';
 import { detectIssues } from './issues';
 
-const HERE = dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = resolve(HERE, '..', '..', '..');
+const CWD = process.cwd();
+const REPO_ROOT = basename(CWD) === 'web' ? resolve(CWD, '..') : resolve(CWD);
 const MEMORY = resolve(REPO_ROOT, 'memory');
-const COMMITS_JSON = resolve(HERE, '..', 'data', 'commits.json');
+const COMMITS_JSON = resolve(REPO_ROOT, 'web', 'src', 'data', 'commits.json');
 
 function readOrEmpty(path: string): string {
   try {
@@ -50,10 +49,13 @@ export function loadAll(): DashboardData {
   const events = parseEventsLog(eventsLog);
   const commits = readCommits();
   const issues = detectIssues({ commits, events, trades });
+  const latestSnapshot = snapshots[snapshots.length - 1] ?? null;
+  const currentPositions = latestSnapshot?.positions ?? weekly[0]?.openEow ?? [];
 
   cached = {
     snapshots,
     trades,
+    currentPositions,
     research,
     weekly,
     events,
@@ -61,7 +63,7 @@ export function loadAll(): DashboardData {
     issues,
     strategyMd,
     buildTs: new Date().toISOString(),
-    latestSnapshot: snapshots[snapshots.length - 1] ?? null,
+    latestSnapshot,
     latestResearch: research[0] ?? null,
   };
   return cached;

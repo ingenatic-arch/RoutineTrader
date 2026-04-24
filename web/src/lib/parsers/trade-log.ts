@@ -1,6 +1,8 @@
-import type { EodSnapshot, TradeEntry } from '../../types/schema';
+import type { EodSnapshot, OpenPosition, TradeEntry } from '../../types/schema';
 
-const SNAPSHOT_HEADER = /^##\s+Day\s+(\d+)\s+—\s+EOD Snapshot(?:\s*\(([^)]+)\))?\s*$/m;
+const LEGACY_SNAPSHOT_HEADER = /^##\s+Day\s+(\d+)\s+—\s+EOD Snapshot(?:\s*\(([^)]+)\))?\s*$/m;
+const DATED_SNAPSHOT_HEADER =
+  /^##\s+(\d{4}-\d{2}-\d{2})\s+—\s+EOD Snapshot\s*\(Day\s+(\d+)(?:,\s*([^)]+))?\)\s*$/m;
 const METRICS_LINE =
   /\*\*Equity:\*\*\s*([+-]?[\d.]+)%[^|]*\|\s*\*\*Cash:\*\*\s*([+-]?[\d.]+)%\s*\|\s*\*\*Day P&L:\*\*\s*([+-]?[\d.]+)%\s*\|\s*\*\*Phase P&L:\*\*\s*([+-]?[\d.]+)%/;
 
@@ -42,20 +44,100 @@ function splitByRule(md: string): string[] {
   return md.split(/^\s*---\s*$/m).map((s) => s.trim()).filter(Boolean);
 }
 
+function pctOrUndefined(s?: string): number | undefined {
+  if (!s) return undefined;
+  const m = s.replace(/−/g, '-').match(/([+-]?[\d.]+)/);
+  return m ? Number(m[1]) : undefined;
+}
+
+function splitTable(block: string): string[][] {
+  const rows: string[][] = [];
+  for (const raw of block.split('\n')) {
+    const line = raw.trim();
+    if (!line.startsWith('|')) continue;
+    if (/^\|\s*:?-+/.test(line)) continue;
+    const cells = line
+      .replace(/^\||\|$/g, '')
+      .split('|')
+      .map((c) => c.trim());
+    rows.push(cells);
+  }
+  return rows;
+}
+
+function isPlaceholder(s?: string): boolean {
+  return !s || /^[-—…]+$/.test(s.trim());
+}
+
+function parseSnapshotHeader(block: string): Pick<EodSnapshot, 'day' | 'date' | 'note'> | null {
+  const dated = block.match(DATED_SNAPSHOT_HEADER);
+  if (dated) {
+    const [, date, day, weekday] = dated;
+    return {
+      day: Number(day),
+      date,
+      ...(weekday ? { note: weekday.trim() } : {}),
+    };
+  }
+
+  const legacy = block.match(LEGACY_SNAPSHOT_HEADER);
+  if (!legacy) return null;
+  const [, day, note] = legacy;
+  return {
+    day: Number(day),
+    ...(note ? { note: note.trim() } : {}),
+  };
+}
+
+function parseSnapshotPositions(block: string): OpenPosition[] | undefined {
+  const rows = splitTable(block);
+  const headerIdx = rows.findIndex((r) => /^sym(?:bol)?$/i.test(r[0] ?? ''));
+  if (headerIdx < 0) return undefined;
+
+  const positions: OpenPosition[] = [];
+  for (const r of rows.slice(headerIdx + 1)) {
+    const symbol = r[0]?.trim();
+    if (isPlaceholder(symbol)) continue;
+    const weightPct = pctOrUndefined(r[2]);
+    if (weightPct === undefined || weightPct <= 0) continue;
+
+    const position: OpenPosition = { symbol };
+    if (!isPlaceholder(r[1])) position.assetClass = r[1];
+    position.weightPct = weightPct;
+    const unrealizedPct = pctOrUndefined(r[5]);
+    if (unrealizedPct !== undefined) position.unrealizedPct = unrealizedPct;
+
+    // Keep dollar-denominated stop prices out of serialized dashboard props.
+    if (r[6] && !r[6].includes('$') && !isPlaceholder(r[6])) position.stop = r[6];
+    positions.push(position);
+  }
+  return positions;
+}
+
+function parseNote(block: string, fallback?: string): string | undefined {
+  const notes = block.match(/\*\*Notes:\*\*\s*([\s\S]*?)(?:\n\n|$)/i)?.[1]?.trim();
+  const clean = scrubDollars(notes ?? '').replace(/\*\*/g, '').trim();
+  return clean || fallback;
+}
+
 function parseSnapshotBlock(block: string): EodSnapshot | null {
-  const header = block.match(SNAPSHOT_HEADER);
+  const header = parseSnapshotHeader(block);
   if (!header) return null;
-  const day = Number(header[1]);
-  const note = header[2]?.trim();
   const metrics = block.match(METRICS_LINE);
   if (!metrics) return null;
   const [, equityPct, cashPct, dayPnlPct, phasePnlPct] = metrics;
+  const opensThisWeek = block.match(/-\s*Opens this week:\s*(\d+)/i)?.[1];
+  const positions = parseSnapshotPositions(block);
+  const note = parseNote(block, header.note);
   return {
-    day,
+    day: header.day,
+    ...(header.date ? { date: header.date } : {}),
     equityPct: Number(equityPct),
     cashPct: Number(cashPct),
     dayPnlPct: Number(dayPnlPct),
     phasePnlPct: Number(phasePnlPct),
+    ...(opensThisWeek ? { opensThisWeek: Number(opensThisWeek) } : {}),
+    ...(positions !== undefined ? { positions } : {}),
     ...(note ? { note } : {}),
   };
 }
@@ -71,21 +153,25 @@ function parseTradeEntries(tail: string): TradeEntry[] {
   for (const raw of blocks) {
     const body = scrubDollars(raw).trim();
     if (!body) continue;
-    const symMatch = body.match(/\*\*([A-Z][A-Z0-9.]{0,9})\*\*/);
+    const symMatch =
+      body.match(/^###\s+(\d{4}-\d{2}-\d{2})\s+—\s+(OPEN|CLOSE|PARTIAL|MIDDAY ACTIONS)\s+([A-Z][A-Z0-9.]{0,9})/im) ??
+      body.match(/\*\*([A-Z][A-Z0-9.]{0,9})\*\*/);
     if (!symMatch) continue;
+    const headingSide = symMatch.length >= 4 ? symMatch[2]?.toLowerCase() : '';
+    const symbol = symMatch.length >= 4 ? symMatch[3] : symMatch[1];
     const lower = body.toLowerCase();
     let side: TradeEntry['side'] = 'unknown';
-    if (/\bopened?\b|\bopen\s+long\b|\bbuy\b/.test(lower)) side = 'open';
-    else if (/\bclosed?\b|\bexited?\b|\bsold\b/.test(lower)) side = 'close';
-    else if (/\bpartial|\btrim/.test(lower)) side = 'partial';
+    if (headingSide === 'open' || /\bopened?\b|\bopen\s+long\b|\bbuy\b/.test(lower)) side = 'open';
+    else if (headingSide === 'close' || /\bclosed?\b|\bexited?\b|\bsold\b/.test(lower)) side = 'close';
+    else if (headingSide === 'partial' || /\bpartial|\btrim/.test(lower)) side = 'partial';
 
     const dateMatch = body.match(/\b(\d{4}-\d{2}-\d{2})\b/);
-    const sizeMatch = body.match(/Size[:\s]+([\d.]+)%/i);
-    const pnlMatch = body.match(/P&L[:\s]+([+-]?[\d.]+)%/i);
-    const reasonMatch = body.match(/Reason(?:\s+closed)?:\s*(.+)$/im);
+    const sizeMatch = body.match(/(?:Size|amount_pct_equity)[:\s]+([\d.]+)%/i);
+    const pnlMatch = body.match(/(?:P&L|realized|unrealized)[:\s]+([+-]?[\d.]+)%/i);
+    const reasonMatch = body.match(/(?:Reason(?:\s+closed)?|reason):\s*(.+)$/im);
 
     entries.push({
-      symbol: symMatch[1],
+      symbol,
       side,
       body,
       ...(dateMatch ? { date: dateMatch[1] } : {}),
@@ -108,7 +194,7 @@ export function parseTradeLog(md: string): TradeLogParseResult {
   let tradeEntriesTail = '';
 
   for (const block of blocks) {
-    if (SNAPSHOT_HEADER.test(block)) {
+    if (parseSnapshotHeader(block)) {
       const snap = parseSnapshotBlock(block);
       if (snap) snapshots.push(snap);
       continue;

@@ -8,22 +8,37 @@ const SNAPSHOT_LINE =
 
 function splitSections(body: string): Map<string, string> {
   const sections = new Map<string, string>();
-  const re = /^\*\*([^*]+)\*\*\s*$/gm;
-  const matches: Array<{ name: string; start: number; end: number }> = [];
-  let m: RegExpExecArray | null;
-  while ((m = re.exec(body)) !== null) {
-    matches.push({ name: m[1].trim(), start: m.index + m[0].length, end: body.length });
+  const lines = body.split('\n');
+  const matches: Array<{ name: string; line: number; inline: string }> = [];
+
+  for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].match(/^\*\*([^*]+)\*\*(.*)$/);
+    if (!m) continue;
+    const name = m[1]
+      .replace(/:$/, '')
+      .replace(/\s*\([^)]*\)\s*$/, '')
+      .trim()
+      .toLowerCase();
+    matches.push({ name, line: i, inline: m[2].trim() });
   }
+
   for (let i = 0; i < matches.length; i++) {
-    matches[i].end = i + 1 < matches.length ? matches[i + 1].start - matches[i + 1].name.length - 4 : body.length;
-    sections.set(matches[i].name.toLowerCase(), body.slice(matches[i].start, matches[i].end).trim());
+    const start = matches[i].line + 1;
+    const end = i + 1 < matches.length ? matches[i + 1].line : lines.length;
+    const parts = [
+      matches[i].inline,
+      ...lines.slice(start, end),
+    ]
+      .map((l) => l.trimEnd())
+      .filter((l, idx) => idx > 0 || l.length > 0);
+    sections.set(matches[i].name, parts.join('\n').trim());
   }
   return sections;
 }
 
 function parseTradeIdeas(md: string): TradeIdea[] {
   if (!md) return [];
-  if (/^\s*\*\*?None today/i.test(md) || /No new opens|no new positions/i.test(md)) return [];
+  if (/^\s*(?:-\s*)?\*\*?None today/i.test(md) || /No new opens|no new positions/i.test(md)) return [];
 
   const ideas: TradeIdea[] = [];
   const blocks = md.split(/\n(?=\d+\.\s+\*\*)/g);
@@ -80,11 +95,18 @@ function scrubDollarLines(md: string): string {
 }
 
 function classifyDecision(decision: string): ResearchEntry['decisionKind'] {
-  const d = decision.toUpperCase();
+  const d = decision.replace(/\*/g, '').trim().toUpperCase();
   if (/^HOLD\b/.test(d.trim())) return 'HOLD';
   if (/\bOPEN\b/.test(d)) return 'OPEN';
   if (/\bTRIM\b/.test(d)) return 'TRIM';
   return 'OTHER';
+}
+
+function cleanInlineMd(s: string): string {
+  return s
+    .replace(/\*\*/g, '')
+    .replace(/`/g, '')
+    .trim();
 }
 
 function isValidDate(s: string): boolean {
@@ -124,10 +146,10 @@ export function parseResearchLog(md: string): ResearchEntry[] {
     const sections = splitSections(body);
     const marketContextMd = sections.get('market context') ?? '';
     const holdingsCheckMd = sections.get('holdings check') ?? '';
-    const tradeIdeasMd = sections.get('trade ideas') ?? sections.get('trade ideas (0–3 per day; hold is the default)') ?? '';
+    const tradeIdeasMd = sections.get('trade ideas') ?? '';
     const riskFactorsMd = sections.get('risk factors') ?? '';
     const decisionBlock = sections.get('decision') ?? '';
-    const decision = decisionBlock.split('\n')[0]?.trim() ?? '';
+    const decision = cleanInlineMd(decisionBlock.split('\n')[0] ?? '');
 
     entries.push({
       date,
