@@ -12,23 +12,25 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ## 2026-04-24 — EOD Snapshot (Day 5, Friday)
 
-**Equity:** 99.9% of start | **Cash:** 85.1% | **Day P&L:** +0.0% | **Phase P&L:** −0.1%
+**Equity:** 99.8% of start | **Cash:** 85.2% | **Day P&L:** −0.1% | **Phase P&L:** −0.2%
 
 | Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
 |-----|--------|---------|------------|------------|-------------|------------|
-| BTC | crypto |  14.9%  |$78,765.12  |$77,793.20  |    −1.2%    |$70,888.59  |
+| BTC | crypto |  14.8%  |$78,765.12  |$77,500.39  |    −1.6%    |$70,888.59  |
 
-**Notes:** Manual dashboard reconciliation from the live eToro API timestamp
-2026-04-24T08:38:39Z. No trade decision was made here. BTC remains the only
-open position at 14.9% live exposure with a −1.2% unrealized move; cash buffer
-is 85.1%. This entry exists to refresh dashboard state after earlier parser
-misses and can be superseded by the next scheduled daily-summary snapshot.
+**Notes:** Quiet close to the week — pre-market HOLD (ideas=0; BTC thesis
+intact), market-open opened none, midday no-op. BTC drifted from $77,790.71 →
+$77,500.39 on broad crypto softness (position-level −1.6% unrealized, well
+inside the 10% stop band). No adverse BTC catalysts, no rule trips. Day P&L
+−0.1% on virtual equity. 1 open this week (cap 5); 1 position (cap 8); 14.8%
+crypto exposure (cap 50%); 85.2% cash buffer — supersedes the intra-day
+08:38Z reconciliation entry for today.
 
 _Internal (reconciliation only, not shown to user):_
-- Virtual equity: $9,987.01
+- Virtual equity: $9,981.43
 - Virtual cash: $8,502.56
 - Opens this week: 1
-- Real mirror (10%): $998.70
+- Real mirror (10%): $998.14
 
 ---
 
