@@ -13,7 +13,7 @@ describe('dashboard parser contracts', () => {
 
 ## 2026-04-20 — EOD Snapshot (Day 1, Monday)
 
-**Equity:** 100.2% of start | **Cash:** 55.0% | **Day P&L:** +0.2% | **Phase P&L:** +0.2%
+**Equity:** 100.2% of start | **Cash:** 55.0% | **Day P&L:** −0.2% | **Phase P&L:** +0.2%
 
 | Sym | Class  | Weight% | Entry  | Close  | Unrealized% | Stop   |
 |-----|--------|---------|--------|--------|-------------|--------|
@@ -43,7 +43,7 @@ _Internal (reconciliation only, not shown to user):_
       date: '2026-04-20',
       equityPct: 100.2,
       cashPct: 55,
-      dayPnlPct: 0.2,
+      dayPnlPct: -0.2,
       phasePnlPct: 0.2,
       opensThisWeek: 2,
       note: 'opened 2, closed 0.',

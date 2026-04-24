@@ -4,7 +4,7 @@ const LEGACY_SNAPSHOT_HEADER = /^##\s+Day\s+(\d+)\s+—\s+EOD Snapshot(?:\s*\(([
 const DATED_SNAPSHOT_HEADER =
   /^##\s+(\d{4}-\d{2}-\d{2})\s+—\s+EOD Snapshot\s*\(Day\s+(\d+)(?:,\s*([^)]+))?\)\s*$/m;
 const METRICS_LINE =
-  /\*\*Equity:\*\*\s*([+-]?[\d.]+)%[^|]*\|\s*\*\*Cash:\*\*\s*([+-]?[\d.]+)%\s*\|\s*\*\*Day P&L:\*\*\s*([+-]?[\d.]+)%\s*\|\s*\*\*Phase P&L:\*\*\s*([+-]?[\d.]+)%/;
+  /\*\*Equity:\*\*\s*([+−-]?[\d.]+)%[^|]*\|\s*\*\*Cash:\*\*\s*([+−-]?[\d.]+)%\s*\|\s*\*\*Day P&L:\*\*\s*([+−-]?[\d.]+)%\s*\|\s*\*\*Phase P&L:\*\*\s*([+−-]?[\d.]+)%/;
 
 /**
  * Strip every dollar-sensitive construct from a block before returning it
@@ -126,16 +126,28 @@ function parseSnapshotBlock(block: string): EodSnapshot | null {
   const metrics = block.match(METRICS_LINE);
   if (!metrics) return null;
   const [, equityPct, cashPct, dayPnlPct, phasePnlPct] = metrics;
+  const equityValue = pctOrUndefined(equityPct);
+  const cashValue = pctOrUndefined(cashPct);
+  const dayPnlValue = pctOrUndefined(dayPnlPct);
+  const phasePnlValue = pctOrUndefined(phasePnlPct);
+  if (
+    equityValue === undefined ||
+    cashValue === undefined ||
+    dayPnlValue === undefined ||
+    phasePnlValue === undefined
+  ) {
+    return null;
+  }
   const opensThisWeek = block.match(/-\s*Opens this week:\s*(\d+)/i)?.[1];
   const positions = parseSnapshotPositions(block);
   const note = parseNote(block, header.note);
   return {
     day: header.day,
     ...(header.date ? { date: header.date } : {}),
-    equityPct: Number(equityPct),
-    cashPct: Number(cashPct),
-    dayPnlPct: Number(dayPnlPct),
-    phasePnlPct: Number(phasePnlPct),
+    equityPct: equityValue,
+    cashPct: cashValue,
+    dayPnlPct: dayPnlValue,
+    phasePnlPct: phasePnlValue,
     ...(opensThisWeek ? { opensThisWeek: Number(opensThisWeek) } : {}),
     ...(positions !== undefined ? { positions } : {}),
     ...(note ? { note } : {}),
