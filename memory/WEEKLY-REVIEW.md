@@ -43,9 +43,9 @@ landed via a manual re-fire after Wednesday's 13:15Z pre-market aborted and the
 | —      | —     | —    | —     | No closes this week.          |
 
 **Open positions EOW**
-| Symbol | Class  | Weight% | Unrealized% | Stop       |
-|--------|--------|---------|-------------|------------|
-| BTC    | crypto |  14.8%  |    −1.6%    | $70,888.59 |
+| Symbol | Class  | Weight% | Unrealized% | Stop  |
+|--------|--------|---------|-------------|-------|
+| BTC    | crypto |  14.8%  |    −1.6%    | −10%  |
 
 Cash: 85.2% of equity. Deployed: 14.8%. Opens-this-week: 1 of 5 budget. Class
 exposure: crypto 14.8% (cap 50%).
@@ -227,7 +227,7 @@ fully flat going into a no-catalyst Friday).
 **Open positions EOW**
 | Symbol | Class | Weight% | Unrealized% | Stop |
 |--------|-------|---------|-------------|------|
-| …      | …     |  X%     |    ±X%      |  …   |
+| …      | …     |  X%     |    ±X%      | −10% |
 
 **What worked** (3–5 bullets)
 - …

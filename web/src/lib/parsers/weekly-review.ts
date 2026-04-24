@@ -88,7 +88,10 @@ function parseOpen(md: string): OpenPosition[] {
     if (w !== undefined) p.weightPct = w;
     const u = pctOrUndefined(r[3]);
     if (u !== undefined) p.unrealizedPct = u;
-    if (r[4]) p.stop = r[4];
+    // Stops must be expressed as a percentage (per CLAUDE.md: user-facing text
+    // is percentages only). A `$`-prefixed absolute price would serialize into
+    // the dashboard HTML and trip check-no-dollars, so scrub here.
+    if (r[4] && !r[4].includes('$')) p.stop = r[4];
     positions.push(p);
   }
   return positions;
