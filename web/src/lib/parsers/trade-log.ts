@@ -190,13 +190,13 @@ export interface TradeLogParseResult {
 
 export function parseTradeLog(md: string): TradeLogParseResult {
   const blocks = splitByRule(md);
-  const snapshots: EodSnapshot[] = [];
+  const snapshotBlocks: Array<{ snapshot: EodSnapshot; sourceIndex: number }> = [];
   let tradeEntriesTail = '';
 
-  for (const block of blocks) {
+  for (const [sourceIndex, block] of blocks.entries()) {
     if (parseSnapshotHeader(block)) {
       const snap = parseSnapshotBlock(block);
-      if (snap) snapshots.push(snap);
+      if (snap) snapshotBlocks.push({ snapshot: snap, sourceIndex });
       continue;
     }
     if (/^##\s+Trade entries/m.test(block)) {
@@ -206,7 +206,9 @@ export function parseTradeLog(md: string): TradeLogParseResult {
   }
 
   const trades = tradeEntriesTail ? parseTradeEntries(tradeEntriesTail) : [];
-  snapshots.sort((a, b) => a.day - b.day);
+  const snapshots = snapshotBlocks
+    .sort((a, b) => a.snapshot.day - b.snapshot.day || b.sourceIndex - a.sourceIndex)
+    .map(({ snapshot }) => snapshot);
   return { snapshots, trades };
 }
 

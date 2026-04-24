@@ -10,6 +10,28 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-04-24 — EOD Snapshot (Day 5, Friday)
+
+**Equity:** 99.9% of start | **Cash:** 85.1% | **Day P&L:** +0.0% | **Phase P&L:** −0.1%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  14.9%  |$78,765.12  |$77,793.20  |    −1.2%    |$70,888.59  |
+
+**Notes:** Manual dashboard reconciliation from the live eToro API timestamp
+2026-04-24T08:38:39Z. No trade decision was made here. BTC remains the only
+open position at 14.9% live exposure with a −1.2% unrealized move; cash buffer
+is 85.1%. This entry exists to refresh dashboard state after earlier parser
+misses and can be superseded by the next scheduled daily-summary snapshot.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,987.01
+- Virtual cash: $8,502.56
+- Opens this week: 1
+- Real mirror (10%): $998.70
+
+---
+
 ## 2026-04-23 — EOD Snapshot (Day 4, Thursday)
 
 **Equity:** 99.9% of start | **Cash:** 85.1% | **Day P&L:** −0.2% | **Phase P&L:** −0.1%

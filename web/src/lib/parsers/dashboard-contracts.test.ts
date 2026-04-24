@@ -54,6 +54,45 @@ _Internal (reconciliation only, not shown to user):_
     ]);
   });
 
+  it('prefers the newest file entry when duplicate snapshot days exist', () => {
+    const md = `# Trade Log
+
+---
+
+## 2026-04-24 — EOD Snapshot (Day 5, Friday)
+
+**Equity:** 100.1% of start | **Cash:** 85.1% | **Day P&L:** +0.2% | **Phase P&L:** +0.1%
+
+| Sym | Class  | Weight% | Entry  | Close  | Unrealized% | Stop   |
+|-----|--------|---------|--------|--------|-------------|--------|
+| BTC | crypto |  15.1%  |$75000  |$76000  |    +1.2%    |$67500  |
+
+---
+
+## 2026-04-24 — EOD Snapshot (Day 5, Friday)
+
+**Equity:** 99.9% of start | **Cash:** 85.1% | **Day P&L:** 0.0% | **Phase P&L:** -0.1%
+
+| Sym | Class  | Weight% | Entry  | Close  | Unrealized% | Stop   |
+|-----|--------|---------|--------|--------|-------------|--------|
+| BTC | crypto |  14.9%  |$75000  |$76000  |    -1.2%    |$67500  |
+
+---
+
+## 2026-04-23 — EOD Snapshot (Day 4, Thursday)
+
+**Equity:** 99.9% of start | **Cash:** 85.1% | **Day P&L:** -0.2% | **Phase P&L:** -0.1%
+`;
+
+    const parsed = parseTradeLog(md);
+
+    expect(parsed.snapshots.at(-1)).toMatchObject({
+      day: 5,
+      equityPct: 100.1,
+      positions: [{ symbol: 'BTC', assetClass: 'crypto', weightPct: 15.1, unrealizedPct: 1.2 }],
+    });
+  });
+
   it('parses inline research decisions and none-today ideas', () => {
     const md = `# Research Log
 
