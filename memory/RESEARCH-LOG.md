@@ -6,6 +6,56 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-04-24 — Friday Pre-Market (08:00 ET)
+
+**Snapshot:** Equity 100.0% of start | Cash 85.0% | Open positions: 1 (BTC) | Week opens so far: 1 | Weekly budget remaining: 4 of 5
+
+**Market context** (as-of 2026-04-24 ~13:17 UTC, percentages only; data-source conflicts flagged below)
+- **S&P 500 futures (ES Jun-2026 / ESM26): ~+0.38% overnight** to ~7170.75. Modest risk-on drift; chipmaker strength cited as the tape driver. No top-tier US macro releases and no FOMC events on the calendar — a quiet into-the-weekend read.
+- VIX / US 10Y yield: **no fresh overnight prints** from Perplexity. Carry-forward VIX ~17.7 / 10Y ~4.30%.
+- **Oil (WTI): ~+1.90% daily to ~$97.67/bbl** per Perplexity; one source framed "Strait of Hormuz tensions," another noted 79% Polymarket probability of a down close. This continues the unresolved **narrative conflict** flagged Thursday: Iran-ceasefire-indefinite (our operative truth) vs. intermittent Perplexity "Hormuz disruption" flashes. No corroborating ceasefire-breakdown headline today; treating Iran de-escalation as intact and oil's move as a supply-side squiggle, not a risk-off signal. Will reconcile midday.
+- DXY: no fresh print; carry-forward ~98.2.
+- **BTC: live eToro ask $78,344.24 at 13:17 UTC (closeRate $78,378.35 in 13:14 pnl).** Roughly flat vs yesterday's $77,990 close (+0.4%). **Perplexity returned a wildly stale $73,700 print** — contradicted by live eToro data, yesterday's $77–78k consolidation, and the TRADE-LOG close series. Using eToro as the operative reference. Position-level unrealized: **−0.49%** (−$7.38 on $1,503 margin), well inside the 10% stop band.
+- **ETH: live eToro ask $2,327.71.** Essentially flat vs yesterday's ~$2,328 reference. **ETH/BTC ratio: 2327.71 / 78344.24 = 0.02971** (vs yesterday ~0.02985) — **still contracting, not expanding.** The specific watchlist trigger from 4/22 / 4/23 (BTC bid + ETH/BTC ratio expanding) has not fired.
+- **Today's macro catalysts:** **No top-tier US macro releases** surfaced by Perplexity. **No confirmed pre-open earnings**. Bank-earnings tail (JPM / BAC / C / MS) still generic "this week" framing — no confirmed Friday print. Next FOMC April 29.
+- **TSLA post-earnings (reported after-close 4/22):** **Beat headline** — non-GAAP EPS $0.41 vs $0.36, revenue $22.387B vs $22.35B, gross margin 21.1% (+478bps YoY), free cash flow $1.44B. **Mixed internals** — Q1 deliveries 358,023 missed by ~7,600 units, built > sold by 50k (inventory build), energy storage −38% QoQ to 8.8 GWh vs 12–14 GWh consensus. Net read: beat-on-profitability with deliveries/storage miss is a **muted** TSLA-specific catalyst, not a broad XLK/QQQ re-rating trigger. XLK printed **−1.48% on 4/23** — tech sold off into the print; no clean post-earnings re-acceleration setup visible pre-market.
+- **Sector momentum (YTD through 4/22, per Perplexity):** XLE **+27.29%** (still leader, still fighting oil narrative), XLP **+6.30%**, XLU **+5.84%**, XLF **−4.18%**. 5-day sector prints thin; XLK −1.48% single-day Thursday is the only fresh sector data. Carry-forward read: tech leadership decelerating, defensives rangebound, energy leading on YTD but under pressure.
+- **Crypto sector news (past 24h):** No overnight gap >3% on BTC. No major regulatory headlines since 4/23 close. Digital Asset Market Clarity Act still in late-stage negotiation (2–3 issues remaining) — legislative backdrop is supportive but not a today-catalyst. UK FCA stablecoin/staking consultation targeting June 3 finalization — also not today. No exchange incidents reported.
+- **Geopolitics:** Iran-ceasefire-indefinite holding. No fresh war / central-bank / regulator headlines overnight. Dominant market-positive narrative remains.
+
+**Holdings check**
+- **BTC (14.96% weight, −0.49% unrealized, stop $70,888.59)** — **thesis INTACT.** Position opened 4/22 at ask $78,765.12; current live ask $78,344.24 (−0.53% vs entry ex-fees; pnl reports −0.49% unrealized net). All three original catalysts still live: Iran ceasefire indefinite, MicroStrategy $2.54B buy (no unwind), 3-month breakout above $76k support. No adverse news since yesterday's close. Still below the $79k break-and-hold trigger that would warrant an add. **Hold.**
+
+**Trade ideas** (0–5 per day)
+
+No A-grade idea clears the pre-buy gate today. Screened and rejected:
+
+1. **BTC add** — instrumentID: `100000`, Crypto. **Rejected: watchlist trigger not fired.** Thursday's entry specified: "clean break-and-hold above $79k with no adverse headline." BTC ask $78,344 is **below $79k**, not above. A second crypto slug on a non-triggered breakout would push class exposure 15% → ~25% on weakening setup. Defer.
+2. **ETH** — instrumentID: `100001`, Crypto. **Rejected: watchlist trigger not fired.** ETH/BTC ratio 0.02971 is **contracting** (vs 0.02985 Thursday). The add-condition was "ratio resumes expansion." Still no. Deferred for the third consecutive day.
+3. **XLK / QQQ (Tech ETFs)** — **Rejected: TSLA beat was mixed and XLK already sold off.** TSLA post-earnings is a muted catalyst (profitability beat, delivery/storage miss); XLK −1.48% on 4/23 is a pullback but with no confirming reversal signal pre-market. Entering long into a mixed-earnings / selling-day tape on Friday is chasing a reactive setup, not an A-grade catalyst. Market-open routine can re-evaluate from live post-open tape if XLK reclaims 10DMA with volume; pre-market pre-commit is not justified.
+4. **Bank earnings pre-positioning (JPM / BAC / C / MS)** — **Rejected: still no confirmed Friday report date.** Same situation as Mon–Thu entries. Pre-buy gate requires catalyst today; speculating on unconfirmed timing violates the rule.
+5. **Energy (XLE)** — **Rejected.** WTI +1.90% today is a single-day squiggle within an unresolved Iran-narrative conflict; the dominant de-escalation read is intact. No clean energy long catalyst.
+6. **TSLA direct** — **Rejected.** Binary post-earnings entry into mixed internals is a coin flip. No edge.
+
+**Risk factors**
+- **Concentration: BTC remains the whole book.** 14.96% crypto, nothing else. Any BTC-specific risk-off (Iran-ceasefire breakdown, exchange incident, large miner unwind, regulatory shock) hits today's P&L in size. Stop at $70,888.59 is the backstop; manual −7% cut line is an additional midday backstop.
+- **Data quality — Perplexity BTC price wildly stale ($73.7k claim vs live $78.3k).** Perplexity returned a ~$4.6k-off BTC reference this morning. Treating all Perplexity quantitative prints with skepticism; live eToro rates are the operative truth. If midday sees further Perplexity drift, prefer eToro `rates` + native `WebSearch` for cross-checks.
+- **Oil / Iran narrative conflict unresolved.** WTI +1.90% daily print sits on top of a multi-day Perplexity conflict between "ceasefire-indefinite" (corroborating) and "Hormuz disruption" (hallucination-flavored). No corroborating risk-off headline elsewhere (equity futures green, BTC holding) so the operative read is "oil noise, not regime change" — but a midday cash-market re-check is prudent if WTI extends.
+- **Friday-into-weekend gap risk.** Crypto trades 24/7; a weekend headline (regulatory, exchange, geopolitical) can re-price BTC before Monday with no ability to act. Position is sized for this (15%, 10% stop). Nothing warrants a pre-weekend trim — thesis is intact — but the concentration is the weekend exposure.
+- **Weekly budget underuse vs discipline.** Opens-this-week 1 of 5 heading into the final session. Strategy explicitly permits no-A-grade → HOLD, not forcing trades. Today's setup (no top-tier catalysts, no confirmed earnings, mixed TSLA read, oil-narrative noise) does not warrant forcing a B-grade entry. Weekly review at 16:30 ET will grade this appropriately.
+- **Cash drag, Day 5.** 85% cash all week. Defensible: one A-grade BTC setup fired Wednesday; Monday/Tuesday/Thursday/Friday did not clear the gate. Not chasing unconvinced setups is the correct posture given the macro-quiet tape.
+
+**Watchlist (carry into next week)**
+- **BTC add** — only on a clean break-and-hold above $79k with no adverse headline. Would push class exposure 15% → ~25%.
+- **ETH** — re-engage when ETH/BTC ratio resumes expansion (ETH day-gain > BTC day-gain while BTC bid holds).
+- **XLK / QQQ** — pullback-to-10DMA entry on a benign tape, or a fresh catalyst (sector-wide re-rating, not single-name TSLA).
+- **JPM / BAC / C / MS** — confirm the actual report date first; last week's bank beats set a bullish bar.
+- **Energy mean-reversion** — dead until Iran talks visibly break down (still no signal of that).
+
+**Decision:** **HOLD.** No new opens today. BTC position stays (thesis intact, stop at −10% unchanged, unrealized −0.49% well inside stop band). No trims required (BTC 14.96% weight is under all caps). Opens-this-week stays at 1 of 5; week closes with one fill. No urgent ClickUp alert — BTC at −0.49% is nowhere near the −7% cut line, and no overnight news broke its thesis.
+
+---
+
 ### 2026-04-23 — Thursday Pre-Market (08:00 ET)
 
 **Snapshot:** Equity 99.9% of start | Cash 85.1% | Open positions: 1 (BTC) | Week opens so far: 1 | Weekly budget remaining: 4 of 5
