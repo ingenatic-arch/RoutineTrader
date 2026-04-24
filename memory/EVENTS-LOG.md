@@ -49,3 +49,4 @@ Percentages only — no dollar references.
 2026-04-23T20:28:33Z | unknown | ok | 📊 Daily summary 2026-04-23 (Day 4) Equity: 99.9% of start / Day P&L: −0.2% / Phase: −0.1% Cash: 85.1% / Positions: 1 / Opens this week: 1/5 Positions: • BTC (crypto) 14.9% / −1.2% / stop −10% Today: opened 0, closed 0, trimmed 
 2026-04-23T20:28:42Z | daily-summary | ok | EOD snapshot committed; day P&L -0.2%; equity 99.9%
 2026-04-24T13:20:09Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; BTC thesis intact unrealized -0.49%
+2026-04-24T13:37:17Z | market-open | ok | Opened: none; positions=1 (BTC held); research decision=HOLD
