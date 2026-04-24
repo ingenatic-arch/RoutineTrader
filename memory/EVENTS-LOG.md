@@ -50,3 +50,4 @@ Percentages only — no dollar references.
 2026-04-23T20:28:42Z | daily-summary | ok | EOD snapshot committed; day P&L -0.2%; equity 99.9%
 2026-04-24T13:20:09Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; BTC thesis intact unrealized -0.49%
 2026-04-24T13:37:17Z | market-open | ok | Opened: none; positions=1 (BTC held); research decision=HOLD
+2026-04-24T15:39:14Z | midday | ok | Closed: none; trimmed: none; positions=1
