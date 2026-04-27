@@ -60,3 +60,5 @@ Percentages only — no dollar references.
 2026-04-27T13:42:23Z | market-open | ok | Opened: XLE; positions=2
 2026-04-27T13:43:43Z | market-open | ok | Duplicate-run no-op: today's XLE was already filled by 13:42:19Z cron run (commit 595a564); detected pos 3417170896 in pnl, no new orders placed; positions=2
 2026-04-27T15:45:03Z | midday | ok | Closed: none; trimmed: none; positions=2 (XLE -1.2%, BTC -2.2%); thesis intact
+2026-04-27T20:26:53Z | unknown | ok | 📊 Daily summary 2026-04-27 (Day 6) Equity: 99.6% of start / Day P&L: −0.2% / Phase: −0.4% Cash: 75.3% / Positions: 2 / Opens this week: 1/5 Positions: • XLE (etf) 9.9% / −1.3% / stop −10% • BTC (crypto) 14.8% / −2.3% / stop
+2026-04-27T20:26:55Z | daily-summary | ok | EOD snapshot committed; day P&L -0.2%; equity 99.6%

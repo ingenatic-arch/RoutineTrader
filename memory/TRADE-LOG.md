@@ -10,6 +10,33 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-04-27 — EOD Snapshot (Day 6, Monday)
+
+**Equity:** 99.6% of start | **Cash:** 75.3% | **Day P&L:** −0.2% | **Phase P&L:** −0.4%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| XLE | etf    |   9.9%  |$57.55      |$56.78      |    −1.3%    |$51.79      |
+| BTC | crypto |  14.8%  |$78,765.12  |$76,978.13  |    −2.3%    |$70,888.59  |
+
+**Notes:** Active Monday — market-open added XLE long at 10% weight on the
+WTI +2% / Iran-talks-stalled / Hormuz-disruption thesis (research-log
+2026-04-27, A-grade). Fill 57.54 ask vs 57.55 open rate (~0bp slippage). BTC
+drifted from $77,500.39 → $76,978.13 (position-level −2.3% unrealized) on
+broad crypto softness, no adverse catalyst; XLE softened from $57.55 entry
+→ $56.78 (−1.3%). Both well inside the −10% stop band. Midday no-op (BTC
+thesis intact, XLE just opened). Day P&L −0.2% on virtual equity. No rule
+trips. 1 open this week (cap 5); 2 positions (cap 8); 14.8% crypto + 9.9%
+ETF = 24.7% invested (cap 50% per class); 75.3% cash buffer.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,956.59
+- Virtual cash: $7,502.06
+- Opens this week: 1
+- Real mirror (10%): $995.66
+
+---
+
 ## 2026-04-24 — EOD Snapshot (Day 5, Friday)
 
 **Equity:** 99.8% of start | **Cash:** 85.2% | **Day P&L:** −0.1% | **Phase P&L:** −0.2%
