@@ -122,6 +122,13 @@ No positions yet. Routines activate on next scheduled fire.
 
 _(market-open and midday routines append under here. Newest on top.)_
 
+### 2026-04-27 — OPEN XLE (ETF — Energy)
+- instrumentID: 3008 | order token: a17f9f5f-7a7a-4296-b9c2-b9e51a16c94d | orderID: 1439795801
+- side: long | leverage: 1
+- amount_usd (internal): $999.00 | amount_pct_equity: 10.0%
+- entry ask: $57.54 | stop: $51.7860 (−10%) | target: $69.0480 (+20%) | R:R: 2.0:1
+- thesis: WTI +2% overnight on Iran-talks-stalled + Hormuz disruptions; XLE pulled back ~7% from highs while still YTD leader at +28% (research-log 2026-04-27)
+
 ### 2026-04-22 — OPEN BTC (Crypto)
 - instrumentID: 100000 | order token: 26e1629d-0a21-4b8a-9eaf-08c0e8bb781f | orderID: 1435392803
 - side: long | leverage: 1
