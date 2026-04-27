@@ -55,3 +55,4 @@ Percentages only — no dollar references.
 2026-04-24T20:27:53Z | daily-summary | ok | EOD snapshot committed; day P&L -0.1%; equity 99.8%; positions 1; opens-this-week 1/5
 2026-04-24T20:40:40Z | unknown | ok | 📅 Weekly review — week of 2026-04-20 → 2026-04-24 Return: −0.4% / S&P 500: +0.5% / Alpha: −0.9% / Phase: −0.2% 60/40 proxy: +1.5% / Alpha vs 60/40: −1.9% Grade: B Stats: 1 opened / 0 closed / Win rate n/a / Best n/a / Worst n
 2026-04-24T20:40:47Z | weekly-review | ok | Week committed; grade=B; return=-0.4%; alpha=-0.9% vs SPX; alpha=-1.9% vs 60/40; 1 routine open (BTC); 0 closes
+2026-04-27T13:14:20Z | pre-market | ok | Research committed; decision=OPEN 1 (XLE ~10%); ideas=1

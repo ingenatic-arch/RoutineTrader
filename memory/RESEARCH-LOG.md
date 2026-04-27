@@ -6,6 +6,47 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-04-27 — Monday Pre-Market (08:00 ET)
+
+**Snapshot:** Equity 99.9% of start | Cash 85.2% | Open positions: 1 (BTC) | Week opens so far: 0 | Weekly budget remaining: 5 of 5 (fresh week)
+
+**Market context** (as-of 2026-04-27 ~13:10 UTC, percentages only; data-source conflicts flagged below)
+- **S&P 500 futures (ES Jun-2026 / ESM26): ~+0.7% recent** per Perplexity (Friday cash-S&P closed +0.8% with S&P + Nasdaq finishing at **record highs**, Nvidia retaking $5T, semis week +11%). No precise overnight tick from Sun-close → Mon-cash, so treat the +0.7% as directional, not exact.
+- VIX / US 10Y yield / DXY: **no fresh overnight prints** from research sources today. Carry-forward VIX ~17.7 / 10Y ~4.30% / DXY ~98.3 from prior pre-market reads.
+- **WTI crude: ~+2% overnight to $96.17–$96.85/bbl** on **Iran-talks-stalled** + Strait-of-Hormuz disruptions resurfacing. **This re-rates oil back into the pre-Hormuz-reopen range** — a meaningful regime change vs the 4/20 thesis (WTI had crashed −11.45% on Hormuz reopening). Energy thesis is back on the table.
+- **BTC overnight: roughly flat to +0.3%** ($77,706 vs Fri close $77,500 → +0.27% snapshot). ETH no fresh print; carry-forward ~$2,300s. No regulatory / ETF-flow weekend headlines surfaced. Quiet crypto tape.
+- **Today's catalysts:**
+  - **Earnings:** GM ($2B profit-jump guide), American Airlines (miss + better outlook), Boeing (rising 4Q cash), UPS (beat 2026 sales outlook), UnitedHealth (2026 sales-dip guide) noted in pre-open watchlist — most are reaction prints, not fresh-today reports.
+  - **Macro:** **No top-tier US data scheduled for Monday.** Tuesday: Case-Shiller 9:00 ET + Conf. Board Consumer Confidence 10:00 ET. **Wednesday: FOMC statement + Powell presser** (consensus = hold at 3.50–3.75%).
+  - **Geopolitics:** Iran tensions back (talks stalled, Hormuz disruptions) — drives oil bid + DXY firm. No central-bank surprise headlines.
+- **Sector momentum (YTD through ~4/24):** XLE **+28.0%** (clear leader, but −7.2% past month — leader pulled back into base), XLU +8.9%, XLP +7.8%, XLF −5.6%, XLK closing 160.34 (+0.07% Fri but week-of-records on semis). No clean 5-day prints for XLV/XLI from sources. Tape character: tech-led record highs Friday + energy basing on fresh oil bid.
+
+**Holdings check**
+- **BTC** (14.85% weight, unrealized −1.34%) — **thesis intact.** No adverse weekend headlines (no exchange hack, no regulatory shock, no ETF outflow story); price drifted +0.27% over the weekend. Stop $70,888.59 untouched (current −1.3% vs −10% rule). Hold.
+
+**Trade ideas** (0–5 per day; HOLD is default when no idea clears the gate)
+
+1. **XLE** (ETF — energy sector) — instrumentId: `3008` (exact `internalSymbolFull` match)
+   - **Catalyst:** WTI +2% overnight to $96 on Iran-talks-stalled + Hormuz disruptions = clean **fresh today** macro driver into a sector that just pulled back ~7% from highs (mean-rev + catalyst combo). Energy still **YTD leader at +28%**, but 4-week pullback unwound the "doji-prone leader chase" risk that voided the same setup on 4/17.
+   - **Entry:** ask near **$56.91** (last quote = Fri 19:59 UTC; market re-opens 9:30 ET — market-open routine will re-quote)
+   - **Stop (−10%):** $51.22
+   - **Target (+20%, 2:1 R:R):** $68.29
+   - **Size:** **10% of equity** (~$1,000 virtual / ~$100 real-mirror). Conservative first tranche given (a) Iran-headline whipsaw history, (b) leader still digesting recent weakness, (c) Wednesday FOMC adds mid-week volatility.
+   - **R:R:** 2:1
+   - **Asset-class check:** ETF/stocks class exposure currently 0% — well inside the 50% class cap. Position-after-fill 2 of 8.
+   - **Pre-buy gate (verify at market-open):** positions ≤ 8 ✓ (2/8); opens-this-week + 1 ≤ 5 ✓ (1/5); cost ≤ 30% ✓ (10%); cash buffer ≥ 5% after ✓ (~75% post-fill); class ≤ 50% ✓; catalyst documented ✓ (this entry); exact symbol match ✓; order body Leverage=1, IsBuy=true, StopLossRate set ✓.
+
+**Risk factors**
+- **Iran-headline whipsaw.** Same Iran/Hormuz news has flipped WTI ±10% twice in two weeks. A Sunday-night/Monday-AM "talks-resume" headline would unwind today's oil bid and pressure XLE intraday.
+- **FOMC Wednesday.** Even with a "hold" baseline, Powell's tone (sticky-inflation hawkish vs growth-cool dovish) drives sector rotation. Position size deliberately small to absorb a hawkish surprise.
+- **Tech-led record-high tape** could pull rotation flows out of energy/defensives — XLE has historically lagged on days where semis lead the index higher.
+- **BTC weekend gap risk** is now mostly behind us (Sunday/Monday cash open with BTC roughly flat); midday backstop −7% rule still in play.
+- **Data-source thinness.** VIX, 10Y, DXY, ETH all carry-forward from prior days — treat regime reads as directional, not precise.
+
+**Decision:** **OPEN 1** (XLE ~10% of equity at market-open) for any A−/A-grade prints on Iran-headline persistence into 9:30 ET. **TRIM:** none required (no over-concentration). **Default fallback:** if Iran headlines flip "talks resume" between now and 9:30 ET (and WTI reverses below $94), market-open should drop XLE and HOLD — the catalyst is the entire thesis.
+
+---
+
 ### 2026-04-24 — Friday Pre-Market (08:00 ET)
 
 **Snapshot:** Equity 100.0% of start | Cash 85.0% | Open positions: 1 (BTC) | Week opens so far: 1 | Weekly budget remaining: 4 of 5
