@@ -69,3 +69,4 @@ Percentages only — no dollar references.
 2026-04-28T20:27:23Z | daily-summary | ok | EOD snapshot committed; day P&L +0.0%; equity 99.6%
 2026-04-29T13:25:19Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; FOMC day (14:00 ET); XLE +0.3% / BTC -2.1% both intact
 2026-04-29T13:39:40Z | market-open | ok | Opened: none (research HOLD pre-FOMC); positions=2
+2026-04-29T15:39:49Z | midday | ok | Closed: none; trimmed: none; positions=2 (XLE +1.6%, BTC -3.3%); cash=75.2%; no rule trips, theses intact
