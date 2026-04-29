@@ -10,6 +10,36 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-04-29 — EOD Snapshot (Day 8, Wednesday)
+
+**Equity:** 99.7% of start | **Cash:** 75.2% | **Day P&L:** +0.1% | **Phase P&L:** −0.3%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| XLE | etf    |  10.3%  |$57.55      |$59.05      |    +2.6%    |$51.79      |
+| BTC | crypto |  14.5%  |$78,765.12  |$75,604.00  |    −4.0%    |$70,888.59  |
+
+**Notes:** Quiet Wednesday — no opens, no closes, no trims. Pre-market HOLD on
+the fresh slate (no A-grade ideas cleared the gate). Market-open opened
+nothing; midday no-op (XLE thesis intact and strengthening at +2.6%, BTC
+thesis intact and well inside the −10% stop band). XLE firmed sharply from
+$57.71 → $59.05 (+2.3% from yesterday's close, position now +2.6% unrealized
+on continued WTI/Hormuz risk-premium tailwind). BTC softened further from
+$76,380.72 → $75,604.00 (position-level −4.0%, still well inside the −10% stop
+band) on continued broad crypto-tape weakness, no adverse catalyst. Day P&L
++0.1% on virtual equity (XLE mark-to-market gain of +$22.94 partially offset
+by BTC weakness of −$14.66, net +$8.28). No rule trips. 1 open this week
+(cap 5); 2 positions (cap 8); 14.5% crypto + 10.3% ETF = 24.8% invested
+(cap 50% per class); 75.2% cash buffer.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,969.78
+- Virtual cash: $7,502.06
+- Opens this week: 1
+- Real mirror (10%): $996.98
+
+---
+
 ## 2026-04-28 — EOD Snapshot (Day 7, Tuesday)
 
 **Equity:** 99.6% of start | **Cash:** 75.3% | **Day P&L:** +0.0% | **Phase P&L:** −0.4%

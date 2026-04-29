@@ -70,3 +70,5 @@ Percentages only — no dollar references.
 2026-04-29T13:25:19Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; FOMC day (14:00 ET); XLE +0.3% / BTC -2.1% both intact
 2026-04-29T13:39:40Z | market-open | ok | Opened: none (research HOLD pre-FOMC); positions=2
 2026-04-29T15:39:49Z | midday | ok | Closed: none; trimmed: none; positions=2 (XLE +1.6%, BTC -3.3%); cash=75.2%; no rule trips, theses intact
+2026-04-29T20:27:43Z | unknown | ok | 📊 Daily summary 2026-04-29 (Day 8) Equity: 99.7% of start / Day P&L: +0.1% / Phase: −0.3% Cash: 75.2% / Positions: 2 / Opens this week: 1/5 Positions: • XLE (etf) 10.3% / +2.6% / stop −10% • BTC (crypto) 14.5% / −4.0% / stop �
+2026-04-29T20:27:48Z | daily-summary | ok | EOD snapshot committed; day P&L +0.1%; equity 99.7%
