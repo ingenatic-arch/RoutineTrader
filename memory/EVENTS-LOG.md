@@ -75,3 +75,4 @@ Percentages only — no dollar references.
 2026-04-30T13:10:09Z | pre-market | ok | Research committed; decision=HOLD; ideas=0 (post-FOMC oil-shock tape); 7 candidates screened (XOM/CVX/USO/XLE-add/GLD/ETH/XLK) all rejected — energy entries late after WTI +7% / Friday XOM-CVX earnings binary; BTC -3.1% / XLE +2.6% theses intact
 2026-04-30T13:39:12Z | market-open | ok | Opened: none; positions=2 (BTC, XLE); decision HOLD per RESEARCH-LOG
 2026-04-30T13:46:31Z | pre-market | ok | Duplicate invocation noop / today's pre-market already ran 13:10Z (decision=HOLD, ideas=0) / RESEARCH-LOG intact / market-open at 13:39Z already consumed it / positions=2 (XLE +2.4% / BTC -2.9%) theses intact
+2026-04-30T15:38:30Z | midday | ok | no-op; XLE +3.75% (thesis intact), BTC -2.89% (thesis intact); positions=2; cash=75.0%
