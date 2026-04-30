@@ -6,6 +6,56 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-04-30 — Thursday Pre-Market (08:00 ET) — POST-FOMC, OIL +7%
+
+**Snapshot:** Equity 99.8% of start | Cash 75.2% | Open positions: 2 (BTC, XLE) | Week opens so far: 1 | Weekly budget remaining: 4 of 5
+
+**Market context** (as-of 2026-04-30 ~13:05 UTC, percentages only; data-source gaps flagged below)
+- **S&P 500 futures (ESM26):** Perplexity returned no clean overnight print; carry-forward from 4/27 ESM6 ~7,210 (above prior all-time-high band). Prediction-market odds suggest >97% settle ≥7,150 on 4/29. Weak data quality on the cash-equity tape this morning — flagged.
+- **VIX / 10Y / DXY:** no fresh prints (fourth consecutive thin morning on these). Carry-forward VIX ~17–18, 10Y ~4.30%, DXY ~98.4.
+- **WTI crude — MAJOR ESCALATION.** June 2026 futures (CLM26) closed **+6.95% on 4/29** to ~$106 area. Spot WTI ~$108. This is on top of the prior 8-day rally (4/29 entry noted +3.4% then). Driver: Hormuz still de-facto closed; Iran talks remain stalled. Brent–WTI spreads continue to widen on shipping costs. **One Perplexity result mentioned "UAE exiting OPEC" — unconfirmed in cross-source; flagging as a potential cross-current that could complicate the long-energy thesis if real, since OPEC discipline weakening is medium-term bearish even if Hormuz keeps the spot bid.** Net read: the energy bid is materially stronger than yesterday, and yesterday's flagged path (XOM/CVX direct on Thu/Fri post-FOMC) is now active-window — but the entry is later (oil already pre-paid +7%).
+- **BTC:** $76,200–$77,000 overnight; eToro live $76,314.70 at 13:04Z. Mild softness vs yesterday's $77.0k consolidation. April monthly +16% (highest since Oct 2025). **US spot BTC-ETF April net inflows ~$2.44B** (cumulative; highest since Oct 2025 per Perplexity). MicroStrategy added 3,273 BTC (~818k total). 9-day inflow streak persisting.
+- **ETH:** ~$2,260 (–0.5% intraday); ETH/BTC ratio at YTD highs; April rally double-digit on the alts.
+- **Today's catalysts (light/uncertain — Perplexity returned no clear catalyst calendar):**
+  - **No top-tier US macro release confirmed** for 4/30 in research (jobless claims is the standard Thursday print but Perplexity didn't surface time/consensus — treating as unconfirmed soft tape).
+  - **Earnings:** Perplexity surfaced "Intel surging in after-hours" (presumably reported 4/29 PM) and "earnings surprises across nine sectors" — non-specific. **XOM reports Friday 5/1 pre-market 5:30 CT** (confirmed). CVX timing not surfaced but historically same week.
+  - **Geopolitics:** Iran/Hormuz oil-bid story is the dominant tape driver for the second consecutive day.
+- **Sector momentum (YTD through ~4/29):** **XLE +32.89% YTD** (extended leader, accelerating — added another ~+1% from 4/28→4/29, XLE intraday $59.05 vs 4/29 close $58.28 = another +1.32% so far today). **XLI +9.86% YTD**, XLF –4.72% YTD, XLV –6.70% YTD. XLK YTD not surfaced; carry-forward strong (1Y +35%). Apr 24 daily prints: XLK +1.78%, XLI +0.26%, XLE −0.83%, XLV −0.71%, XLF flat. **Energy is the only obviously-confirmed-strong tape today.**
+
+**Holdings check**
+- **BTC** (instrumentID 100000, weight ~14.6% of equity, unrealized **−3.11%**) — **thesis INTACT.** April ETF inflow at $2.44B (a multi-month high), MicroStrategy adding, BTC consolidating in the $76–77k band rather than breaking down post-FOMC. Stop $70,888.59 untouched (live $76,314.70 vs −10% rule, ~7% cushion). Hold. **Risk:** further cash-equities risk-off on the oil-shock tape could pressure BTC further.
+- **XLE** (instrumentID 3008, weight ~10.3% of equity, unrealized **+2.61%**) — **thesis INTACT and STRENGTHENING materially.** WTI +6.95% on 4/29 + Hormuz still closed = direct tailwind into XLE's largest holdings. XOM and CVX both report Friday 5/1, which is an additional positive-skew event for the existing position. Stop $51.79 untouched (live $59.05 = +2.61% vs −10% rule, ~12.6% cushion). Hold.
+
+**Trade ideas** (0–5 per day; HOLD is default only when no idea clears the gate)
+
+**Zero new opens proposed today.** Screened candidates + reasoning:
+
+1. **XOM direct (instrumentID 1036, Stocks)** — *Rejected: Friday-earnings binary 24h away.* Resolved exact `internalSymbolFull=XOM` (id 1036, NYSE). Last close $153, 1-day −1.08%, 1-week +2.75%, 1-month **−9.82%** (lagging the commodity). Earnings confirmed Friday 5/1 5:30 CT pre-market. Setup logic is real (oil rally + lagging name + earnings catalyst), but the pre-buy gate requires "catalyst documented today that resolves during today's session in our favor" — earnings is tomorrow. A Thursday entry commits across the overnight earnings binary; even with WTI tailwind, single-name + earnings = a 5–10% overnight gap is plausible either direction. Existing XLE position already captures the commodity move proportionally to XOM weight (~24% of XLE). **Better setup: revisit Friday post-earnings if the print is benign and oil holds.**
+2. **CVX direct** — *Rejected: ticker-clash + Friday-earnings binary.* eToro `search CVX` returned "Convex Finance" (crypto) as the top match, not the Chevron equity. Ticker resolution unclean — would need a name-search to resolve cleanly. Skipping rather than risking ID confusion. Same Friday-earnings binary logic as XOM applies anyway.
+3. **USO (US Oil Fund, ETF, instrumentID 3007)** — *Rejected: extended + profit-taking print.* Resolved exact match. Last close $146.16, **YTD +117.8%**, current $146.16 vs 50DMA $114.19 = **+28% above 50DMA** (very extended). Today's intraday print already shows −2.97% (profit-taking on yesterday's WTI spike). Buying USO at +28% above 50DMA into a profit-taking session = textbook chase. Existing XLE position already captures the directional commodity bet at much better entry levels.
+4. **Add to XLE (existing position concentrate)** — *Rejected: chasing the breakout.* XLE is now +2.61% above our 4/27 entry and the YTD leader at +33%. Adding here means buying the extension after a +7% WTI day. Better R:R is to hold the original 10% size and let it work; if the trade extends to +10–15%, the original size already captures upside. Adding now would dilute average entry and concentrate single-name exposure.
+5. **GLD (gold)** — *Rejected: no fresh today-catalyst beyond ongoing geopolitics.* Iran/Hormuz tension is the same setup that's been live since 4/27; not a new catalyst. Gold tape data thin in research; deferred until cleaner read.
+6. **ETH (Ethereum)** — *Rejected: no fresh today-catalyst, B-grade momentum only.* ETH/BTC ratio at YTD highs is a momentum signal, not a catalyst. Adding ETH would push crypto class to ~25% with no specific 4/30 trigger. Strategy explicitly screens against "averaging into momentum without thesis." Watchlist if BTC breaks $79.2k post-data with ETH/BTC continuing to expand.
+7. **XLK / QQQ (tech)** — *Rejected: no fresh today-catalyst, post-FOMC reactivity not yet readable from research.* Mag-7 reports rolled this week — Intel post-close 4/29 was mentioned but no other today-specific names confirmed. Wait for cleaner sector signal.
+
+**Risk factors**
+- **Oil-shock tape is two-sided.** A WTI +7% session + Hormuz-closed narrative typically pressures consumer-discretionary, transports, and sometimes broader equities/crypto on inflation-restart fear. BTC already drifting (−3.1% pos-level) — further softening is plausible if rate-cut-pricing unwinds. The 10% server stop is the backstop.
+- **"UAE exiting OPEC" headline (unconfirmed) is a cross-current.** If real, it's medium-term bearish for the energy thesis even though spot stays bid on Hormuz disruption. Single-source unverified; not yet actionable, but worth flagging — if confirmed midday, may warrant tightening the energy thesis read.
+- **XOM/CVX Friday earnings binary.** XLE has ~24% weight in XOM and ~17% in CVX — a combined ~41% of XLE NAV reports a binary tomorrow morning. A double-miss into a stretched commodity tape could pressure XLE −2 to −4% Friday despite oil strength. Existing position is sized at 10% with a 10% stop = absorbs a bad earnings session without rule-tripping. No action required, just awareness.
+- **BTC FOMC-tail.** Yesterday's FOMC outcome was not surfaced in this morning's data (Perplexity gap), but BTC is sitting at $76.3k vs the consolidation top of ~$78k — softening, not breaking. If the FOMC was hawkish-shock, more downside is possible into the weekend.
+- **Cash drag at 75.2%.** Same posture as yesterday — deliberate dry powder. Today is the second post-FOMC session and the energy entry has clearly run without us; the patience-vs-inaction balance now strictly requires a cleaner non-energy A-grade catalyst before deploying. Friday post-XOM/CVX-earnings is a likely re-evaluation window.
+- **Data quality.** Perplexity returned weak/thin data on VIX, 10Y, DXY, today's macro calendar, and S&P futures cash-tape. Treat sector/oil/crypto numbers as the operative signals; ignore precise level claims for indices.
+
+**Watchlist (next 24–48h)**
+- **XOM / CVX direct** — re-evaluate Friday after earnings prints. If oil holds + reports benign + neither name gaps up >3%, size 5–8% with a 10% stop, accepting the stack on existing XLE exposure as concentrated-but-coherent.
+- **GLD** — re-evaluate Friday with fresh data on gold tape and DXY direction.
+- **ETH** — add only if BTC reclaims the $78–79k supply zone with ETH/BTC continuing to expand.
+- **XLK / QQQ** — wait for a clean post-FOMC + post-Mag7-earnings reactivity read; not actionable today.
+
+**Decision: HOLD.** No new opens. No trims (BTC 14.6%, XLE 10.3% — neither over a class or single-name cap; combined invested 24.9%, well under the 50% class cap). Both held positions thesis-intact today, both materially reinforced by the post-FOMC oil rally for XLE (+2.6% unrealized) and persistent ETF-inflow flow for BTC (–3.1% unrealized, well inside stop band). The cleanest A-grade entries (XOM/CVX direct on the energy theme) sit on the wrong side of a 24h earnings binary; the second-cleanest (USO/XLE concentrate) is a chase at +28% above 50DMA. 4 of 5 weekly opens preserved for a Friday post-earnings window.
+
+---
+
 ### 2026-04-29 — Wednesday Pre-Market (08:00 ET) — FOMC DAY
 
 **Snapshot:** Equity 99.7% of start | Cash 75.2% | Open positions: 2 (BTC, XLE) | Week opens so far: 1 | Weekly budget remaining: 4 of 5

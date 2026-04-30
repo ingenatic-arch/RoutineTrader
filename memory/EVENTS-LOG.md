@@ -72,3 +72,4 @@ Percentages only — no dollar references.
 2026-04-29T15:39:49Z | midday | ok | Closed: none; trimmed: none; positions=2 (XLE +1.6%, BTC -3.3%); cash=75.2%; no rule trips, theses intact
 2026-04-29T20:27:43Z | unknown | ok | 📊 Daily summary 2026-04-29 (Day 8) Equity: 99.7% of start / Day P&L: +0.1% / Phase: −0.3% Cash: 75.2% / Positions: 2 / Opens this week: 1/5 Positions: • XLE (etf) 10.3% / +2.6% / stop −10% • BTC (crypto) 14.5% / −4.0% / stop �
 2026-04-29T20:27:48Z | daily-summary | ok | EOD snapshot committed; day P&L +0.1%; equity 99.7%
+2026-04-30T13:10:09Z | pre-market | ok | Research committed; decision=HOLD; ideas=0 (post-FOMC oil-shock tape); 7 candidates screened (XOM/CVX/USO/XLE-add/GLD/ETH/XLK) all rejected — energy entries late after WTI +7% / Friday XOM-CVX earnings binary; BTC -3.1% / XLE +2.6% theses intact
