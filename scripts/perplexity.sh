@@ -3,7 +3,7 @@
 #
 # Usage: bash scripts/perplexity.sh "your query here"
 #
-# Reads PERPLEXITY_API_KEY (required) and PERPLEXITY_MODEL (default: sonar).
+# Reads PERPLEXITY_API_KEY (required) and PERPLEXITY_MODEL (default: sonar-reasoning-pro).
 # Sources .env locally if env vars not already set.
 #
 # Exit codes:
@@ -35,7 +35,7 @@ if [[ -z "${PERPLEXITY_API_KEY:-}" ]]; then
   exit 3
 fi
 
-MODEL="${PERPLEXITY_MODEL:-sonar}"
+MODEL="${PERPLEXITY_MODEL:-sonar-reasoning-pro}"
 
 body=$(python3 -c '
 import json, sys
