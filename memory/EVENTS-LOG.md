@@ -83,3 +83,5 @@ Percentages only — no dollar references.
 2026-05-01T15:34:22Z | midday | ok | no-op; BTC -0.3% (thesis intact), XLE +2.2% (thesis intact, off intraday +3.3% on WTI -3% pullback / XOM-CVX earnings binary); positions=2; cash=74.9%; class crypto=15.0% etf=10.2%
 2026-05-01T20:29:30Z | unknown | ok | 📊 Daily summary 2026-05-01 (Day 10) Equity: 100.2% of start / Day P&L: +0.2% / Phase: +0.2% Cash: 74.9% / Positions: 2 / Opens this week: 1/5 Positions: • XLE (etf) 10.2% / +2.2% / stop −10% • BTC (crypto) 14.9% / −0.8% / stop �
 2026-05-01T20:29:35Z | daily-summary | ok | EOD snapshot committed; day P&L +0.2%; equity 100.2%
+2026-05-01T20:45:23Z | unknown | ok | 📅 Weekly review — week of 2026-04-27 → 2026-05-01 Return: +0.3% / S&P 500: +1.0% / Alpha: −0.6% / Phase: +0.2% 60/40 proxy: +0.8% / Alpha vs 60/40: −0.5% Grade: B+ Stats: 1 opened (XLE) / 0 closed / Win rate n/a / Best n/a / Wors
+2026-05-01T20:45:30Z | weekly-review | ok | Week committed; grade=B+; return=+0.3%; alpha=-0.6% vs SPX; alpha=-0.5% vs 60/40; 1 routine open (XLE); 0 closes; strategy rule 6 (cash buffer) reframed

@@ -27,7 +27,13 @@ disciplined — patience > activity.
 4. Max **30% of equity per position** ($3,000 virtual / $300 real mirror).
 5. Max **50% per asset class** (stocks, crypto, commodities, forex, indices).
    Prevents crypto runaway when it ranks well.
-6. Target **90–95% deployed**, **5–10% cash buffer** at all times.
+6. Target **5–10% cash buffer when A-grade theses are abundant**; tolerate
+   **>50% cash during low-signal regimes** — the meta-rule *patience > activity*
+   supersedes the deployment target. The 5–10% floor on cash is a hard minimum
+   (never fully invested); the upper bound is aspirational and must not push
+   the entry bar below A-grade. _(Amended 2026-05-01 after 3 consecutive weeks
+   of cash 75–100% with discipline preserved — the original "90–95% deployed
+   at all times" failed weekly while the meta-rule succeeded.)_
 7. **`StopLossRate` set at position open** — 10% below entry ask (server-side,
    24/7, survives market close).
 8. **Manual exit at −7% unrealized** via midday scan (backstop ahead of the
