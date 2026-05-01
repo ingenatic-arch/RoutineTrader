@@ -80,3 +80,4 @@ Percentages only — no dollar references.
 2026-04-30T20:28:43Z | daily-summary | ok | EOD snapshot committed; day P&L +0.3%; equity 100.0%; positions 2; opens-this-week 1/5
 2026-05-01T13:24:10Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; XOM/CVX earnings + ISM + possible NFP today; XLE +3.7% / BTC -0.6% theses intact
 2026-05-01T13:45:45Z | market-open | ok | Opened: none; positions=2 (BTC, XLE); decision HOLD — XLE conditional add gated >$60.00 not met (live ask $59.46); BTC -0.7%, XLE +3.3% theses intact
+2026-05-01T15:34:22Z | midday | ok | no-op; BTC -0.3% (thesis intact), XLE +2.2% (thesis intact, off intraday +3.3% on WTI -3% pullback / XOM-CVX earnings binary); positions=2; cash=74.9%; class crypto=15.0% etf=10.2%
