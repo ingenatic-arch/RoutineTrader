@@ -6,6 +6,65 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-05-04 — Monday Pre-Market (08:00 ET) — POST-XOM-BEAT, FRESH WEEK
+
+**Snapshot:** Equity 100.3% of start | Cash 74.8% | Open positions: 2 (BTC 15.0%, XLE 10.2%) | Week opens so far: 0 (fresh week) | Weekly budget remaining: 5 of 5
+
+**Market context** (as-of 2026-05-04 ~13:12 UTC, percentages only; data-source gaps flagged below)
+- **S&P 500 futures (ESM26):** ~**+0.06% to +0.20%** overnight to ~7,258–7,263 area. Modest risk-on drift into the open after Friday's strong session. No fresh cash-tape print available; tone constructive.
+- **VIX / US 10Y yield / DXY:** **no fresh prints surfaced** (fifth consecutive thin morning on these). Carry-forward VIX ~17–18, 10Y ~4.34–4.38%, DXY ~98.
+- **WTI crude:** **~$102/bbl** with conflicting overnight reads (one source flagged a +4.5% 24h move; Friday closed −2.98% per CLM26 reference). Net read: oil is consolidating in the $100–105 band post-Friday-pullback; **Hormuz/Iran data is contradictory this morning** — one Perplexity source surfaced an outdated narrative claiming the strait reopened on April 17, contradicting our consistent prior reads (de-facto closed driving WTI to $102–107). Treating Hormuz status as **structurally bid-supportive but unresolved**; reconcile midday on eToro/cash-market reaction.
+- **BTC:** **eToro live closeRate $78,947.02** at 13:10Z — **+0.99% from Friday's $78,173.16 close**, modest weekend recovery. Position now **+0.23% unrealized** (vs −0.8% Friday EOD). Independent confirmation: Fortune $78,178 (5/1) → CoinStats $78,569 (5/4) ≈ +0.5% weekend move; eToro feed is source of truth. **Strong ETF tailwind**: Friday 5/1 alone saw **$629.8M net inflows across spot BTC ETFs** (BlackRock IBIT $284.4M, Fidelity FBTC $213.4M, ARK ARKB $88.5M); April 2026 closed as the strongest BTC-ETF month of the year at **$1.97–2.44B net inflow**, total BTC-ETF AUM crossed **$100B**. BTC dominance >60% as capital rotates back into BTC from alts.
+- **ETH:** May 1 reference $2,308.85; **no fresh May 4 print available** — Perplexity returned no clean ETH/BTC ratio update today. Data-quality flag.
+- **Today's catalysts (light Monday):**
+  - **No top-tier US macro release** confirmed for 5/4 (Perplexity returned no specific calendar). Treasury auctions flagged as a wildcard this week (weak demand → 10Y yield spike risk).
+  - **No confirmed pre-open earnings** for Monday. Q4 2025 earnings season is officially kicking off this week with major banks leading the first wave — specific tickers/dates not surfaced.
+  - **Geopolitics:** Iran/Hormuz/Middle East "war-inflation" narrative continues; no fresh weekend escalation/de-escalation headline. Venezuela + Greenland headline-risk noise (low-conviction signal).
+  - **Fed independence:** ongoing political pressure on Powell flagged in macro commentary; not a today-event but a regime backdrop.
+- **Sector momentum (YTD through 5/1, total return per Perplexity):** **XLE +32.49%** (uncontested leader, reinforced by Friday's XOM beat), **XLK +12.57%**, **XLI +11.81%**, **XLF −4.72%**, **XLV −5.84%**. 5-day prints not surfaced cleanly. Carry-forward read: energy/tech leadership intact, financials/healthcare lagging into Q4-bank-prints.
+- **XOM Q1 (reported Friday 5/1 pre-market) — STRONG BEAT, MUTED REACTION:**
+  - GAAP EPS $1.00 (down YoY due to $3.9B unfavorable derivative timing + $0.7B Middle East hedge losses); **adjusted EPS $2.09** ex-timing. Headline EPS $1.16 vs consensus $1.02–1.07 = **+8.8% to +13.7% beat**. Revenue $85.1B vs $83.1B prior year, beat by +4.5%.
+  - **Industry-leading 42% Q1 TSR.** $9.2B distributed ($4.3B dividends + $4.9B buybacks); on track for $20B 2026 buyback plan.
+  - Operational beats: record Guyana output, first LNG from Golden Pass Train 1, $0.6B structural cost savings.
+  - **Stock reaction:** XOM closed Friday $151.63, **−0.73% on the day** — market faded the beat on the GAAP optical headline despite strong adjusted EPS, 42% TSR, and operational wins. Possible setup: a beat-but-sold reaction can mean-revert if Monday tape reads the underlying numbers cleanly.
+- **CVX Q1:** **no Perplexity data surfaced** despite being same-window report. Cannot reconcile the print without secondary sources. Data-quality flag.
+
+**Holdings check**
+- **BTC** (instrumentID 100000, weight 15.0% of equity, unrealized **+0.23%**) — **thesis INTACT and STRENGTHENING.** Weekend recovery (+1% from Friday close), $629.8M Friday ETF inflow + April $1.97–2.44B cumulative + AUM crossing $100B is structural institutional bid. Stop $70,888.59 untouched (live $78,947 = ~10.2% cushion). Hold. **Risk:** weekend gap-risk window has now closed cleanly; this week's risk is a hawkish 10Y auction outcome pressuring duration-sensitive risk assets.
+- **XLE** (instrumentID 3008, weight 10.2% of equity, unrealized **+2.24%**) — **thesis INTACT and REINFORCED by XOM beat.** XOM (~24% of XLE NAV) just printed +13% adjusted-EPS beat with industry-leading 42% TSR + $20B buyback on track + record Guyana + Golden Pass LNG first. WTI consolidating in the $100–105 band still keeps the underlying commodity tailwind structurally bid. CVX print uncertain (data gap) but XLE-level diversification absorbs single-name surprise. Stop $51.79 untouched (live $58.84 = ~12.0% cushion). Hold; do **not** pre-add ahead of cash-market read. **Risk:** Iran/Hormuz reversal headline (one source flagged a possibly-outdated "April 17 reopen" narrative that needs midday reconciliation); CVX print disappointment (still unresolved).
+
+**Trade ideas** (0–5 per day; HOLD is default only when no idea clears the gate)
+
+Screened candidates + disposition:
+
+1. **XOM (Stocks — Energy)** — instrumentID `1036`, exact `internalSymbolFull=XOM` match. **B+/A-grade — DEFERRED to market-open watchlist.** Catalyst: Friday's +13% adjusted-EPS beat with 42% Q1 TSR, $20B buyback, record Guyana, Golden Pass LNG — and the stock SOLD OFF −0.73% on the GAAP optical headline ($1.00 vs $2.09 adjusted). Setup logic: a beat-but-sold post-earnings reaction can mean-revert as the market re-reads underlying numbers. Current $151.63 (−1.75% MTD, +27.25% YTD, six-month +34.2%). **Why deferred:** (a) XOM is ~24% of our existing XLE weight, so a direct add stacks single-name concentration on the same commodity catalyst — not diversification; (b) post-earnings reactions can extend over multiple sessions before reversing; (c) the right entry is intraday confirmation (XOM gapping lower at open with reversal volume, OR XOM holding the $151 area into the cash-tape close), not a pre-market pre-commit. Market-open routine should re-evaluate at 9:35 ET; if a clean reversal print emerges, size 5–8% with a 10% stop ($136.47), accepting concentrated-but-coherent stack on XLE.
+2. **XLE add (~15–20% total weight)** — instrumentID `3008`. **Rejected: chasing the breakout into a +32% YTD leader.** XLE already +2.24% unrealized for us; XOM beat is now confirmed; the structural commodity tailwind is the same one we're already long. Adding here means buying the post-confirmation extension — textbook "doji-prone leader chase." Original 10% sizing captures the upside; pre-add risks dilute average entry without R:R improvement.
+3. **CVX direct (Stocks — Energy)** — eToro `search CVX` returns `internalSymbolFull=CVX.US` (instrumentID 1014, NYSE Chevron equity). **Rejected: instrument-resolution failure.** CLAUDE.md rule 8 requires `internalSymbolFull == "<SYMBOL>"` exact match — `CVX.US` is not equal to `CVX`. Also: Perplexity returned no Q1 print data for CVX, so the catalyst cannot be confirmed. Two independent gate failures.
+4. **BTC add** — already 15.0% weight. **Rejected: watchlist trigger not fired.** The carry-forward add condition is "clean break-and-hold above $79k with no adverse headline." BTC is at $78,947 — **below $79k**, only marginally close. ETF flows are structurally supportive but there's no fresh today-specific A-grade catalyst beyond carry-over from Friday's $629.8M inflow. Adding now pushes crypto class to ~25% on a non-triggered breakout.
+5. **ETH (Crypto)** — **Rejected: data-quality flag.** Perplexity returned no clean ETH May 4 print, so the ETH/BTC ratio expansion read cannot be confirmed today. Strategy explicitly screens against "averaging into momentum without thesis" — without a fresh ETH-specific catalyst or a confirmed ratio expansion, no entry today.
+6. **Bank earnings pre-positioning (XLF / single-name banks)** — **Rejected: no confirmed Monday names.** Q4 2025 earnings season starting this week with banks first per Perplexity, but no specific tickers/dates surfaced. Pre-buy gate requires catalyst documented today; speculating on unconfirmed timing violates rule 4.
+7. **GLD (Gold)** — **Rejected: no fresh today-catalyst.** Iran/Hormuz status data is contradictory (April 17 stale-narrative flag), and the dominant inflation-hedge narrative is not a Monday-specific trigger. Defer until either (a) a confirmed Hormuz escalation, (b) a soft Treasury auction this week pushing yields up.
+8. **XLK / QQQ (Tech ETFs)** — **Rejected: no fresh today-catalyst.** YTD strength remains intact (+12.57%), but no specific 5/4 tech-sector trigger. Mag-7 reports already digested; entry is mid-range, not on a pullback.
+
+**Risk factors**
+- **Hormuz/Iran narrative uncertainty.** One Perplexity source returned a possibly-outdated "April 17 strait reopened" narrative that contradicts our consistent prior reads (still de-facto closed). If the reopening is real and we missed the headline, XLE thesis weakens materially. Midday should reconcile via cash-market WTI reaction and fresh news scan.
+- **CVX Q1 data gap.** No Perplexity data on Chevron's Friday print. If CVX missed/disappointed where XOM beat, XLE could roll on the second leg of the energy-earnings binary even though XOM was strong. ~17% of XLE NAV.
+- **Treasury auction wildcard this week.** Weak demand at 10Y/30Y auctions could spike yields, pressuring duration-sensitive risk (BTC, growth equities). Position sizes (15% BTC, 10.2% XLE) are sized to absorb a 1–2% yield-driven equity flush; deeper moves trip the −7% manual cut.
+- **Earnings-season open.** Q4 2025 banks lead this week — XLF (−4.72% YTD) is the lagging sector going in; a hot bank print could re-rate XLF (we don't hold), a soft print could deepen the lag (still we don't hold).
+- **Cash drag at 74.8%.** Above the 5–10% buffer target by design — deliberate dry powder. Three weeks running at 75%+ cash; the May 1 strategy amendment explicitly permits this when meta-rule "patience > activity" supersedes the deployment target. Today's tape (no top-tier catalyst, light Monday) does not warrant forcing a B-grade entry.
+- **Data quality.** Perplexity returned thin data on VIX/10Y/DXY (5th consecutive thin morning), no FOMC speaker/macro-calendar specifics, no ETH May 4 print, no CVX Q1 data, and a contradictory Hormuz narrative. Treat all third-party quantitative reads as directional only; eToro `/pnl` + `/rates` are the source of truth for position math.
+
+**Watchlist (for market-open 9:35 ET routine and rest of week)**
+- **XOM intraday reversal** — if XOM gaps lower at the cash open AND shows reversal volume / closes the gap within the first 30 minutes, consider 5–8% direct add (stop $136.47, target ~$182, R:R 2:1), accepting concentrated-but-coherent stack on existing XLE.
+- **BTC $79k break-and-hold** — second-tranche add condition unchanged; would push crypto class to ~25%.
+- **CVX clean instrument-resolution + Q1 confirmation** — if a name-based search resolves CVX cleanly OR an alternate ticker form returns exact match, AND CVX print is at-least-in-line, can size 5% as a complement to XLE.
+- **XLF / banks** — once specific Q4 2025 bank-print dates are confirmed for this week, set up post-print read for entry.
+- **GLD** — escalate if Hormuz status is confirmed worsening OR if Treasury auctions print weak demand later this week.
+
+**Decision:** **HOLD.** No new opens at the pre-market mark. The cleanest A-grade construct (XOM mean-reversion on muted post-earnings reaction) requires intraday confirmation, not a pre-commit. Both held positions thesis-intact and reinforced (BTC +0.23% with structural ETF inflow tailwind; XLE +2.24% with XOM beat directly reinforcing the underlying NAV). No trims required (BTC 15.0%, XLE 10.2% — neither over a class or single-name cap; combined invested 25.2%, well under the 50% class cap). Opens-this-week stays at 0/5; full weekly budget preserved for any A-grade catalyst emerging Tue–Fri.
+
+---
+
 ### 2026-05-01 — Friday Pre-Market (08:00 ET) — XOM/CVX EARNINGS DAY, WTI PULLBACK
 
 **Snapshot:** Equity 100.3% of start | Cash 74.8% | Open positions: 2 (BTC, XLE) | Week opens so far: 1 | Weekly budget remaining: 4 of 5
