@@ -87,3 +87,4 @@ Percentages only — no dollar references.
 2026-05-01T20:45:30Z | weekly-review | ok | Week committed; grade=B+; return=+0.3%; alpha=-0.6% vs SPX; alpha=-0.5% vs 60/40; 1 routine open (XLE); 0 closes; strategy rule 6 (cash buffer) reframed
 2026-05-04T13:15:01Z | pre-market | ok | Research committed; decision=HOLD; ideas=0 actionable / 1 watchlist (XOM mean-rev)
 2026-05-04T13:55:20Z | market-open | ok | Opened: none; positions=2 (BTC, XLE); decision HOLD — XOM watchlist trigger not fired (live ask 151.48 vs Fri close 151.63 = -0.10%, no gap-down to reverse); BTC +0.13%, XLE +2.14% theses intact
+2026-05-04T15:38:18Z | midday | ok | no-op; XLE +3.25% (thesis intact, reinforced by XOM beat), BTC +0.99% (thesis intact, ETF-inflow tailwind); positions=2; cash=74.6%; class crypto=15.1% etf=10.3%; no rule trips
