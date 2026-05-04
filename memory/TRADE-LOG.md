@@ -10,6 +10,38 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-04 — EOD Snapshot (Day 11, Monday)
+
+**Equity:** 100.6% of start | **Cash:** 74.6% | **Day P&L:** +0.4% | **Phase P&L:** +0.6%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| XLE | etf    |  10.2%  |$57.55      |$59.39      |    +3.2%    |$51.79      |
+| BTC | crypto |  15.2%  |$78,765.12  |$79,999.57  |    +1.6%    |$70,888.59  |
+
+**Notes:** Constructive Monday open to the new week — no opens, no closes, no
+trims. Pre-market decision HOLD (ideas=0 actionable; 1 watchlist — XOM
+mean-reversion gated on a gap-down reversal that never fired). Market-open
+opened nothing (XOM live ask $151.48 vs Friday close $151.63 = −0.10%, no
+gap-down to reverse). Midday no-op (both theses intact and reinforcing). XLE
+firmed from $58.84 → $59.39 (+0.9% from Friday's close, position now +3.2%
+unrealized) on XOM-earnings-beat follow-through and steady WTI tape. BTC
+firmed sharply from $78,173.16 → $79,999.57 (+2.3% from Friday's close,
+position now +1.6% unrealized — first close in the green since the 2026-04-22
+open) on a broader crypto-tape bid plus continued spot-ETF-inflow tailwind,
+no adverse catalyst. Day P&L +0.4% on virtual equity (BTC mark-to-market gain
+of +$34.85 plus XLE +$9.55, net +$44.40). No rule trips. 0 opens this week
+(cap 5 — week reset Monday); 2 positions (cap 8); 15.2% crypto + 10.2% ETF =
+25.4% invested (cap 50% per class); 74.6% cash buffer.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $10,059.55
+- Virtual cash: $7,502.06
+- Opens this week: 0
+- Real mirror (10%): $1,005.96
+
+---
+
 ## 2026-05-01 — EOD Snapshot (Day 10, Friday)
 
 **Equity:** 100.2% of start | **Cash:** 74.9% | **Day P&L:** +0.2% | **Phase P&L:** +0.2%

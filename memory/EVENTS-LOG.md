@@ -88,3 +88,5 @@ Percentages only — no dollar references.
 2026-05-04T13:15:01Z | pre-market | ok | Research committed; decision=HOLD; ideas=0 actionable / 1 watchlist (XOM mean-rev)
 2026-05-04T13:55:20Z | market-open | ok | Opened: none; positions=2 (BTC, XLE); decision HOLD — XOM watchlist trigger not fired (live ask 151.48 vs Fri close 151.63 = -0.10%, no gap-down to reverse); BTC +0.13%, XLE +2.14% theses intact
 2026-05-04T15:38:18Z | midday | ok | no-op; XLE +3.25% (thesis intact, reinforced by XOM beat), BTC +0.99% (thesis intact, ETF-inflow tailwind); positions=2; cash=74.6%; class crypto=15.1% etf=10.3%; no rule trips
+2026-05-04T20:33:30Z | unknown | ok | 📊 Daily summary 2026-05-04 (Day 11) Equity: 100.6% of start / Day P&L: +0.4% / Phase: +0.6% Cash: 74.6% / Positions: 2 / Opens this week: 0/5 Positions: • XLE (etf) 10.2% / +3.2% / stop −10% • BTC (crypto) 15.2% / +1.6% / stop −1
+2026-05-04T20:33:35Z | daily-summary | ok | EOD snapshot committed; day P&L +0.4%; equity 100.6%; positions 2; opens-this-week 0/5
