@@ -93,3 +93,5 @@ Percentages only — no dollar references.
 2026-05-05T13:20:29Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; positions=2 (BTC +3.5% / XLE +3.2%); cash=74.4%
 2026-05-05T13:36:52Z | market-open | ok | Opened: none; positions=2 (BTC, XLE); decision HOLD per RESEARCH-LOG (7 candidates screened — MSTR/XLE-add/XLK/ETH/XLI/XLF-XLV/defensives all rejected); BTC +3.4% / XLE +2.7% theses intact; cash 74.4%
 2026-05-05T15:39:51Z | midday | ok | no-op; BTC +3.61% (thesis intact, BTC at $81610 — first close above $81k since late January, MSTR-earnings catalyst supportive), XLE +3.11% (thesis intact, WTI consolidating ~$104, Hormuz premium structurally bid); positions=2; cash=74.4%; class crypto=15.4% etf=10.2%; no rule trips
+2026-05-05T20:17:02Z | unknown | ok | 📊 Daily summary 2026-05-05 (Day 12) Equity: 100.9% of start / Day P&L: +0.3% / Phase: +0.9% Cash: 74.3% / Positions: 2 / Opens this week: 0/5 Positions: • XLE (etf) 10.2% / +3.3% / stop −10% • BTC (crypto) 15.4% / +3.7% / stop −1
+2026-05-05T20:17:07Z | daily-summary | ok | EOD snapshot committed; day P&L +0.3%; equity 100.9%; positions 2; opens-this-week 0/5

@@ -10,6 +10,38 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-05 — EOD Snapshot (Day 12, Tuesday)
+
+**Equity:** 100.9% of start | **Cash:** 74.3% | **Day P&L:** +0.3% | **Phase P&L:** +0.9%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| XLE | etf    |  10.2%  |$57.55      |$59.44      |    +3.3%    |$51.79      |
+| BTC | crypto |  15.4%  |$78,765.12  |$81,650.33  |    +3.7%    |$70,888.59  |
+
+**Notes:** Constructive Tuesday — no opens, no closes, no trims. Pre-market
+HOLD (7 candidates screened — MSTR/XLE-add/XLK/ETH/XLI/XLF-XLV/defensives —
+all rejected; ideas=0 actionable, research-log 2026-05-05). Market-open opened
+nothing; midday no-op (both theses intact and reinforcing). BTC firmed sharply
+from $79,999.57 → $81,650.33 (+2.1% from yesterday's close, position now +3.7%
+unrealized — first close above $81k since late January) on continued
+spot-ETF-inflow tailwind plus a supportive MSTR-earnings catalyst, no adverse
+news. XLE essentially unchanged from $59.39 → $59.44 (+0.1% from yesterday's
+close, position now +3.3% unrealized) on WTI consolidating ~$104 with the
+Hormuz risk-premium structurally bid; thesis intact, stop untouched. Day P&L
++0.3% on virtual equity (BTC mark-to-market gain of +$31.50 plus XLE +$0.87,
+net +$32.37). No rule trips. 0 opens this week (cap 5 — week reset Monday); 2
+positions (cap 8); 15.4% crypto + 10.2% ETF = 25.6% invested (cap 50% per
+class); 74.3% cash buffer.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $10,091.92
+- Virtual cash: $7,502.06
+- Opens this week: 0
+- Real mirror (10%): $1,009.19
+
+---
+
 ## 2026-05-04 — EOD Snapshot (Day 11, Monday)
 
 **Equity:** 100.6% of start | **Cash:** 74.6% | **Day P&L:** +0.4% | **Phase P&L:** +0.6%
