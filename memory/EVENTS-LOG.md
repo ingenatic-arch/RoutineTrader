@@ -76,12 +76,12 @@ Percentages only — no dollar references.
 2026-04-30T13:39:12Z | market-open | ok | Opened: none; positions=2 (BTC, XLE); decision HOLD per RESEARCH-LOG
 2026-04-30T13:46:31Z | pre-market | ok | Duplicate invocation noop / today's pre-market already ran 13:10Z (decision=HOLD, ideas=0) / RESEARCH-LOG intact / market-open at 13:39Z already consumed it / positions=2 (XLE +2.4% / BTC -2.9%) theses intact
 2026-04-30T15:38:30Z | midday | ok | no-op; XLE +3.75% (thesis intact), BTC -2.89% (thesis intact); positions=2; cash=75.0%
-2026-04-30T20:28:38Z | unknown | ok | 📊 Daily summary 2026-04-30 (Day 9) Equity: 100.0% of start / Day P&L: +0.3% / Phase: −0.0% Cash: 75.0% / Positions: 2 / Opens this week: 1/5 Positions: • XLE (etf) 10.4% / +3.7% / stop −10% • BTC (crypto) 14.6% / −3.0% / stop �
+2026-04-30T20:28:38Z | unknown | ok | 📊 Daily summary 2026-04-30 (Day 9) Equity: 100.0% of start / Day P&L: +0.3% / Phase: −0.0% Cash: 75.0% / Positions: 2 / Opens this week: 1/5 Positions: • XLE (etf) 10.4% / +3.7% / stop −10% • BTC (crypto) 14.6% / −3.0% / stop �
 2026-04-30T20:28:43Z | daily-summary | ok | EOD snapshot committed; day P&L +0.3%; equity 100.0%; positions 2; opens-this-week 1/5
 2026-05-01T13:24:10Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; XOM/CVX earnings + ISM + possible NFP today; XLE +3.7% / BTC -0.6% theses intact
 2026-05-01T13:45:45Z | market-open | ok | Opened: none; positions=2 (BTC, XLE); decision HOLD — XLE conditional add gated >$60.00 not met (live ask $59.46); BTC -0.7%, XLE +3.3% theses intact
 2026-05-01T15:34:22Z | midday | ok | no-op; BTC -0.3% (thesis intact), XLE +2.2% (thesis intact, off intraday +3.3% on WTI -3% pullback / XOM-CVX earnings binary); positions=2; cash=74.9%; class crypto=15.0% etf=10.2%
-2026-05-01T20:29:30Z | unknown | ok | 📊 Daily summary 2026-05-01 (Day 10) Equity: 100.2% of start / Day P&L: +0.2% / Phase: +0.2% Cash: 74.9% / Positions: 2 / Opens this week: 1/5 Positions: • XLE (etf) 10.2% / +2.2% / stop −10% • BTC (crypto) 14.9% / −0.8% / stop �
+2026-05-01T20:29:30Z | unknown | ok | 📊 Daily summary 2026-05-01 (Day 10) Equity: 100.2% of start / Day P&L: +0.2% / Phase: +0.2% Cash: 74.9% / Positions: 2 / Opens this week: 1/5 Positions: • XLE (etf) 10.2% / +2.2% / stop −10% • BTC (crypto) 14.9% / −0.8% / stop �
 2026-05-01T20:29:35Z | daily-summary | ok | EOD snapshot committed; day P&L +0.2%; equity 100.2%
 2026-05-01T20:45:23Z | unknown | ok | 📅 Weekly review — week of 2026-04-27 → 2026-05-01 Return: +0.3% / S&P 500: +1.0% / Alpha: −0.6% / Phase: +0.2% 60/40 proxy: +0.8% / Alpha vs 60/40: −0.5% Grade: B+ Stats: 1 opened (XLE) / 0 closed / Win rate n/a / Best n/a / Wors
 2026-05-01T20:45:30Z | weekly-review | ok | Week committed; grade=B+; return=+0.3%; alpha=-0.6% vs SPX; alpha=-0.5% vs 60/40; 1 routine open (XLE); 0 closes; strategy rule 6 (cash buffer) reframed
@@ -91,3 +91,4 @@ Percentages only — no dollar references.
 2026-05-04T20:33:30Z | unknown | ok | 📊 Daily summary 2026-05-04 (Day 11) Equity: 100.6% of start / Day P&L: +0.4% / Phase: +0.6% Cash: 74.6% / Positions: 2 / Opens this week: 0/5 Positions: • XLE (etf) 10.2% / +3.2% / stop −10% • BTC (crypto) 15.2% / +1.6% / stop −1
 2026-05-04T20:33:35Z | daily-summary | ok | EOD snapshot committed; day P&L +0.4%; equity 100.6%; positions 2; opens-this-week 0/5
 2026-05-05T13:20:29Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; positions=2 (BTC +3.5% / XLE +3.2%); cash=74.4%
+2026-05-05T13:36:52Z | market-open | ok | Opened: none; positions=2 (BTC, XLE); decision HOLD per RESEARCH-LOG (7 candidates screened — MSTR/XLE-add/XLK/ETH/XLI/XLF-XLV/defensives all rejected); BTC +3.4% / XLE +2.7% theses intact; cash 74.4%
