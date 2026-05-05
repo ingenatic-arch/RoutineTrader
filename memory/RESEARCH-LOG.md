@@ -6,6 +6,59 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-05-05 — Tuesday Pre-Market (08:00 ET) — IRAN-MISSILE-CLAIM TAPE, BTC NEW HIGH SINCE JAN
+
+**Snapshot:** Equity 100.9% of start | Cash 74.4% | Open positions: 2 (BTC 15.4%, XLE 10.2%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Market context** (as-of 2026-05-05 ~13:15 UTC, percentages only; data-source gaps flagged below)
+- **S&P 500 futures (ESM26):** mixed overnight — one source ~−0.1%, another ~+0.2% to +0.3%. Net: roughly **flat to slightly soft into the open**. Light, undecided tape. Cash S&P referenced ~7,250 area.
+- **VIX / US 10Y yield / DXY:** **no fresh prints surfaced** (sixth consecutive thin morning on these). Carry-forward VIX ~17–18, 10Y ~4.34–4.38%, DXY ~98.
+- **WTI crude:** **~$104/bbl**, pulled back ~−1.5% to −2% from Monday's ~$105 high. Brent paired to $113 after Monday's +5.8% surge on Iran's disputed missile claim. Hormuz/Iran risk premium structurally bid; today's pullback is profit-taking, not thesis-break.
+- **OPEC+:** modest +200kbpd output increase for May (post-UAE-exit follow-through). Headline-known, already priced.
+- **BTC: ~+2.5% overnight to ~$81,500**, crossing $81k in Asian hours — **highest level since late January 2026**, +5.3% on the week. Driver: continued spot-tape bid plus risk-on rotation that briefly reversed on Monday's Iran missile headline before recovering. Live eToro mark **$81,496.35**.
+- **ETH:** ~$2,379, ~flat on the day, +4.0% on the week.
+- **Crypto sector:** Strategy (MSTR) reports earnings Tuesday — known BTC-bull catalyst; perennial driver of incremental BTC demand if they announce another buy. No fresh ETF-flow or regulatory headlines surfaced.
+- **Sector momentum (YTD through 5/1, 5-day window not surfaced):** XLE **+32.49%** (clear leader, energizing further on Iran tape), XLK **+12.57%** (tech leadership reclaim continuing), XLI **+11.81%** (industrials strong), XLF **−4.72%** (lagging), XLV **−5.84%** (lagging — weakening quadrant). SPY **+5.97% YTD**. Read: **Energy + Tech + Industrials remain the leadership trio**; financials and healthcare in the dog house.
+- **Today's catalysts:**
+  - **MSTR (Strategy) earnings Tuesday** — biggest single-name BTC-tape catalyst this week.
+  - **Friday: US Nonfarm Payrolls (NFP)** — the marquee macro print of the week; defer aggressive deployment until the post-print tape is readable.
+  - **Pre-open earnings calendar for 5/5:** thin / not surfaced cleanly by Perplexity. No confirmed mega-cap pre-open names.
+  - **Geopolitics:** Iran missile claim from Monday remains disputed; tape priced the headline once and recovered. No fresh overnight geopolitical surprise.
+- **Data quality caveat.** Perplexity returned thin/gapped data on VIX, 10Y, DXY, today's earnings calendar, and 5-day sector returns — sixth consecutive morning. Carry-forward is the working baseline; midday should reconcile vs cash-market reads.
+
+**Holdings check**
+- **BTC (15.4% weight, +3.5% unrealized, live $81,496.35 vs entry $78,765.12, stop $70,888.59):** thesis intact and **strengthening sharply**. First close in solid green territory since the 4/22 entry; crossing $81k is the highest print since late January 2026. Catalysts feeding the bid: MSTR earnings today (potential further institutional-buy signaling), continued risk-on rotation despite Iran headline, and weekly-tape +5.3%. Stop $70,888.59 untouched (well below; ~13.0% headroom from current price). No adverse news, no >3% adverse gap. **HOLD.**
+- **XLE (10.2% weight, +3.2% unrealized, live $59.39 vs entry $57.55, stop $51.79):** thesis intact. WTI consolidating at $104 after Monday's spike to $105+ on the Iran missile claim. Energy sector remains YTD leader at +32.49% with continuing Hormuz risk-premium tailwind. XOM-earnings-beat follow-through still in the tape. Overnight move was ~−0.1% (no >3% gap). Stop $51.79 untouched (~12.8% headroom). **HOLD.**
+
+**Trade ideas** (0–5 per day; HOLD is default only when no idea qualifies)
+
+Screened candidates + dispositions:
+
+1. **MSTR (Strategy)** — BTC-leveraged proxy reporting earnings today. **Rejected: pre-earnings binary.** Pre-buy gate forbids speculating into a same-day earnings print. If MSTR announces another large BTC buy, our existing BTC long captures the second-order benefit without taking the single-name binary risk.
+2. **Add to XLE / open a second energy long (XOM, CVX direct)** — energy still YTD leader, oil consolidating at $104, Hormuz premium intact. **Rejected: chasing.** XLE has already run +32% YTD and our position is +3.2% unrealized. Adding now into a +5.8% Brent surge that Monday already digested is late-cycle entry — no fresh catalyst differentiates today from the 4/27 open. Energy class would also climb to ~20% with two leveraged single-name beta on top of XLE — concentration without an independent driver.
+3. **XLK (Tech SPDR)** — instrumentID 3021, ETF. Tech reclaiming leadership at +12.57% YTD; sector momentum maps put XLK in the leading quadrant alongside XLE. **Rejected: no specific 5/5 catalyst.** ES futures roughly flat overnight; no mega-cap earnings pre-open today; the macro tape is on hold for Friday's NFP. Wait for a clean catalyst (NFP-print sector reaction, single-name earnings, fresh sector flow). Watchlist for post-NFP Friday/next-Monday.
+4. **ETH (Ethereum spot)** — instrumentID 100001 (verify before any open), crypto. ETH +4.0% on the week, holding $2,379. **Rejected: derivative bet, no independent catalyst.** Stacking ETH on top of BTC pushes crypto class from 15.4% to ~30% on a single-driver tape (broad crypto bid). The MSTR-earnings catalyst is BTC-specific, not ETH-specific. Revisit if ETH/BTC ratio extends materially or a fresh ETH-specific catalyst (regulatory, ETF flow, dApp narrative) appears.
+5. **XLI (Industrials)** — +11.81% YTD, leading quadrant. **Rejected: same as XLK** — no 5/5-specific catalyst. Watchlist for next clean entry trigger.
+6. **XLF (Financials)** / **XLV (Healthcare)** — lagging-quadrant ETFs. **Rejected: averaging into laggards without a thesis trigger** is the textbook anti-pattern.
+7. **Defensive rotation (XLP, XLU)** — unconvincing. **Rejected.** Tape is risk-on (BTC at multi-month highs, energy/tech leading); defensive rotation is not the active flow today.
+
+**Risk factors**
+- **NFP Friday is the week's binary.** A hot or cold print re-prices yields → equity sectors → risk-on/off across our exposure. Holding 74.4% cash into the print is intentional dry-powder; deploying additional risk pre-NFP without a hard same-day catalyst is poor risk-budgeting.
+- **Iran-missile narrative could re-escalate.** Monday's claim was disputed; if it's confirmed/extended overnight, oil re-prices higher (XLE-positive, broader-market-mixed); if the disputation is corroborated, oil gives back further (still leaves XLE +3.2% buffer, well inside −10% stop).
+- **BTC at multi-month highs invites profit-taking.** A risk-off headline (Fed comment, tech-sector flush, macro surprise) hits crypto hardest. Position is +3.5% so the 10% stop band is now ~13% wide — comfortable cushion, but not infinite.
+- **MSTR-earnings tail.** A weak Strategy print could puncture the BTC-institutional-bid narrative midday; a strong print + new BTC buy announcement could extend the rally further. Either way, our existing BTC long is the right vehicle, not a same-day MSTR pre-earnings open.
+- **Data quality.** Perplexity's thin returns on VIX, 10Y, DXY, and 5/5 earnings calendar mean we are flying partially on carry-forward macro. Midday should reconcile vs eToro/cash-market reads.
+
+**Watchlist (for rest of the week)**
+- **XLK / XLI** — leadership reclaim continuing; entry trigger = clean post-NFP sector confirmation Friday afternoon, or a fresh single-name catalyst.
+- **ETH** — add only on a fresh ETH-specific catalyst (ETF flow, regulatory, ratio breakout); not a pure beta-to-BTC stack.
+- **XLE add-on** — would require a fresh leg in WTI (e.g., Iran-talks breakdown) AND XLE pulling back to 10DMA, neither present today.
+- **MSTR post-earnings** — if Tuesday print includes a new large BTC buy, re-evaluate Wednesday for direct exposure.
+
+**Decision:** **HOLD.** No new opens today. No trims required (both positions well under per-name 30% and per-class 50% caps). Both held positions are in profit and thesis-intact; no rule trips. Opens-this-week stays at 0; weekly budget of 5 untouched. The asymmetric play this week is reserving dry powder for clean post-NFP Friday setups, not deploying into a thin pre-NFP Tuesday tape.
+
+---
+
 ### 2026-05-04 — Monday Pre-Market (08:00 ET) — POST-XOM-BEAT, FRESH WEEK
 
 **Snapshot:** Equity 100.3% of start | Cash 74.8% | Open positions: 2 (BTC 15.0%, XLE 10.2%) | Week opens so far: 0 (fresh week) | Weekly budget remaining: 5 of 5
