@@ -10,6 +10,41 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-06 — EOD Snapshot (Day 13, Wednesday)
+
+**Equity:** 100.5% of start | **Cash:** 74.7% | **Day P&L:** −0.4% | **Phase P&L:** +0.5%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  15.5%  |$78,765.12  |$81,665.99  |    +3.7%    |$70,888.59  |
+| XLE | etf    |   9.8%  |$57.55      |$56.98      |    −1.0%    |$51.79      |
+
+**Notes:** Mildly negative Wednesday — no opens, no closes, no trims. Pre-market
+HOLD (10 candidates screened — pre-earnings binaries DIS/UBER/CVS/ARM/APP/DASH/
+FTNT/MAR + MSTR + BTC-add + XLK + XLI + XLE-add + ETH + GLD + XLF/XLV +
+defensives all rejected; ideas=0 actionable; research-log 2026-05-06 with a
+data-quality flag for one hallucinated WTI-crash claim cross-checked false).
+Market-open opened nothing; midday no-op (both theses intact). XLE softened
+materially from $59.44 → $56.98 (−4.1% from yesterday's close, position
+flipped from +3.3% → −1.0% unrealized) on WTI giving back to ~$102 plus a
+post-EIA-inventory bid that didn't hold; thesis intact (Hormuz risk-premium
+structurally bid, well above the −10% stop band at $51.79). BTC essentially
+flat at $81,650.33 → $81,665.99 (+0.02% from yesterday's close, position
+holds +3.7% unrealized) — multi-month high reinforced by MSTR Q1 ~145k BTC
+accumulation print, no adverse catalyst. Day P&L −0.4% on virtual equity
+(XLE mark-to-market loss of −$42.70 partially offset by BTC +$0.30, net
+−$42.40). No rule trips. 0 opens this week (cap 5 — week reset Monday); 2
+positions (cap 8); 15.5% crypto + 9.8% ETF = 25.3% invested (cap 50% per
+class); 74.7% cash buffer.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $10,049.52
+- Virtual cash: $7,502.06
+- Opens this week: 0
+- Real mirror (10%): $1,004.95
+
+---
+
 ## 2026-05-05 — EOD Snapshot (Day 12, Tuesday)
 
 **Equity:** 100.9% of start | **Cash:** 74.3% | **Day P&L:** +0.3% | **Phase P&L:** +0.9%
