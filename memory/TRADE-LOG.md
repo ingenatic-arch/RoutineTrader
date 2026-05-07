@@ -10,6 +10,41 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-07 — EOD Snapshot (Day 14, Thursday)
+
+**Equity:** 99.9% of start | **Cash:** 84.7% | **Day P&L:** −0.6% | **Phase P&L:** −0.1%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  15.3%  |$78,765.12  |$80,158.73  |    +1.8%    |$70,888.59  |
+
+**Notes:** Active Thursday — midday closed XLE on the rule-9 thesis-exit (Iran-ceasefire
+WTI −10% over two sessions; pre-market handed midday an explicit trigger
+"WTI not stabilizing ≥$93 + XLE not holding $56 area" — both met at 15:30Z with
+WTI ~$92–93 and XLE $55.47, exit at $55.47 vs $57.55 entry, realized −3.6% on
+the leg / ~−0.4% on equity / −$37.04 incl. $1.50 fee). No opens, no trims.
+Pre-market HOLD on non-XLE candidates (12 screened — DIS/UBER/CVS/MRNA/RIVN/
+ARM/APP/DASH/FTNT post-earnings + MSTR-add + XLF/XLV + GLD — all rejected;
+ideas=0 actionable; research-log 2026-05-07 with the explicit XLE-exit trigger
+that fired at midday). Market-open opened nothing. BTC softened from
+$81,665.99 → $80,158.73 (−1.8% from yesterday's close, position now +1.8%
+unrealized — pulled back from yesterday's multi-month high) on a modest
+crypto-tape pullback alongside risk-off oil tape, no adverse BTC catalyst,
+stop $70,888.59 untouched. Day P&L −0.6% on virtual equity (XLE realized
+−$37.04 plus BTC mark-to-market −$28.87 = net −$55.91 vs $10,049.52
+yesterday). Rule 9 trip (thesis-exit) — clean execution at the pre-market
+trigger. 0 opens this week (cap 5 — week reset Monday); 1 position (cap 8);
+15.3% crypto = 15.3% invested (cap 50% per class); 84.7% cash buffer (well
+above the 5% floor; meta-rule patience > activity in force).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,993.61
+- Virtual cash: $8,464.02
+- Opens this week: 0
+- Real mirror (10%): $999.36
+
+---
+
 ### 2026-05-07 — MIDDAY ACTIONS
 
 **Closed:** XLE (thesis broken — Iran-ceasefire WTI −10%/2 sessions, pre-market

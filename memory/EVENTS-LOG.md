@@ -105,3 +105,5 @@ Percentages only — no dollar references.
 2026-05-07T13:36:31Z | market-open | ok | Opened: none; positions=2 (research decision: HOLD pre-NFP, all 12 candidates rejected)
 2026-05-07T15:34:24Z | unknown | ok | 📉 Midday 2026-05-07 — closed 1 (thesis-exit), trimmed 0. • Closed XLE @ −3.6% (thesis broken: Iran-ceasefire WTI −10%/2d, XLE below $56 trigger from pre-market) • BTC held at +1.3% — thesis intact, stop untouched Post-action:
 2026-05-07T15:36:14Z | midday | alert | Closed: XLE (thesis-exit, Iran-ceasefire WTI -10%); trimmed: none; positions=1 (BTC); equity=99.9%; cash=84.8%
+2026-05-07T20:16:35Z | unknown | ok | 📊 Daily summary 2026-05-07 (Day 14) Equity: 99.9% of start / Day P&L: −0.6% / Phase: −0.1% Cash: 84.7% / Positions: 1 / Opens this week: 0/5 Positions: • BTC (crypto) 15.3% / +1.8% / stop −10% Today: opened 0, closed 1 (XLE — r
+2026-05-07T20:16:39Z | daily-summary | ok | EOD snapshot committed; day P&L -0.6%; equity 99.9%
