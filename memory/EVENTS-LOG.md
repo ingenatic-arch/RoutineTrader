@@ -102,3 +102,4 @@ Percentages only — no dollar references.
 2026-05-06T20:17:04Z | daily-summary | ok | EOD snapshot committed; day P&L -0.4%; equity 100.5%; positions 2; opens-this-week 0/5
 2026-05-07T13:19:31Z | unknown | warn | ⚠️ pre-market 2026-05-07: XLE thesis under pressure. WTI ~−10% over 2 sessions on US-Iran ceasefire-optimism (Hormuz risk-premium thesis breaking). XLE position −1.0% unrealized, well above −7% rule line; midday routine to evaluat
 2026-05-07T13:19:37Z | pre-market | alert | Research committed; decision=HOLD; ideas=0 actionable; XLE thesis-watch flagged to ClickUp on Iran-ceasefire WTI -10pct
+2026-05-07T13:36:31Z | market-open | ok | Opened: none; positions=2 (research decision: HOLD pre-NFP, all 12 candidates rejected)
