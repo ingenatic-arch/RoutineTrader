@@ -6,6 +6,67 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-05-07 — Thursday Pre-Market (08:00 ET) — IRAN-CEASEFIRE OPTIMISM, WTI −10% IN 2 DAYS, XLE THESIS UNDER PRESSURE, NFP TOMORROW
+
+**Snapshot:** Equity 100.4% of start | Cash 74.8% | Open positions: 2 (BTC 15.4%, XLE 9.9%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Market context** (as-of 2026-05-07 ~13:15 UTC, percentages only; data-source gaps flagged below)
+- **S&P 500 futures (ESM26):** No clean fresh overnight May 7 print surfaced. Wednesday cash session was constructive (SPX +1.46%, Nasdaq 100 +1.44–2.08%, Dow +1.24–1.33%) on tech beats (AMD +17%, SMCI +24%) and Iran-ceasefire optimism — both indices at/near record area. Risk-on tape into NFP.
+- **VIX / US 10Y yield / DXY:** **No fresh prints surfaced** (eighth consecutive thin morning on these). Carry-forward: VIX ~17–18, 10Y ~4.34–4.38%, DXY ~98. Treat as directional only.
+- **WTI crude — MAJOR THESIS-PRESSURE EVENT:** June WTI (CLM26) **closed −7.03% / −$7.19 Wednesday May 6**, then traded down further to **~$92.56** Thursday morning (additional ~−2.5%). Cumulative ~−10% over two sessions vs Tuesday's $104+ level. Driver: **"Crude oil prices plummet on optimism of US-Iran war to end"** — multiple sources cite ceasefire-headlines as the dominant trigger. This is the exact catalyst-reversal that breaks the Hormuz-risk-premium thesis underwriting our XLE long.
+- **DXY / Brent:** No fresh prints; carry-forward DXY ~98. Brent print not surfaced this morning.
+- **BTC: ~$80,931 live eToro mark at 13:15Z, ~−1.2% overnight** vs Wednesday morning's $82,320. Pulled back from the $82k breakout area; still well above $80k support and entry. On-tape commentary: spot-BTC ETFs took $2.44B in April inflows (highest since Oct 2025), and the prior $80k reclaim triggered $300M+ shorts liquidation. 200DMA test at ~$83k flagged as next technical hurdle. No adverse catalyst — orderly profit-taking after the multi-month-high print.
+- **ETH:** Fresh print not surfaced (third consecutive morning). Carry-forward ~$2.3–2.4k area.
+- **Today's catalysts:**
+  - **Initial Jobless Claims (week ending May 2)** — released this morning at 12:30 UTC: **219K actual vs 205K consensus** (and 189K prior). Mildly softer labor read — 30K above prior, 14K above consensus. Marginal NFP-tail signal: not a rate-cut trigger by itself, but consistent with a labor-cooling narrative. Tape reaction muted.
+  - **Nonfarm productivity / unit labor costs (Q1 prelim)** — likely mid-morning ET. Consensus not surfaced.
+  - **Earnings tape (Wed post-close + Thu pre/post):** DIS / UBER / CVS / MAR / ARM / APP / DASH / FTNT post-close Wednesday — specific reaction prints **not surfaced** in this morning's research; data-quality flag carried forward. Today's pre-open names not surfaced cleanly either. None in our portfolio class.
+  - **Friday NFP** — tomorrow 8:30 ET. The week's binary. ADP yesterday printed 109K vs 99K consensus (a beat); jobless claims this morning soft (219K vs 205K). Mixed labor signal into NFP — NFP itself becomes the swing read.
+  - **Geopolitics:** **US-Iran ceasefire-optimism is the dominant intraday risk-on driver this week.** Headlines specifically frame "war ending" — i.e., the path is now de-escalation, not escalation. Strait-of-Hormuz operational status not surfaced; Iran FM Araghchi's "making progress" remarks from yesterday underwrote the WTI selloff.
+- **Sector momentum:** Fresh 5-day prints not surfaced cleanly. Carry-forward through 5/4 close: XLE +33.70% YTD, XLK +15.19%, XLI +11.46%, XLU +9.38%, XLP +8.15%, XLF −5.34%, XLV −5.84%. **XLE specifically:** 1-month return now −4.49%, with the WTI selloff likely to extend that on Wednesday/Thursday. The leadership unwind is in motion.
+- **Data quality caveat.** Eighth consecutive thin morning on VIX/10Y/DXY/ETH; today's research had cross-source disagreement on WTI levels (one source gave $92.98, another $95.08, another $92.56 — all directionally consistent with the ~−10% two-day move). EIA crude inventories (5/6) print not surfaced. Earnings-reaction prints not surfaced. Treat third-party feeds as directional only; eToro `/pnl` + `/rates` are source of truth for position math.
+
+**Holdings check**
+- **BTC** (instrumentID 100000, weight 15.4% of equity, unrealized **+2.75%**, live $80,931.02 vs entry $78,765.12, stop $70,888.59): thesis **INTACT.** Pulled back ~−0.9% from Wednesday's $81,665.99 close on no adverse news — orderly profit-taking after the multi-month-high print. ETF inflow narrative (April $2.44B, Oct-2025 high) and the MSTR ~145k-BTC accumulation print remain tailwinds. Stop $70,888.59 untouched (~12.4% headroom from current price). No >3% adverse gap. **HOLD.**
+- **XLE** (instrumentID 3008, weight 9.9% of equity, unrealized **−0.99%**, live $56.98 vs entry $57.55, stop $51.79): thesis **MATERIALLY WEAKENING.** WTI down ~−10% over two sessions on US-Iran-ceasefire-optimism — this is the explicit reversal of the Hormuz-risk-premium thesis the position was built on. Position is still in the ETF cushion (only −0.99% unrealized; stop has ~9.1% headroom; well above the −7% rule-cut threshold). Per strategy rule 9 ("thesis-exit overrides the stop — close even above −7% if catalyst broken or sector rolling"), this position is now eligible for thesis-exit. **Pre-market does not trade — flagging for midday-routine review with a `THESIS-WATCH` recommendation: if WTI does not stabilize ≥$93 with XLE holding the $56 area into the midday session, midday should consider a full thesis-exit close above the −7% rule line.** ClickUp alert sent (criterion: "overnight news broke a position's thesis").
+
+**Trade ideas** (0–5 per day; HOLD is default only when no idea qualifies)
+
+Screened candidates + dispositions:
+
+1. **Add to BTC (push toward 18–20% weight)** — yesterday's watchlist trigger was "BTC pulls back to $80k on no-news + XLE stays bid." Pullback condition partially met (BTC $80.9k, ~1% pullback on no adverse catalyst). **Rejected: dual disqualifier.** (a) "XLE stays bid" condition has failed — XLE thesis is rolling, so the trigger logic that paired the BTC add to XLE strength no longer applies. (b) Pre-NFP entry on a multi-month-high consolidation is poor risk-budgeting — Friday's print is the binary, deploying additional crypto risk into a labor-data binary without a fresh same-day catalyst is anti-disciplined. Watchlist trigger reset: post-NFP confirmation OR a clean break-and-hold above $83k (200DMA).
+2. **XLK (Tech SPDR)** — instrumentID 3021, ETF. Wednesday's tech rally (AMD +17%, SMCI +24% post-close) extended Tuesday's leadership reclaim. **Rejected: pre-NFP, no specific 5/7 catalyst.** Watchlist trigger remains "post-NFP sector confirmation Friday afternoon."
+3. **XLI (Industrials SPDR)** — instrumentID resolution would be needed; +11.46% YTD leading quadrant. **Rejected: pre-NFP, no specific 5/7 catalyst.** Watchlist alongside XLK.
+4. **XLF (Financials SPDR)** — laggard at −5.34% YTD; ADP/claims print does not establish bank-tape pivot. **Rejected: averaging into a laggard without a thesis trigger** is the textbook anti-pattern.
+5. **XLV (Healthcare SPDR)** — laggard at −5.84% YTD. **Rejected: same as XLF.**
+6. **Defensive rotation (XLP, XLU)** — risk-on tape (tech at record area, Iran-ceasefire optimism, BTC near multi-month highs) argues against defensives. **Rejected.** Soft jobless-claims print is too marginal a defensive trigger by itself.
+7. **GLD (Gold)** — Iran ceasefire optimism is **anti-gold** — geopolitical-hedge premium is unwinding alongside oil's. **Rejected.**
+8. **Energy mean-reversion long (XLE add / XOM / CVX)** — directly opposed to the active flow. **Rejected, hard.** With WTI breaking down on a confirmed catalyst-reversal (Iran de-escalation), adding to or replacing the existing XLE long would be revenge-trading the thesis-roll.
+9. **Energy short / inverse-energy ETF** — strategy is **longs only** (rule 2). **Not eligible.**
+10. **MSTR (BTC-leveraged proxy)** — Wednesday post-print reaction not surfaced cleanly; BTC itself is consolidating after the multi-month-high. **Rejected: post-earnings-tape unread + correlated to existing BTC long without diversification benefit.**
+11. **DIS / UBER / MAR / ARM / APP / DASH / FTNT post-print mean-reversion** — Wednesday post-close reactions not surfaced in research. **Rejected: cannot evaluate without a clean overnight read.** If a clean reversal-volume setup emerges intraday, market-open could re-evaluate, but pre-buy gate requires a documented today-thesis at entry — not eligible from this morning's research.
+12. **ETH (Ethereum)** — fresh print not surfaced; no fresh ETH-specific catalyst. **Rejected: derivative beta-stack on top of BTC, pre-NFP.**
+
+**Risk factors**
+- **XLE thesis-roll is the dominant idiosyncratic risk this week.** WTI −10% over two sessions on a real catalyst-reversal (Iran de-escalation framed explicitly as "war ending") is the strongest thesis-pressure event the portfolio has seen in this phase. Position size (9.9%) and current unrealized (−0.99%) provide a comfortable risk envelope, but rule 9 makes a thesis-exit eligible at any time. Midday will be the decision point.
+- **NFP Friday is the week's binary.** ADP beat (109K vs 99K) and jobless-claims miss (219K vs 205K) leave NFP as the swing read. Soft NFP would extend tech / risk-on; hot NFP could revive cyclicals/financials and pressure rate-sensitive longs (BTC).
+- **Iran ceasefire two-way reversal risk.** A breakdown of ceasefire negotiations would reverse the WTI selloff sharply higher and re-bid XLE. Probability assessed as low based on the current "making progress" framing, but the position's thesis hinges on this exact headline path.
+- **BTC at ~$80–82k is in a profit-taking zone** after the multi-month-high print. A risk-off catalyst or hot NFP could trigger a deeper pullback to $77–78k area; existing 10% stop band provides ~12.4% headroom from current price (cushion intact, no action required).
+- **Concentration math.** Crypto class 15.4% + ETF class 9.9% = 25.3% invested with 74.8% cash — well inside per-class (50%) and per-name (30%) caps. Cash buffer adequate to absorb idiosyncratic position moves and to redeploy on a clean post-NFP setup Friday afternoon.
+- **Data quality.** Eighth consecutive thin morning on macro indicators; cross-source WTI disagreement (~$92.5–95) within a directionally consistent ~−10% two-day move; earnings-reaction prints not surfaced. Treat all third-party reads as directional only.
+
+**Watchlist (for midday + market-open Friday)**
+- **XLE thesis-exit (midday today)** — primary watch. Decision rule for midday: WTI not stabilizing ≥$93 + XLE not holding $56 area → consider full close above the −7% rule line on a thesis-exit.
+- **BTC** — no add today. Reset trigger: post-NFP confirmation Friday OR a clean break-and-hold above $83k (200DMA).
+- **XLK / XLI** — entry trigger = post-NFP sector confirmation Friday afternoon, or a pullback to 10DMA on no-news.
+- **XLF / XLV** — laggards; do not add without a thesis pivot (e.g., a hot NFP rate-revival for XLF, or a healthcare-specific catalyst for XLV).
+- **DIS / UBER post-print mean-reversion** — re-evaluate intraday today if a clean reversal-volume read emerges.
+- **ETH** — add only on a fresh ETH-specific catalyst; not a pure beta-to-BTC stack.
+
+**Decision:** **HOLD; THESIS-WATCH on XLE with midday-routine recommendation to consider thesis-exit if WTI does not stabilize ≥$93.** No new opens today. No pre-market trims (pre-market doesn't trade; rule 9 is a midday-routine action). Both held positions remain inside size caps (BTC 15.4% / cap 30% per-name and 50% per-class; XLE 9.9% / same caps); aggregate invested 25.3% with 74.8% cash. ClickUp alert sent flagging XLE thesis-pressure on Iran-ceasefire-driven WTI −10% two-day move, per the "overnight news broke a position's thesis" criterion. Opens-this-week stays at 0/5; full weekly budget preserved. The asymmetric play this week remains reserving dry powder for clean post-NFP Friday setups while letting the midday routine make the live thesis-exit call on XLE based on cash-session price action.
+
+---
+
 ### 2026-05-06 — Wednesday Pre-Market (08:00 ET) — BTC EXTENDS, XLE FIRMS, ADP + EIA + EARNINGS HEAVY DAY
 
 **Snapshot:** Equity 101.0% of start | Cash 74.3% | Open positions: 2 (BTC 15.5%, XLE 10.2%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
