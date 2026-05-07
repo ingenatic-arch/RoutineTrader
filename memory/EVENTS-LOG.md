@@ -103,3 +103,5 @@ Percentages only — no dollar references.
 2026-05-07T13:19:31Z | unknown | warn | ⚠️ pre-market 2026-05-07: XLE thesis under pressure. WTI ~−10% over 2 sessions on US-Iran ceasefire-optimism (Hormuz risk-premium thesis breaking). XLE position −1.0% unrealized, well above −7% rule line; midday routine to evaluat
 2026-05-07T13:19:37Z | pre-market | alert | Research committed; decision=HOLD; ideas=0 actionable; XLE thesis-watch flagged to ClickUp on Iran-ceasefire WTI -10pct
 2026-05-07T13:36:31Z | market-open | ok | Opened: none; positions=2 (research decision: HOLD pre-NFP, all 12 candidates rejected)
+2026-05-07T15:34:24Z | unknown | ok | 📉 Midday 2026-05-07 — closed 1 (thesis-exit), trimmed 0. • Closed XLE @ −3.6% (thesis broken: Iran-ceasefire WTI −10%/2d, XLE below $56 trigger from pre-market) • BTC held at +1.3% — thesis intact, stop untouched Post-action:
+2026-05-07T15:36:14Z | midday | alert | Closed: XLE (thesis-exit, Iran-ceasefire WTI -10%); trimmed: none; positions=1 (BTC); equity=99.9%; cash=84.8%

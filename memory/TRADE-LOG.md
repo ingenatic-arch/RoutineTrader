@@ -10,6 +10,26 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+### 2026-05-07 — MIDDAY ACTIONS
+
+**Closed:** XLE (thesis broken — Iran-ceasefire WTI −10%/2 sessions, pre-market
+handed an explicit midday trigger "WTI not stabilizing ≥$93 + XLE not holding
+$56 area"; both conditions met at 15:30Z — WTI ~$92–93 and XLE $55.47).
+**Trimmed:** none.
+**Cuts (rule −7%):** none (XLE was at −3.6%, exited on rule 9 thesis-exit, not the rule cut).
+**Post-action:** equity 99.9% of start | cash 84.8% | positions 1 (BTC 15.0%) |
+crypto class 15.0% / ETF 0% / cash buffer 84.8%. BTC thesis intact at +1.3%
+unrealized, stop $70,888.59 untouched.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity (post-close): $9,986.69
+- Virtual cash (post-close): $8,464.02
+- XLE realized P&L: −$37.04 (incl. $1.50 platform fee) on $999.00 cost; ~−3.6% on the leg, ~−0.4% on equity
+- Opens this week: 0
+- Real mirror (10%): $998.67
+
+---
+
 ## 2026-05-06 — EOD Snapshot (Day 13, Wednesday)
 
 **Equity:** 100.5% of start | **Cash:** 74.7% | **Day P&L:** −0.4% | **Phase P&L:** +0.5%
@@ -368,6 +388,14 @@ No positions yet. Routines activate on next scheduled fire.
 ## Trade entries
 
 _(market-open and midday routines append under here. Newest on top.)_
+
+### 2026-05-07 — CLOSE XLE (ETF — Energy) — thesis broken
+- positionID: 3417170896 | close orderID: 1454219275 | close token: eaeb987a-49a6-467c-8434-79cf41da4833
+- side closed: long 17.358818 units | leverage: 1
+- exit rate: $55.47 | open rate: $57.55 | holding period: 10 days (2026-04-27 → 2026-05-07)
+- realized %: −3.6% on the leg (~−0.4% of equity)
+- realized P&L (internal): −$37.04 (incl. $1.50 platform fee); cash returned $961.96 vs $999.00 cost
+- reason: thesis broken — Iran-ceasefire optimism drove WTI −10% over two sessions (Wed close −7.0% then ~−2.5% Thu morning); the Hormuz-risk-premium thesis underwriting the 2026-04-27 long has reversed (de-escalation = "war ending" framing, not escalation). Pre-market 2026-05-07 handed midday an explicit thesis-exit trigger: "WTI not stabilizing ≥$93 + XLE not holding $56 area." Live midday read: WTI ~$92–93 (below $93), XLE close rate $55.47 (below $56) — both conditions met. Strategy rule 9 (thesis-exit overrides the −7% rule) → full close.
 
 ### 2026-04-27 — OPEN XLE (ETF — Energy)
 - instrumentID: 3008 | order token: a17f9f5f-7a7a-4296-b9c2-b9e51a16c94d | orderID: 1439795801
