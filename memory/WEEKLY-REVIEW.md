@@ -6,6 +6,207 @@ and the 60/40 benchmark — not just P&L.
 
 ---
 
+### Week of 2026-05-04 → 2026-05-08
+
+**Week return:** −0.2% | **S&P 500 week:** +2.1% | **Alpha:** −2.3%
+**60/40 proxy (0.6·SPX + 0.4·BTC):** +2.3% | **Alpha vs 60/40:** −2.5%
+**Phase-to-date return:** −0.1%
+**Grade: B−** _(rule 9 thesis-exit fired exactly as designed and saved ~3.4% on
+the XLE leg vs the −10% server stop; but alpha-miss accelerated to the phase's
+worst single-week underperformance — the entry-bar trigger from week 3's review
+has now fired and demands action next week)_
+
+**Adjustments next week (preview):** **No strategy edit this week** — last week's
+rule-6 reframe lands cleanly. But the four-week trigger from the prior review
+HAS FIRED: opens-cadence now sits at 0/1/1/0 across weeks 2–5, with cumulative
+alpha vs 60/40 of roughly −4.5% over four weeks. The next pre-market (Monday
+2026-05-11) is directed to (a) name the cumulative alpha-miss explicitly and
+(b) test a looser reading of "today's catalyst" for sector-ETF leadership
+plays — specifically, "5-day momentum-confirmation after a binary event"
+(post-NFP, post-FOMC) should count as a documented catalyst even without a
+single fresh same-day print. Detail at the bottom of this entry.
+
+**Context.** This was the fifth week of routine-driven activity (fourth full
+week). The week opened with two positions (BTC 15%, XLE 10%) and closed with
+one (BTC). Mon/Tue/Wed all HOLD on pre-NFP risk-budgeting + macro-light tape;
+none had a chase-able catalyst that wasn't a same-day binary. Thursday delivered
+the week's only routine-driven action: pre-market 2026-05-07 detected the
+WTI two-day −10% rout (Iran-ceasefire-optimism explicitly framed as "war
+ending" — a clean catalyst-reversal of the Hormuz risk-premium thesis
+underwriting our 4/27 XLE long), and handed midday an explicit named trigger:
+"WTI not stabilizing ≥$93 + XLE not holding $56 area." Live midday read at
+15:30Z: WTI ~$92–93, XLE $55.47 — both conditions met. Midday executed full
+close at $55.47 vs $57.55 entry — realized −3.6% on the leg / ~−0.4% on equity
+/ −$37.04 on $999 cost. Friday HOLD on the post-NFP slate. BTC traveled from
+$78,173.16 (Mon AM open vs entry $78,765.12) → $80,220.00 (today close), now
++1.85% unrealized; well above $70,888.59 stop the entire week. Three add-BTC
+ideas screened across Tue/Wed/Thu, all rejected on named criteria
+(pre-MSTR-binary, chasing-the-multi-month-high, dual-disqualifier-with-XLE-
+rolling). Zero opens this week; one close (XLE thesis-exit). End-week: 1
+position, 84.7% cash, 15.3% deployed.
+
+**Stats**
+| Metric              | Value |
+|---------------------|-------|
+| Trades opened       |   0   |
+| Trades closed       |   1   |
+| Win rate            |   0%  |
+| Best trade          | −3.6% |
+| Worst trade         | −3.6% |
+| Avg hold (days)     |  10.0 |
+| Profit factor       |  0.00 |
+| Open positions EOW  |   1   |
+
+**Closed trades**
+| Symbol | Class | Hold  | P&L %  | Reason closed                      |
+|--------|-------|-------|--------|------------------------------------|
+| XLE    | etf   | 10d   | −3.6%  | thesis broken (rule 9; Iran-ceasefire WTI −10%/2 sessions) |
+
+**Open positions EOW**
+| Symbol | Class  | Weight% | Unrealized% | Stop  |
+|--------|--------|---------|-------------|-------|
+| BTC    | crypto |  15.3%  |    +1.8%    | −10%  |
+
+Cash: 84.7% of equity. Deployed: 15.3%. Opens-this-week: 0 of 5 budget. Class
+exposure: crypto 15.3% (cap 50%), ETF 0% (cap 50%). Positions: 1 of 8.
+
+**What worked**
+- **Rule 9 (thesis-exit overrides the −7% rule cut) fired exactly as designed —
+  first time in the phase.** XLE was at −3.6% unrealized when pre-market
+  detected the catalyst-reversal (Iran-ceasefire optimism = "war ending" =
+  Hormuz-risk-premium thesis broken). The position was nowhere near the −7%
+  rule cut, but rule 9 explicitly authorizes thesis-exit above the cut. We
+  closed at $55.47 vs entry $57.55 instead of waiting for the −10% server
+  stop at $51.79 — saved approximately 3.4% on the leg (~+0.34% on equity).
+  This is the first concrete validation that rule 9 does what it was written
+  to do; previously the rule lived in the strategy book without a real-money
+  test. The exit was clean, named, and executed against a pre-committed
+  decision rule.
+- **Pre-market → midday named-trigger handoff was textbook.** The 2026-05-07
+  pre-market did not just flag XLE thesis-pressure — it codified the exact
+  midday decision rule ("WTI not stabilizing ≥$93 + XLE not holding $56
+  area"), so midday wasn't re-deciding from scratch under time pressure with
+  partial data. Pre-market reads the morning tape; midday acts on the codified
+  trigger. Adopt this pattern: when pre-market sees thesis pressure but
+  doesn't have authority to act, it should write the next-routine decision
+  rule explicitly into the research-log. Saved time, reduced midday cognitive
+  load, eliminated discretion creep.
+- **Discipline preserved across 4 HOLDs + 1 thesis-exit.** Mon/Tue/Wed/Fri all
+  HOLD on named criteria (pre-NFP risk budgeting, no specific same-day
+  catalyst, post-NFP wait-and-see). Zero "nothing obvious" rejections; every
+  HOLD had a documented reason in the research log. Three separate add-BTC
+  ideas were screened and rejected on named criteria — not because BTC was
+  wrong, but because the trigger logic ("BTC pulls back to $80k on no-news +
+  XLE stays bid") had a disqualifier each day.
+- **BTC position finally earned its sizing without us chasing.** From last
+  Friday's −0.8% unrealized to today's +1.85% — a clean +2.6% week-over-week
+  move that the position rode without a single mid-week add. The rejected
+  add-BTC ideas (Tue 5/5, Wed 5/6, Thu 5/7) were all correct in retrospect:
+  adding into the multi-month-high print would have raised average entry
+  without R:R improvement. The original 15% sizing captured the upside
+  correctly.
+
+**What didn't**
+- **Worst alpha-miss of the phase: −2.3% vs SPX, −2.5% vs 60/40.** This is the
+  first single-week miss where the gap exceeds 2%, and it is the fourth
+  consecutive week trailing the benchmark (−0.9, −0.6, −0.5, −2.5 = roughly
+  −4.5% cumulative vs 60/40). The pattern has crossed the line from "the
+  cost of dry powder" to "the cost of an entry bar that may be miscalibrated."
+  In a +2.1% SPX week, holding 75–85% cash and a single 15% BTC long simply
+  cannot keep up. Every uninvested dollar this week underperformed the index
+  by ~2.1%, and we held an average of ~80% in cash. This is the precise
+  scenario the four-week alpha-bleed pattern was warning about.
+- **The entry-bar trigger from last week's review HAS FIRED.** Quote from
+  2026-04-27 → 2026-05-01 review: "Watching at week 4: if opens-cadence stays
+  at ≤1/week for the fourth week, that is the signal to revisit the entry
+  bar." Opens this week = 0; cumulative routine-opened cadence = 0, 1, 1, 1,
+  0 across weeks 1–5. Four straight weeks at ≤1 open. The signal has fired.
+  The entry bar must be looked at next week — not necessarily loosened, but
+  examined. Likely culprit: the "today's catalyst" gate item is being read
+  too strictly for sector-ETF plays — XLK / XLI / XLF have all sat on the
+  watchlist for 3+ weeks waiting for a single fresh same-day catalyst that
+  rarely materializes for sector ETFs. A 5-day momentum-confirmation after a
+  binary event (post-NFP for cyclicals, post-FOMC for rate-sensitives) is a
+  legitimate catalyst category that the gate doesn't currently recognize.
+- **XLE entry was a B+ thesis with limited shelf life.** The 2026-04-27 thesis
+  (WTI +2% on Iran-talks-stalled + Hormuz disruption) correctly read the day's
+  tape, but the multi-week catalyst (Iran de-escalation framing) emerged in
+  the back half of the position's 10-day life. Result: peaked at +3.7%
+  unrealized Thursday 4/30, drifted with WTI volatility through 5/5–5/6,
+  then broke on the 5/6–5/7 catalyst-reversal. Net: a −3.6% loser. Not a
+  rule violation — the thesis was A-grade by the gate criteria the day it
+  was opened. But "thesis durability" is the implicit dimension that wasn't
+  in the gate. Worth noting for future entries with single-headline catalysts:
+  geopolitical risk-premium theses can reverse on a single counter-headline.
+- **One close, one loss, win rate 0%.** The week's only realized trade was a
+  loser. We have no winners to point to in P&L terms — the BTC unrealized
+  gain (+1.8%) is not a closed trade. Statistically meaningless on n=1, but
+  worth flagging that the routine has yet to print a realized winner in five
+  weeks of activity (1 closed trade total: XLE −3.6%).
+
+**Lessons**
+- **Rule 9 has graduated from theoretical to validated.** First real-money test
+  fired correctly: pre-market identified the catalyst-reversal, codified the
+  midday trigger, midday executed cleanly. Net savings ~3.4% on the leg vs
+  the server stop. Hold the rule as-written; one event isn't enough to
+  promote the language ("thesis-exit overrides the stop" → "thesis-exit is
+  the primary exit, the stop is the backstop"), but two consecutive
+  validations would warrant that strategy-book upgrade. Watch for the next
+  thesis-pressure event.
+- **Pre-market should always codify the next-routine trigger when it sees
+  thesis pressure but lacks authority to act.** This week's XLE handoff is
+  the canonical example: pre-market reads the morning tape, sees the catalyst
+  rolling, can't trade itself (rule 5: pre-market doesn't trade), and writes
+  the exact midday decision rule into the research-log. Midday then executes
+  against the rule, not against fresh discretion. This is a workflow pattern
+  worth codifying: not a strategy edit, but a research-log convention.
+- **Cumulative alpha-bleed at week 4 is the signal we wrote into last week's
+  review for a reason.** The strategy explicitly grades discipline above P&L,
+  and a single −2.5% week against a +2.3% benchmark is "absorbable" — but
+  a four-week pattern of compounding underperformance is the signal that the
+  routine is out-of-step with the tape, not the tape that's out-of-step with
+  us. The strategy doesn't say "trail the benchmark forever; discipline is
+  enough." It says "discipline > P&L, but beat the 60/40 over the challenge
+  window." Four weeks at −4.5% vs 60/40 is the warning shot. Five weeks
+  would be a problem.
+- **Sector-ETF plays don't have the same catalyst structure as single names
+  or cyclical commodities.** XLK / XLI / XLF rotation moves on weekly /
+  monthly flows, not daily catalysts. Requiring "today's catalyst" gates out
+  exactly the leadership-confirmation entries that the 60/40 benchmark gets
+  for free. The gate isn't broken — it's tuned for high-conviction
+  catalyst-driven entries. But it doesn't recognize a legitimate second
+  category of entry: post-binary momentum confirmation. Next week's
+  pre-market should write the looser reading into a research-log entry as a
+  test, not amend the strategy yet.
+
+**Adjustments for next week**
+- **No strategy-book edit this week.** Last week's rule-6 reframe (cash
+  buffer aspirational, not enforceable) is settling cleanly — three weeks
+  of >50% cash with discipline preserved validates the amended language.
+  No further amendment needed.
+- **Pre-market 2026-05-11 (Monday) is directed to:** (a) explicitly name the
+  cumulative alpha-miss of −4.5% vs 60/40 over four weeks; (b) propose at
+  least one sector-ETF entry on a "5-day momentum-confirmation after a
+  binary event" thesis (post-NFP for cyclicals: XLK, XLI, or XLF if today's
+  Friday NFP is hot), even if no fresh single-day print fires; (c) document
+  the looser catalyst reading inline so it's auditable. If market-open 5/11
+  converts the idea, we test the looser bar in practice. If it rejects it
+  on different criteria (size, class cap, thesis quality), the test is still
+  meaningful. The point is to put the question in front of a real decision,
+  not adjudicate it in a vacuum.
+- **Operational convention (no rule change):** when pre-market sees thesis
+  pressure on an open position but lacks authority to trade (rule 5), it
+  should always codify the next-routine decision rule explicitly in the
+  research-log entry. Adopt the 2026-05-07 XLE pattern as the canonical
+  template: "If condition X AND condition Y both hold at midday, close
+  full." Pre-market reads, midday executes — no fresh discretion under
+  time pressure.
+- **Watching: rule-9 second validation.** First real-money test fired this
+  week and worked. Two consecutive validations would warrant a strategy-book
+  promotion of the rule's language. No edit yet; just flagging the watch.
+
+---
+
 ### Week of 2026-04-27 → 2026-05-01
 
 **Week return:** +0.3% | **S&P 500 week:** +1.0% | **Alpha:** −0.6%

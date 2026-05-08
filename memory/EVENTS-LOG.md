@@ -110,3 +110,5 @@ Percentages only — no dollar references.
 2026-05-08T13:36:12Z | unknown | warn | ⚠️ market-open skipped: no RESEARCH-LOG entry for 2026-05-08
 2026-05-08T13:36:18Z | market-open | warn | Skipped: no RESEARCH-LOG entry for 2026-05-08
 2026-05-08T15:39:30Z | midday | ok | No-op: BTC +1.35% (rules clear); positions=1; equity=99.9%; cash=84.7%; crypto-class=15.3%
+2026-05-08T20:42:27Z | unknown | ok | 📅 Weekly review — week of 2026-05-04 → 2026-05-08 Return: −0.2% / S&P 500: +2.1% / Alpha: −2.3% / Phase: −0.1% Grade: B− Stats: 0 opened / 1 closed / Win rate 0% / Best −3.6% / Worst −3.6% Open EOW: 1 position (BTC), 15.3
+2026-05-08T20:42:37Z | weekly-review | ok | Week committed; grade=B-; return=-0.2%; alpha=-2.3%
