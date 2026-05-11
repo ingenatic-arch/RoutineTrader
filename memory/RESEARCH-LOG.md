@@ -6,6 +6,59 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-05-11 — Monday Pre-Market (08:00 ET) — FRESH WEEK, US-IRAN HORMUZ CLASHES, WTI +2.8%, CPI MID-WEEK
+
+**Snapshot:** Equity 100.1% of start | Cash 84.5% | Open positions: 1 (BTC 15.5%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Market context** (as-of 2026-05-11 ~13:15 UTC, percentages only; data-source gaps flagged below)
+- **S&P 500 futures (ESM26):** ~7414, **−0.07% overnight** (CME 06:23 UTC print). Effectively flat into the open after Friday's cash session closed ~7398.51 on Friday's +0.84% advance. Tape character: indices at/near record area; Monday opens with no fresh catalyst pull either way.
+- **VIX / US 10Y yield / DXY:** **No fresh prints surfaced** (ninth consecutive thin morning on these). Carry-forward: VIX ~17–18, 10Y ~4.34–4.38%, DXY ~98. Treat as directional only.
+- **WTI crude — THE OVERNIGHT STORY.** Live ~**$97.6–$98.1**, **+2.77% overnight** vs Friday's ~$95.42 close. Driver: **fresh US-Iran military exchanges in the Strait of Hormuz**. US Central Command struck military targets in Iran after Tehran fired on three US destroyers transiting the Strait; Trump publicly stated "the ceasefire remains in place" but Iran is still "reviewing" the memorandum that would gradually restart Persian-Gulf tanker flows. The risk-premium that we faded out of last Wednesday (the catalyst behind the 5/7 XLE thesis-exit) has partially re-priced higher on a single session of escalation. **This is a thesis-reversal-candidate event, not a thesis-confirmation event** — single-session WTI bounce on resumed clashes is not yet a re-establishment of the Hormuz-premium regime.
+- **DXY / Brent:** No fresh prints surfaced.
+- **BTC: ~$81,256 live eToro mark at 13:15Z, position +3.16% unrealized.** Friday→Monday move is roughly flat-to-mildly-positive (last EOD snapshot 5/7 close was $80,158.73; current $81,256.18 is +1.4% from there). Third-party feeds disagreed (one source listed $91k, another $80.8k) — **eToro `/pnl` mark is source of truth** ($81,256.18). On-tape commentary worth flagging: (1) **Mt. Gox transferred ~$956M of BTC** to an unmarked wallet over the weekend — historically a precursor signature for trustee distributions / repayment-driven supply; (2) **Spot BTC + ETH ETFs took ~$437M combined outflows Friday**, while SOL/XRP/LTC ETFs took positive inflows — early signal of intra-crypto rotation, mildly bearish for BTC dominance. Neither is thesis-breaking today, but both warrant the watch.
+- **ETH:** ~$2,331.68 live (MEXC reference), **−0.67% overnight**. No portfolio exposure.
+- **Today's catalysts:**
+  - **No top-tier US macro releases scheduled for Monday May 11.** Light data calendar; the week's binaries are mid-week (CPI / PPI / Fed-Chair-vote per market-outlook references).
+  - **Pre-open earnings:** Search surfaced **no major pre-open names** for today. Catalyst Pharmaceuticals (CPRX) reports after-the-close — not pre-open, not in our universe.
+  - **Geopolitics — primary driver:** US-Iran Hormuz clashes (above) are the dominant intraday wildcard, particularly for energy / DXY / gold tape. Trump-Xi summit referenced as a "this week" catalyst; specific date / time not surfaced.
+- **Sector momentum (YTD through 5/8 close):** XLE **+25.40%** (still leader despite last week's −10% WTI flush), XLK **+22.07%** (Tech), XLI **+11.97%**, XLP **+8.98%**, XLU **+5.49%**, XLF **−5.96%**, XLV **−6.93%**. Clean 5-day prints not surfaced — YTD ranks carry forward from last Friday. Leadership concentrated in Energy + Tech; lagging quadrant is rate-sensitive (Healthcare / Financials).
+- **Data quality caveat.** Ninth consecutive thin morning on VIX/10Y/DXY. Cross-source BTC price disagreement (Perplexity returned conflicting $80.8k vs $91k figures — eToro `/pnl` overrides). Clean 5-day sector deltas not surfaced. Specific Trump-Xi summit timing not surfaced. CPI/PPI dates / consensus estimates not pinned down. Treat third-party feeds as directional only; eToro `/pnl` + `/rates` remain source of truth for position math.
+
+**Holdings check**
+- **BTC** (instrumentID 100000, weight 15.5% of equity, unrealized **+3.16%**, live $81,256.18 vs entry $78,765.12, stop $70,888.59): thesis **INTACT.** Component status: (a) "Iran-ceasefire-indefinite" — wobbling but Trump publicly reaffirmed; (b) MicroStrategy ~145k-BTC accumulation print — unchanged; (c) 3-month-high breakout — holding above $81k. Headwinds to flag (not thesis-breaks): Mt. Gox $956M wallet move (potential supply overhang ahead of trustee distributions) and Friday $437M ETF outflows (sentiment cooling). No >3% adverse overnight gap; price actually firmed +1.4% vs last EOD. Stop $70,888.59 untouched (~12.8% headroom from current price). **HOLD.**
+
+**Trade ideas** (0–5 per day; HOLD is default only when no idea qualifies)
+
+Screened candidates + dispositions:
+
+1. **XLE re-entry (energy mean-reversion long)** — WTI +2.77% overnight on fresh US-Iran Hormuz clashes is the exact catalyst class that built the original XLE thesis. **Rejected today: three disqualifiers.** (a) **Single-session bounce ≠ regime change.** We exited Thursday at $55.47 on a confirmed two-day −10% WTI thesis-break; one session of resumed clashes is not yet a re-establishment of the Hormuz-premium regime, and Iran is still "reviewing" a memorandum that would restart Gulf tanker flows — i.e., the de-escalation path is still on the table for mid-week. (b) **Revenge-trade flavor.** Re-entering on day-one of a reversal of the catalyst that just stopped us out (4 trading days ago) would be the textbook anti-pattern. (c) **CPI binary mid-week.** Adding cyclical risk pre-CPI is poor risk-budgeting. **Watchlist trigger:** WTI holds ≥$95 through Wednesday's close + a fresh Hormuz-escalation headline + XLE reclaims its 5DMA + cleaner read on whether Iran signs vs walks the memorandum.
+2. **Add to BTC (push toward 18–20% weight)** — thesis still intact and position is in profit. **Rejected.** Mt. Gox $956M wallet move + $437M ETF outflows = wrong day to size-up. The trigger remains "clean break-and-hold above $83k (200DMA)" from the 5/7 watchlist, not yet met.
+3. **XLK (Tech SPDR)** — leadership +22% YTD, but at-record area with no specific 5/11 catalyst. **Rejected:** chasing extended leadership into a Monday with no print = entry-risk asymmetric to upside.
+4. **XLI (Industrials)** — +12% YTD, leading quadrant. **Rejected:** no specific Monday catalyst; pre-CPI.
+5. **XLF / XLV** — laggard pair (−6% / −7% YTD). **Rejected:** averaging into laggards without a pivot trigger is the textbook anti-pattern (carried forward from 5/7).
+6. **Defensives (XLP, XLU)** — no fresh rotation trigger; tape character is risk-on-near-records, not defensive-rotation. **Rejected.**
+7. **GLD (gold)** — would typically bid on Hormuz clashes, but DXY print unsurfaced and we have no fresh overnight gold % move to anchor a trade decision. **Rejected: data gap + single-session geopolitical jolt is insufficient without a confirmation print.** Watchlist for Tuesday if Hormuz tape extends.
+8. **MSTR** — correlated to existing BTC long without diversification benefit; same Mt. Gox / ETF-outflow overhang. **Rejected.**
+9. **ETH** — −0.67% overnight, no fresh catalyst; intra-crypto rotation away from BTC/ETH toward SOL/XRP/LTC ETFs is the actual signal Friday — not a green light to add ETH. **Rejected.**
+10. **Energy single-names (XOM, CVX)** — same disqualifiers as #1, with added single-name idiosyncratic risk (no fresh earnings catalyst this morning). **Rejected.**
+
+**Risk factors**
+- **Iran two-way reversal risk (primary).** A second escalation headline mid-day extends the WTI bounce and bids defensives / gold / energy; a counter-headline ("Iran signs the memorandum") reverses oil sharply, re-bids tech / risk-on, and would have justified Thursday's XLE exit twice over. Path is bimodal — wait for confirmation.
+- **CPI / PPI mid-week.** The week's binary. Hot print revives the 10Y → pressures rate-sensitive longs (BTC); soft print extends tech / risk-on. Pre-print entries are sub-optimally timed.
+- **BTC supply overhang.** Mt. Gox $956M wallet move historically presages trustee-driven distributions; not an immediate thesis-break (price is firm at $81k+) but a real headwind to the "clean breakout to new highs" path. Combined with $437M Friday ETF outflows = sentiment cooling, not capitulation. Stop at −10% remains adequate cushion.
+- **Concentration math.** 15.5% crypto + 0% ETF = 15.5% invested with 84.5% cash. Well inside per-class (50%) and per-name (30%) caps. Cash buffer high (well above 5% floor); meta-rule (patience > activity, amended 2026-05-01) explicitly supersedes the 5–10% deployment target.
+- **Data quality.** Ninth consecutive thin morning on VIX/10Y/DXY; cross-source BTC price disagreement; no clean Trump-Xi or CPI specifics. Treat all third-party reads as directional only.
+
+**Watchlist (for rest of the week)**
+- **XLE re-entry** — primary watch. Trigger: WTI sustains ≥$95 through Wed close + fresh Hormuz-escalation confirmation + XLE reclaims its 5DMA. Size on re-entry: ≤10% of equity, 10% stop.
+- **BTC add** — trigger: clean break-and-hold above $83k (200DMA) post-CPI, AND Mt. Gox flow doesn't translate into a confirmed exchange-deposit / sell wave.
+- **GLD** — trigger: WTI extends + DXY softens on Iran-escalation continuation; clean overnight gold print to anchor entry.
+- **CPI-day plays (mid-week)** — read sector reaction post-print rather than pre-positioning.
+
+**Decision:** **HOLD.** No new opens today. No trims (single position at 15.5%, well inside caps). Opens-this-week stays 0; budget 5 of 5 available through Friday. Cash 84.5% by design — the Iran-escalation jolt is interesting but single-session, and the dominant binary (CPI) is mid-week. Pre-buy gate fails the "catalyst documented today" requirement for every screened candidate.
+
+---
+
 ### 2026-05-07 — Thursday Pre-Market (08:00 ET) — IRAN-CEASEFIRE OPTIMISM, WTI −10% IN 2 DAYS, XLE THESIS UNDER PRESSURE, NFP TOMORROW
 
 **Snapshot:** Equity 100.4% of start | Cash 74.8% | Open positions: 2 (BTC 15.4%, XLE 9.9%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5

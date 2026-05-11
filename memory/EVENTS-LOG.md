@@ -110,3 +110,4 @@ Percentages only — no dollar references.
 2026-05-08T13:36:12Z | unknown | warn | ⚠️ market-open skipped: no RESEARCH-LOG entry for 2026-05-08
 2026-05-08T13:36:18Z | market-open | warn | Skipped: no RESEARCH-LOG entry for 2026-05-08
 2026-05-08T15:39:30Z | midday | ok | No-op: BTC +1.35% (rules clear); positions=1; equity=99.9%; cash=84.7%; crypto-class=15.3%
+2026-05-11T13:18:40Z | pre-market | ok | Research committed; decision=HOLD; ideas=0 actionable; rejected=10; held=BTC+3.2% (thesis intact); cash=84.5%; opens-this-week=0 of 5; key tape: WTI +2.8% on US-Iran Hormuz clashes (XLE re-entry on watchlist not today); data-quality flag (VIX/10Y/DXY missing 9th day, Perplexity BTC price conflict resolved via eToro mark)
