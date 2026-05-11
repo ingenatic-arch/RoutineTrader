@@ -110,3 +110,5 @@ Percentages only — no dollar references.
 2026-05-08T13:36:12Z | unknown | warn | ⚠️ market-open skipped: no RESEARCH-LOG entry for 2026-05-08
 2026-05-08T13:36:18Z | market-open | warn | Skipped: no RESEARCH-LOG entry for 2026-05-08
 2026-05-08T15:39:30Z | midday | ok | No-op: BTC +1.35% (rules clear); positions=1; equity=99.9%; cash=84.7%; crypto-class=15.3%
+2026-05-11T20:18:47Z | unknown | ok | 📊 Daily summary 2026-05-11 (Day 16) Equity: 100.3% of start / Day P&L: +0.3% / Phase: +0.3% Cash: 84.4% / Positions: 1 / Opens this week: 0/5 Positions: • BTC (crypto) 15.6% / +4.0% / stop −10% Today: opened 0, closed 0, trimmed 0. Q
+2026-05-11T20:18:52Z | daily-summary | ok | EOD snapshot committed; day P&L +0.3% (spans Fri+Mon, 2026-05-08 EOD missed); equity 100.3%; positions 1; opens-this-week 0/5
