@@ -98,7 +98,7 @@ Percentages only — no dollar references.
 2026-05-06T13:10:29Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; rejected=10; held=BTC+4.2% / XLE+3.3%; cash=74.3%; opens-this-week=0 of 5; data-quality flag (1 hallucinated WTI crash claim, cross-checked false)
 2026-05-06T13:37:06Z | market-open | ok | Opened: none; positions=2 (BTC, XLE); decision HOLD per RESEARCH-LOG (10 candidates screened — pre-earnings binaries DIS/UBER/CVS/ARM/APP/DASH/FTNT/MAR + MSTR + BTC-add + XLK + XLI + XLE-add + ETH + GLD + XLF/XLV + defensives all rejected); BTC +4.06% / XLE +0.31% theses intact; cash 74.5%; opens-this-week 0 of 5
 2026-05-06T15:40:45Z | midday | ok | no-op; BTC +3.59% (thesis intact and strengthening, BTC at $81,596 — multi-month high reinforced by MSTR Q1 ~145k BTC accumulation print), XLE -1.01% (thesis intact, WTI consolidating ~$102 with Hormuz premium structurally bid, EIA inventories at 10:30 ET pending); positions=2; cash=74.7%; class crypto=15.5% etf=9.8%; no rule trips
-2026-05-06T20:16:59Z | unknown | ok | 📊 Daily summary 2026-05-06 (Day 13) Equity: 100.5% of start / Day P&L: −0.4% / Phase: +0.5% Cash: 74.7% / Positions: 2 / Opens this week: 0/5 Positions: • BTC (crypto) 15.5% / +3.7% / stop −10% • XLE (etf) 9.8% / −1.0% / stop �
+2026-05-06T20:16:59Z | unknown | ok | 📊 Daily summary 2026-05-06 (Day 13) Equity: 100.5% of start / Day P&L: −0.4% / Phase: +0.5% Cash: 74.7% / Positions: 2 / Opens this week: 0/5 Positions: • BTC (crypto) 15.5% / +3.7% / stop −10% • XLE (etf) 9.8% / −1.0% / stop �
 2026-05-06T20:17:04Z | daily-summary | ok | EOD snapshot committed; day P&L -0.4%; equity 100.5%; positions 2; opens-this-week 0/5
 2026-05-07T13:19:31Z | unknown | warn | ⚠️ pre-market 2026-05-07: XLE thesis under pressure. WTI ~−10% over 2 sessions on US-Iran ceasefire-optimism (Hormuz risk-premium thesis breaking). XLE position −1.0% unrealized, well above −7% rule line; midday routine to evaluat
 2026-05-07T13:19:37Z | pre-market | alert | Research committed; decision=HOLD; ideas=0 actionable; XLE thesis-watch flagged to ClickUp on Iran-ceasefire WTI -10pct
@@ -110,3 +110,4 @@ Percentages only — no dollar references.
 2026-05-08T13:36:12Z | unknown | warn | ⚠️ market-open skipped: no RESEARCH-LOG entry for 2026-05-08
 2026-05-08T13:36:18Z | market-open | warn | Skipped: no RESEARCH-LOG entry for 2026-05-08
 2026-05-08T15:39:30Z | midday | ok | No-op: BTC +1.35% (rules clear); positions=1; equity=99.9%; cash=84.7%; crypto-class=15.3%
+2026-05-11T15:41:12Z | midday | ok | No-op: BTC +3.16% (rules clear, thesis intact, stop untouched); positions=1; equity=100.1%; cash=84.5%; crypto-class=15.0%
