@@ -6,6 +6,79 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-05-12 — Tuesday Pre-Market (08:00 ET) — HORMUZ-BLOCKADE NARRATIVE BACK, WTI ~$100, CPI DAY (8:30 ET)
+
+**Snapshot:** Equity 100.1% of start | Cash 84.6% | Open positions: 1 (BTC 15.4%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Market context** (as-of 2026-05-12 ~13:10 UTC, percentages only; data-source gaps flagged below)
+- **S&P 500 futures (ESM26):** Monday cash session printed ESM26 +0.18% on a +5bp 10Y move; overnight into Tuesday is **−0.03%** (~7434 area), muted pre-CPI tape. Risk-on into the week is on pause until the 8:30 ET print clears.
+- **VIX:** **No fresh print surfaced** (ninth consecutive thin morning). Carry-forward VIX ~17–18.
+- **US 10Y yield:** **~4.41%, +5bp Monday.** Yields drifted higher into the CPI binary — modestly hawkish positioning.
+- **WTI crude — MAJOR THESIS-FLIP from last week:** WTI closed **~$100.46 on May 11, intraday range $98–$100.71, +1.15% on the day**. June contract (CLM26) printing $100.37, +$2.30. This is a **full retracement** of the 5/6–5/7 Iran-ceasefire-optimism selloff (which had driven WTI from $104 → $92 in two sessions). Driver: **US blockade of the Strait of Hormuz initiated mid-April remains in force.** Per Carlyle Senior Advisor commentary (May 6), European oil storage tanks running empty during May, US storage tanks running empty around July 4; even immediate resolution would take 3+ months to restart flows (vessel repositioning, demining, insurance reconfirmation). The Trump-administration "Project Freedom" initiative and proposed "ARAM Express" overland pipeline framework reflect a multi-month rather than days-to-weeks horizon. **The "war ending" framing that drove the 5/6–5/7 selloff has reversed; the structural supply-disruption thesis is back in force.**
+- **DXY / Brent:** **No fresh prints surfaced.** Carry-forward DXY ~98 area.
+- **BTC: ~$80,861 live eToro mark at 13:10Z, ~−0.7% overnight** vs Monday print. Consolidating at the $80k support shelf after last week's pullback from $82k. BTC dominance ~60.88% (high); spot ETFs continuing institutional inflows (April $2.44B / highest since Oct 2025 carry-forward). MSTR Q1 ~145k-BTC accumulation print remains a structural tailwind. No adverse BTC-specific catalyst overnight; price action is orderly profit-taking ahead of CPI.
+- **ETH:** Cross-source disagreement — one source cited "~$1,800 stagnating," another suggests carry-forward ~$2.3–2.4k. Treat as **directional only / not actionable** until a cleaner print arrives.
+- **Today's catalysts:**
+  - **🟥 CPI (April) — 8:30 ET. THE BINARY of the week (paired with PPI Wed).** Consensus: **headline +0.6% MoM / +3.7% YoY**; **core +0.3% MoM / +2.7% YoY**. Cleveland Fed Nowcast (May 4) core: +0.21% MoM / +2.56% YoY. Context: March was +0.9% MoM / +3.3% YoY headline. Consensus expects deceleration vs March. A hot print (core ≥ +0.4% MoM) revives the rate-stays-higher narrative → tech/crypto pressure, financials bid, bond-yield spike, dollar bid. A cool print (core ≤ +0.2% MoM) extends risk-on → tech bid, crypto bid, yields lower.
+  - **PPI (April) — Wed 8:30 ET.** Week's second binary; reinforces or contradicts today's CPI.
+  - **Earnings tape:** specific pre-open names not surfaced cleanly this morning. No names in our portfolio class.
+  - **Fed-chair transition + Trump–Xi summit** pending into the week.
+  - **Geopolitics:** **Hormuz blockade still active.** FAO Food Price Index up for a third consecutive month on energy-cost spillover. One-third of seaborne oil flows through Hormuz; impact compounds week-on-week as storage drains.
+- **Sector momentum:** Fresh prints thin again. XLK confirmed at **$177.88 on 5/11, +8.6% over 5 sessions, YTD +9.32%** (5-day data was the cleanest read). Carry-forward YTD reads through 5/4 close: XLE +33.70%, XLK +15.19% (now reconciled lower at +9.32% per cleaner 5/11 print — likely the YTD ledger reset / dividend adjustment, not a real divergence), XLI +11.46%, XLU +9.38%, XLP +8.15%, XLF −5.34%, XLV −5.84%. **XLE specifically:** dollar-tracked from $55.47 (5/7 exit) → $57.18 (5/11 close), a **+3.1% bounce in three sessions** as the WTI rebound reasserted itself — sector reclaiming leadership after the brief 5/6–5/7 wobble.
+- **Data quality caveat.** Ninth consecutive thin morning on VIX/DXY/Brent. Cross-source disagreement on ETH price (~$1,800 vs ~$2,300). Earnings prints not surfaced. Treat third-party feeds as directional only; eToro `/pnl` + `/rates` are source of truth for position math.
+
+**Holdings check**
+- **BTC** (instrumentID 100000, weight 15.4% of equity, unrealized **+2.7%**, live $80,861.12 vs entry $78,765.12, stop $70,888.59): thesis **INTACT.** Soft overnight (−0.7%) on no adverse catalyst — pre-CPI profit-taking after last week's pullback from the $82k multi-month-high consolidation; structural narrative (institutional ETF flows + MSTR ~145k-BTC accumulation + 200DMA technical re-test) unchanged. Stop $70,888.59 untouched (~12.3% headroom from current $80.8k mark). No >3% adverse gap. **HOLD.** CPI is today's directional swing for BTC; risk reward inside the wide stop band is fine.
+
+**Trade ideas** (0–5 per day; HOLD is default only when no idea qualifies)
+
+Primary candidate:
+
+1. **XLE (Energy SPDR) re-entry** — instrumentID `3008`, asset class: ETF (Energy exposure). **A-grade thesis, watchlist trigger for market-open at 9:35 ET (post-CPI).**
+   - **Catalyst:** US Strait-of-Hormuz blockade **remains in force** after the brief 5/6–5/7 ceasefire-optimism wobble; WTI has fully retraced from $92 back to ~$100.46 (+$8/bbl in three sessions). European oil storage running empty during May, US storage by July 4 — structural supply-disruption window is **multi-month**, not days. The "war ending" thesis that justified the 5/7 thesis-exit has reversed. XLE has already re-bid +3.1% from the 5/7 exit price.
+   - **Entry:** ask ~$57.18 (eToro 5/11 cash close; fresh pre-market tick not yet available).
+   - **Stop (−10%):** round(57.18 × 0.90, 4) = **$51.4620**.
+   - **Target (≥2:1 R:R):** $68.62 (~+20%) — back toward the April leadership-print area.
+   - **Size:** **10% of equity** (~$1,000 virtual / $100 real mirror). Matches prior XLE position size. After fill: BTC 15.4% + XLE 10% = 25.4% invested, 74.6% cash (well above 5% floor).
+   - **R:R:** 2.0:1 minimum.
+   - **Pre-buy gate status:** Positions-after 2≤8 ✓ | Week-opens-after 1≤5 ✓ | Cost 10%≤30% ✓ | Class 10%≤50% (ETF/Energy class) ✓ | Cash buffer after 74.6%≥5% ✓ | Exact `internalSymbolFull=XLE` match (carry-forward from 4/27 open) ✓ | Catalyst documented (this entry) ✓.
+   - **🟡 Market-open conditional rule:** Do **not** open before the 8:30 CPI print clears. Market-open routine should evaluate at 9:35 ET against this gate: if **CPI core ≤ +0.3% MoM AND XLE opens ≥ $56.50 with WTI ≥ $98**, fire the open. If CPI core ≥ +0.4% MoM (hot print = financials-bid, energy-mixed, yield-spike pressures everything via dollar), **stand down** and let the post-print tape settle before considering. If WTI breaks back below $96 on the print, the thesis-flip thesis is undermined and the trade is **off**.
+   - **Rule 11 check (2-consecutive-losers cool-off):** XLE has **one** loss this phase (the 5/7 −3.6% thesis-exit). One loss ≠ rule-11 trigger. Re-entry is **not blocked** by sector cool-off. The 5/7 exit was rule-9 thesis-exit (catalyst broken at the time); now that the catalyst has reasserted, re-entry is mechanically consistent with the rulebook.
+
+Screened candidates + dispositions:
+
+2. **Add to BTC (push toward 18–20% weight)** — last week's watchlist trigger was "post-NFP confirmation OR clean break-and-hold above $83k (200DMA)." **Rejected.** BTC failed the $83k break-and-hold last week and is now consolidating at $80k. Adding pre-CPI with a hot-print scenario disproportionately hitting crypto via rate revival is the worst risk-budgeting setup. Watchlist trigger reset: post-CPI confirmation if core prints cool (≤ +0.2% MoM) AND BTC holds $80k AND breaks $82k with volume.
+3. **XLK (Tech SPDR)** — +8.6% over 5 sessions, +9.32% YTD, $177.88 on 5/11. **Rejected: extended pre-CPI.** A +8.6% 5-day run into a binary print is the textbook chase setup. Even a cool CPI may not extend tech further from these levels in the first hour. Watchlist trigger: post-CPI pullback to 10DMA on cool print, or post-PPI sector confirmation Wed afternoon.
+4. **XLI (Industrials SPDR)** — YTD +11.46% (carry-forward) — leading-quadrant by structure. **Rejected: pre-CPI, no specific 5/12 catalyst.** Watchlist alongside XLK.
+5. **XLF (Financials SPDR)** — −5.34% YTD laggard. **Conditional rejected.** A hot CPI print + +5bp yield-extension could actually be the trigger for XLF re-rating (banks bid on higher-for-longer rates). Watchlist trigger: hot CPI core (≥ +0.4% MoM) → XLF re-evaluate at market-open. Until the print clears, do nothing.
+6. **XLV (Healthcare SPDR)** — −5.84% YTD laggard. **Rejected: no thesis pivot.** Averaging into a laggard without a catalyst is the anti-pattern. Watchlist sleeper if a healthcare-specific catalyst surfaces.
+7. **GLD (Gold)** — Hormuz blockade re-asserting is geopolitical-hedge-positive, but a hot CPI print is dollar/yield-bid and gold-negative. **Rejected: two competing flows pre-CPI, no edge.** Re-evaluate post-print if dollar fades AND geopolitical-risk-bid extends.
+8. **MSTR (BTC-leveraged proxy)** — Q1 catalyst already digested; correlated to existing BTC long. **Rejected.**
+9. **ETH (Ethereum)** — fresh print unreliable (~$1,800 vs ~$2,300 cross-source). **Rejected: cannot evaluate without a clean read.** Watchlist if a clean ETH-specific catalyst surfaces.
+10. **USO (United States Oil Fund)** — direct WTI proxy. **Rejected vs XLE: equity wrapper preferred over commodity-tracker for sector-leadership setup.** XLE captures the same thesis with sector-momentum tailwind and less contango drag.
+11. **XOM / CVX (direct energy single-names)** — could substitute for XLE. **Rejected vs XLE: ETF preferred for cleaner sizing + diversification within energy class.** Single-name energy adds idiosyncratic earnings/headline risk that the ETF wrapper mitigates.
+
+**Risk factors**
+- **CPI is the dominant 24h risk.** 8:30 ET print sets the directional tape for the entire session and arguably the week (PPI tomorrow reinforces or contradicts). Hot core (≥ +0.4% MoM) = rate-revival, dollar-bid, crypto/tech pressure, financials bid. Cool core (≤ +0.2% MoM) = risk-on continuation, tech/crypto extension. Anywhere in between = chop. **Deploying any fresh risk pre-print is poor risk-budgeting** — the XLE setup is documented as a market-open conditional, not a pre-print entry.
+- **Hormuz-blockade reversal-of-reversal risk.** The narrative has whipsawed twice in 6 sessions (4/27 long → 5/7 thesis-exit on ceasefire optimism → 5/12 re-bid on blockade-still-active). The thesis is structurally durable (supply-physical drains over months, not days) but the headline tape is volatile. A fresh ceasefire-breakthrough headline could trigger another flush; the conditional rule (XLE ≥ $56.50, WTI ≥ $98) is the gate.
+- **BTC pre-CPI cushion.** +2.7% unrealized provides a +13% buffer to the stop at $70,888.59. Even a hot-CPI 4–5% flush would still leave the stop intact. No action required regardless of print direction.
+- **PPI Wed compounds.** Today's CPI signal will be retested Wed 8:30 ET. Deploying full risk Tuesday means PPI binary risk on top of CPI binary risk — argues for incremental sizing (10% XLE rather than 15%, matching prior leg) even if the trigger fires.
+- **Concentration math.** Pre-trade: BTC 15.4% / cash 84.6%. Post-XLE-fill: BTC 15.4% + XLE 10% = 25.4% invested / 74.6% cash. Well inside per-name (30%), per-class (50% crypto, 50% ETF), and 5% cash-floor caps. Aggregate exposure adequate to absorb idiosyncratic position moves.
+- **Data quality.** Ninth consecutive thin macro morning. Cross-source ETH disagreement and absent fresh DXY/Brent/VIX prints argue for treating quantitative reads as directional. eToro `/pnl` + `/rates` are the source of truth for position math.
+
+**Watchlist (for market-open today + rest of week)**
+- **XLE re-entry @ 9:35 ET market-open** — primary. Gate: CPI core ≤ +0.3% MoM AND XLE opens ≥ $56.50 with WTI ≥ $98. Stand down on hot CPI; revisit post-PPI Wed.
+- **XLF re-rating on hot CPI** — conditional secondary. Banks could be the only sector bid on a hot-CPI rate-revival tape. Watchlist for market-open evaluation if hot core prints.
+- **BTC add** — reset trigger: post-CPI cool print AND BTC holds $80k AND breaks $82k with volume. Skip if it gaps to $83k without pause.
+- **XLK / XLI** — entry trigger = post-CPI pullback to 10DMA on cool print, or post-PPI Wed afternoon confirmation. Do not chase the +8.6% 5-day extension.
+- **GLD** — conditional add if dollar fades post-CPI AND Hormuz-headline-bid extends.
+- **ETH** — add only on fresh ETH-specific catalyst with a clean overnight read; do not pure-beta-stack BTC.
+- **DIS / UBER / MAR / ARM / APP / DASH / FTNT post-earnings mean-reversion** — last week's tape, now stale; deprioritize unless a fresh single-name catalyst surfaces.
+
+**Decision:** **HOLD pre-CPI.** No pre-market opens (pre-market doesn't trade). One A-grade thesis (XLE re-entry on Hormuz-blockade-reasserted) documented as a **conditional market-open trigger** — to be evaluated by the 9:35 ET market-open routine **after** the 8:30 CPI print clears, against the explicit gate (CPI core ≤ +0.3% MoM AND XLE opens ≥ $56.50 with WTI ≥ $98). No trims required (BTC inside size caps, thesis intact, ~12.3% stop headroom). No ClickUp alert sent — BTC unrealized +2.7% (well above the −7% urgent threshold), no held-position thesis-break, no major geopolitical event in the last 24h that affects open positions. Opens-this-week stays at 0/5; full weekly budget preserved for a strong post-CPI XLE re-entry plus optional post-PPI Wed/Thu setups.
+
+---
+
 ### 2026-05-07 — Thursday Pre-Market (08:00 ET) — IRAN-CEASEFIRE OPTIMISM, WTI −10% IN 2 DAYS, XLE THESIS UNDER PRESSURE, NFP TOMORROW
 
 **Snapshot:** Equity 100.4% of start | Cash 74.8% | Open positions: 2 (BTC 15.4%, XLE 9.9%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
