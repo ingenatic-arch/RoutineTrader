@@ -6,6 +6,68 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-05-13 — Wednesday Pre-Market (08:00 ET) — WTI +2.45% OVERNIGHT, ES +0.35%, 10Y CREEPING TO 4.46%, IRAN-RISK BACK ON THE TAPE
+
+**Snapshot:** Equity 99.96% of start | Cash 84.7% | Open positions: 1 (BTC 15.3% wt) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Market context** (as-of 2026-05-13 ~08:00 ET, percentages only; some sources thin — flagged below)
+- S&P 500 futures (ESM26): **~+0.35% overnight** to ~7,452.75. Mildly risk-on into the open. (Tuesday cash S&P closed −0.16%.)
+- US 10Y yield: **4.46%, +5 bp overnight**. Yields creeping up — modest pressure on duration / long-duration growth (tech, crypto). Not yet a "yield-shock" regime, but worth watching.
+- VIX: **no fresh overnight print** available from Perplexity. Carry-forward from last confirmed read; revisit midday if tape is orderly.
+- WTI crude: **~+2.45% overnight, ~$102.93** (vs ~$100.46 prior close per Twelve Data). This is a **material re-rate higher** vs the early-May low ~$92–95 area that triggered the 2026-05-07 XLE close. The Iran-de-escalation premium that compressed oil through late April / early May appears to be **reversing** — Perplexity surfaced an "ongoing Iran conflict affecting oil markets" frame. Specific headline catalyst NOT confirmed in this morning's Perplexity pull; treating the price action as the signal pending headline confirmation.
+- DXY: no fresh print this morning. Carry-forward ~98 area.
+- BTC: **~$80,241 live (eToro 13:03Z), ~−0.4% overnight** vs ~$80,861 yesterday morning. Position-level **+1.9% unrealized**. Reached 12-week peak near $82k recently; resistance ~$82.2k (200-day EMA cited by Perplexity). ETF inflows positive but offset by notable bearish positioning (Schiff, "Crypto Godfather" shorting). No catalyst gap >3% overnight — small drift.
+- ETH: data thin from Perplexity. Carry-forward; not actionable today without fresh read.
+- Sector momentum (last ~5 trading days, where retrievable):
+  - **XLK +5.78% past 5 days** through 5/12 — tech leadership clearly reclaimed. Extended; chasing here without a fresh catalyst is poor entry.
+  - **XLE +3.36% past week** (eToro data) — energy reversing the early-May washout. Closing rate $57.57, back above the $57.55 prior entry. 10DMA $57.98, 50DMA $57.96 — price now hugging both averages from below, consistent with a reclaim attempt.
+  - XLF / XLV / XLI: 5-day prints not surfaced cleanly. Defer.
+- Today's catalysts: **NOT specifically surfaced** by Perplexity (search results lacked an earnings/macro calendar pull for 2026-05-13). Iran conflict referenced as ongoing macro theme. Treat as a "light scheduled-catalyst Wednesday" — price action and overnight headlines are the read, not a pre-baked print.
+- Geopolitics: Iran tension appears to have escalated again based on WTI tape (+2.45% overnight is consistent with renewed risk premium). Pending headline confirmation.
+
+**Holdings check**
+- **BTC** (instrumentID 100000, 15.3% wt, opened 2026-04-22 @ $78,765.12, stop $70,888.59):
+  thesis intact? **YES.** Position at +1.9% unrealized, ~$80,241 live. No adverse overnight catalyst (~-0.4% drift). Recent 12-week peak near $82k and ongoing ETF inflows reinforce the upside structure; bearish positioning (Schiff / Godfather shorts) is sentiment-only, not flow-shifting. Position remains well inside the −10% stop band. **HOLD.** Not adding (sufficient class exposure already; thesis is mature, not fresh).
+
+**Trade ideas** (0–5 per day)
+
+1. **XLE (State Street Energy Select Sector SPDR ETF)** — instrumentID: `3008`, asset class: ETF. **CONDITIONAL B+ → A- idea; trigger-gated for market-open.**
+   - **Catalyst today:** WTI **+2.45% overnight to ~$103** — a material reversal of the early-May $92–95 washout that triggered our 2026-05-07 XLE thesis-exit close. The Iran-tension premium that the 2026-04-27 long was built on appears to be returning. XLE has already firmed +3.36% over the past week, back above the $57.55 prior entry level, hugging the 10/50DMA cluster near $58.
+   - **Trigger gate for market-open (BOTH must hold at 09:35 ET):**
+     1. WTI front-month ≥ **$100** (i.e., the +2.45% overnight move does not unwind in the first hour).
+     2. At least one **specific Iran-tension headline** confirmed (re-escalation, strike, sanction, talks-collapse, Hormuz risk). The price action implies it; market-open must confirm the cause before re-entering on the same thesis.
+   - If EITHER condition fails → **do not open XLE today.**
+   - **Entry:** ask near $57.57 (closing rate; exchange not open yet at pre-market write — `rates 3008` at fill time will be the true number).
+   - **Stop (−10%):** round(57.57 × 0.90, 4) = **$51.8130**.
+   - **Target (≥2:1 R:R):** $69.08 (~+20%). The early-2026 XLE highs sat near $63–64; +20% target is a stretch but matches the 2:1 R:R floor and the $63 prior-high zone is the first interim resistance.
+   - **Size:** **10% of equity** (~$999 virtual). ETF class after fill: 10% (≤50% cap). Cash after: ~75% (≥5% buffer; well above the floor).
+   - **R:R:** ~2.0:1.
+   - **Pre-buy gate status (under positive trigger):** Positions-after 2≤8 ✓ | Week-opens-after 1≤5 ✓ | Cost 10%≤30% ✓ | Class 10%≤50% ✓ | Cash buffer after ~75% ✓ | Exact `internalSymbolFull=XLE` match ✓ | Catalyst documented (this entry) ✓.
+
+Screened and rejected:
+
+2. **XLK (Technology SPDR)** — instrumentID `3021`, ETF. **Rejected: extended, no fresh today-catalyst.** +5.78% past 5 days is a strong run but the entry is late and 10Y yields rising +5 bp overnight is the wrong macro backdrop to chase tech into. Wait for a pullback to the 10DMA or a clean post-data-print re-rating.
+3. **BTC add** — already 15.3% of equity. No fresh overnight catalyst (drift ~-0.4%); class headroom exists (15.3% → 50% cap) but adding into a mature position near 200-day EMA resistance without a fresh accelerant is poor discipline. Pass.
+4. **ETH (Ethereum spot)** — data quality too thin from Perplexity to grade. Defer; revisit Thursday if cleaner reads available.
+5. **XLF / XLV / XLI** — no 5-day or today-catalyst signal surfaced. Pass.
+
+**Risk factors**
+- **Whipsaw on XLE re-entry.** We closed XLE at a loss only 6 calendar days ago on a "Iran ceasefire → WTI dump" thesis-exit. Re-opening immediately on a "Iran tension → WTI rebound" thesis exposes us to a second whipsaw if today's WTI move unwinds. The trigger-gate (WTI ≥ $100 + headline confirmation) exists specifically to avoid catching a one-day spike with no story.
+- **Yields creeping up (+5 bp to 4.46%).** Wrong macro backdrop for crypto and tech. BTC already showing −0.4% overnight drift; if yields extend higher, BTC could fade toward the $78–79k area. Position is fine (stop at $70,888) but P&L will breathe.
+- **Data quality.** Perplexity returned thin reads on VIX, DXY, ETH, full sector matrix, and today's specific catalysts. Carry-forward where stale. If cash-market reads contradict these materially, midday should reassess.
+- **Iran headline reversal.** If the WTI +2.45% turns out to be technical noise (no specific Iran headline), XLE long looks like revenge-trading. The trigger-gate handles this.
+- **Tape-light Wednesday.** No surfaced earnings or major macro print → flows could be thin; expect intraday chop, not trend.
+
+**Watchlist (for rest of the week)**
+- **XLK / QQQ** — re-evaluate on any pullback to the 10DMA; tech leadership is real but needs a better entry than +5.78% past 5 days.
+- **XLF financials** — bank-earnings tail noted historically; no fresh catalyst surfaced today.
+- **ETH** — add once Perplexity / native search returns cleaner overnight price and any catalyst.
+- **XLP / XLU defensives** — if yields keep creeping higher and risk-on fades, defensives become attractive.
+
+**Decision:** **CONDITIONAL OPEN — 1 XLE @ 10% IF AND ONLY IF market-open's WTI ≥ $100 AND Iran-tension headline confirmed checks both pass. Otherwise HOLD.** No trims (account is well within all caps). Opens-this-week 0 → at most 1 after fill (4 of 5 remaining).
+
+---
+
 ### 2026-05-07 — Thursday Pre-Market (08:00 ET) — IRAN-CEASEFIRE OPTIMISM, WTI −10% IN 2 DAYS, XLE THESIS UNDER PRESSURE, NFP TOMORROW
 
 **Snapshot:** Equity 100.4% of start | Cash 74.8% | Open positions: 2 (BTC 15.4%, XLE 9.9%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
