@@ -10,6 +10,35 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-13 — EOD Snapshot (Day 18, Wednesday)
+
+**Equity:** 99.8% of start | **Cash:** 84.8% | **Day P&L:** −0.1% | **Phase P&L:** −0.2%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  15.2%  |$78,765.12  |$79,614.00  |    +1.1%    |$70,888.59  |
+
+**Notes:** Quiet reconciliation print. No opens, no closes, no trims today. The
+prior four daily-summary commits (2026-05-08 Fri, 2026-05-11 Mon, 2026-05-12 Tue,
+and intra-week pre-market/market-open on those dates) did not land — events log
+stops at 2026-05-08 15:39Z midday no-op (BTC +1.35%, rules clear, positions=1).
+Today's Day-P&L therefore compares against the 2026-05-07 baseline ($9,993.61)
+and spans four missed sessions; the headline −0.1% is the cumulative drift over
+that window, not a single-session number. BTC drifted from $80,158.73 (5/07
+close) → $79,614.00 today (position-level +1.1% unrealized, +1.8% → +1.1% on
+a modest crypto-tape pullback), no adverse catalyst, stop $70,888.59 untouched
+(~12.4% headroom). No rule trips. 0 opens this week (cap 5 — week of 5/11);
+1 position (cap 8); 15.2% crypto = 15.2% invested (cap 50% per class); 84.8%
+cash buffer (well above the 5% floor; meta-rule patience > activity in force).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,983.21
+- Virtual cash: $8,464.02
+- Opens this week: 0
+- Real mirror (10%): $998.32
+
+---
+
 ## 2026-05-07 — EOD Snapshot (Day 14, Thursday)
 
 **Equity:** 99.9% of start | **Cash:** 84.7% | **Day P&L:** −0.6% | **Phase P&L:** −0.1%
