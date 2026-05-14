@@ -10,6 +10,38 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-14 — EOD Snapshot (Day 19, Thursday)
+
+**Equity:** 100.2% of start | **Cash:** 84.5% | **Day P&L:** +0.2% | **Phase P&L:** +0.2%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  15.5%  |$78,765.12  |$81,418.32  |    +3.4%    |$70,888.59  |
+
+**Notes:** First daily-summary run since 2026-05-07 — routine gap covers
+2026-05-08 (Fri), 2026-05-11 (Mon), 2026-05-12 (Tue), 2026-05-13 (Wed) where no
+EOD snapshot was committed (last EVENTS-LOG entry was 2026-05-08 15:39Z midday
+no-op; pre-market/market-open/daily-summary did not run on 2026-05-08 to 05-13).
+Today's Day P&L therefore reflects the net move since the 2026-05-07 EOD
+baseline ($9,993.61), not a single session. No opens, no closes, no trims
+across the gap or today. BTC drifted from $80,158.73 → $81,418.32 (+1.6% over
+the five missing sessions; position now +3.4% unrealized vs +1.8% at the last
+snapshot) on continued spot-ETF-inflow tailwind, no adverse catalyst; stop
+$70,888.59 untouched (BTC +14.9% above the stop band). Day P&L +0.2% on
+virtual equity (BTC mark-to-market +$24.03 vs $9,993.61 baseline). No rule
+trips. 0 opens this week (cap 5 — week of 2026-05-11 to 05-15); 1 position
+(cap 8); 15.5% crypto = 15.5% invested (cap 50% per class); 84.5% cash buffer
+(well above the 5% floor; meta-rule patience > activity in force given the
+multi-day routine gap — no catch-up trading).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $10,017.64
+- Virtual cash: $8,464.02
+- Opens this week: 0
+- Real mirror (10%): $1,001.76
+
+---
+
 ## 2026-05-07 — EOD Snapshot (Day 14, Thursday)
 
 **Equity:** 99.9% of start | **Cash:** 84.7% | **Day P&L:** −0.6% | **Phase P&L:** −0.1%
