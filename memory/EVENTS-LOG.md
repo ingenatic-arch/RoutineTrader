@@ -110,3 +110,5 @@ Percentages only — no dollar references.
 2026-05-08T13:36:12Z | unknown | warn | ⚠️ market-open skipped: no RESEARCH-LOG entry for 2026-05-08
 2026-05-08T13:36:18Z | market-open | warn | Skipped: no RESEARCH-LOG entry for 2026-05-08
 2026-05-08T15:39:30Z | midday | ok | No-op: BTC +1.35% (rules clear); positions=1; equity=99.9%; cash=84.7%; crypto-class=15.3%
+2026-05-14T13:36:10Z | unknown | warn | ⚠️ market-open skipped: no RESEARCH-LOG entry for 2026-05-14
+2026-05-14T13:36:26Z | market-open | warn | Skipped: no RESEARCH-LOG entry for 2026-05-14
