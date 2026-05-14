@@ -6,6 +6,65 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-05-14 — Thursday Pre-Market (08:00 ET) — ROUTINES RESUME AFTER 5-DAY GAP; HOT PPI, FED-CHAIR TRANSITION FRIDAY, HORMUZ STILL CLOSED
+
+**Snapshot:** Equity 99.9% of start | Cash 84.8% | Open positions: 1 (BTC 15.2%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Operational note:** No routine activity since 2026-05-08 midday (5 calendar days — Fri 5/8 daily-summary onward through Wed 5/13 all missed). Container/cron stall, not a strategic pause. Treating today as a fresh resume — BTC holding period continues uninterrupted from 2026-04-22 open (22 days held); the position-level math is unchanged.
+
+**Market context** (as-of 2026-05-14 ~13:02 UTC / 09:02 ET, percentages only; data-source gaps flagged below — Perplexity returned predominantly May 12–13 dated material this morning, no clean fresh May 14 overnight prints on most metrics)
+- **S&P 500 futures (ESM26):** Most recent surfaced print is May 12 close at **7413.25, −0.18%** (intraday). No fresh May 13 close or May 14 overnight print available. Treat directionally: tape was constructive but slightly tired into the May 13 PPI release.
+- **VIX / US 10Y yield / DXY:** **No fresh prints surfaced** (continuing the multi-week thin-data pattern on these). Carry-forward: VIX ~17–18, 10Y ~4.34–4.38%, DXY ~98. Hot PPI yesterday (see below) suggests 10Y should be marginally higher; treat carry-forward as a floor.
+- **WTI crude (CLM26):** June WTI **closed $100.92 May 13 (−1.23%)** off the May 12 spike (+4.03% to $104 area after Trump cast doubts on US-Iran ceasefire). **Strait of Hormuz remains CLOSED structurally** since April 22 brief-reopen-then-shut; 21% of world oil + 25% global LNG trade at risk; 150+ stranded vessels; war-risk insurance 16x normal; daily economic cost >$4B. US deployed "Project Freedom" escort op May 5 (guided-missile destroyers + 15k service members). On May 9 Trump claimed hostilities "terminated" but May 12 walked it back — headline-driven whippy tape, structural supply tightness intact.
+- **HOT PPI YESTERDAY (May 13):** **Core PPI YoY 5.2% vs 4.3% est** (huge upside surprise) | **Headline PPI YoY 6.0% vs 4.9% est**. Major hawkish print — implies rate-cut deferral, headwind for risk assets, especially long-duration tech and rate-sensitive crypto.
+- **Bitcoin (BTC):** May 13 close ~$80,304 (−0.7% off $80,861 May 12). eToro live read **$79,741 ask (13:02 UTC)** — soft overnight from $80,304 (~−0.7%, no thesis-break). Resistance at 200DMA ~$82,228 has rejected price multiple times. **Record ETF inflows ~$700M** in recent sessions. Halving (April 2026, miner block reward 3.125 → 1.5625 BTC) supply-squeeze structurally intact.
+- **Ethereum (ETH):** No fresh print surfaced.
+- **Sector momentum (5-day to May 13):** Data thin. **XLK $176.85** May 13 close (only data point returned). **XLE rallied +3.46% past week** to $57.63 close — mostly back to our 4/27 entry level after the 5/7 thesis-exit at $55.47, ETF data confirms structural Hormuz-supply premium re-asserting. Past-2-week XLE −2.37%; monthly −3.39%; YTD +28.9% (still sector leader).
+- **Geopolitics:** Iran/Hormuz dominant. Trump's May 9 "hostilities terminated" + May 12 "ceasefire doubt" creates a headline-whipsaw pattern that drives WTI ±4% daily on a closed-strait floor.
+
+**TODAY'S MAJOR CATALYSTS**
+- **Senate Banking Committee CLARITY Act hearing today (May 14)** — described as "the biggest crypto legislation currently moving through the US government." Crypto-positive bias if hearing tone is constructive. Timing not surfaced; could be morning or afternoon US session.
+- **Jerome Powell's Fed tenure ends tomorrow (May 15)**, Kevin Warsh expected to assume the chair. Historical precedent: BTC has sold off around prior Fed-chair transitions. Friday session = overnight risk for BTC tonight.
+- **Trump in Beijing with Nvidia CEO Jensen Huang** — US/China rare-earth and tech-sensitive sector wildcard, no specific today-deliverable known.
+- **Pre-open earnings May 14:** Search did not surface a clean list. Treating as light.
+- **Macro releases May 14:** No top-tier releases confirmed in search (CPI was earlier this week per crypto-news mention; PPI was yesterday May 13). Initial Jobless Claims typically Thursday 8:30 ET — release time falls **before** US cash open, may already be on the tape by midday; consensus not surfaced. Likely second-tier vs PPI/CPI noise.
+
+**Holdings check**
+- **BTC** (crypto, 15.2% weight, +1.25% unrealized, stop $70,888.59 / −10% intact): **thesis INTACT.**
+  - Original thesis (Iran-ceasefire-indefinite + MicroStrategy $2.54B buy + 3mo-high breakout, 2026-04-22): two of three legs still alive — MSTR institutional accumulation continues (search confirms ETF inflows record $700M); halving supply squeeze structurally intact; ceasefire-indefinite is no longer the clean tailwind (whippy now) but is also not actively bearish for crypto.
+  - **New catalyst alignment today:** CLARITY Act hearing is a fresh positive catalyst (regulatory clarity = institutional flow tailwind).
+  - **Risk that warrants close watch:** Fed-chair transition Friday May 15. Historical pattern = sell-off around transitions. Position is +1.25% — comfortable cushion above stop but no margin to add into the binary.
+  - Overnight move: ~−0.7%, well below the 3% gap threshold. No adverse catalyst.
+
+**Trade ideas** (0–5 per day)
+
+**None proposed for today.** Screening + rejection rationale below.
+
+1. **XLE re-entry (Energy SPDR)** — instrumentID: `3008`, ETF. **Rejected: late entry after the bounce.** Structural Hormuz-closed thesis (21% world oil at risk, WTI floor ~$100) is real and the very pattern that drove our 4/27 entry. BUT: we exited 5/7 at $55.47 on ceasefire-optimism; XLE has since rallied +3.9% to $57.63 (back near our prior $57.55 entry level). Buying back ~4% higher on the same setup is chasing — R:R degrades materially when entry isn't pristine. Live ask $57.63 with stop −10% = $51.867 / target +20% = $69.16 still mathematically clears 2:1, but the catalyst is no longer "fresh today" — the market already priced the Hormuz-still-closed reality over the past 5 trading days. Watchlist trigger: **add XLE at $56.50 or below** (a 2% pullback restores entry quality) on any clean WTI ≥$100 hold post-Fed-transition Friday.
+2. **MSTR (MicroStrategy)** — direct play on BTC accumulation + halving supply squeeze + CLARITY Act regulatory tailwind. **Rejected: stacking crypto-correlated risk into Fed-chair transition tomorrow.** Adding MSTR on top of BTC 15.2% would push correlated crypto exposure to ~25%+ ahead of a known Friday binary. Wait for post-transition tape.
+3. **ETH** — could be the cleaner CLARITY-Act expression (regulatory clarity disproportionately benefits ETH/staking framework). **Rejected: no fresh ETH price data surfaced (data quality gap); doubling crypto-class exposure into Fed-chair binary; no specific entry level.** Re-evaluate Friday if CLARITY hearing today produces a concrete advancement signal.
+4. **GLD / Gold ETF** — defensive on hot PPI + Fed transition uncertainty. **Rejected: not screened (no GLD-specific data this morning); haven't established a thesis on the metal here in prior research, would be a cold start without confirmation of the macro thesis (real-yield direction + DXY direction both stale). Not today.**
+5. **XLF (Financials) / XLV (Healthcare) / Defensives (XLP/XLU)** — possible rotation plays on hot PPI / rate-deferral. **Rejected: rotation is a multi-day theme, not a today-trigger; no fresh sector-momentum data surfaced; insufficient confirmation to act.**
+6. **XLK / QQQ (tech)** — XLK $176.85 May 13 close, but hot PPI is structural duration-sensitive headwind. **Rejected: tape leadership unclear without fresh 5-day sector data; PPI surprise argues against adding duration exposure.**
+
+**Risk factors**
+- **Fed-chair transition Friday May 15** is the biggest known-unknown of the week. Historical precedent = BTC sells off around prior Fed-chair transitions. Our 15.2% BTC exposure is the entire risk book today; no need to add to it pre-transition.
+- **Hot PPI (May 13)** suggests inflation re-acceleration is still a live risk. Risk-asset multiples and rate-cut expectations should both compress on the margin. Watch BTC for any catch-down move.
+- **Hormuz whipsaw**: any fresh Trump statement either way drives WTI ±4% intraday. We have no energy exposure currently — this is an opportunity-cost risk, not a position-risk.
+- **CLARITY Act hearing today** could be a positive crypto catalyst — if tone is constructive, BTC could break $82,228 resistance. If skeptical, BTC could test $78k support area. Position is sized to absorb either; no action required.
+- **Data quality persists**: Perplexity returned predominantly stale or partial data on VIX/10Y/DXY/sector breadth/ETH/today's catalysts. Treating quantitative claims as directional only. If midday cash-market reads contradict materially, midday routine should reassess.
+- **5-day routine gap** means the dashboard observability stream has been blind; this entry restores the pre-market → market-open → midday → daily-summary chain.
+
+**Watchlist (for the rest of the week / next sessions)**
+- **XLE** — re-entry trigger at **≤$56.50** on confirmed WTI sustain ≥$100 + Hormuz closed status. Post-Fed-transition Friday is the cleanest window.
+- **ETH** — re-evaluate Friday if CLARITY Act hearing produces a concrete bullish advancement; size ≤10% as crypto-class co-position (BTC + ETH would push class to ~25%, well below 50% cap).
+- **MSTR** — only after Fed-chair transition tape is digested and BTC holds the $78k support.
+- **BTC partial trim** — NOT today. Only triggered if BTC closes < $75k (rule-cut at −5% from current, still above −10% stop). Thesis-watch only.
+
+**Decision:** **HOLD.** No new opens today. No trims. BTC thesis intact, position +1.25% unrealized with $70,888.59 stop intact. Opens-this-week stays 0; weekly budget 5 of 5 still available through Friday. Cash 84.8% — well above the 5% floor, in line with the meta-rule patience > activity into a known Fed-chair binary tomorrow. Today's hearing (CLARITY) is a catalyst we watch, not trade into pre-transition.
+
+---
+
 ### 2026-05-07 — Thursday Pre-Market (08:00 ET) — IRAN-CEASEFIRE OPTIMISM, WTI −10% IN 2 DAYS, XLE THESIS UNDER PRESSURE, NFP TOMORROW
 
 **Snapshot:** Equity 100.4% of start | Cash 74.8% | Open positions: 2 (BTC 15.4%, XLE 9.9%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
