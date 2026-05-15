@@ -10,6 +10,41 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-15 — EOD Snapshot (Day 20, Friday)
+
+**Equity:** 99.7% of start | **Cash:** 84.9% | **Day P&L:** −0.4% | **Phase P&L:** −0.3%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  15.1%  |$78,765.12  |$79,105.83  |    +0.4%    |$70,888.59  |
+
+**Notes:** Quiet Friday — no opens, no closes, no trims across all three trading
+routines. Pre-market HOLD (decision=HOLD; ideas=0 actionable; two market-open
+watchlist triggers flagged — XLE re-entry primary on WTI +3.61% Hormuz-back, BTC
+add secondary on CLARITY-Act markup advance — both SKIPPED at 09:35 ET market-open
+on quality-gate fails: XLE 30-min-bid-hold unverifiable at the 09:36 ET check,
+B+ grade not A, weekend headline risk, entry ask $58.80 above the already-flagged
+$58.08 chase concern; BTC live $79,622 below the $81,500 breakout threshold).
+Midday no-op (BTC thesis intact per 5/15 pre-market — CLARITY Act tape + ETH/BTC
+ratio at a 10-month low + Powell→Warsh dovish tilt; no rule trips). BTC drifted
+from $81,418.32 → $79,105.83 (−2.8% from yesterday's close, position now +0.4%
+unrealized vs +3.4% yesterday) on a modest crypto-tape pullback, no adverse
+catalyst; stop $70,888.59 untouched (BTC +11.6% above the stop band). Day P&L
+−0.4% on virtual equity (BTC mark-to-market −$44.12 vs $10,017.64 baseline; no
+realized P&L today). No rule trips. 0 opens this week (cap 5 — week of 2026-05-11
+to 05-15 closes flat at zero opens, consistent with the meta-rule patience >
+activity posture given B+ XLE setup and unmet BTC breakout); 1 position (cap 8);
+15.1% crypto = 15.1% invested (cap 50% per class); 84.9% cash buffer (well above
+the 5% floor).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,973.52
+- Virtual cash: $8,464.02
+- Opens this week: 0
+- Real mirror (10%): $997.35
+
+---
+
 ## 2026-05-14 — EOD Snapshot (Day 19, Thursday)
 
 **Equity:** 100.2% of start | **Cash:** 84.5% | **Day P&L:** +0.2% | **Phase P&L:** +0.2%
