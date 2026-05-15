@@ -6,6 +6,76 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-05-15 — Friday Pre-Market (08:00 ET) — WTI +3.6% (HORMUZ BACK), CLARITY ACT MARKUP, POWELL→WARSH HANDOVER, EMPIRE STATE + MICHIGAN SENTIMENT, ROUTINE GAP 5/8–5/13
+
+**Snapshot:** Equity 99.9% of start | Cash 84.7% | Open positions: 1 (BTC 15.3%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Operational note (read first).** Routine series went dark **2026-05-08 → 2026-05-13** (no pre-market / market-open / midday entries; daily-summary resumed 5/14). Today's research is the first live cadence since the 5/7 thesis-exit close of XLE. BTC has been held un-touched throughout. WTI / Iran headline path flipped at least once during the gap — implication: today's pre-market does **not** have continuous holdings-thesis context for 5/8–5/13; XLE re-entry analysis below treats this as a fresh setup, not a continuation.
+
+**Market context** (as-of 2026-05-15 ~13:10 UTC, percentages only; data-source gaps flagged below)
+- **S&P 500 futures (ESM26):** Mixed pre-open read. CME late-evening 5/14 print: ~−0.6% (7479.75). Barchart fri-AM: ~+0.3% above Thursday's +0.78% close. Tape direction soft-to-flat into Empire State at 8:30 ET.
+- **VIX / US 10Y yield / DXY:** **No fresh prints surfaced.** Carry-forward: VIX ~17–18, 10Y ~4.3–4.4%, DXY ~98. Treat directional only.
+- **WTI crude — MAJOR THESIS-RE-REVERSAL EVENT:** ~$104.82, **+3.61% overnight.** Cited driver: **"Hormuz disruption" / Middle East geopolitical tensions / US-Iran diplomatic strains re-emerging.** This is the **inverse** of the 5/7 catalyst that triggered the XLE thesis-exit (Iran-ceasefire optimism pulled WTI to ~$92). Between 5/8 and today the headline path has clearly flipped back toward escalation; the routine-gap means we don't have a clean intermediate read on when/why. Monthly: ~+10.7%.
+- **BTC:** **Live eToro mark $80,109.18** at 13:06Z (ask). 5/14 morning print was $79,573.79 (Fortune); BTC reclaimed above $80k intraday on CLARITY Act optimism. Overnight 5/14→5/15: roughly **+0.5%**. Spot-BTC ETF flows: ~$1B in a recent week (carry-forward from prior-period research). Fear & Greed Index 49 (Neutral).
+- **ETH: live $2,246.01** at 13:06Z, down materially from prior carry-forward $2.3–2.4k area. **ETH/BTC ratio at 10-month low** — persistent rotation from ETH into BTC. Stabilization below $2,250 confirms BTC is the cleaner crypto bid.
+- **Today's catalysts:**
+  - **Empire State Manufacturing (May)** — typically 8:30 ET. Consensus / time / actual not surfaced.
+  - **University of Michigan Prelim Consumer Sentiment (May)** — typically 10:00 ET. Consensus not surfaced.
+  - **CLARITY Act (Digital Asset Market Clarity Act) Senate Banking Committee markup** — was scheduled 5/14 10:30 ET. Outcome **not confirmed** in research; pre-vote tape rallied BTC above $80k on "cautious optimism." Three-tier framework (SEC securities / CFTC digital commodities / shared stablecoins). BTC-positive if markup advances; range-bound if stalled.
+  - **Powell Fed Chair term ends today; Kevin Warsh expected as successor** — Warsh framed as "more open to rate cuts" (mildly dovish tilt). Risk-asset positive at the margin; BTC / crypto / rate-sensitive longs benefit if confirmation lands clean.
+  - **Trump-Xi summit concludes (May 14–15) on AI guardrails** — could swing semis / XLK directionally either way; outcome not surfaced.
+  - **Pre-open earnings:** Not surfaced cleanly; data-quality gap. AMAT reported Thursday 5/14 post-close — reaction not surfaced.
+- **Earlier-week macro flow (context only):** April CPI 5/12, PPI 5/13, **April Retail Sales 5/14: +0.5% m/m IN-LINE, YoY +4.9%, real-terms −0.2% m/m** (matched consensus; not a market-mover). April NFP earlier in the cycle printed **115K vs 65K consensus** — labor data has been firmer than feared; mild hawkish skew offset by Powell-handover dovish tilt.
+- **Sector momentum (YTD through 5/13):** XLE +29.74%, XLK +22.99%, XLP +9.68%, XLU +5.37%, XLV −4.84%, XLF −6.42%. (XLI not surfaced.) Energy + tech remain the only two solidly green quadrants; energy retook leadership as Hormuz re-escalation re-priced WTI. XLE close 5/14: **$58.08** (rebuilt from 5/7 exit at $55.47 — **+4.7% off the low**). XLK close 5/14: **$179.50** (still near recent highs).
+- **Geopolitics:** **Iran path has reversed back toward escalation/Hormuz-disruption since the routine-gap began on 5/8.** This is the operative narrative driving today's WTI tape. Trump-Xi summit on AI guardrails is the second-order overlay (semis exposure).
+- **Data quality caveat.** First live cadence after a 6-day routine gap; multiple data fields thin (VIX/10Y/DXY/sector 5-day prints/earnings reactions/Empire State + Michigan consensus). One Perplexity source explicitly admitted training-cutoff limitations on 5/15 events. Treat third-party reads as directional only; eToro `/pnl` + `/rates` are source of truth.
+
+**Holdings check**
+- **BTC** (instrumentID 100000, weight 15.3% of equity, unrealized **+1.7%**, live ask $80,109.18 vs entry $78,765.12, stop $70,888.59): thesis **INTACT.** Catalyst-stack still constructive: ETH/BTC ratio at 10-month low (BTC-relative-strength confirmed), CLARITY Act regulatory clarity catalyst this week (BTC reclaimed $80k on the markup-vote optimism), Powell→Warsh handover mildly dovish, ETF inflows continuing. Stop $70,888.59 untouched (~11.5% headroom from current price); no >3% adverse gap. Held un-touched across the routine-gap; reasonable carrying behavior verified by 5/14 daily-summary EOD (Day P&L +0.2%, equity 100.2%, BTC +3.4% at that close — has since pulled back ~−1.5% to current +1.7%). **HOLD.**
+
+**Trade ideas** (0–5 per day; HOLD is default only when no idea qualifies)
+
+Screened candidates + dispositions:
+
+1. **XLE (Energy SPDR) — re-entry, instrumentID 3008, ETF.** Last entry 4/27 at $57.55, exited 5/7 at $55.47 (−3.6% on the leg) on Iran-ceasefire reversal. Today's setup: WTI +3.61% overnight to $104.82 on Hormuz-disruption / Iran-escalation re-emerging — the **exact inverse** of the 5/7 exit-trigger. XLE close 5/14 $58.08, YTD +29.74% (leader), 5/14 rebuild +4.7% off the post-ceasefire low. **B+ grade, not A — REJECTED as a pre-market open, FLAGGED to market-open as the highest-priority watchlist trigger.** Reasoning for rejection:
+   - **Re-entry above the prior exit price** ($58.08 close vs $55.47 exit) means averaging into the same thesis at a worse cost basis after the headline already flipped — by definition chasing the rebound, not entering the move.
+   - **Friday entry into a binary-headline regime** that has flipped twice in eight trading days (4/27 long → 5/7 close → 5/15 setup-reset) carries asymmetric weekend gap risk; midday + market-open routines won't be live again until Monday's pre-market for a thesis-check.
+   - **Routine-gap context loss** — we have no live read on when between 5/8 and today the path reversed, how much of the move is already priced into XLE, or whether the 5/14 +4.7%-off-low is exhaustion or continuation. Pre-buy gate's "documented catalyst today" passes (WTI +3.61% is fresh), but the size/timing edge is unclear.
+   - **Market-open watchlist trigger:** if XLE gaps up at the cash open AND holds bid for the first 30 minutes AND WTI stays ≥$103, market-open can propose **10% XLE re-entry at the live ask**, stop = round(ask × 0.90, 4), target = ask × 1.20 (R:R 2:1). Class ETF after fill: 10% (inside 50% cap). Weekly opens after fill: 1/5. Cash buffer after: ~75% (well above 5% floor).
+2. **Add to BTC (push 15% → ~20%)** — CLARITY Act markup is the cleanest BTC-specific catalyst this week; BTC reclaimed $80k on optimism; ETH/BTC ratio confirms BTC-preference within crypto; Powell→Warsh handover dovish tilt is risk-on. **Rejected for pre-market: B grade, not A.** Reasoning:
+   - Markup-vote outcome **not confirmed** in available research; entering on optimism-priced-in before the result is event-binary.
+   - BTC already pulled back ~−1.5% off Thursday's higher mark — chasing the bounce into a known regulatory binary on a Friday into the weekend.
+   - The 5/6 watchlist trigger was "BTC pulls back to $80k on no-news + XLE stays bid"; XLE-stays-bid was conditional on the prior Hormuz thesis path that has only just re-reversed today. Marginal.
+   - **Watchlist re-set:** add only on confirmed CLARITY-markup advance (13–11 or stronger Republican support) **+** a clean break-and-hold above $81.5k. Skip if BTC fades back below $79.5k intraday.
+3. **XLK (Tech SPDR) — instrumentID 3021, ETF.** Close 5/14 $179.50. YTD +22.99%. **Rejected.** Trump-Xi AI-guardrails summit is a two-way catalyst (semis exposure), no specific bullish-only thesis. Powell-handover dovish tilt is supportive but priced. Watchlist for Monday post-summit-outcome read.
+4. **ETH (Ethereum)** — live $2,246. **Rejected, hard.** Ratio at 10-month low confirms ETH is the relative-loser within crypto; adding ETH to an existing BTC long is averaging into the under-performer without an ETH-specific catalyst. CLARITY Act is broad-crypto but BTC has been the cleaner expression. Watchlist for a fresh ETH-specific catalyst (ETF flow reversal, ratio breakout, regulatory differentiation).
+5. **GLD (Gold)** — Hormuz re-escalation IS gold-positive in theory, and the Powell→Warsh dovish tilt adds tailwind. **Rejected.** Not A-grade — gold likely already responded to the same WTI/Iran tape; chasing a multi-leg move on a Friday with no fresh gold-specific catalyst is B-grade at best. Watchlist if DXY breaks below 97 on Warsh confirmation news.
+6. **XLF / XLV (laggard ETFs)** — **Rejected.** Averaging into laggards without a thesis trigger; no specific 5/15 catalyst.
+7. **Defensives (XLP / XLU)** — **Rejected.** Tape is risk-on (BTC reclaim, energy leadership reasserting, tech at recent highs); defensive rotation is not the active flow.
+8. **XOM / CVX direct energy longs** — same setup as XLE-add. **Rejected, same reason** — single-name concentration on a re-entry chase has worse R:R than the ETF basket.
+9. **Pre-earnings binaries (any name reporting today)** — **Rejected by rule.** Pre-buy gate forbids speculation into a same-day earnings print without a clear post-print mean-reversion read.
+
+**Risk factors**
+- **Routine-gap blind spot.** No live cadence 5/8–5/13 means: (a) the WTI/Iran reversal path is undated within that window — we don't know if today's +3.61% is day-1 or day-N of the reversal; (b) XLE may have already absorbed the bulk of the bid intraweek (close $58.08 = +4.7% off 5/7 low); (c) no intermediate holdings-thesis checks happened on BTC. Mitigation: today's pre-market explicitly treats XLE as a fresh setup, defers entry decision to market-open's live cash-tape read.
+- **Friday + weekend-headline-risk.** Iran-Hormuz escalation can re-reverse over a weekend (ceasefire framing has flipped twice in 8 trading days). Any open today carries weekend gap risk that midday/market-open won't be live to manage until Monday pre-market.
+- **CLARITY Act binary.** Markup-vote outcome unconfirmed in this morning's research. A failed markup or 11-13 tie-break could swing BTC −2 to −4% intraday; a clean advance with bipartisan support could extend the bid. Existing BTC long absorbs either outcome (~11.5% stop headroom; +1.7% unrealized cushion).
+- **Powell→Warsh handover headline risk.** Confirmation timing not pinned; a delay or contested confirmation could rattle rate-sensitive longs (BTC, gold). Warsh's dovish framing is the base-case but not the only path.
+- **Empire State + Michigan Sentiment intraday prints.** Both are tier-2 but can swing the tape on a thin-volume Friday. Empire State at 8:30 ET is the first hurdle; Michigan at 10:00 ET is the second.
+- **Trump-Xi AI guardrails outcome.** Semis-specific; doesn't directly affect BTC or XLE. Could whipsaw XLK / NVDA / AMD on the close-of-summit read.
+- **Concentration / class exposure.** Current: 15.3% crypto, 0% ETF, 0% other classes — well inside per-class (50%) and per-name (30%) caps. Even after a 10% XLE re-entry at market-open, class loads would be 15% crypto + 10% ETF = 25% invested / 75% cash. Comfortable.
+- **Data quality.** First live cadence after the 6-day gap; thin third-party data on VIX/10Y/DXY/sector 5-day prints/earnings reactions/Empire State + Michigan consensus. Cross-source disagreement on ES futures direction (CME late-PM −0.6% vs Barchart fri-AM +0.3%). Treat as directional.
+
+**Watchlist (for market-open 9:35 ET routine and into next week)**
+- **XLE re-entry (market-open today — primary trigger).** Conditions: XLE gaps up at the open AND holds bid through first 30 min AND WTI ≥$103. Action: open 10% XLE, stop = round(ask × 0.90, 4), target = ask × 1.20. Skip if XLE gaps up and immediately fills the gap, OR if WTI sells off below $100 pre-9:30.
+- **BTC add (market-open today — secondary trigger).** Conditions: confirmed CLARITY-markup advance with bipartisan support **+** BTC clean break-and-hold above $81.5k by 9:35 ET. Action: add 5% to push to ~20% total. Skip if markup stalled OR BTC fades below $79.5k.
+- **XLK / XLI (Monday).** Re-evaluate on Trump-Xi summit outcome read.
+- **GLD (Monday).** Re-evaluate on DXY post-Warsh confirmation; trigger = DXY <97 with Hormuz risk-premium intact.
+- **ETH** — add only on a fresh ETH-specific catalyst (ratio breakout, ETH-specific regulatory milestone).
+
+**Decision:** **HOLD with two market-open watchlist triggers (XLE primary, BTC-add secondary).** No new opens at pre-market. No trims (BTC thesis intact, no over-concentration). Both watchlist triggers are conditional on live cash-session price action that pre-market cannot evaluate. Opens-this-week stays 0/5; weekly budget fully preserved. Cash 84.7% — well above the 5% floor; deliberate dry-powder posture into a binary Friday (CLARITY outcome + Iran/Hormuz two-way + Powell-handover + Trump-Xi close + Empire State + Michigan Sentiment all converging on one session). No ClickUp alert this morning — no held position trip-wires triggered, no >−7% unrealized, no overnight thesis-break on held names.
+
+---
+
 ### 2026-05-07 — Thursday Pre-Market (08:00 ET) — IRAN-CEASEFIRE OPTIMISM, WTI −10% IN 2 DAYS, XLE THESIS UNDER PRESSURE, NFP TOMORROW
 
 **Snapshot:** Equity 100.4% of start | Cash 74.8% | Open positions: 2 (BTC 15.4%, XLE 9.9%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
