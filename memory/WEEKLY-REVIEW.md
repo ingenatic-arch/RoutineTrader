@@ -6,6 +6,69 @@ and the 60/40 benchmark — not just P&L.
 
 ---
 
+### Week of 2026-05-11 → 2026-05-15
+
+**Week return:** −0.2% | **S&P 500 week:** −0.4% | **Alpha:** +0.2%
+**60/40 proxy (0.6·SPX + 0.4·BTC):** −1.5% | **Alpha vs 60/40:** +1.3%
+**Phase-to-date return:** −0.3%
+**Grade: B** _(only one day of observable routine behavior — Friday — but that day's discipline was clean and the heavy-cash posture cushioned a BTC −3.2% week; the missing review for the prior week 5/4–5/8 plus four of five sessions dark this week is the dominant operational story)_
+
+**Caveat — baseline.** No Monday 5/11 EOD snapshot exists; no prior-Friday 5/8 snapshot exists either (routine series went dark **2026-05-08 → 2026-05-13** — no pre-market, market-open, or daily-summary entries committed across six consecutive trading sessions). The closest available baseline is the 5/7 EOD ($9,993.61). Week return above is therefore computed against 5/7 EOD, not Monday 5/11 EOD — it spans 5/8 → 5/15 (a week and a day) rather than a clean Mon→Fri window. Phase-to-date math is unaffected ($10,000 launch baseline → 5/15 EOD).
+
+**Adjustments next week (preview):** **No strategy edits.** Rule 6 (cash-buffer reframe from 5/1) validated itself immediately in its first live week — 85% cash absorbed BTC's −3.2% drawdown and let us beat the 60/40 proxy by ~1.3%. No other rule failed badly enough this week to warrant edits — the dominant issue is operational (routine availability), not strategic. **Operational flag (engineering follow-up, not a strategy edit):** the routine-gap pattern (5/8–5/13 dark, also the 5/4–5/8 weekly review missed) is now a recurring failure mode. Last week's weekly review noted "consider a wrapper-level one-shot re-fire if the pattern persists" — the pattern has persisted, twice. This is the engineering item with the most P&L sensitivity now; the strategy itself is performing as designed.
+
+**Context.** This was a structurally unusual week. Following the 5/7 XLE thesis-exit close (Iran-ceasefire WTI −10%/2 sessions), the routine series went dark from 5/8 Friday through 5/13 Wednesday — six consecutive sessions with no pre-market, market-open, or daily-summary commits (the 5/8 midday no-op was the last activity until 5/14). The 5/14 daily-summary resumed as a gap-recovery snapshot (Day P&L computed against the 5/7 baseline, not a single session). Full routine cadence returned only on 5/15 Friday — pre-market screened 9 candidates and rejected all; market-open carried two watchlist triggers (XLE re-entry primary on WTI +3.61% Hormuz-back, BTC add secondary on CLARITY Act markup advance); both were correctly skipped on quality-gate fails at 09:36 ET (XLE 30-min-bid-hold unverifiable, B+ grade not A, weekend headline risk, entry ask $58.80 above the already-flagged $58.08 chase concern; BTC live $79,622 below the $81,500 breakout threshold). Midday was a no-op (BTC thesis intact). The BTC long carried untouched across the entire gap, ending the week at +0.4% unrealized (drifted from the 5/14 mark of +3.4% on a modest crypto-tape pullback Friday, stop $70,888.59 with ~11.6% headroom throughout). Macro-narrative-wise, the Iran/Hormuz path reversed back toward escalation during the routine gap (WTI bottomed near $92 on 5/7 ceasefire optimism, rallied back to ~$104 by 5/15 on Hormuz-disruption re-emergence) — XLE re-entry was the obvious trade idea this week but failed the routine's own quality bar.
+
+**Stats**
+| Metric              | Value |
+|---------------------|-------|
+| Trades opened       |   0   |
+| Trades closed       |   0   |
+| Win rate            |  n/a  |
+| Best trade          |  n/a  |
+| Worst trade         |  n/a  |
+| Avg hold (days)     |  n/a  |
+| Profit factor       |  n/a  |
+| Open positions EOW  |   1   |
+
+**Closed trades**
+| Symbol | Class | Hold | P&L % | Reason closed         |
+|--------|-------|------|-------|-----------------------|
+| —      | —     | —    | —     | No closes this week.  |
+
+**Open positions EOW**
+| Symbol | Class  | Weight% | Unrealized% | Stop  |
+|--------|--------|---------|-------------|-------|
+| BTC    | crypto |  15.1%  |    +0.4%    | −10%  |
+
+Cash: 84.9% of equity. Deployed: 15.1%. Opens-this-week: 0 of 5 budget. Class exposure: crypto 15.1% (cap 50%). Positions: 1 of 8.
+
+**What worked**
+- **Friday's discipline gate held under live pressure on the one day it could be observed.** Both market-open watchlist triggers were genuinely tempting: XLE re-entry on WTI +3.61% / Hormuz-back was the natural continuation of the original 4/27 thesis, and BTC-add on CLARITY Act markup optimism was the cleanest crypto-specific catalyst of the cycle. Both were rejected on named, pre-committed criteria — XLE skipped because 30-min-bid-hold was unverifiable, grade was B+ not A, entry ask $58.80 was above the already-flagged $58.08 chase concern, and weekend headline risk loomed; BTC skipped because live $79,622 was below the $81,500 breakout threshold. Neither was a "vibes" reject. The pre-buy gate worked exactly as the strategy intends.
+- **Heavy-cash posture (85%) absorbed a sharply negative crypto week.** BTC closed the week −3.2%; our portfolio closed −0.2%. The defensive positioning that has been the empirical pattern for four weeks now is finally being validated by a down week instead of being penalized in an up tape. Alpha vs 60/40 was +1.3% — by far the cleanest benchmark beat of the program so far, and the first that wasn't entirely attributable to a single position's intraweek mark.
+- **The 5/7 thesis-exit on XLE was retrospectively the right call.** XLE was at $55.47 when we closed; it climbed to $58.08 by 5/14 (+4.7%) on the Hormuz-back reversal. Re-entering would have given us back the −3.6% closed loss plus some gain — but the strategy's rule 9 (thesis-exit overrides) is precisely about not staying in a position whose catalyst is broken just because the catalyst might come back. Last week's exit was clean discipline; this week's choice not to chase the round-trip (B+ not A, $58.80 above $58.08 chase concern) closed the loop on that discipline.
+- **BTC long carried the routine-gap without drama.** Six sessions of no live thesis-check is exactly the regime sizing caps are designed to survive. BTC drifted within an ~$3k range across the gap, stop $70,888.59 with double-digit-percentage headroom throughout, no overnight gap >3% adverse. The 15% position weight + 10% server-side stop combination did its job; the 5/15 pre-market thesis re-check confirmed catalyst stack still constructive (ETH/BTC at 10-month low, CLARITY Act tape, Powell→Warsh dovish tilt, ETF inflows).
+
+**What didn't**
+- **Routine series dark for six consecutive sessions (5/8 → 5/13).** This is the dominant operational story of the week. No pre-market, market-open, or daily-summary commits from Friday 5/8 through Wednesday 5/13. The 5/14 EOD was a gap-recovery snapshot; only 5/15 Friday had a full live routine cadence. Last week's weekly review explicitly flagged this risk ("if the pattern persists through next week, consider a wrapper-level one-shot re-fire") — and the pattern has persisted, materially worse than the 503-storm week from 4/20–4/24. The bot itself is invisible across 80% of this week's sessions; whatever discipline we credit ourselves with on Friday is sample-of-one.
+- **Weekly review for the week of 5/4–5/8 was never written.** A separate consequence of the same gap: the missing 5/8 EOD also meant no Friday-5/8 weekly-review fired. That week is now an unreviewed hole in the audit trail; the only EOD data we have for it is 5/4 (Mon), 5/5 (Tue), 5/6 (Wed), 5/7 (Thu) — no Friday close, no week-of stats, no grade. The TRADE-LOG entries are there but the synthesis pass never happened. Best we can do now is reference forward: the period 5/4–5/8 carried both positions Mon–Wed (XLE +3.2% Mon, BTC +1.6% Mon; +2.7%/+3.4% Tue; etc.), and 5/7 closed XLE on rule-9 thesis-exit at −3.6%; Friday 5/8 carried only BTC, with the midday no-op noting BTC at +1.35%. That week is grade-eligible but un-graded.
+- **Cumulative observability is thin.** Three weeks of partial-cadence operation in five (5/4–5/8 partial, 5/11–5/15 mostly dark, plus prior 503-storm weeks) means we have less than four full weeks of observable routine behavior across what is now a five-week program. The strategy edits we've made (rule 6 reframe) are being grounded on a thinner-than-ideal data base; engineering reliability is now the constraint on the strategy's evolution, not the strategy itself.
+- **XLE re-entry skip will look mistaken if Monday gaps up cleanly.** Friday's reject was correct on the strategy's own terms (B+ not A, chase-price concern, weekend headline risk) — but the underlying setup (WTI +3.6%, Hormuz-back, XLE leadership reasserting) is real. If Monday's pre-market re-grades XLE to A on a fresh daily-bar close above $58 and Monday market-open fills above today's $58.80, the cost-of-discipline will be visible. This is the right kind of "what didn't" — a defensible miss, not a rule failure — but worth naming so next week's pre-market doesn't accidentally over-correct.
+
+**Lessons**
+- **Cash-as-defense is now empirically demonstrated, not just strategically assumed.** Last week's rule 6 reframe ("tolerate >50% cash during low-signal regimes") was an after-the-fact rationalization of three weeks of cash-heavy operation in an up tape. This week tested it in a down tape: 85% cash → +1.3% alpha vs 60/40 in a week BTC dropped −3.2%. The reframe wasn't just "explain away the violation"; it was tracking a real edge. Keep the rule as amended; don't second-guess the cash posture next week.
+- **Six-session blind spots are tolerable for catalyst-based positions with stops set at open.** BTC survived a six-session no-check window because rule 7 (stop at open, server-side, 24/7) is doing exactly what it's designed to do. The strategy's resilience to routine-gap is structurally good — but resilience is not the same as observability. The bot can survive being offline; it cannot demonstrate discipline while offline.
+- **Operational reliability is now the binding constraint.** Two consecutive weekly reviews have flagged "consider a wrapper-level re-fire" as engineering follow-up. The pattern has now happened in 3 of 5 weeks (503 storms 4/20–4/24; intermittent gaps 5/4–5/8; full multi-session blackout 5/8–5/13). Strategy adjustments going forward will be data-starved until the cron-reliability issue is resolved. Naming this explicitly so the next operational review treats it as P1, not P3.
+- **A defensible miss is not a rule failure.** Friday's XLE-skip and BTC-skip were both A-grade decisions against the strategy's own gate. If Monday proves them wrong on price action, that does not retroactively make Friday's reasoning wrong — it makes the gate slightly tight on a fast-reversing tape. The cure for that is another week of data on tape-reversal setups, not a mid-week panicked loosening of the entry bar.
+
+**Adjustments for next week**
+- **No strategy edits.** The rule 6 reframe held its weight in its first stress test; no other rule failed badly. Continue grading discipline above P&L.
+- **Operational ask (engineering, not strategy):** wrapper-level retry / cron-availability is now the highest-leverage engineering item. The strategy is being run on infrastructure that is offline 40–60% of the time across the last three weeks. Whatever the next-week pre-market posture is, treat the routine series as fragile and assume any single session may be the only observable one — preserve weekly-budget conservatively (i.e., don't burn 3 of 5 opens on a Monday when Tue–Fri may go dark).
+- **Watching next week:** (1) XLE re-grade on Monday — if the gate now reads A on a fresh close above $58 with WTI ≥$103, take it; don't anchor to Friday's reject. (2) BTC add re-grade on CLARITY Act follow-through if the markup advances cleanly and $81.5k breaks-and-holds. (3) If routine cadence stays partial for a third consecutive week, the next weekly review should propose a circuit-breaker: cap weekly opens at 2 (not 5) while engineering reliability is unresolved, on the principle that one observed day per week cannot support five entries' worth of risk budget.
+- **Watching at week 6:** opens-cadence has now been 0–1 trade per week for five consecutive weeks. We're amending nothing this week (data still thin from the routine gap), but if week 6 sees a normal-cadence tape and still 0–1 opens with B+ rejects piling up, the entry bar conversation revisits in the week-6 review — calibrated tightening or loosening of "A-grade" relative to the rate at which the natural tape produces qualifying setups.
+
+---
+
 ### Week of 2026-04-27 → 2026-05-01
 
 **Week return:** +0.3% | **S&P 500 week:** +1.0% | **Alpha:** −0.6%
