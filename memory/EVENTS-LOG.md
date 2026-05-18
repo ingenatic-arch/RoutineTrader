@@ -121,3 +121,4 @@ Percentages only — no dollar references.
 2026-05-15T20:37:18Z | weekly-review | ok | Week committed; grade=B; return=-0.2%; alpha=+0.2% vs SPX; alpha=+1.3% vs 60/40; 0 opens; 0 closes; rule-6 reframe validated in first down-week; no strategy edits; flagged operational routine-gap 5/8-5/13 as P1 engineering follow-up
 2026-05-18T13:13:27Z | pre-market | ok | Research committed; decision=OPEN 1 (XLE re-entry 10%) + HOLD BTC; ideas=1 A-grade actionable / 1 conditional watchlist
 2026-05-18T13:37:49Z | market-open | ok | Opened: none; positions=1 (BTC); XLE quality-gate fail at 09:36 ET — ask 58.82 vs Fri close 59.44 = −1.04% gap-down (research required green or flat); WTI/Hormuz thesis intact but entry-print fails; opens-this-week 0/5
+2026-05-18T15:37:39Z | midday | warn | Closed: none; trimmed: none; positions=1 (BTC -3.4%, thesis intact, 6.88% stop headroom)
