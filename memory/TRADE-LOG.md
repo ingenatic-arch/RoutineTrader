@@ -10,6 +10,44 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-18 — EOD Snapshot (Day 21, Monday)
+
+**Equity:** 99.3% of start | **Cash:** 85.2% | **Day P&L:** −0.4% | **Phase P&L:** −0.7%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  14.8%  |$78,765.12  |$76,994.83  |    −2.2%    |$70,888.59  |
+
+**Notes:** First trading day of new week — pre-market called OPEN 1 (XLE re-entry
+10%) on A-grade active-US-Iran-war / Hormuz-closed / WTI >$102 thesis but
+market-open quality-gate FAILED on the entry print (XLE ask $58.82 at 09:36 ET
+vs Fri close $59.44 = −1.04% gap-down, research required "opens green or flat";
+XLE skipped, WTI/Hormuz macro thesis itself intact). BTC-add secondary trigger
+also skipped (CLARITY Act no follow-through over weekend, BTC at $77.5K well
+below $80K reclaim threshold). Midday no-op (BTC at −3.4% unrealized, thesis
+intact per 5/18 pre-market — Iran-war / Hormuz-closed supply-shock unchanged,
+no FOMC-minutes-week thesis-break, 6.88% stop headroom). BTC drifted from
+$79,105.83 (Fri close) → $76,994.83 (−2.7% from Friday's close, position now
+−2.2% unrealized vs +0.4% Friday) on weekend −2% + Monday risk-off (ES −0.95%
+overnight, 10Y reportedly ~4.60%), no adverse BTC-specific catalyst; stop
+$70,888.59 untouched (BTC +7.9% above the stop band). Recovered modestly into
+the close from the midday −3.4% trough. Day P&L −0.4% on virtual equity (BTC
+mark-to-market −$40.28 vs $9,973.52 Friday baseline; no realized P&L today —
+0 opens, 0 closes, 0 trims). No rule trips. 0 opens this week (cap 5 — new
+week 2026-05-18 to 05-22; XLE primary trigger failed quality-gate, BTC add
+conditional and didn't fire); 1 position (cap 8); 14.8% crypto = 14.8%
+invested (cap 50% per class); 85.2% cash buffer (well above 5% floor — meta-
+rule patience > activity in force, A-grade XLE thesis remains live for
+Tue/Wed re-entry pending gap-fill and 30-min bid-hold).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,933.24
+- Virtual cash: $8,464.02
+- Opens this week: 0
+- Real mirror (10%): $993.32
+
+---
+
 ## 2026-05-15 — EOD Snapshot (Day 20, Friday)
 
 **Equity:** 99.7% of start | **Cash:** 84.9% | **Day P&L:** −0.4% | **Phase P&L:** −0.3%

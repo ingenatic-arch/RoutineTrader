@@ -122,3 +122,5 @@ Percentages only — no dollar references.
 2026-05-18T13:13:27Z | pre-market | ok | Research committed; decision=OPEN 1 (XLE re-entry 10%) + HOLD BTC; ideas=1 A-grade actionable / 1 conditional watchlist
 2026-05-18T13:37:49Z | market-open | ok | Opened: none; positions=1 (BTC); XLE quality-gate fail at 09:36 ET — ask 58.82 vs Fri close 59.44 = −1.04% gap-down (research required green or flat); WTI/Hormuz thesis intact but entry-print fails; opens-this-week 0/5
 2026-05-18T15:37:39Z | midday | warn | Closed: none; trimmed: none; positions=1 (BTC -3.4%, thesis intact, 6.88% stop headroom)
+2026-05-18T20:17:04Z | unknown | ok | 📊 Daily summary 2026-05-18 (Day 21) Equity: 99.3% of start / Day P&L: −0.4% / Phase: −0.7% Cash: 85.2% / Positions: 1 / Opens this week: 0/5 Positions: • BTC (crypto) 14.8% / −2.2% / stop −10% Today: opened 0 (XLE primary trigg
+2026-05-18T20:17:11Z | daily-summary | ok | EOD snapshot committed; day P&L -0.4%; equity 99.3%; positions 1 (BTC -2.2%); opens-this-week 0/5 (XLE primary trigger failed gap-down quality-gate at 09:36 ET; WTI/Hormuz thesis intact for Tue/Wed re-entry)
