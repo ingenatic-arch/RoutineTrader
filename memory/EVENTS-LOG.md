@@ -119,3 +119,4 @@ Percentages only — no dollar references.
 2026-05-15T20:16:46Z | daily-summary | ok | EOD snapshot committed; day P&L -0.4%; equity 99.7%; positions 1 (BTC); opens-this-week 0/5; week closes flat
 2026-05-15T20:37:12Z | unknown | ok | 📅 Weekly review — week of 2026-05-11 → 2026-05-15 Return: −0.2% / S&P 500: −0.4% / Alpha: +0.2% / Phase: −0.3% 60/40 proxy: −1.5% / Alpha vs 60/40: +1.3% Grade: B Stats: 0 opened / 0 closed / Win rate n/a / Best n/a / Worst n
 2026-05-15T20:37:18Z | weekly-review | ok | Week committed; grade=B; return=-0.2%; alpha=+0.2% vs SPX; alpha=+1.3% vs 60/40; 0 opens; 0 closes; rule-6 reframe validated in first down-week; no strategy edits; flagged operational routine-gap 5/8-5/13 as P1 engineering follow-up
+2026-05-18T13:13:27Z | pre-market | ok | Research committed; decision=OPEN 1 (XLE re-entry 10%) + HOLD BTC; ideas=1 A-grade actionable / 1 conditional watchlist

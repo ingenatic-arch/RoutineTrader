@@ -6,6 +6,96 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-05-18 — Monday Pre-Market (08:00 ET) — US-IRAN WAR / HORMUZ STILL CLOSED, WTI >$102 (POLYMARKET 84% TO $105), SPX/NDX AT NEW RECORD HIGHS BUT ES −0.95% O/N, BTC −2% WEEKEND, FOMC MINUTES WED, NVDA/HD/TGT/WMT THIS WEEK
+
+**Snapshot:** Equity 99.4% of start | Cash 85.1% | Open positions: 1 (BTC 15.1%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Market context** (as-of 2026-05-18 ~13:11 UTC, percentages only; data-quality caveats flagged below)
+- **S&P 500 futures (ESM26):** ~**−0.95% overnight.** Cash indices closed Fri at new record highs (SPX >7,500, NDX >29,000, Dow >50,000); ES soft into a Monday with no Tier-1 macro on the docket and major catalysts later in the week (FOMC Minutes Wed 5/20, NVDA earnings, big-box retailers HD/TGT/WMT). April was the best month for US stocks in five years (NDX +15.3%, SPX +10.4%) and Q1 earnings beat rates very strong (84% EPS, 81% revenue). Soft Monday open into rich tape — natural mean-reversion setup, no thesis-break.
+- **VIX / DXY:** No fresh prints surfaced. Carry-forward: VIX ~17–18, DXY ~98. Treat directional only.
+- **US 10Y yield:** ~**4.60% recent high** (data-quality caveat — single-source). If accurate, that's a meaningful rise from the 4.30–4.40% carry-forward area; rate-sensitive longs (BTC, gold, utilities) face headwind. Cross-check at market-open.
+- **WTI crude — THESIS CONFIRMED & EXTENDED:** Friday closed **+4.20% to a 1.5-week high** on **US-Iran war + Strait of Hormuz closed** (Barchart: "lack of negotiations to end the US-Iran war keeps the Strait of Hormuz closed and tightens global oil supplies"). Mid-May level **>$102/bbl**, **Polymarket pricing 84% odds WTI hits $105 this week, 44% odds to $110.** This is a sustained supply-shock regime, not a 1-day headline flip — and a meaningful step beyond Friday's "Hormuz disruption / diplomatic strains" framing into explicit **active-war** language. Monthly: still ~+10%+. The 5/7 thesis-exit catalyst (Iran-ceasefire optimism / WTI ~$92) is decisively reversed.
+- **BTC:** **Live eToro mark $77,488.02** at 13:05Z (closeRate on held position). Weekend OHLC: Sat 5/16 close ~$77K–$78K range, Sun 5/17 reference ~$77.2K (Robinhood event contract priced "≥$77,900" at 99¢, "≥$78,000" at 95¢, "≥$78,100" at 1¢ — i.e. market locked near $77.9K on the 5/17 timestamp). Net Fri→Mon move: **BTC ~−2% over the weekend** (from Fri close $79,105.83 → ~$77,488 now). **Still below $80K.** No decisive breakout. CLARITY Act: **no confirmed final-vote outcome** over the weekend — the 5/14 Senate Banking markup remains the most recent procedural read, with no public follow-through into 5/16–5/17. ETF flows: modest positive trend into the weekend; weekend itself is closed for primary creations.
+- **ETH:** Weekend closes **$2.18K (Sat) / $2.19K (Sun)**, down from Fri $2,246. ETH/BTC ratio still depressed; ETH continues to underperform BTC.
+- **Today's catalysts (light Monday):**
+  - **No Tier-1 US macro releases scheduled** for Monday 5/18 per market preview. Set-up day.
+  - **No major pre-open earnings confirmed for Monday** in the research — HD, TGT, WMT, NVDA are all later this week.
+  - **FOMC Minutes — Wed 5/20.** This is the week's big rate-path catalyst under the incoming-Warsh framing (most recent meeting was 11–1 hold, easing bias added, Miran dissent for a cut). Risk-sensitive longs (BTC) will be positioning into this.
+  - **Powell → Warsh handover:** Warsh nomination "complete and ratified"; Powell has held his final post-meeting press conference. Effective swearing-in date not pinned. Warsh framed as mildly dovish vs Powell — rate-cut-bias supportive.
+  - **Iran/Hormuz live risk** — every overnight headline is a potential mover for WTI/XLE/defense names.
+- **Sector momentum (YTD through 5/15 close):**
+  - **XLE +33.8%** (close $59.44 Fri — **+2.36% on Friday alone**, weekly **+6.7%**; leadership re-accelerating on the war/Hormuz repricing — was +29.74% on 5/13).
+  - **XLK +22.6%** but **−2.2% past week** (cooling slightly off the Cerebras-IPO-+81%-debut AI-frenzy peak; still in-trend YTD).
+  - **XLI +10.8%**, **XLP +9.6%**, **XLU +3.5%**, **XLV −0.4%**, **XLF −6.2%**.
+  - **Read:** Energy reasserted as the clean leadership trade on a confirmed sustained-crisis macro driver (active-war oil bid). Tech still in YTD trend but pulling back near record-high tape. Defensives consolidating, financials still lagging.
+- **Geopolitics:** **Active US-Iran war** with **Strait of Hormuz closed** — explicit language, not "tensions" or "disruption." No weekend negotiation progress reported. This is the operative single biggest macro driver for both WTI and risk-asset volatility.
+- **Data quality caveat.** Multiple sources had explicit training-cutoff limitations on 2026 data; VIX, DXY, BTC ETF-flow specifics, and Monday-specific earnings/macro calendars were thin. ES −0.95% has cross-source corroboration via Hewson's week-ahead. 10Y 4.60% is single-source — treat with caution. eToro `/pnl` + `/rates` are source of truth for current prices.
+
+**Holdings check**
+- **BTC** (instrumentID 100000, weight **15.1%** of equity, unrealized **−1.6%**, closeRate $77,488.02 vs entry $78,765.12, stop $70,888.59, ~8.5% headroom from current price to stop): thesis **INTACT.** Catalyst stack still constructive: CLARITY Act remains the live regulatory-clarity narrative for the week, FOMC-minutes-into-dovish-Warsh-handover is risk-on at the margin, ETF flows trending positive into the weekend. Counter-weight: 10Y near 4.60% (if confirmed) is mildly bearish risk-assets; ES −0.95% overnight on a Monday into NDX record highs could pressure BTC further intraday; no decisive break-and-hold above $80K over the weekend (was Friday's add-trigger condition). No >3% adverse gap; weekend −2% drift is within normal vol band. **HOLD. No add at pre-market** (Friday's "add only on confirmed CLARITY-markup advance + clean break-and-hold above $81.5k" trigger has NOT fired — BTC is below not above the $80K reference). Watchlist trigger remains for market-open: add 5% if CLARITY advance prints today AND BTC reclaims $80K with volume.
+
+**Trade ideas** (0–5 per day; HOLD is default only when no idea qualifies)
+
+Screened candidates + dispositions:
+
+1. **XLE re-entry (Energy SPDR) — instrumentID 3008, asset class ETF — A-GRADE, PROPOSED OPEN.**
+   - **Catalyst (today, documented):** WTI traded a 1.5-week high Friday at +4.20% on **active US-Iran war + Strait of Hormuz closed**. Weekend brought no negotiations; the supply-shock regime is sustained. Polymarket pricing **84% odds WTI hits $105 this week, 44% to $110**. WTI has held >$102 in mid-May and the headline path is unambiguous: war → supply shortage → energy-equity bid. Friday's pre-market flagged XLE as the primary market-open watchlist trigger; the conditions that broke that trigger on Friday's quality-gate (B+ grade, weekend headline risk, $58.08 chase concern, 30-min-bid-hold unverifiable) have **all resolved in favor of the trade over the weekend**: the regime escalated, not de-escalated; XLE has continued bid to $59.44; today's market-open gets a fresh cash-session price-action read.
+   - **Asset class:** ETF — current ETF exposure 0%, post-fill exposure 10% (well inside 50% cap).
+   - **Entry ask:** ~**$59.44** (Friday close on the wrapper; market-open will refresh live at 09:35 ET).
+   - **Stop (round(ask × 0.90, 4)):** **$53.4960** (−10% from $59.44 reference; market-open recomputes on the live ask).
+   - **Target (ask × 1.20):** **$71.3280** (+20% from $59.44 reference; R:R **2.0:1** ✓).
+   - **Size:** **10% of equity ≈ $994** ($9,942.65 × 0.10). Inside the 30% per-name cap; leaves ~75% cash buffer post-fill (well above 5% floor).
+   - **R:R:** 2.0:1 ✓
+   - **Pre-buy gate (preview — market-open will re-run on live data):**
+     - [x] Positions after fill: 2 ≤ 8
+     - [x] Opens this week + 1: 1 ≤ 5
+     - [x] Position cost ≤ 30% of equity (10% << 30%)
+     - [x] Cost ≤ available cash ($994 ≪ $8,464); leaves ~75% cash >> 5% floor
+     - [x] Asset-class exposure after fill: 10% ETF ≤ 50%
+     - [x] Catalyst documented in TODAY's RESEARCH-LOG (this entry)
+     - [x] Exact `internalSymbolFull` match: "XLE" verified via `etoro.sh search XLE`
+     - [x] Leverage 1, IsBuy true, StopLossRate set
+   - **Why A-grade now vs B+ on 5/15:** (a) WTI moved further higher with explicit active-war framing, not just "tension"; (b) Polymarket cross-source corroboration of sustained-crisis pricing (84%/44% to $105/$110); (c) weekend confirmed escalation, not de-escalation — biggest concern from Friday (weekend headline risk) resolved in favor of trade; (d) XLE itself continued bid +2.36% Friday after the pre-market analysis, validating the leadership-acceleration thesis; (e) Monday open allows the 30-min-bid-hold quality-gate check that Friday couldn't run on its first-trading-day routine-gap setup; (f) catalyst is structural (supply-shock from blocked shipping lane) not headline-flip-prone (a ceasefire-and-reopening would need physical negotiation progress that has not started over the weekend).
+   - **Market-open gate (refined from Friday's, simpler now):** open 10% XLE at the live ask if WTI is ≥$100 at 09:30 ET AND XLE opens green or flat (no gap-and-fail). Skip if WTI sells off below $98 pre-open OR XLE gaps up >2% intraday and immediately reverses (exhaustion).
+
+2. **BTC-add (push 15% → ~20%)** — **REJECTED for pre-market, conditional watchlist for market-open.** Friday's two-condition trigger (CLARITY advance + clean break above $81.5K) is NOT met: no CLARITY follow-through over the weekend, BTC is at $77.5K (below $80K, not above $81.5K). Adding crypto into a Monday with ES −0.95% + 10Y potentially at 4.60% + no fresh BTC-specific catalyst would be averaging into weakness. **Market-open watchlist:** add 5% only if CLARITY advance prints today AND BTC reclaims $80K with volume.
+
+3. **GLD (Gold)** — **REJECTED.** Active-Iran-war is gold-positive in theory, but 10Y near 4.60% (if confirmed) is bearish gold on real-yields; opposing forces, B-grade setup. Watchlist if DXY breaks <97 with 10Y rolling back.
+
+4. **XLK (Tech SPDR) — instrumentID known, ETF.** **REJECTED.** Tech −2.2% past week off Cerebras-IPO highs; NVDA earnings later in the week is the next binary; entering XLK on a soft Monday pre-NVDA is pre-earnings-binary exposure. No A-grade setup.
+
+5. **Pre-earnings positioning (NVDA / HD / TGT / WMT)** — **REJECTED by rule.** All report later this week; pre-buy gate forbids speculation into a same-name earnings binary without a clear post-print mean-reversion read.
+
+6. **XOM / CVX direct energy longs** — **REJECTED.** Same catalyst as XLE but single-name concentration risk; ETF basket is the cleaner expression of the macro driver.
+
+7. **Defensives (XLP / XLU)** — **REJECTED.** Defensive rotation is not the active flow with tech +22.6% YTD and energy +33.8% YTD; SPX at record highs argues against defensive lean unless on a confirmed sell-off, which the −0.95% ES drift does not yet constitute.
+
+8. **ETH** — **REJECTED, hard.** Underperforming BTC for weeks; no fresh ETH-specific catalyst; weekend close $2.19K confirms the laggard status.
+
+9. **XLF / XLV (laggard ETFs)** — **REJECTED.** Averaging into laggards without thesis trigger; no specific 5/18 catalyst.
+
+**Risk factors**
+- **10Y at 4.60% (data-quality caveat).** If confirmed, this is a meaningful jump from prior 4.30–4.40% area and is risk-asset headwind generally — pressures BTC, gold, defensives, and high-multiple growth (XLK). Energy is least rate-sensitive of the major sectors, so XLE thesis is well-insulated; BTC holding is the more exposed name. Cross-check at market-open before any new trade.
+- **Soft Monday into record-high tape.** ES −0.95% on a Monday with no Tier-1 macro is benign mean-reversion in isolation, but if it accelerates into FOMC-minutes-week positioning, broader risk-off could drag XLE down with the tape even on a constructive energy fundamental. Mitigation: market-open's "opens green or flat" gate.
+- **Iran-war headline reversal risk.** A surprise ceasefire announcement, US/Iran direct-talk announcement, or Hormuz-reopening report would re-price WTI sharply lower in hours (mirror of the 5/7 thesis-exit). Our stop ($53.50) is server-side and gives the trade 10% room; backstopped further by the −7% midday rule. Weekend confirmed escalation, so this risk is moderate, not high.
+- **Bitcoin downside under broader risk-off.** With BTC down 2% over the weekend and 10Y potentially at 4.60%, intraday BTC could test the lower band. Stop at $70,888 is 8.5% below current — meaningful headroom but not infinite. Midday will assess if a thesis-break trigger fires.
+- **FOMC-minutes-week positioning.** Tape may chop heading into Wednesday's release; intraday whipsaw risk for any new opens. Mitigation: only opening 10% (small relative to weekly 5-position budget), not stacking multiple new ideas Monday.
+- **NVDA pre-earnings positioning.** AI-semis flow can spill across XLK and broader risk on hyperscaler-capex narrative; doesn't directly affect XLE or BTC but is a tape backdrop to watch.
+- **Data-quality.** Cross-source disagreement on 10Y level; thin Monday-specific earnings/macro calendar data; Perplexity sources flagged 2026 training-cutoff limitations. Treat third-party reads as directional; eToro live `/rates` at market-open is source of truth.
+- **Class exposure post-XLE-fill.** 15% crypto + 10% ETF = 25% invested / 75% cash. Comfortable; well inside per-class (50%) and per-name (30%) caps with 4 more opens still available this week.
+
+**Watchlist (for market-open 09:35 ET routine and into this week)**
+- **XLE — primary trigger today.** Conditions in trade-idea #1. Live ask refresh + 30-min-bid-hold check.
+- **BTC add — secondary trigger.** Conditions: CLARITY Act floor/markup advance prints AND BTC reclaims $80K with volume. Action: +5% to push position to ~20%. Skip otherwise.
+- **GLD — Tuesday/Wednesday.** Re-evaluate if 10Y rolls back below 4.40% with Iran-war intact.
+- **XLK / NVDA-adjacent semis — Wednesday/Thursday.** Re-evaluate post-NVDA earnings reaction, do not pre-position.
+- **Retail consumer read — HD/TGT/WMT week.** Watch as macro tells, not trades.
+- **FOMC Minutes — Wed 5/20.** Holdings-thesis-check trigger for BTC; watchlist for risk-on adds if Warsh-dovish-tilt confirmed.
+
+**Decision:** **OPEN 1 (XLE re-entry, 10%) at market-open + HOLD BTC.** No trims (BTC thesis intact, no over-concentration, well below class caps). The Iran-war/Hormuz-closed supply-shock is the single most actionable A-grade catalyst on the tape and Friday's quality-gate reasons-to-defer have resolved in favor of the trade. BTC-add stays on watchlist (conditional, not proposed). Opens-this-week budget: 1/5 after the proposed XLE open, 4 remaining through Friday. Cash 85.1% pre-fill → ~75% post-fill — well above the 5% floor with capacity for further A-grade ideas later in the week. No ClickUp alert this morning — BTC unrealized −1.6% (well above −7% trigger), no overnight thesis-break, no major geopolitical event impacting held position adversely (Iran-war is supportive for XLE re-entry, neutral-to-mild-headwind for BTC).
+
+---
+
 ### 2026-05-15 — Friday Pre-Market (08:00 ET) — WTI +3.6% (HORMUZ BACK), CLARITY ACT MARKUP, POWELL→WARSH HANDOVER, EMPIRE STATE + MICHIGAN SENTIMENT, ROUTINE GAP 5/8–5/13
 
 **Snapshot:** Equity 99.9% of start | Cash 84.7% | Open positions: 1 (BTC 15.3%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
