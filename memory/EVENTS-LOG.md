@@ -125,3 +125,4 @@ Percentages only — no dollar references.
 2026-05-18T20:17:04Z | unknown | ok | 📊 Daily summary 2026-05-18 (Day 21) Equity: 99.3% of start / Day P&L: −0.4% / Phase: −0.7% Cash: 85.2% / Positions: 1 / Opens this week: 0/5 Positions: • BTC (crypto) 14.8% / −2.2% / stop −10% Today: opened 0 (XLE primary trigg
 2026-05-18T20:17:11Z | daily-summary | ok | EOD snapshot committed; day P&L -0.4%; equity 99.3%; positions 1 (BTC -2.2%); opens-this-week 0/5 (XLE primary trigger failed gap-down quality-gate at 09:36 ET; WTI/Hormuz thesis intact for Tue/Wed re-entry)
 2026-05-19T13:15:39Z | pre-market | ok | Research committed; decision=HOLD; ideas=0 actionable / 2 conditional (XLE collapse-only, BTC-add CLARITY+80K only); regime=Iran-strike-cancel+14pt-proposal
+2026-05-19T13:36:36Z | market-open | ok | Opened: none; positions=1 (BTC); both watchlist triggers (XLE collapse, BTC>$80K) NOT MET
