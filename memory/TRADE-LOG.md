@@ -10,6 +10,45 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-19 — EOD Snapshot (Day 22, Tuesday)
+
+**Equity:** 99.3% of start | **Cash:** 85.2% | **Day P&L:** −0.0% | **Phase P&L:** −0.7%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  14.8%  |$78,765.12  |$76,871.86  |    −2.4%    |$70,888.59  |
+
+**Notes:** Quiet Tuesday — no opens, no closes, no trims across all three trading
+routines. Pre-market HOLD (decision=HOLD; ideas=0 actionable; regime flagged as
+Iran-strike-cancel + 14-point Hormuz-de-escalation proposal — WTI gave back the
+Hormuz risk-premium overnight, XLE re-entry thesis from 5/18 broken; two
+market-open watchlist triggers carried over conditionally — XLE collapse-only
+on a fresh tape break, BTC-add only on CLARITY-Act follow-through AND BTC
+reclaim of $80K). Market-open opened nothing (both conditional triggers NOT
+MET — XLE no collapse, BTC live below $80K reclaim threshold). Midday no-op
+(BTC at −2.8% unrealized, thesis intact per 5/19 pre-market — no FOMC-day
+thesis-break, 7.6% stop headroom). BTC firmed modestly from $76,994.83
+(yesterday's close) → $76,871.86 (−0.16% from yesterday's close, position
+holds near −2.4% unrealized vs −2.2% yesterday) on a flat crypto tape with
+no adverse BTC-specific catalyst; stop $70,888.59 untouched (BTC +8.4% above
+the stop band). Day P&L essentially flat at −0.0% on virtual equity (BTC
+mark-to-market −$2.35 vs $9,933.24 yesterday baseline; no realized P&L
+today — 0 opens, 0 closes, 0 trims). No rule trips. 0 opens this week
+(cap 5 — week 2026-05-18 to 05-22; XLE re-entry window from Monday now
+closed on the Iran-de-escalation thesis-break, BTC-add still conditional);
+1 position (cap 8); 14.8% crypto = 14.8% invested (cap 50% per class);
+85.2% cash buffer (well above 5% floor — meta-rule patience > activity in
+force; A-grade actionable ideas remain absent as the geopolitical setup
+de-escalates and the Hormuz/WTI macro thesis loses its primary leg).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,930.89
+- Virtual cash: $8,464.02
+- Opens this week: 0
+- Real mirror (10%): $993.09
+
+---
+
 ## 2026-05-18 — EOD Snapshot (Day 21, Monday)
 
 **Equity:** 99.3% of start | **Cash:** 85.2% | **Day P&L:** −0.4% | **Phase P&L:** −0.7%

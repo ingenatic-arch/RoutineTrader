@@ -127,3 +127,5 @@ Percentages only — no dollar references.
 2026-05-19T13:15:39Z | pre-market | ok | Research committed; decision=HOLD; ideas=0 actionable / 2 conditional (XLE collapse-only, BTC-add CLARITY+80K only); regime=Iran-strike-cancel+14pt-proposal
 2026-05-19T13:36:36Z | market-open | ok | Opened: none; positions=1 (BTC); both watchlist triggers (XLE collapse, BTC>$80K) NOT MET
 2026-05-19T15:38:25Z | midday | warn | Closed: none; trimmed: none; positions=1 (BTC -2.8%, thesis intact per 5/19 pre-market, 7.6% stop headroom); equity=99.2%; cash=85.3%; crypto-class=14.7%; no rule trips
+2026-05-19T20:17:36Z | unknown | ok | 📊 Daily summary 2026-05-19 (Day 22) Equity: 99.3% of start / Day P&L: −0.0% / Phase: −0.7% Cash: 85.2% / Positions: 1 / Opens this week: 0/5 Positions: • BTC (crypto) 14.8% / −2.4% / stop −10% Today: opened 0, closed 0, trimmed
+2026-05-19T20:17:43Z | daily-summary | ok | EOD snapshot committed; day P&L -0.0%; equity 99.3%; positions 1 (BTC -2.4%); opens-this-week 0/5; XLE re-entry thesis broken on Iran de-escalation
