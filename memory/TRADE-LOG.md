@@ -10,6 +10,47 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-20 — EOD Snapshot (Day 23, Wednesday)
+
+**Equity:** 99.5% of start | **Cash:** 85.1% | **Day P&L:** +0.1% | **Phase P&L:** −0.5%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  14.9%  |$78,765.12  |$77,648.00  |    −1.4%    |$70,888.59  |
+
+**Notes:** Quiet Wednesday — no opens, no closes, no trims across all three
+trading routines. Pre-market HOLD (decision=HOLD; ideas=0 actionable; two
+conditional market-open watchlist triggers carried over — XLE collapse-only on
+a fresh tape break / WTI ≥$105 and an Iran-strike headline, BTC-add only on
+CLARITY-Act follow-through AND BTC reclaim of $80K; regime flagged 10Y at
+4.69% 16-month high + Iran de-escalation accelerating with a Trump early-next-
+week deadline + FOMC Minutes 2pm ET). Market-open opened nothing (both
+conditional triggers NOT MET — XLE no Iran-collapse headline and WTI well
+below $105, BTC-add live ask $77,036 well below $80K reclaim threshold and no
+CLARITY follow-through). Midday no-op (BTC at −1.5% unrealized, thesis intact
+per 5/20 pre-market — pre-FOMC-Minutes posture, 8.7% stop headroom, no rule
+trips). BTC firmed modestly from $76,871.86 (yesterday's close) → $77,648.00
+(+1.0% from yesterday's close, position now −1.4% unrealized vs −2.4%
+yesterday) on a quiet crypto tape with no adverse BTC-specific catalyst; stop
+$70,888.59 untouched (BTC +9.6% above the stop band). Day P&L +0.1% on
+virtual equity (BTC mark-to-market +$14.81 vs $9,930.89 yesterday baseline;
+no realized P&L today — 0 opens, 0 closes, 0 trims). No rule trips. 0 opens
+this week (cap 5 — week 2026-05-18 to 05-22; XLE re-entry window remains
+broken on Iran-de-escalation thesis, BTC-add still conditional on $80K
+reclaim + CLARITY follow-through); 1 position (cap 8); 14.9% crypto = 14.9%
+invested (cap 50% per class); 85.1% cash buffer (well above 5% floor —
+meta-rule patience > activity in force; A-grade actionable ideas remain
+absent as Iran de-escalates and the rates backdrop tightens with 10Y at a
+16-month high).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,945.70
+- Virtual cash: $8,464.02
+- Opens this week: 0
+- Real mirror (10%): $994.57
+
+---
+
 ## 2026-05-19 — EOD Snapshot (Day 22, Tuesday)
 
 **Equity:** 99.3% of start | **Cash:** 85.2% | **Day P&L:** −0.0% | **Phase P&L:** −0.7%
