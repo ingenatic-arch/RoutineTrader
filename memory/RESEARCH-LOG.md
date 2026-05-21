@@ -6,6 +6,61 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-05-21 — Thursday Pre-Market (08:00 ET) — POST-FOMC-MINUTES BOUNCE: ES +0.96% O/N, 10Y BACK TO 4.57% (−10 BPS FROM YESTERDAY'S 16-MO HIGH 4.69%), WTI −4.25% O/N ON IRAN DE-ESCALATION CONTINUATION, WMT EARNINGS PRE-OPEN, INITIAL CLAIMS 8:30 ET / PHILLY FED 8:30 ET / LEI 10:00 ET
+
+**Snapshot:** Equity 99.4% of start | Cash 85.2% | Open positions: 1 (BTC 14.8%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Market context** (as-of 2026-05-21 ~13:12 UTC, percentages only; data-quality caveats flagged inline)
+- **S&P 500 futures (ESM26):** **+0.96% overnight** per Barchart futures commentary — a sharp risk-on bounce after yesterday's cash close (Tue −0.67%, Wed flat per yesterday's pre-market read on ES +0.1% O/N going into Wed cash). The bounce is consistent with: (a) FOMC Minutes yesterday 2pm ET not producing a hawkish surprise, (b) 10Y giving back ~10bp from Tuesday's 16-month high. Tone into Thu cash: relief rally / rate-headwind reprieve.
+- **VIX:** No fresh print returned. With ES +1% O/N and yields falling 10bp, VIX is almost certainly **lower today vs Tuesday's stress** — directional only, exact level not surfaced.
+- **US 10Y yield:** **~4.57% (−10 bps vs prior day)** per Barchart. This is a meaningful **reprieve from yesterday's 4.69% 16-month high** — confirms FOMC Minutes either: (a) included some softer language on disinflation/labor, or (b) at minimum did not reinforce the recent hawkish drift. The 10Y staying below ~4.65% is the operative pivot for whether risk assets (BTC, growth, gold, defensives) can keep building today.
+- **WTI crude (CLN26):** **−4.25% overnight** to roughly the $99–100 area (Barchart July contract). Continues yesterday's Iran-de-escalation pricing — Trump's "early next week" peace deal deadline plus Iran "being reasonable" headlines from yesterday are sustaining the Hormuz-risk-premium unwind. **XLE re-entry thesis from 5/18 remains structurally broken** — WTI is now ~10% below the $110+ Iran-strike-active peak.
+- **DXY:** No fresh print returned (data thin again). Yesterday it was at a 6-week high; with risk-on tape + falling 10Y, **DXY likely modestly weaker today** — directional inference only.
+- **BTC / ETH overnight:** BTC **roughly −1% to −2.5% over the 24h window** depending on the venue and exact timestamp (live eToro ask $77,218.28 at 13:12Z, vs yesterday's close $77,648 → −0.55% from EOD; YCharts/Coinbase show modest 24h dip). ETH similar magnitude (~−2% to −4% per Perplexity, no fresh hard print). **Modest pullback, not a dislocation; no fresh BTC-specific catalyst overnight.** CLARITY Act / GENIUS stablecoin policy theme remains the slow-burn tailwind (no committee vote scheduled today); spot ETF flow data not surfaced this morning.
+- **Today's US catalysts (Thursday):**
+  - **08:30 ET — Initial Jobless Claims (weekly):** consensus ~205k.
+  - **08:30 ET — Continuing Claims (weekly):** consensus ~1.79M.
+  - **08:30 ET — Philly Fed Manufacturing Index (May):** consensus not surfaced.
+  - **10:00 ET — Conference Board Leading Economic Index (Apr).**
+  - **10:30 ET — EIA Natural Gas Storage** (cross-read on energy demand).
+  - **WMT pre-open earnings** (consumer bellwether — direct read on US demand + inflation pass-through). Also reporting today: DE (Deere), BJ, RL, ROST, CPRT, DECK, NIO; after-close: WDAY, ZM, TTWO.
+  - **FOMC Minutes data-quality flag:** one source returned "2pm ET today" but yesterday's pre-market entry confirmed Minutes were 2pm ET **on 5/20** — treating this morning's Minutes claim as a Perplexity timing artifact, NOT a today catalyst. The Minutes were yesterday; the +0.96% ES bounce + 10bp 10Y drop is the post-Minutes reaction.
+- **Sector momentum:** Perplexity returned no usable 5-day sector reads this morning (refused to estimate without live data; flagged as data-quality gap for the third consecutive session). Carry-forward from this week: XLE under pressure on Iran-de-escalation (WTI now ~10% below 5/18 peak); rate-sensitive XLU/XLP/XLK got a tailwind from yesterday's 10Y reversal; XLF mixed on the steepener fade. Directional only — no specific A-grade sector trigger today.
+- **Geopolitics:** Iran-de-escalation is the dominant macro theme — Trump's "early next week" peace deal deadline (yesterday) plus continued WTI giveback (today −4.25% O/N) keep the de-escalation tape live. **Watchlist condition for XLE re-entry remains a fresh tape break on Iran-strike or WTI ≥ $105 — NOT triggered.** No fresh China/Taiwan, no fresh Russia/Ukraine flags.
+
+**Holdings check**
+- **BTC (crypto, 14.8% weight, entry $78,765.12, live ask $77,218.28, stop $70,888.59):** thesis intact. Unrealized **−1.97%** (vs −1.4% yesterday EOD — modest overnight drift, no thesis break). Stop headroom **+8.2%** above the −10% band — well inside the safety envelope. No adverse BTC-specific catalyst overnight; CLARITY Act / GENIUS stablecoin slow-burn tailwind still in play. **HOLD; thesis intact, no action.**
+
+**Trade ideas** (0–5 today)
+
+**None actionable today (ideas=0). HOLD.** All screened candidates rejected:
+
+1. **XLE re-entry** (instrumentID 3008, ETF — Energy) — **Rejected.** WTI down another −4.25% O/N continues the Iran-de-escalation pricing. The 5/18 XLE re-entry thesis required active US-Iran conflict / Hormuz closure / WTI ≥ $105; current tape is the opposite (Trump-peace-deal "early next week" deadline + WTI now ~10% below 5/18 peak). Re-entry window remains structurally closed. Watchlist trigger: fresh Iran-strike/Hormuz-close headline AND WTI ≥ $105 — NOT MET.
+2. **BTC-add** (instrumentID 100000, crypto) — **Rejected.** Prior conditional trigger required BTC reclaim of $80K AND CLARITY-Act follow-through. Live ask $77,218 is **3.5% below the $80K threshold**; no CLARITY committee vote scheduled this week per available reads. Trigger NOT MET. Current 14.8% crypto weight is the right size for the current regime.
+3. **WMT pre-open earnings binary** — **Rejected.** Pre-earnings post-close/pre-open binary is forbidden by the pre-buy gate (catalyst must resolve during the session in our favor; an earnings print is a coin-flip variance trade, not an edge). If WMT prints strong AND consumer-discretionary tape lifts AND we get a high-quality post-print follow-through entry, market-open could re-evaluate — but no pre-positioning.
+4. **DE / ROST / DECK / BJ pre-open earnings** — **Rejected for the same reason.** Industrial (DE) earnings binary; retail (ROST/BJ) earnings binary. No setup here, only variance.
+5. **XLU / XLP defensives on 10Y reversal** — **Rejected.** Yesterday's 10Y at 4.69% 16-month high gave back ~10bp overnight; this is mean-reversion, not a fresh A-grade trigger. Defensive rotation only becomes a thesis if 10Y breaks back below ~4.40% with a soft macro print (Initial Claims spike, weak Philly Fed) — and that catalyst is hours away. Wait for confirmation.
+6. **XLK (Technology)** — **Rejected.** The rate reprieve is real but extended (XLK has been the YTD leader for weeks); chasing on a single overnight reversal without a sector-specific trigger is late. Re-evaluate on a pullback or a specific tech catalyst (NVDA earnings ~5/27).
+7. **ETH-add (crypto co-hedge)** — **Rejected.** No fresh ETH-specific catalyst. Stacking another crypto long would push class exposure above the prudent single-class concentration limit (current 14.8% → 25%+ on a 10% add). BTC remains the cleaner expression; ETH only enters the book on a clear ETH-specific catalyst (e.g., spot ETH ETF flow surge or roadmap milestone).
+8. **GLD** — **Rejected.** Gold typically benefits from falling 10Y + falling DXY, but the regime is mixed (ES +1% says risk-on, which typically pressures gold). No clean A-grade entry.
+
+**Risk factors**
+- **WMT print (pre-open) could swing the consumer tape.** A strong beat lifts XLY / XRT / consumer cyclicals; a miss with cautious guide pulls them lower. Will read into ES direction at the cash open, but we are not exposed either way.
+- **Initial Claims 8:30 ET surprise.** A hot 220k+ print extends the rate-reprieve / pressures cyclicals; a sub-200k print snaps 10Y back higher (re-engaging the rate-headwind risk-off of Tue/Wed). Carry impact for BTC indirectly via the 10Y / DXY transmission.
+- **Iran de-escalation reversal tail.** Trump's "early next week" deadline is a hard date; if Iran balks (or talks visibly stall), WTI re-engages higher / XLE re-pricing window re-opens. Watch headlines closely through midday.
+- **Crypto: BTC at the $77K area is in a chop zone, not a breakout.** A clean break below ~$75K (last support cluster from prior weeks) would force a thesis re-read; currently no rule trips (stop $70,888.59 still 8.2% below live ask).
+- **Data quality.** VIX, DXY and 5-day sector reads were thin again. Treat quantitative cross-comparisons as directional. The FOMC-Minutes-timing hallucination from Perplexity reinforces caution on Perplexity-only macro claims.
+
+**Watchlist (carry-forward, conditional)**
+- **XLE re-entry primary trigger:** fresh Iran-strike / Hormuz-close headline AND WTI ≥ $105. Currently NOT MET (WTI ~$99–100, de-escalation actively pricing).
+- **BTC-add secondary trigger:** BTC reclaim of $80K AND CLARITY-Act / GENIUS committee follow-through. Currently NOT MET (live ask $77,218; no committee action this week).
+- **XLU / XLP defensive add:** 10Y breaks back below ~4.40% on a soft Initial Claims OR Philly Fed print, with confirmation in the rate-sensitive ETF tape. Only consider mid-session.
+- **WMT post-earnings continuation long:** if WMT prints strong AND XLY/XRT lifts AND there is a clean 30-min bid-hold ≥ +1% above the pre-open print. Speculative; only at market-open with high confluence.
+
+**Decision:** **HOLD.** No new opens today. No trims (BTC at 14.8% weight, well inside 30% per-position and 50% per-class caps; 85.2% cash buffer). Opens-this-week stays 0; weekly budget 5 of 5 remaining. Meta-rule **patience > activity** in force — the post-Minutes bounce is real but no idea clears the A-grade pre-buy gate today. Market-open should NOT auto-open anything; midday should run thesis-check on BTC only.
+
+---
+
 ### 2026-05-20 — Wednesday Pre-Market (08:00 ET) — IRAN DE-ESCALATION ACCELERATING (TRUMP: "EARLY NEXT WEEK" PEACE DEAL DEADLINE, IRAN "BEING REASONABLE"), DXY 6-WEEK HIGH, US 10Y AT 4.69% 16-MONTH HIGH, ES +0.1% O/N AFTER TUE −0.67%, FOMC MINUTES 2PM ET
 
 **Snapshot:** Equity 99.4% of start | Cash 85.1% | Open positions: 1 (BTC 14.9%) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
