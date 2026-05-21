@@ -10,6 +10,47 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-21 — EOD Snapshot (Day 24, Thursday)
+
+**Equity:** 99.5% of start | **Cash:** 85.1% | **Day P&L:** −0.0% | **Phase P&L:** −0.5%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  14.9%  |$78,765.12  |$77,646.11  |    −1.4%    |$70,888.59  |
+
+**Notes:** Quiet Thursday — no opens, no closes, no trims across all three trading
+routines. Pre-market HOLD (decision=HOLD; ideas=0 actionable; two conditional
+watchlist triggers carried over — XLE re-entry on a fresh tape break / WTI ≥$105,
+BTC-add on CLARITY-Act follow-through AND BTC reclaim of $80K; regime flagged
+10Y back to 4.57% −10bp from 4.69% 16-mo high, ES +0.96% O/N post-FOMC-Minutes,
+WTI −4.25% O/N as Iran de-escalation continues, WMT/DE/Philly Fed/Initial Claims
+on the data calendar). Market-open opened nothing (ideas=0 per today's RESEARCH-LOG;
+XLE re-entry NOT MET — WTI −4.25% O/N continues Iran de-escalation, ~10% below
+5/18 peak; BTC-add NOT MET — live ask ~$77.2K well below $80K reclaim threshold,
+no CLARITY follow-through). Midday no-op (BTC at −2.0% unrealized intraday, thesis
+intact per 5/21 pre-market — post-FOMC-Minutes bounce session, 8.0% stop headroom,
+no rule trips). BTC essentially flat from $77,648.00 (yesterday's close) →
+$77,646.11 (−0.002% from yesterday's close, position holds −1.4% unrealized
+vs −1.4% yesterday) on a quiet crypto tape with no adverse BTC-specific catalyst;
+stop $70,888.59 untouched (BTC +9.6% above the stop band). Day P&L essentially
+flat at −0.0% on virtual equity (BTC mark-to-market −$0.03 vs $9,945.70 yesterday
+baseline; no realized P&L today — 0 opens, 0 closes, 0 trims). No rule trips.
+0 opens this week (cap 5 — week 2026-05-18 to 05-22, 4 of 5 trading days complete;
+XLE re-entry window remains broken on Iran-de-escalation thesis as WTI continues
+to bleed, BTC-add still conditional on $80K reclaim + CLARITY follow-through);
+1 position (cap 8); 14.9% crypto = 14.9% invested (cap 50% per class); 85.1%
+cash buffer (well above 5% floor — meta-rule patience > activity in force;
+A-grade actionable ideas remain absent through a post-FOMC-Minutes bounce
+session as Iran de-escalates and WTI continues to bleed).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,945.67
+- Virtual cash: $8,464.02
+- Opens this week: 0
+- Real mirror (10%): $994.57
+
+---
+
 ## 2026-05-20 — EOD Snapshot (Day 23, Wednesday)
 
 **Equity:** 99.5% of start | **Cash:** 85.1% | **Day P&L:** +0.1% | **Phase P&L:** −0.5%
