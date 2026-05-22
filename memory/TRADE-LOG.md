@@ -10,6 +10,54 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-22 — EOD Snapshot (Day 25, Friday)
+
+**Equity:** 99.1% of start | **Cash:** 85.4% | **Day P&L:** −0.3% | **Phase P&L:** −0.9%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  14.6%  |$78,765.12  |$75,845.13  |    −3.7%    |$70,888.59  |
+
+**Notes:** Quiet Friday, week closes flat — no opens, no closes, no trims across
+all three trading routines (Mon–Fri 0/5 opens, fourth consecutive low-activity
+week consistent with the meta-rule patience > activity). Pre-market HOLD
+(decision=HOLD; ideas=0 actionable / 0 conditional; regime flagged DXY at 6-week
+high + ES −0.40% O/N + Iran "narrowed the gaps" continued de-escalation
+[short-term framework includes Hormuz reopen + US lifts Iranian-port blockade,
+followed by deeper nuclear talks]; WTI +3.2% O/N read flagged as
+technical/short-cover bounce within a structurally-broken XLE thesis [WTI
+~10% below 5/18 Hormuz-closed peak]; BTC ~$77.4K essentially flat vs yesterday's
+close, no $80K reclaim and no CLARITY follow-through; ETH +4–6% O/N watchlisted
+for next week pending $2,350 break + BTC follow-through). Market-open opened
+nothing (ideas=0 per today's RESEARCH-LOG, HOLD). Midday no-op (BTC at −2.45%
+unrealized at 15:40Z, thesis intact per 5/22 pre-market, 7.5% stop headroom,
+no rule trips, DXY 6-week high + Iran narrowed-the-gaps de-escalation
+continued). BTC drifted lower into the close — yesterday $77,646.11 →
+today $75,845.13 (−2.32% from yesterday's close, position now −3.7% unrealized
+vs −1.4% yesterday) on DXY-strength-driven crypto pressure (DXY 6-week high
+tightens financial conditions at the margin; no BTC-specific adverse catalyst,
+ETH outperformed BTC on the day as the ETH/BTC ratio expanded); stop $70,888.59
+untouched (BTC +6.9% above the stop band, 8.4% headroom holds). Recovered
+modestly from intraday lows. Day P&L −0.3% on virtual equity (BTC mark-to-market
+−$34.37 vs $9,945.67 yesterday baseline; no realized P&L today — 0 opens, 0
+closes, 0 trims). No rule trips. 0 opens this week (cap 5 — week 2026-05-18 to
+05-22 closes at zero opens; XLE re-entry thesis fully dead on Iran "narrowed the
+gaps" peace-deal framework, BTC-add still conditional on $80K reclaim +
+CLARITY follow-through neither met all week); 1 position (cap 8); 14.6% crypto
+= 14.6% invested (cap 50% per class); 85.4% cash buffer (well above 5% floor —
+meta-rule patience > activity in force through a fourth consecutive low-activity
+week; weekly-review this afternoon will grade the week and assess whether the
+strategy needs amendment after four consecutive no-A-grade-idea environments
+with the geopolitical setup de-escalating and DXY rallying).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,911.30
+- Virtual cash: $8,464.02
+- Opens this week: 0
+- Real mirror (10%): $991.13
+
+---
+
 ## 2026-05-21 — EOD Snapshot (Day 24, Thursday)
 
 **Equity:** 99.5% of start | **Cash:** 85.1% | **Day P&L:** −0.0% | **Phase P&L:** −0.5%
