@@ -6,6 +6,35 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-05-25 — Monday Pre-Market (08:00 ET) — US MARKETS CLOSED FOR MEMORIAL DAY (NO EQUITY OPENS POSSIBLE TODAY); CRYPTO IN DELEVERAGING MODE: BTC −2.7% ON THE WEEK, HIT 1-MONTH LOW $74.3K OVER WEEKEND THEN REBOUNDING ~$77.3K (+0.4% THIS AM), ~$917M FUTURES LIQUIDATIONS + 6-DAY SPOT-BTC-ETF OUTFLOW STREAK ($1.25B); HELD BTC −1.8% (THESIS WEAKENING, NOT BROKEN); FRESH WEEK 0/5 OPENS
+
+**Snapshot:** Equity 99.4% of start | Cash 85.2% | Open positions: 1 (BTC 14.9% of equity, −1.8% unrealized) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Market context** (as-of 2026-05-25 ~13:10 UTC, percentages only)
+- **US EQUITY + BOND MARKETS CLOSED — MEMORIAL DAY.** NYSE and Nasdaq are dark today (confirmed against NYSE/Nasdaq 2026 holiday calendars); the cash Treasury market is on holiday schedule too. **No equity/ETF opens are executable today** — only crypto (24/7) is tradeable. Equity futures run a holiday/early-close schedule; no fresh cash prints.
+- **S&P 500 futures / VIX / 10Y:** no fresh, reliable holiday-session print surfaced. Carry-forward from Friday 2026-05-22: ES drifting modestly risk-off, VIX calm (no stress regime), 10Y range-bound ~4.3% area. Treat as stale — not a trade input today given the closure.
+- **Oil (WTI front-month):** ~$91.65, **−0.52% overnight** — modest weakness, range-bound around the low-$90s.
+- **DXY:** ~99.23, **+0.03%** — dollar firm just under 100, no fresh impulse.
+- **Crypto (BTC/ETH overnight):** **BTC ~$77.3K**, **+0.4% this morning** vs Sunday open but **−2.7% on the week**; printed a **1-month low of $74,344 over the weekend** then rebounding toward $77K. **ETH ~$2,114**, −0.5% / 24h and −0.9% vs Sunday open (lagging BTC). Backdrop is risk-off: **~$917M of crypto-futures liquidations in 24h** and a **6-day spot-BTC-ETF outflow streak (~$1.25B)**. Q1-2026 DeFi deleveraging (−$3.6B crypto-collateralized lending; Drift + LayerZero/KelpDAO exploits >$575M) remains a structural headwind. Longer-term ETH structural bull case (institutional ETF flows, stablecoin base, thinning exchange supply) intact but not a today-catalyst.
+- **Sector / asset-class momentum (5 trading days through 2026-05-22):** XLV +3.3%, XLK +2.34%, XLF +1.64%, XLI +0.22%, XLE +0.08%. Healthcare + tech leading; energy flat. (Informational only — equities not tradeable today.)
+- **Key catalysts today:** none actionable — US holiday, no earnings, no scheduled US macro releases. Crypto headlines (ETF flows, liquidation cascades) are the only live tape.
+
+**Holdings check**
+- **BTC (instrumentID 100000, posID 3411776171, crypto, 14.9% of equity):** open $78,765.12, now ~$77,338. **Unrealized −1.8%.** Server stop $70,888.59 (−10%); manual −7% cut line ≈ $73,251 — both comfortably below the weekend low ($74,344). News since Friday close: BTC dipped to a 1-month low over the weekend on the ETF-outflow / futures-liquidation deleveraging, then rebounding +0.4% this morning. **Thesis (Apr-22: ceasefire + MSTR buy + 3-month-high breakout) is weakening** — the breakout momentum leg has stalled and ETF flows have turned negative — **but not broken**: price is holding above the weekend low and well above both stop levels, and is bouncing this morning. **Verdict: thesis intact-but-on-watch — HOLD.** No >3% adverse overnight gap (intraday range was wider over the weekend but the position is −1.8% net). **Watch trigger for midday/market-open:** a decisive loss of the weekend low **$74,344** would break the breakout thesis → cut on rule 9 ahead of the −7% stop.
+
+**Trade ideas** (0–5 per day; HOLD is the default)
+- **None today.** Two independent gates fail: (1) **US equity/ETF universe is closed for Memorial Day** — no equity idea is executable; (2) the only live market, **crypto, is in active deleveraging** (negative ETF flows, $917M liquidations, BTC −2.7% on the week) — adding crypto into an outflow-driven downdraft with no fresh bullish catalyst is averaging into weakness, not an A-grade setup. Nothing clears the pre-buy gate.
+
+**Risk factors**
+- **Crypto continuation lower.** If the ETF-outflow streak extends and BTC loses the $74,344 weekend low, the held BTC breakout thesis breaks and the position rolls toward the −7% cut line. This is the dominant risk to the book today.
+- **Thin holiday liquidity.** With US equities/bonds closed, crypto can move on light flow and headline whipsaw; outsized intraday swings carry less signal.
+- **Oil/dollar drift.** WTI low-$90s and DXY near 100 are quiet now, but a dollar break above 100 would pressure risk assets (incl. crypto) into the Tuesday reopen.
+- **Reopen gap risk (Tuesday).** Equities reopen Tuesday 2026-05-26 to two-plus sessions of accumulated weekend/holiday news — tomorrow's pre-market must re-scan before any equity opens.
+
+**Decision:** **HOLD.** No new opens (equities closed for Memorial Day; crypto deleveraging offers no A-grade add). No trims — BTC at 14.9% of equity is within the 30% per-name and 50% per-class caps; crypto is the only class held. Hold BTC with the $74,344 break as the explicit thesis-exit watch level for midday. Week opens-so-far 0; full 5-of-5 budget available through Friday.
+
+---
+
 ### 2026-05-22 — Friday Pre-Market (08:00 ET) — RISK-OFF DRIFT: ES −0.40% O/N, DXY AT 6-WEEK HIGH, IRAN "NARROWED THE GAPS" (PEACE DEAL CLOSER), WTI BOUNCING +3.2% O/N (TECHNICAL/CONFLICTING), BTC ~$77.4K (UNCHANGED FROM YEST), ETH BID +4–6% O/N, LAST DAY OF WEEK (0/5 OPENS USED — WEEKLY-REVIEW AFTERNOON)
 
 **Snapshot:** Equity 99.4% of start | Cash 85.1% | Open positions: 1 (BTC 14.9%, −1.7% unrealized) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
