@@ -10,6 +10,42 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-25 — EOD Snapshot (Day 26, Monday)
+
+**Equity:** 99.4% of start | **Cash:** 85.1% | **Day P&L:** +0.3% | **Phase P&L:** −0.6%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  14.9%  |$78,765.12  |$77,382.45  |    −1.8%    |$70,888.59  |
+
+**Notes:** Memorial Day — US equity markets closed; only the BTC position
+(crypto, 24/7) marked-to-market and all three trading routines ran in
+holiday-mode. No opens, no closes, no trims. Pre-market HOLD (decision=HOLD;
+ideas=0 — US equities closed, no A-grade add in crypto with BTC −2.7% on the
+week amid active deleveraging / ETF outflows; BTC thesis carried on-watch with
+the $74,344 weekend-low as the rule-9 cut trigger). Market-open opened nothing
+(ideas=0 per today's RESEARCH-LOG, HOLD). Midday no-op (BTC −1.58% unrealized
+intraday, thesis intact, 8.5% stop headroom, closeRate well above the $74,344
+weekend-low watch level — no rule trips). BTC recovered into the close —
+Friday $75,845.13 → today $77,382.45 (+2.0% from Friday's close), so the
+position improved from −3.7% unrealized Friday to −1.8% today on a crypto-only
+holiday tape; stop $70,888.59 untouched (BTC +9.2% above the stop band, 8.4%
+headroom). Day P&L +0.3% on virtual equity (BTC mark-to-market +$29.33 vs
+$9,911.30 Friday baseline; no realized P&L — 0 opens, 0 closes, 0 trims).
+No rule trips. New week 2026-05-25 → 05-29 opens at 0/5 (cap 5 — meta-rule
+patience > activity continues into week 7; A-grade actionable ideas remain
+absent with US markets shut for the holiday and crypto in a deleveraging tape);
+1 position (cap 8); 14.9% crypto = 14.9% invested (cap 50% per class); 85.1%
+cash buffer (well above the 5% floor).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,940.63
+- Virtual cash: $8,464.02
+- Opens this week: 0
+- Real mirror (10%): $994.06
+
+---
+
 ## 2026-05-22 — EOD Snapshot (Day 25, Friday)
 
 **Equity:** 99.1% of start | **Cash:** 85.4% | **Day P&L:** −0.3% | **Phase P&L:** −0.9%
