@@ -6,6 +6,38 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-05-26 — Tuesday Pre-Market (08:00 ET) — POST-MEMORIAL-DAY REOPEN: ES FIRM (~+0.8% EVENING READ), 10Y ELEVATED ~4.5%, OIL FLAT LOW-$90s (PERPLEXITY −5% FIGURE IS A BAD-BASE ARTIFACT — DISCARDED), DXY ~99 SOFT; BTC ~$77K STILL DELEVERAGING ($1.26B WEEKLY ETF OUTFLOWS + ETH/ALT ROTATION), HELD BTC −2.3% (THESIS WEAKENING, NOT BROKEN); CATALYSTS = CONSUMER CONFIDENCE 10AM, AZO EARNINGS BMO, ZS AFTER CLOSE; FRESH WEEK 0/5 OPENS — HOLD
+
+**Snapshot:** Equity 99.3% of start | Cash 85.2% | Open positions: 1 (BTC 14.8% of equity, −2.3% unrealized) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Market context** (as-of 2026-05-26 ~13:15 UTC, percentages only)
+- **First session after Memorial Day** (Mon 2026-05-25 was closed). Equities/bonds reopen today to two-plus sessions of accumulated weekend/holiday news.
+- **S&P 500 futures:** ESM26 firm — last evening read (2026-05-25 ~19:00 ET) ~7,548, **≈+0.8%**. Risk-on tilt into the reopen, but that print is stale by ~13h; no clean opening-bell tick surfaced.
+- **VIX:** no reliable fresh read surfaced (FRED next-release is today). Regime reads calm given firm futures + no stress headlines — treat as unconfirmed, not a trade input.
+- **10Y Treasury yield:** ~**4.5%** area (4.57% as of the 2026-05-21/22 reference; today is the next scheduled print). **Elevated** — a mild duration/risk-asset headwind, and notably higher than the stale ~4.3% carry-forward used on the holiday. Watch the print today.
+- **Oil (WTI front-month):** ~**$91.5**, **roughly flat** vs yesterday's ~$91.65 (low-$90s, range-bound). *Data note:* the Perplexity overnight query returned "−5.32% vs prior settlement," but that does not reconcile with a price level essentially unchanged from yesterday — the % is computed against a bad/mismatched base and is **discarded**. No evidence of a real 5% oil flush.
+- **DXY:** ~**99.0**, **−0.2/−0.3%** — dollar firm just under 100, slightly soft overnight; no fresh impulse.
+- **Crypto (BTC/ETH):** eToro marks **BTC $76,974** (our position's close rate); external feeds conflict ($77K cluster vs a $91K Coinbase index quote) — **eToro's mark is authoritative for the book.** Backdrop still risk-off: spot-BTC-ETF **net outflows ~$1.26B (week of May 17–24)**, institutional **rotation into ETH/alt (SOL) ETF narratives**, BTC down on the week from local highs, realized vol at an 8-month low ("high-risk zone" per analysts). **ETH ~$2,108, ≈+0.3%/24h** (flat, mild relative bid). No fresh BTC-specific bullish catalyst.
+- **Sector / asset-class momentum (5 trading days through 2026-05-22 close — still the latest, as Monday was closed):** XLV +3.3%, XLK +2.34%, XLF +1.64%, XLI +0.22%, XLE +0.08%. Healthcare + tech leading; energy flat (consistent with soft oil). Informational — no fresh single-name catalyst attached.
+- **Key catalysts today:** **Conference Board Consumer Confidence 10:00 AM ET** (last-Tuesday-of-month release — event risk, not a directional thesis); **AutoZone (AZO) Q3 earnings before open** (consensus ~$36.28 EPS / ~$4.83B rev — binary print); **Zscaler (ZS) Q3 earnings after the close** (consensus ~$1.01 EPS / ~$835.7M rev, +23% YoY). _Note:_ a parallel Perplexity catalyst query also surfaced "Brent ~$120 / new Fed chair / consumer sentiment 48.2 near record lows" — these contradict the timestamped oil and confidence data and look like cross-contaminated/stale snippets; **discarded.**
+
+**Holdings check**
+- **BTC (instrumentID 100000, posID 3411776171, crypto, 14.8% of equity):** open $78,765.12, eToro mark now **$76,974 → unrealized −2.3%** (was −1.8% yesterday; modest drift lower). Server stop **$70,888.59** (−10%); manual −7% cut line ≈ **$73,251**; weekend low **$74,344** remains the breakout-thesis watch level — price is holding above all three. News since the holiday: continued ETF-outflow / institutional-rotation pressure, no fresh bullish trigger. **Thesis (Apr-22: ceasefire + MSTR buy + 3-month-high breakout) is weakening** — the breakout leg has stalled and flows are negative — **but not broken**: price holds above the weekend low and well above both stop lines. No >3% adverse overnight gap. **Verdict: intact-but-on-watch — HOLD.** **Watch trigger for midday/market-open:** a decisive loss of **$74,344** breaks the breakout thesis → cut on rule 9 ahead of the −7% stop.
+
+**Trade ideas** (0–5 per day; HOLD is the default)
+- **None today.** No idea clears the A-grade pre-buy gate: (1) today's named equity catalysts are **binary earnings prints** (AZO before open, ZS after close) — opening around an earnings event without a directional edge is a gamble, not a thesis; (2) Consumer Confidence at 10am is event *risk*, not a setup; (3) the cleanest macro signal — soft oil / firm dollar — has no longs-only expression (energy is the laggard, and we can't short); (4) tech/healthcare lead on 5-day momentum but with no fresh single-name catalyst and a defined entry; (5) crypto is already 14.8% of equity and in an outflow-driven downtrend — adding is averaging into weakness. Nothing documented today justifies an open.
+
+**Risk factors**
+- **Reopen gap / news catch-up.** First session post-holiday can gap on accumulated weekend headlines; the firm-futures read is ~13h stale — market-open must re-scan the live tape before acting.
+- **Crypto continuation lower.** If ETF outflows persist and BTC loses the **$74,344** weekend low, the held breakout thesis breaks and the position rolls toward the −7% cut — the dominant risk to the book today.
+- **Rates.** 10Y near ~4.5% is elevated; a hot Consumer Confidence print or a further yield push would pressure risk assets (incl. crypto).
+- **Earnings ripple.** A sharp AZO reaction could move consumer-discretionary/retail sentiment; a ZS after-close beat/miss sets up cyber/software tone for Wednesday — neither is a position we hold.
+- **Data-quality caution.** Today's research surfaced multiple conflicting external figures (oil −5% vs flat; BTC $77K vs $91K; Brent $120 / "new Fed chair"). Reconciled to the timestamped/eToro-authoritative reads above; flagged so downstream routines don't trade off the discarded artifacts.
+
+**Decision:** **HOLD.** No new opens — no idea clears the A-grade gate (catalysts are binary earnings prints; no longs-only macro expression; crypto in deleveraging). No trims — BTC at 14.8% of equity is within the 30% per-name and 50% per-class caps; crypto is the only class held. Hold BTC with the **$74,344** break as the explicit thesis-exit watch level for midday/market-open. Week opens-so-far 0; full 5-of-5 budget available through Friday.
+
+---
+
 ### 2026-05-25 — Monday Pre-Market (08:00 ET) — US MARKETS CLOSED FOR MEMORIAL DAY (NO EQUITY OPENS POSSIBLE TODAY); CRYPTO IN DELEVERAGING MODE: BTC −2.7% ON THE WEEK, HIT 1-MONTH LOW $74.3K OVER WEEKEND THEN REBOUNDING ~$77.3K (+0.4% THIS AM), ~$917M FUTURES LIQUIDATIONS + 6-DAY SPOT-BTC-ETF OUTFLOW STREAK ($1.25B); HELD BTC −1.8% (THESIS WEAKENING, NOT BROKEN); FRESH WEEK 0/5 OPENS
 
 **Snapshot:** Equity 99.4% of start | Cash 85.2% | Open positions: 1 (BTC 14.9% of equity, −1.8% unrealized) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
