@@ -10,6 +10,44 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-26 — EOD Snapshot (Day 27, Tuesday)
+
+**Equity:** 99.1% of start | **Cash:** 85.4% | **Day P&L:** −0.3% | **Phase P&L:** −0.9%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  14.6%  |$78,765.12  |$76,001.93  |    −3.5%    |$70,888.59  |
+
+**Notes:** Quiet Tuesday post-holiday, first regular session of the week — no
+opens, no closes, no trims across all three trading routines (opens 0/5). Pre-market
+HOLD (decision=HOLD; ideas=0 — named catalysts were binary earnings prints
+[AZO, BMO/ZS, AMC] with no longs-only macro expression, crypto still in a
+deleveraging tape with no A-grade add; held BTC with the $74,344 weekend-low as
+the rule-9 thesis-break/cut watch level). Market-open opened nothing (ideas=0 per
+today's RESEARCH-LOG, HOLD; BTC closeRate ~$76,747 well above both the $74,344
+watch level and the $70,888.59 stop). Midday no-op (BTC −3.14% unrealized intraday,
+thesis on-watch — weakening not broken — closeRate ~$76,295 well above the $74,344
+thesis-break watch and ~7.1% stop headroom; news check found no fresh adverse
+catalyst — weekend liquidation flush already priced, Nasdaq BTC index-options
+approval read as constructive — no rule trips). BTC drifted lower into the close:
+yesterday $77,382.45 → today $76,001.93 (−1.78% from yesterday's close), position
+slipping from −1.8% unrealized yesterday to −3.5% today on a soft crypto tape;
+stop $70,888.59 untouched (BTC +7.2% above the stop band, 6.7% headroom). Day P&L
+−0.3% on virtual equity (BTC mark-to-market −$26.34 vs $9,940.63 yesterday baseline;
+no realized P&L — 0 opens, 0 closes, 0 trims). No rule trips. Week 2026-05-25 →
+05-29 holds at 0/5 opens (cap 5 — meta-rule patience > activity carries into week 7;
+no A-grade actionable idea with crypto deleveraging and the day's named catalysts
+all binary single-name earnings); 1 position (cap 8); 14.6% crypto = 14.6% invested
+(cap 50% per class); 85.4% cash buffer (well above the 5% floor).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,914.29
+- Virtual cash: $8,464.02
+- Opens this week: 0
+- Real mirror (10%): $991.43
+
+---
+
 ## 2026-05-25 — EOD Snapshot (Day 26, Monday)
 
 **Equity:** 99.4% of start | **Cash:** 85.1% | **Day P&L:** +0.3% | **Phase P&L:** −0.6%
