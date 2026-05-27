@@ -10,6 +10,46 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-27 — EOD Snapshot (Day 28, Wednesday)
+
+**Equity:** 99.0% of start | **Cash:** 85.5% | **Day P&L:** −0.2% | **Phase P&L:** −1.0%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| BTC | crypto |  14.5%  |$78,765.12  |$75,219.41  |    −4.5%    |$70,888.59  |
+
+**Notes:** Quiet low-catalyst Wednesday — no opens, no closes, no trims across all
+three trading routines (opens 0/5). Pre-market HOLD (decision=HOLD; ideas=0 — only
+named catalyst was CRM after the close, with the real macro [PCE + Q1-GDP] landing
+Thursday; ES ~+0.1–0.7% O/N, VIX ~17, 10Y easing ~4.5%, WTI −2.3% O/N on continued
+Iran de-escalation, DXY ~99.1; no longs-only macro expression and crypto still in
+active deleveraging [6-day ETF outflow ~$1.55B + ~$1B liquidations sub-$75K], no
+A-grade add). Market-open opened nothing (ideas=0 per today's RESEARCH-LOG, HOLD;
+BTC closeRate ~$75,134, still ~1.1% above the $74,344 thesis-break watch and well
+above the $70,888.59 stop). Midday no-op (BTC −4.4% unrealized intraday, thesis
+on-watch — weakening not broken — closeRate ~$75,275 ~1.25% above the $74,344
+thesis-break watch with ~5.8% stop headroom; news check found no fresh adverse
+catalyst — continuation of the May ETF-outflow correction, $75K support defended,
+no single-day catalyst). BTC drifted lower into the close: yesterday $76,001.93 →
+today $75,219.41 (−1.03% from yesterday's close), position slipping from −3.5%
+unrealized yesterday to −4.5% today on a soft crypto tape; stop $70,888.59 untouched
+(BTC +6.1% above the stop band). Day P&L −0.2% on virtual equity (BTC mark-to-market
+−$14.93 vs $9,914.29 yesterday baseline; no realized P&L — 0 opens, 0 closes, 0
+trims). No rule trips. Week 2026-05-25 → 05-29 holds at 0/5 opens (cap 5 — meta-rule
+patience > activity carries into week 7; no A-grade actionable idea with crypto
+deleveraging and the only named catalyst a single-name post-close earnings print);
+1 position (cap 8); 14.5% crypto = 14.5% invested (cap 50% per class); 85.5% cash
+buffer (well above the 5% floor). BTC thesis on-watch with the $74,344 weekend-low
+now only ~1.2% below the close as the rule-9 thesis-break/cut trigger.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,899.36
+- Virtual cash: $8,464.02
+- Opens this week: 0
+- Real mirror (10%): $989.94
+
+---
+
 ## 2026-05-26 — EOD Snapshot (Day 27, Tuesday)
 
 **Equity:** 99.1% of start | **Cash:** 85.4% | **Day P&L:** −0.3% | **Phase P&L:** −0.9%
