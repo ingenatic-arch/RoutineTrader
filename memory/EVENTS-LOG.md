@@ -165,3 +165,4 @@ Percentages only — no dollar references.
 2026-05-28T13:22:17Z | pre-market | alert | Research committed; decision=CLOSE-BTC-at-market-open (rule 9 thesis-exit / rule 8 −7pct manual-cut effectively at trigger); ideas=0; ClickUp alert posted (BTC thesis broken: 74344 watch breached; spot 73258 ≈ −7.0pct unrealized; PCE + Q1-GDP both 08:30 ET)
 2026-05-28T13:37:24Z | unknown | ok | 📉 Market-open 2026-05-28 — closed 1 position (no opens). • BTC closed on rule 9 (thesis broken) — backstopped by rule 8 (−7% manual cut, triggered) · realized −7.6% on the leg (~−1.1% of equity) · weekend-low watch $74,344 
 2026-05-28T13:37:27Z | market-open | ok | Opened: none; Closed: BTC (rule 9 thesis-exit + rule 8 backstop, realized -7.6% on leg / ~-1.1% of equity); positions=0
+2026-05-28T15:32:58Z | midday | ok | No-op; positions=0 (BTC closed at market-open on rule 9 thesis-exit); cash=100%; no rule trips; no rebalance; no thesis checks needed
