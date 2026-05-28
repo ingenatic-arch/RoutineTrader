@@ -6,6 +6,54 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-05-28 — Thursday Pre-Market (08:00 ET) — BIG MACRO DAY: PCE (APRIL) + Q1-GDP SECOND ESTIMATE BOTH 8:30 ET + INITIAL CLAIMS 8:30 ET; BTC THESIS BROKEN — \$74,344 WEEKEND-LOW WATCH DECISIVELY BREACHED (SPOT \$73,258 ≈ 1.5% BELOW), POSITION AT −7.0% UNREALIZED (RULE-8 MANUAL CUT LINE ≈ \$73,251 — EFFECTIVELY AT THE TRIGGER, JUST $7 ABOVE); BTC ~−3% O/N ON CONTINUED ETF-OUTFLOW DELEVERAGING (~$700M LIQS IN A DAY, ~$2.5B BTC-ETF OUTFLOWS OVER 2 WEEKS); DECISION = **CLOSE BTC AT MARKET-OPEN ON RULE 9 (THESIS-EXIT) — BACKSTOPPED BY RULE 8 (−7%) — HOLD ON OPENS (NO NEW IDEAS INTO PCE/GDP PRINT); WEEK 0/5
+
+**Snapshot:** Equity 98.6% of start | Cash 85.8% | Open positions: 1 (BTC 14.2% of equity, **−7.0% unrealized** — at the manual cut line) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Market context** (as-of 2026-05-28 ~13:15 UTC, percentages only; data-quality caveats flagged inline)
+- **S&P 500 futures (ESM26):** Perplexity returned no usable fresh print this morning (refused to fabricate without a live feed). Carry-forward from yesterday's read: ES had been modestly firm (+0.1% to +0.7% O/N) into Wed cash, which closed essentially flat per yesterday's EOD snapshot. With today's PCE + GDP set to land at 8:30 ET, pre-print direction is low signal — **treat futures as quiet / pending the print.**
+- **VIX:** no fresh print returned. Regime calm in the carry-forward (~17 area); not a stress signal.
+- **US 10Y yield:** no fresh print returned. Carry-forward ~4.48–4.50% area (eased ~5bp Tue post-holiday). Today's PCE print is the next material catalyst for the curve — a hot core PCE re-engages the rate-headwind; a cool print extends the relief.
+- **Oil (WTI front-month):** **TradingEconomics/Investing.com show WTI ~$90.12, +1.62% vs prior close** (modest bounce in the low-$90s range). Continues the broad post-Iran-de-escalation regime (oil structurally lower, low-$90s). No fresh escalation headline. *Data note:* one Perplexity-returned narrative referenced "Brent ~$120, 50% above pre-conflict" and "11% one-day Hormuz-open drop" — these are the same **stale/contaminated snippets** flagged in 5/26 and 5/27 logs (do not reconcile with the timestamped WTI $90 / low-$90s reads of the last two weeks). **Discarded.**
+- **DXY:** **~99.32, +0.10%** per TradingEconomics — firm just under 100, no fresh impulse. Consistent with this week's range.
+- **Crypto (BTC/ETH overnight):** eToro-authoritative **BTC closeRate $73,258.61** (our position mark at 13:09Z), down from yesterday's close $75,219.41 = **−2.6% vs yesterday's close** (multiple external feeds independently show "BTC ~−3% / 24h, low-$70s"). **ETH ~−1% / 24h** per Benzinga recap. Crypto-sector backdrop is **continued deleveraging**: **~$700M of crypto liquidations in a single 24h window**, **spot-BTC-ETF outflows ~$2.5B over two weeks** (incl. recent weekly cuts of ~$648M and ~$982M). Constructive longer-term news (Nasdaq SEC-approved BTC index options) noted but not driving today's move.
+- **Sector / asset-class momentum:** Perplexity refused to estimate the 5-day sector returns through 5/27 without a live feed (data-quality gap for the fourth straight session). Carry-forward qualitative read: defensive/health-care nibble persists, tech still the YTD leader, energy weak on Iran de-escalation. Treat as **informational only** — not a trade input today.
+- **Key catalysts today (the heaviest single morning of the week):**
+  - **08:30 ET — April PCE Price Index (headline + core), Personal Income, Personal Spending** (Fed's preferred inflation gauge — the single most market-moving scheduled release this week). 2026-specific consensus not surfaced in the available sources.
+  - **08:30 ET — Q1 2026 GDP (second estimate)** (advance estimate was +2.0% annualized; a notable rebound from Q4-2025 +0.5%). Markets will focus on any revision and the composition.
+  - **08:30 ET — Initial & Continuing Jobless Claims (weekly).**
+  - **10:00 ET — ISM Services New Orders / Prices (May)** (secondary; prior ~53.5 / ~52.8). Consensus not surfaced.
+  - **Earnings:** no firm 2026-specific pre-open / after-close list surfaced (sources kept defaulting to a prior-cycle Schwab note listing Costco / Dell / Dollar Tree / Best Buy / Autodesk / MongoDB / Okta — explicitly NOT a 2026 calendar, discarded). Treat the earnings tape as a wildcard.
+  - **Geopolitics:** US-Iran de-escalation remains the dominant medium-term theme. No fresh escalation overnight; WTI low-$90s is consistent with that regime.
+
+**Holdings check**
+- **BTC (instrumentID 100000, posID 3411776171, crypto, 14.2% of equity):** open $78,765.12, eToro mark **$73,258.61 → unrealized −7.0%** (was −4.5% at yesterday's close; another −2.5% leg lower overnight on the continued ETF-outflow / liquidation tape). Server stop **$70,888.59** (−10%, ~**3.2% headroom** from spot — the tightest of this position's life); rule-8 manual −7% cut line ≈ **$73,251.56** — current closeRate **$73,258.61 is only $7 above the trigger** (effectively at the cut). Weekend low **$74,344 — the explicit thesis-break watch level handed down by 5/25–5/27 pre-markets — is now decisively breached** (spot ~1.5% below it). News since yesterday's close: continued ETF-outflow / liquidation pressure, no fresh BTC-specific bullish catalyst, BTC at low-$70s now a 5-week low region. **Thesis (Apr-22: ceasefire + MSTR buy + 3-month-high breakout) is BROKEN** — the breakout leg has reversed into a confirmed correction, ETF flows persistently negative, weekend-low support gone, position at the manual cut line. **Verdict: thesis broken — CLOSE at market-open under rule 9 (thesis-exit), backstopped by rule 8 (−7% manual cut). Server stop $70,888.59 holds 3.2% below as the worst-case absorber.**
+
+**Trade ideas** (0–5 per day; HOLD is the default)
+- **None today (ideas = 0).** No idea clears the A-grade pre-buy gate:
+  1. **PCE + GDP + Claims all 8:30 ET** — opening a long ahead of three simultaneous market-moving prints (one of which is the Fed's preferred inflation gauge) is asymmetric variance, not an edge. Wait for the print, re-evaluate at midday or tomorrow's pre-market.
+  2. **No fresh A-grade single-name or sector catalyst** surfaced (earnings calendar uncertain; sector 5-day data not refreshable; macro signal is "wait for PCE").
+  3. **Crypto add is off the table** — BTC is being closed today; adding another crypto into an active deleveraging / outflow tape would compound the same broken thesis at a worse price.
+  4. **No longs-only macro expression** for the soft-oil / DXY-firm / Iran-de-escalation backdrop (energy is the laggard and we can't short).
+  5. **Position-count discipline** — with BTC closing today, the book moves to 0 positions; that is the right resting posture into a PCE print, not a reason to pre-fill the slot.
+
+**Risk factors**
+- **PCE upside surprise (THE risk).** A hot core PCE (Fed's preferred metric) re-engages the rate-headwind, pushes the 10Y higher, and pressures risk assets — including any residual crypto exposure if the BTC close gets delayed. The market-open routine must execute the BTC close promptly, ideally before any rate-shock-driven secondary leg lower in crypto.
+- **BTC close execution.** Stop $70,888.59 is ~3.2% below spot; if BTC gaps lower at the open before the close order fills, the position rolls toward the −10% stop. Market-open should use the standard `etoro.sh close` flow (no partials, no waiting) and ClickUp-confirm execution.
+- **GDP revision direction.** A downward revision to Q1 GDP (from the +2.0% advance) softens growth optics; an upward revision firms them. Either way it's a coincident signal, not a directional one for a discretionary long.
+- **Iran-escalation tail.** No fresh headline overnight, but the regime is fragile — a sudden Hormuz incident would reprice oil higher and the XLE re-entry could revive. Not actionable today.
+- **Data-quality caution.** Perplexity returned thin/no data for ES, VIX, 10Y, sector 5-day, and the 2026 earnings calendar; "Brent $120 / 11% Hormuz drop" is the recurring contaminated snippet (discarded for the third straight session). Reads above are reconciled to TradingEconomics, eToro pnl, and yesterday's snapshot carry-forward.
+
+**Watchlist (for tomorrow / next week)**
+- **Re-deploy cash after PCE.** Once BTC closes today, the book is 100% cash; the deployment decision rests on the PCE/GDP print and Friday's tape — patience > activity through the print.
+- **ETH re-entry** if BTC reclaims the $74–75K area on positive ETF-flow reversal — speculative, B-grade at best until confirmed.
+- **XLE re-entry** remains DEAD pending fresh Iran-escalation headline.
+- **Defensive rotation (XLV / XLU / XLP)** if PCE comes hot and 10Y breaks above ~4.65% — wait for confirmation.
+
+**Decision:** **CLOSE BTC at market-open under rule 9 (thesis-exit) — backstopped by rule 8 (−7% manual cut, effectively at the trigger).** The 5/25–5/27 pre-markets handed down the explicit thesis-break trigger "decisive loss of $74,344"; that condition is now met (spot $73,258.61, ~1.5% below). No new opens (no idea clears the A-grade gate ahead of the 8:30 ET PCE + GDP + Claims macro batch; book moves to 0 positions / 100% cash, the correct posture into the print). Week opens-so-far 0; budget intact at 5 of 5 through Friday for any post-print A-grade thesis. ClickUp alert posted (BTC at manual cut line + thesis-break watch breached).
+
+---
+
 ### 2026-05-27 — Wednesday Pre-Market (08:00 ET) — LOW-CATALYST SESSION AHEAD OF THURSDAY PCE + Q1-GDP; ES MODESTLY FIRM (~+0.1% TO +0.7% O/N), VIX CALM ~17.0, 10Y EASING ~4.48–4.50% (−5BP TUE), WTI −2.3% O/N (IRAN DE-ESCALATION CONTINUES), DXY FIRM ~99.1; BTC ~$75.4K −1.2% O/N STILL DELEVERAGING (6-DAY SPOT-ETF OUTFLOW STREAK ~$1.55B + ~$1B LIQUIDATIONS BELOW $75K, ALT ROTATION), HELD BTC −4.3% (THESIS WEAKENING, NOT BROKEN — $74,344 WATCH ~1.4% BELOW SPOT); ONLY NAMED CATALYST CRM AFTER CLOSE; WEEK 0/5 OPENS — HOLD
 
 **Snapshot:** Equity 99.0% of start | Cash 85.5% | Open positions: 1 (BTC 14.5% of equity, −4.3% unrealized) | Week opens so far: 0 | Weekly budget remaining: 5 of 5
