@@ -166,3 +166,4 @@ Percentages only — no dollar references.
 2026-05-28T13:37:24Z | unknown | ok | 📉 Market-open 2026-05-28 — closed 1 position (no opens). • BTC closed on rule 9 (thesis broken) — backstopped by rule 8 (−7% manual cut, triggered) · realized −7.6% on the leg (~−1.1% of equity) · weekend-low watch $74,344 
 2026-05-28T13:37:27Z | market-open | ok | Opened: none; Closed: BTC (rule 9 thesis-exit + rule 8 backstop, realized -7.6% on leg / ~-1.1% of equity); positions=0
 2026-05-28T15:32:58Z | midday | ok | No-op; positions=0 (BTC closed at market-open on rule 9 thesis-exit); cash=100%; no rule trips; no rebalance; no thesis checks needed
+2026-05-28T20:18:19Z | daily-summary | ok | EOD snapshot appended (local run); day P&L -0.6%; equity 98.4%; positions 0 (BTC closed at market-open on rule 9 + rule 8 backstop, realized -7.6% on leg / -1.1% on equity); opens-this-week 0/5; book 100% cash into Friday; no auto-commit (local)

@@ -10,6 +10,44 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-28 — EOD Snapshot (Day 29, Thursday)
+
+**Equity:** 98.4% of start | **Cash:** 100.0% | **Day P&L:** −0.6% | **Phase P&L:** −1.6%
+
+_(no open positions — book fully cash after BTC close at market-open)_
+
+**Notes:** Decisive Thursday — BTC closed at market-open under rule 9 (thesis broken)
+backstopped by rule 8 (−7% manual cut, also triggered). The 5/27 EOD watch level
+$74,344 (the weekend low handed down as the rule-9 thesis-break trigger) was decisively
+breached overnight, with BTC slicing to $73,258 ≈ −7.0% unrealized at the pre-market
+gate (right at the rule-8 manual-cut line). Pre-market (08:22Z) issued an explicit
+CLOSE-BTC directive ahead of the 08:30 ET PCE + Q1-GDP + Initial Claims macro batch
+("ideally before any rate-shock-driven secondary leg"); market-open (08:37Z) executed
+cleanly at $72,771.24 — realized −7.6% on the leg / −$114.38 incl. $15.03 platform fee
+/ ~−1.1% of equity. The Apr-22 BTC thesis (Iran-ceasefire + MicroStrategy $2.54B BTC
+buy + 3mo-high breakout) is now fully invalidated by the confirmed correction:
+(a) breakout leg unwound; (b) spot-BTC-ETF outflow streak ~$2.5B over two weeks +
+~$700M crypto liquidations in latest 24h; (c) $74,344 watch level breached. Midday
+no-op (positions=0, 100% cash; no rebalance / thesis checks needed). Book moves to
+0 positions / 100% cash — the correct posture into the PCE print and going forward
+until the next A-grade idea clears the pre-buy gate. Day P&L −0.6% on virtual equity
+(realized −$114.38 from BTC close, partially offset vs yesterday's −$67.83 unrealized
+mark — net day delta −$59.69 vs $9,899.36 yesterday baseline; no other moves).
+Rule 9 trip (thesis-exit) + rule 8 trip (−7% manual cut, both fired at the trigger).
+Week 2026-05-25 → 05-29 holds at 0/5 opens (cap 5 — meta-rule patience > activity
+preserved through week 7; one realized loss but no fresh open, so opens-count
+unchanged); 0 positions (cap 8); 0% invested; 100% cash buffer (well above the
+5% floor; clean slate into Friday's session). Holding period for BTC: 36 days
+(2026-04-22 → 2026-05-28).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,839.67
+- Virtual cash: $9,839.67
+- Opens this week: 0
+- Real mirror (10%): $983.97
+
+---
+
 ## 2026-05-27 — EOD Snapshot (Day 28, Wednesday)
 
 **Equity:** 99.0% of start | **Cash:** 85.5% | **Day P&L:** −0.2% | **Phase P&L:** −1.0%
