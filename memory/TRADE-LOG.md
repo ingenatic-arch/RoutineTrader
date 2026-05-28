@@ -812,6 +812,14 @@ No positions yet. Routines activate on next scheduled fire.
 
 _(market-open and midday routines append under here. Newest on top.)_
 
+### 2026-05-28 — CLOSE BTC (Crypto) — thesis broken
+- positionID: 3411776171 | close orderID: 1477620045 | close token: aa48d352-78c3-430e-b739-a9112a5d951c
+- side closed: long 0.019082 units | leverage: 1
+- exit rate: $72,771.24 | open rate: $78,765.12 | holding period: 36 days (2026-04-22 → 2026-05-28)
+- realized %: −7.6% on the leg (~−1.1% of equity)
+- realized P&L (internal): −$114.38 (incl. $15.03 platform fee); cash returned $1,388.62 vs $1,503.00 cost
+- reason: thesis broken (rule 9) — backstopped by rule 8 (−7% manual cut, triggered). The 2026-04-22 Apr-22 thesis (Iran-ceasefire + MicroStrategy $2.54B BTC buy + 3mo-high breakout) has reversed into a confirmed correction: (a) the breakout leg unwound; (b) spot-BTC-ETFs ran a multi-week outflow streak (~$2.5B over two weeks) + ~$700M of crypto liquidations in the latest 24h tape; (c) the explicit thesis-break watch level $74,344 (the weekend low handed down by 5/25–5/27 pre-markets) was decisively breached overnight, with BTC slicing to $72,771.24 by 13:36Z (~2.1% below). Unrealized at the close-order accept was −7.6%, past the rule-8 manual cut line ≈ $73,251. Strategy rule 9 (thesis-exit overrides the −7% rule) → full close, executed at market-open per today's RESEARCH-LOG explicit directive ("CLOSE BTC at market-open under rule 9 — backstopped by rule 8 — ideally before any rate-shock-driven secondary leg on the 8:30 ET PCE / Q1-GDP / Claims macro batch"). Book moves to 0 positions / 100% cash — the correct posture into the PCE print.
+
 ### 2026-05-07 — CLOSE XLE (ETF — Energy) — thesis broken
 - positionID: 3417170896 | close orderID: 1454219275 | close token: eaeb987a-49a6-467c-8434-79cf41da4833
 - side closed: long 17.358818 units | leverage: 1
