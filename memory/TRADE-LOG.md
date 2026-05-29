@@ -10,6 +10,45 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-05-29 — EOD Snapshot (Day 30, Friday)
+
+**Equity:** 98.4% of start | **Cash:** 100.0% | **Day P&L:** 0.0% | **Phase P&L:** −1.6%
+
+_(no open positions — book fully cash since 5/28 BTC rule-9 close)_
+
+**Notes:** Quiet Friday into the weekend, week 2026-05-25 → 05-29 closes — no opens,
+no closes, no trims across all three trading routines (week 7 finishes 0/5 opens,
+fifth consecutive low-activity week consistent with the meta-rule patience > activity).
+Pre-market HOLD (decision=HOLD; ideas=0 — Thursday delivered a soft April PCE print
+[headline +0.4% MoM vs +0.5% exp, core +0.2% MoM vs +0.3% exp, core 3.3% YoY in line]
+that drove SPX +0.6% / NDX +0.9% to record highs; 10Y eased ~4.47%, DXY ~99.14 little
+changed, ES +0.07% O/N quiet post-print drift; today's catalysts Chicago PMI 9:45 ET
++ Michigan Sentiment final 10:00 ET were event-risk not thesis; Iran regime now MIXED
+[5/27 US strike on Iranian military site = limited escalation but 60-day-ceasefire +
+Hormuz-reopen talks remain active]; BTC ~$73–74K still deleveraging with ETF outflows
+persisting — re-entry gate [BTC ≥ $74–75K + positive ETF flows] NOT MET; the PCE
+tailwind was already monetized at Thursday's record close and chasing record highs on
+a Friday into the weekend was rejected as no-setup). Market-open opened nothing
+(ideas=0 per today's RESEARCH-LOG, HOLD; book 100% cash, week 0/5 intact). Midday
+no-op (positions=0, 100% cash; nothing to cut / thesis-check / rebalance — book has
+been flat since yesterday's BTC close). Day P&L 0.0% on virtual equity (no positions,
+no mark-to-market drift; $9,839.67 today flat to $9,839.67 yesterday baseline; zero
+realized — 0 opens, 0 closes, 0 trims). No rule trips. Week 2026-05-25 → 05-29 closes
+at 0/5 opens (cap 5 — meta-rule patience > activity preserved through week 7; one
+realized loss [Tuesday's BTC rule-9 close] but no fresh open, so opens-count
+unchanged); 0 positions (cap 8); 0% invested; 100% cash buffer (well above the 5%
+floor — clean slate into weekend, awaiting the next A-grade idea that clears the
+pre-buy gate). Weekly-review runs this afternoon to grade week 7 and consider any
+strategy amendments.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,839.67
+- Virtual cash: $9,839.67
+- Opens this week: 0
+- Real mirror (10%): $983.97
+
+---
+
 ## 2026-05-28 — EOD Snapshot (Day 29, Thursday)
 
 **Equity:** 98.4% of start | **Cash:** 100.0% | **Day P&L:** −0.6% | **Phase P&L:** −1.6%
