@@ -10,6 +10,47 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-01 — EOD Snapshot (Day 31, Monday)
+
+**Equity:** 98.4% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.6%
+
+_(no open positions — book fully cash since 5/28 BTC rule-9 close)_
+
+**Notes:** First session of fresh June week and fresh month — book 100% cash since
+the 5/28 BTC rule-9 thesis-exit (no positions opened on 5/29 Friday, weekend
+gap, none today). Pre-market HOLD (decision=HOLD; ideas=0; today's catalysts =
+binary event risk not thesis — ISM Manufacturing 10:00 ET batch [PMI +
+Employment + New Orders + Prices] + S&P Global Mfg PMI Final 9:45 ET +
+Construction Spending 10:00 ET; SAIC pre-open + HPE/CRDO after-close = binary
+single-name earnings; ES +0.2–0.3% O/N modest risk-on, VIX/10Y/DXY no fresh
+prints carry-forward calm; BTC ~$72.1K −2.1%/24h, ETH ~$1.98K −1.6%/24h sub-$2K
+— crypto re-entry gate NOT MET and degrading [BTC ~$2–3K below the $74–75K
+reclaim trigger; ETH spot-ETFs −$401M May, 10+ days of redemptions; BTC ETF
+flows mirroring weakness]; WTI ~$90 +3% O/N on Iran-deal-uncertainty NOT
+escalation [60-day ceasefire tentative, Trump final-determination on
+Hormuz-reopen still pending, no fresh kinetic event over the weekend,
+operational obstacles multi-week lag]; NFP Friday 6/05 = the week's big data
+point; patience > activity meta-rule in force). Market-open opened nothing
+(ideas=0 per today's RESEARCH-LOG, HOLD — no A-grade idea clears the pre-buy
+gate; tech record-high chase still needs a pullback-to-support that hasn't
+happened; pre-NFP positioning too early 4 trading days out). Midday no-op
+(positions=0, 100% cash; nothing to cut / thesis-check / rebalance). Day P&L
++0.0% on virtual equity (zero positions, zero trades — book unchanged from the
+5/28 baseline through 5/29 Friday and the 5/30–5/31 weekend gap into today's
+session). No rule trips. Fresh week 2026-06-01 → 06-05 opens at 0/5 (cap 5 —
+fresh week + fresh month, week budget 5/5 intact, NFP Friday 6/05 the named big
+data point); 0 positions (cap 8); 0% invested; 100% cash buffer (well above the
+5% floor — clean slate awaiting the next A-grade idea). Holding period: n/a
+(flat book, fifth trading day since the 5/28 BTC close).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,839.67
+- Virtual cash: $9,839.67
+- Opens this week: 0
+- Real mirror (10%): $983.97
+
+---
+
 ## 2026-05-28 — EOD Snapshot (Day 29, Thursday)
 
 **Equity:** 98.4% of start | **Cash:** 100.0% | **Day P&L:** −0.6% | **Phase P&L:** −1.6%
