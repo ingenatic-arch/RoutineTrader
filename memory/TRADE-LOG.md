@@ -10,6 +10,50 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-02 — EOD Snapshot (Day 32, Tuesday)
+
+**Equity:** 98.4% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.6%
+
+_(no open positions — book fully cash since 5/28 BTC rule-9 close)_
+
+**Notes:** Quiet Tuesday with the book carry-forward at 100% cash through a sixth
+trading session since the 5/28 BTC rule-9 thesis-exit. Pre-market HOLD (decision=HOLD;
+ideas=0; SPX +0.36 / NDX +0.66 / DJI +0.14 to fresh records Mon on post-ISM tech-led
+continuation; ES −0.18% O/N modest pullback; named catalysts JOLTS 10:00 ET [cons
+6.8M vs prior 6.82M] + Hammack 12:30 ET + PANW/GTLB/DG/ULTA AMC earnings = binary
+event/single-name risk not directional thesis). Key regime development: Iran HALTED
+ceasefire-message exchange with US over Israeli strikes on Lebanon (Tasnim) — first
+material kinetic leg of the cycle — WTI CLN26 +5.49% Mon to $92.16 close but giving
+back −0.87% O/N to ~$91.36, NOT sustained ≥$95; XLE watchlist gate kinetic-leg
+borderline (diplomatic-track-collapse, not US-Iran-strike or Hormuz-disruption) /
+price-leg DEFINITIVELY NOT MET. Crypto re-entry gate further out of reach (BTC −3.8%
+O/N BELOW $70K to ~$69.5K with $766M liqs + $480M IBIT outflows yesterday + 10-day
+ETF outflow streak >$3B — gate ~$4–5K below the $74–75K reclaim trigger and widening;
+ETH +5% O/N to ~$2,250 DIVERGED from BTC = constructive first crypto signal of the
+cycle but ETH ETFs still outflowing $44M yesterday — one session not regime change).
+US-China trade tensions also escalating (mutual violation accusations). Market-open
+opened nothing (ideas=0 per today's RESEARCH-LOG, HOLD — no A-grade idea clears the
+pre-buy gate; tech-record-high chase at SPX+NDX records into JOLTS 10:00 + Hammack
+12:30 + US-China tensions = buying-the-top into binary event risk; pre-NFP positioning
+still too early 3 trading days out from Fri 6/05). Midday no-op (positions=0, 100%
+cash; nothing to cut / thesis-check / rebalance — Iran/WTI did not move further
+intraday). Day P&L +0.0% on virtual equity (zero positions, zero trades — book
+unchanged from the 5/28 baseline carried through 5/29 → 6/01 → today). No rule
+trips. Week 2026-06-01 → 06-05 holds at 0/5 opens (cap 5 — week budget 5/5 intact,
+NFP Friday 6/05 the named big data point); 0 positions (cap 8); 0% invested;
+100% cash buffer (well above the 5% floor — clean slate awaiting the next A-grade
+idea). XLE watchlist trigger meaningfully closer (next Iran-kinetic-event + WTI
+≥$95 sustained fires it). Holding period: n/a (flat book, sixth trading day since
+the 5/28 BTC close).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,839.67
+- Virtual cash: $9,839.67
+- Opens this week: 0
+- Real mirror (10%): $983.97
+
+---
+
 ## 2026-06-01 — EOD Snapshot (Day 31, Monday)
 
 **Equity:** 98.4% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.6%
