@@ -935,6 +935,13 @@ No positions yet. Routines activate on next scheduled fire.
 
 _(market-open and midday routines append under here. Newest on top.)_
 
+### 2026-06-03 — OPEN XLE (ETF — Energy)
+- instrumentID: 3008 | order token: 4de6fd9f-79d3-4872-8b9f-ce33af14f710 | orderID: 1487442950
+- side: long | leverage: 1
+- amount_usd (internal): $1,476.00 | amount_pct_equity: 15.0%
+- entry ask: $58.30 | stop: $52.4700 (−10%) | target: $69.9600 (+20%) | R:R: 2.0:1
+- thesis: XLE gate from 2026-06-02 RESEARCH-LOG watchlist BOTH LEGS MET — (1) US-Iran kinetic exchange confirmed (US strikes on Qeshm Island in retaliation for Iranian ballistic missiles toward neighbors + 2 missiles downed targeting US forces in Kuwait + prior MQ-1 Predator downing + Iran negotiation suspension), (2) WTI ≥$95 sustained 3rd straight session reinforced by 6th consecutive weekly US crude inventory drawdown −6.8M bbl. XLE +29.8% YTD leader after 4-week pullback (−2.51%) into breakout zone; 15% sizing (half the 30% cap) discipline against late-cycle / headline-risk concentration. Principal risk = Trump "Hormuz/ceasefire reachable next week" diplomatic-track de-escalation (rule-9 watch).
+
 ### 2026-05-28 — CLOSE BTC (Crypto) — thesis broken
 - positionID: 3411776171 | close orderID: 1477620045 | close token: aa48d352-78c3-430e-b739-a9112a5d951c
 - side closed: long 0.019082 units | leverage: 1
