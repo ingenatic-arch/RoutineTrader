@@ -6,6 +6,78 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-06-03 — Wednesday Pre-Market (08:00 ET) — XLE GATE FIRES: US-IRAN KINETIC EXCHANGE CONFIRMED (US STRIKES ON QESHM ISLAND IN RETALIATION FOR IRANIAN BALLISTIC MISSILES TOWARD NEIGHBORS + DOWNED 2 IRANIAN MISSILES TARGETING US FORCES IN KUWAIT) + WTI ≥$95 SUSTAINED (3RD STRAIGHT SESSION ABOVE $95, 6TH CONSECUTIVE WEEKLY US CRUDE DRAWDOWN −6.8M BBL); IRAN SUSPENDED US NEGOTIATIONS / THREATENED TANKER-TRAFFIC SUSPENSION THROUGH HORMUZ (THOUGH IRGC SAYS 24 VESSELS TRANSITED IN 24H — FLOW NOT YET DISRUPTED); TRUMP CLAIMS HORMUZ/CEASEFIRE DEAL REACHABLE "NEXT WEEK" (DE-ESCALATION RISK); BTC ~$66.8K −1.0% O/N (DEEPER CORRECTION, −13% WEEKLY, BTC ETF MAY OUTFLOWS $2.30B = LARGEST OF 2026, 10-DAY ETF OUTFLOW STREAK >$3B, BLACKROCK IBIT ALONE SOLD $2.4B SINCE 5/18) — RE-ENTRY GATE FURTHER OUT OF REACH; ETH ~$1,861 −6.7% O/N BELOW $2K FIRST TIME SINCE LATE MARCH (LAST SESSION'S +5% ETH/BTC DIVERGENCE REVERSED, ETH ETF OUTFLOWS CONTINUE); ES −0.10% O/N MODEST PULLBACK FROM 5/26 RECORD HIGH, VIX 16.05 (6/1 CLOSE) CALM REGIME, US 10Y 4.434% (−1.9BP), RSI ON SPX ~73 OVERBOUGHT; TODAY'S CATALYSTS: **ADP EMPLOYMENT CHANGE 8:15 ET** (NFP PREVIEW), **ISM SERVICES PMI 10:00 ET**, **APRIL FACTORY ORDERS**, EARNINGS MDT/M PRE-OPEN + AVGO/CRWD AFTER-CLOSE; **DECISION: OPEN 1 — XLE LONG 15% OF EQUITY** (BOTH XLE GATE LEGS NOW MET PER YESTERDAY'S EXPLICIT TRIGGER LANGUAGE; STOP $52.16, TARGET $69.55, R:R 2:1)
+
+**Snapshot:** Equity 98.4% of start | Cash 100.0% | Open positions: 0 | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Market context** (as-of 2026-06-03 ~13:15 UTC, percentages only; data-quality caveats flagged inline)
+- **S&P 500 futures (ESM26):** **~−0.10% O/N** (Benzinga pre-market read, "slightly lower"). Modest digest of Monday's record close + Tuesday's session, into ADP 8:15 ET. RSI on cash SPX ~73 — overbought signal flashing yellow; still in the post-PCE/post-ISM melt-up regime.
+- **VIX:** **16.05** at 6/1 close (StreetStats). Carry-forward calm regime through Tuesday — no fresh O/N print. Sub-17 vol consistent with record-high cash backdrop, but ADP/ISM-Services-today + NFP Friday means realized vol likely expands intraday.
+- **US 10Y yield:** **4.434%** at 6/2 close, **−1.9 bp** (StreetStats). Modest curve relief into ADP. First material catalyst for the curve is the ADP print itself.
+- **Oil (WTI front-month):** **>$95** intraday Wednesday, gaining for **3rd straight session** (TradingEconomics + OilPrice.com). The XLE re-entry gate condition "WTI ≥$95 sustained" is now MET on the multi-session price action, not a single-print spike. Industry data: US crude inventories **−6.8M bbl last week — 6th consecutive weekly drawdown** (bullish supply-side underpin to the geopolitical bid). Brent ~$98.8/bbl (+2.9% on the day, Perplexity).
+- **DXY:** no fresh O/N print returned. Carry-forward ~99.14. No fresh impulse for FX-driven theses.
+- **Crypto (BTC/ETH overnight) — CORRECTION DEEPENS — BTC SUB-$67K, ETH BREAKS $2K:**
+  - **BTC:** **~$66,843 / −1.0% O/N** as of 8:30 AM EDT (Bitcoin Magazine + others). Crashed below $70K in European session yesterday (−3.8% leg), ~$766M in 24h liquidations (>$600M long-side). **Weekly −13%.**
+  - **ETH:** **~$1,860.67 / −6.7% in 24h** (MetaMask Market Insights). **Below $2,000 first time since late March** — Tuesday's +5% ETH/BTC divergence (yesterday's "constructive first crypto signal of cycle") has fully reversed. Weekly ~−8%.
+  - **ETF flows: institutional exodus continues** — Bitcoin spot ETFs closed May with **$2.30B in net outflows** (largest monthly outflow of 2026); 10-day red streak >$3B; BlackRock IBIT alone sold $2.4B since 5/18. Goldman cut ETH ETF holdings ~70% in Q1 (13F); Harvard fully exited its $87M ETH ETF position.
+  - **Read:** Crypto is now firmly in a sustained correction with confirmed institutional de-risking. Re-entry gate (BTC reclaim of $74–75K from prior research) is **$7–8K above spot and widening daily**. Crypto remains a NO for today.
+- **Today's macro catalysts:**
+  - **ADP Employment Change** (8:15 ET) — NFP Friday preview. Directional setup for early positioning.
+  - **ISM Services PMI** (10:00 ET).
+  - **April Factory Orders.**
+  - Pre-open earnings: **Medtronic (MDT), Macy's (M)**. After-close: **Broadcom (AVGO), CrowdStrike (CRWD).** AVGO/CRWD are binary single-name AMC prints — not pre-open setups.
+- **Geopolitics — XLE GATE LEGS NOW MET:**
+  - **Iran kinetic event leg:** **CONFIRMED.** US Central Command says **Iran launched ballistic missiles toward neighboring countries**; **US forces carried out strikes on Qeshm Island** in retaliation for attempted attacks attributed to Tehran. On 6/1, US announced it struck Iranian military targets after Iran downed a US MQ-1 Predator drone; US "downed two Iranian missiles that targeted US forces in Kuwait." This is the documented US-Iran direct kinetic exchange the yesterday-watchlist required (versus the prior diplomatic-track-collapse-only condition).
+  - **WTI ≥$95 sustained leg:** **CONFIRMED.** WTI broke $95 and is gaining for the **3rd straight session** — a sustained move, not a single-session spike. Reinforced by the 6th consecutive weekly US crude inventory drawdown (−6.8M bbl).
+  - **Diplomatic offsets (de-escalation risk):** Iran reportedly halted US negotiations over Israel/Lebanon; threatened Hormuz tanker suspension (IRGC reports 24 vessels transited in 24h — actual flow not yet disrupted). Trump says ABC News he believes a Hormuz/ceasefire deal is reachable "over the next week" — this is the principal de-escalation risk that could whipsaw oil/XLE quickly. Hezbollah agreed to a US ceasefire proposal for Beirut (partial de-escalation), but tensions remain over Israeli operations in southern Lebanon.
+- **Sector / asset-class momentum (YTD through ~late May, Perplexity + eToro snapshots):**
+  - **XLE +29.8% YTD** (eToro snapshot — leading), +2.97% past month, **+1.15% prior session**. 30W MA $52.53, 200DMA $50.12 (price extended above both), 10DMA $58.31 (price ~at 10DMA — not extended on the short timeframe), 50DMA $58.27. 4-week change −2.51% (recent pullback into the breakout zone). Setup is "leader-with-fresh-geopolitical-bid post-pullback" rather than "chase the YTD top."
+  - **XLK +32–33% YTD** (Perplexity), AI/semis-led; **RSI overbought**, post-record-close digest — not a fresh-catalyst entry today.
+  - **XLI ~+12% YTD** — fine but not the leading edge.
+  - **XLV slightly negative YTD** — no signal.
+  - **XLF ~−5% YTD** — laggard, no setup.
+
+**Holdings check**
+- **No open positions.** Book 100% cash for 7th consecutive session since 5/28 BTC rule-9 close. Nothing to evaluate, thesis-check, or trim.
+
+**Trade ideas** (0–5 per day)
+
+1. **XLE (State Street Energy Select Sector SPDR ETF)** — instrumentID: `3008`, asset class: ETF. **A-grade, propose OPEN at market-open.**
+   - **Catalyst today:** XLE gate from yesterday's RESEARCH-LOG ("next Iran-kinetic + WTI ≥$95 sustained fires it") **BOTH LEGS MET.** (1) Confirmed US-Iran kinetic exchange — US strikes on Qeshm Island in retaliation for Iranian ballistic missiles + 2 Iranian missiles downed targeting US forces in Kuwait + prior Predator-drone downing + Iran negotiation suspension. (2) WTI broke ≥$95 sustained — 3rd straight up-session, reinforced by the 6th consecutive weekly US crude inventory drawdown (−6.8M bbl).
+   - **Entry:** **ask $57.96** (eToro 6/2 close; NYSE pre-market — fresh quote at market-open).
+   - **Stop (−10%):** `round(57.96 × 0.90, 4)` = **$52.1640**.
+   - **Target (+20%, ≥2:1 R:R):** **$69.5520**.
+   - **Size:** **15% of equity** (~$1,475.95 virtual = 25.46 units at $57.96). Class (ETF) exposure 0% → 15% (≤50% ✓). Position 15% (≤30% ✓). Cash after fill ~85% (≥5% buffer ✓).
+   - **R:R:** 2.0:1 (downside 10% / upside 20%).
+   - **Pre-buy gate status:** Positions-after 1≤8 ✓ | Week-opens-after 1≤5 ✓ | Cost 15%≤30% ✓ | Cash after fill 85%≥5% ✓ | Class 15%≤50% ✓ | Exact `internalSymbolFull=XLE` match ✓ | Catalyst documented (this entry) ✓ | Order body: `Leverage:1`, `IsBuy:true`, `StopLossRate:52.1640`, no optional fields ✓.
+
+Screened and rejected:
+
+2. **XLK / QQQ (tech ETFs)** — **Rejected: overbought top-chase.** SPX RSI ~73, NDX at record highs post-AI/semis melt-up. No fresh today-catalyst beyond the running AI narrative. Pre-buy gate requires catalyst **today**; tech-leader continuation post-record-close into ADP 8:15 + ISM 10:00 binary prints is buying-the-top into event risk. Wait for a pullback or a post-NFP setup Friday/next week.
+3. **AVGO / CRWD pre-positioning** — **Rejected.** Both report **AMC**. Pre-positioning ahead of an after-close earnings print is gambling, not an edge. Same logic that has rejected pre-earnings binary bets every prior session of the phase.
+4. **MDT / M (pre-open earnings)** — **Rejected.** Healthcare (MDT) and consumer-discretionary single-name (M) — opening into either's print without a sector-level catalyst is single-stock binary risk. Market-open can react post-print if a clear sector signal develops; no pre-position.
+5. **BTC / ETH (crypto longs)** — **Rejected (firm).** BTC −13% weekly, sub-$67K, sustained ETF outflows ($2.30B May / 10-day red streak >$3B / IBIT $2.4B sold since 5/18); ETH below $2K first time since late March with −6.7% O/N print. Re-entry gate (BTC ≥$74–75K reclaim) is $7–8K above spot and widening daily. Buying into Extreme Fear without a thesis = averaging into downtrend. Rules 11/12: post-rule-9 BTC close on 5/28 was the entire crypto-cycle reset — no return until the gate fires.
+6. **XLF / XLV / XLI** — **Rejected.** XLF still laggard, XLV negative YTD, XLI mid-pack. No fresh today-catalyst, none aligns with the Iran-energy-rotation thesis driving today's setup.
+
+**Risk factors**
+- **Iran-deal headline-risk.** Trump's "Hormuz/ceasefire deal reachable next week" comment is the principal de-escalation risk. A formal talks-reopen + Hormuz-deal headline could flush WTI back below $90 fast, dragging XLE with it. The 10% stop ($52.1640) is wide enough to absorb 1–2 sessions of de-escalation noise but a clean diplomatic breakthrough would trigger rule 9 (thesis-broken full close) before the rule-7 stop. Midday should reassess if WTI loses $93 with confirmed diplomatic progress.
+- **ADP whipsaw 8:15 ET.** A hot ADP print re-engages the rate-headwind (10Y back through 4.50%) → broad equity de-risking that pulls XLE down despite the geopolitical bid. A cool print extends the post-PCE relief but does little for XLE directly. Either way, market-open at 9:35 ET will trade post-print — fill quality may differ materially from the $57.96 close-of-day quote used for sizing math.
+- **XLE late-cycle entry concentration.** XLE is the YTD leader (+29.8% YTD); we are entering after a 4-week pullback (−2.51%) but still well above 200DMA. The thesis depends on a sustained geopolitical premium, which by definition can evaporate on a single headline. 15% sizing (vs 30% cap) is the discipline against this — half-size the conviction to account for both the fresh news-flow risk and the extended YTD posture.
+- **Post-rule-9 BTC sting-bias.** The 5/28 BTC close was a −7.6% leg / ~−1.1% of equity loss against a clearly documented thesis. Vigilance against revenge-trading: the XLE A-grade is independent of the BTC loss; XLE catalyst is sourced from the documented yesterday-watchlist trigger, not from "make back the BTC loss."
+- **Class-exposure compounding.** XLE is ETF-asset-class. Class exposure 0% → 15%. If a second A-grade ETF setup emerges Thursday/Friday (post-ISM-Services or post-NFP), the cap math still has 35% of headroom. No risk of class-cap pressure.
+- **Data quality caveats.** WTI ≥$95 read sourced from TradingEconomics + OilPrice.com summary (multi-day directional; not a precise tick-perfect intraday number). VIX/10Y carry-forward from 6/1–6/2 closes (no live O/N tick prints in Perplexity returns). Treat the levels as directional — market-open will see the live tape.
+
+**Watchlist (rest of the week)**
+- **XLE add-on.** If WTI prints and holds ≥$98 with another Iran-kinetic confirmation, consider adding another 5–10% to take XLE to 20–25% of equity (still ≤30% per-position cap; ≤50% class cap). Friday NFP is the gating risk.
+- **XOM / CVX direct-energy single-names** — only as a class-cap-respecting substitute if XLE concentration pressure builds. Not on the radar today.
+- **Defensives (XLP, XLU)** — if ADP/ISM-Services prints hot enough to crack the equity melt-up, post-print rotation candidate. Re-evaluate Thursday pre-market.
+- **Crypto** — dead until BTC reclaims $74–75K with confirmed ETF inflow reversal. Could take weeks.
+- **Tech (XLK, QQQ)** — only on a pullback to 10DMA, post-NFP regime read.
+
+**Decision:** **OPEN 1 at market-open** — XLE long @ 15% of equity, stop $52.1640, target $69.5520 (≥2:1 R:R), instrumentID 3008. No trims (account is flat). Opens-this-week 0 → 1 after fill (4 of 5 weekly budget remaining).
+
+---
+
 ### 2026-06-02 — Tuesday Pre-Market (08:00 ET) — IRAN REGIME SHIFTS: TASNIM REPORTS IRAN **HALTED** CEASEFIRE-MESSAGE EXCHANGE WITH THE US OVER ISRAELI STRIKES ON LEBANON → WTI CLN26 +5.49% MONDAY ($87.36 → $92.16) BUT GIVING BACK ~−0.87% O/N TO ~$91.36 (NOT SUSTAINED ≥$95); SPX +0.36% / NDX +0.66% / DJI +0.14% TO FRESH RECORDS MONDAY (POST-ISM TECH-LED CONTINUATION FIRED), ES PULLING BACK ~−0.18% O/N; BTC ~−3.8% O/N **BELOW $70K** ($69.5K AREA, ~$766M LIQS / $480M IBIT OUTFLOWS YESTERDAY / 10-DAY ETF OUTFLOW STREAK >$3B) — RE-ENTRY GATE FURTHER AWAY (~$4–5K BELOW $74–75K RECLAIM TRIGGER); ETH **+5% O/N TO ~$2,250** (DIVERGED FROM BTC) BUT ETH ETFs STILL OUTFLOWING ~$44M YESTERDAY; TODAY'S CATALYST DECK: JOLTS JOB OPENINGS 10:00 ET (CONS ~6.8M VS PRIOR 6.82M — LABOR-MARKET INPUT FEEDING FRIDAY NFP), FED HAMMACK 12:30 ET, PANW + GTLB + DG + ULTA AFTER-CLOSE EARNINGS; US-CHINA TRADE TENSIONS ALSO ESCALATING (MUTUAL ACCUSATIONS OF VIOLATING TRADE AGREEMENT) — **DECISION: HOLD** (IRAN TALKS-HALT IS REAL REGIME SHIFT BUT WTI DID NOT CLEAR/HOLD $95 THE XLE GATE; NO CONFIRMED KINETIC IRAN-STRIKE OR HORMUZ INCIDENT; CRYPTO RE-ENTRY GATE FURTHER OUT OF REACH; AFTER-CLOSE EARNINGS = NO PRE-OPEN DIRECTIONAL SETUP; NFP THURSDAY-FRIDAY POSITIONING STILL TOO EARLY 3 TRADING DAYS OUT)
 
 **Snapshot:** Equity 98.4% of start | Cash 100.0% | Open positions: 0 | Week opens so far: 0 | Weekly budget remaining: 5 of 5
