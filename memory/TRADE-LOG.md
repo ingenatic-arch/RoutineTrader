@@ -10,6 +10,54 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-03 — EOD Snapshot (Day 33, Wednesday)
+
+**Equity:** 98.5% of start | **Cash:** 84.9% | **Day P&L:** +0.1% | **Phase P&L:** −1.5%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| XLE | etf    |  15.1%  |$58.25      |$58.71      |    +0.8%    |$52.47      |
+
+**Notes:** Active Wednesday — first new position in 7 sessions since the 5/28 BTC
+rule-9 close. Pre-market OPEN 1 decision (XLE long 15% of equity) on the A-grade
+gate-fire — both yesterday's watchlist legs MET: (1) US-Iran KINETIC EXCHANGE
+CONFIRMED (US strikes on Qeshm Island in retaliation for Iranian ballistic missiles
+toward neighboring countries + 2 Iranian missiles downed targeting US forces in
+Kuwait + prior MQ-1 Predator downing + Iran suspended US negotiations);
+(2) WTI ≥$95 SUSTAINED (3rd consecutive session above $95, reinforced by the 6th
+consecutive weekly US crude inventory drawdown of −6.8M bbl). De-escalation risk
+flagged (Trump claims Hormuz/ceasefire deal reachable "next week"; Hezbollah
+ceasefire is a partial offset) but noted as not disqualifying. Market-open
+executed cleanly at $58.25 ask (vs the $57.96 pre-market close-of-day quote) —
+25.339055 units, $1,476.00 cost basis, stop $52.47 (−9.93% from open), target
+~$69.55 (+19.4%, R:R ~2:1), instrumentID 3008, $2.21 platform fees on the open
+ticket. Midday no-op (XLE +1.2% intraday at $58.95, well inside the stop band;
+thesis intact; no −7% loser to cut, no thesis-break trigger, no class-cap
+rebalance). XLE drifted modestly off the intraday high into the close ($58.95 →
+$58.71, still +0.79% on the leg / +$11.66 unrealized). Other rejections noted in
+RESEARCH-LOG: XLK/QQQ (overbought top-chase at SPX RSI ~73), AVGO/CRWD (AMC
+single-name binary), MDT/M pre-open earnings (single-name binary), BTC/ETH
+(re-entry gate now $7–8K above spot and widening; BTC ~$66.8K weekly −13%, May
+ETF outflows $2.30B = largest of 2026 / 10-day streak >$3B / IBIT alone sold
+$2.4B since 5/18; ETH ~$1,861 sub-$2K first time since late March; Tuesday's
++5% ETH/BTC divergence fully reversed); XLF/XLV/XLI no fresh catalyst. Day P&L
++0.1% on virtual equity (XLE mark-to-market +$11.66 unrealized partially offset
+by $2.21 platform fees on the open ticket = net +$9.45 day delta vs $9,839.67
+yesterday baseline; no realized P&L — 1 open, 0 closes, 0 trims). No rule trips.
+Week 2026-06-01 → 06-05 now at 1/5 opens (cap 5 — week budget 4/5 remaining,
+ADP today / NFP Friday 6/05 still the named big data point); 1 position (cap 8);
+15.1% ETF = 15.1% invested (cap 50% per class — 35% of class headroom remains
+for a second A-grade ETF setup); 84.9% cash buffer (well above the 5% floor).
+Holding period for XLE: 1 day (opened 2026-06-03, position 3465795340).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,849.12
+- Virtual cash: $8,361.46
+- Opens this week: 1
+- Real mirror (10%): $984.91
+
+---
+
 ## 2026-06-02 — EOD Snapshot (Day 32, Tuesday)
 
 **Equity:** 98.4% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.6%
