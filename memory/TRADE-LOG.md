@@ -10,6 +10,53 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-05 — EOD Snapshot (Day 35, Friday)
+
+**Equity:** 98.2% of start | **Cash:** 85.1% | **Day P&L:** −0.3% | **Phase P&L:** −1.8%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| XLE | etf    |  14.9%  |$58.25      |$57.64      |    −1.0%    |$52.47      |
+
+**Notes:** Quiet pre-NFP Friday — XLE held day-3, no opens, no closes, no trims
+across all three trading routines. Pre-market HOLD (decision=HOLD; ideas=0;
+8 candidates screened and rejected — XLE-addon gate WTI≥$98 not met / XLK-QQQ
+tech-long top-chase headwind / AVGO dip-buy single-name binary / XLF pre-NFP
+gambling on print / XLV no fresh catalyst / BTC-ETH re-entry gate widening
+(spot-BTC-ETF outflow streak ~$3.45B over 11-12 sessions, longest since launch;
+ETH sub-$2K 3rd session) / XLP-XLU no catalyst / XOM-CVX would concentrate into
+existing XLE thesis-exit risk). XLE thesis intact both legs: (a) US-Iran
+kinetic exchange continues, Strait of Hormuz effectively closed, Hezbollah
+refused parallel Lebanon ceasefire (reduces clean weekend de-escalation
+probability); (b) WTI ~$93 above the $90 validity floor but Thursday's −3% on
+Israel-Lebanon ceasefire-hope sell put add-on gate (WTI ≥$98 sustained) clearly
+out of reach. Trump weekend MoU thesis-exit watch LIVE but NOT TRIGGERED
+through the close — no signed MoU, no Hormuz reopen announcement, Iran-side
+no recent progress, US House voted to restrict Trump Iran war powers. NFP
+print was the day's pre-eminent catalyst (cons +85–90k vs prior +115k; UR 4.3%
+unchanged; AHE +0.3% m/m). Midday no-op (XLE +0.3% intraday at $58.40 close,
+well inside −10% stop band; thesis intact; no −7% loser to cut, no thesis-break
+trigger, no class-cap rebalance). XLE softened modestly through the afternoon
+into the bell ($58.40 → $57.64, −1.30% on the leg vs midday / −1.05% on the
+position vs entry = −$15.46 unrealized vs +$12.92 at yesterday's close).
+Day P&L −0.3% on virtual equity (XLE mark-to-market −$28.38 net delta vs
+$9,850.38 yesterday baseline; no realized P&L — 1 open, 0 closes, 0 trims;
+no rule trips). Week 2026-06-01 → 06-05 closes at 1/5 opens (cap 5 — week
+budget 4/5 unused, the pre-NFP Friday + active US-Iran weekend rhetoric
+overhang justified protect-not-build posture across all three trading
+routines); 1 position (cap 8); 14.9% ETF = 14.9% invested (cap 50% per class
+— 35.1% of class headroom remains for a second A-grade ETF setup); 85.1%
+cash buffer (well above 5% floor). Holding period for XLE: 3 days (opened
+2026-06-03, position 3465795340). Friday weekly-review routine to follow.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,822.00
+- Virtual cash: $8,361.46
+- Opens this week: 1
+- Real mirror (10%): $982.20
+
+---
+
 ## 2026-06-04 — EOD Snapshot (Day 34, Thursday)
 
 **Equity:** 98.5% of start | **Cash:** 84.9% | **Day P&L:** +0.0% | **Phase P&L:** −1.5%
