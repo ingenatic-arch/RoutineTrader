@@ -6,6 +6,73 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-06-08 — Monday Pre-Market (08:00 ET) — XLE INTACT (−1.0% UNREALIZED, ENTRY $58.25 / FRIDAY CLOSE $57.64); **POST-NFP HANGOVER MONDAY** AFTER HOT FRIDAY PRINT BLEW UP THE TAPE (S&P 500 −2.64% / NDX worse / ES futures −2.97% Friday — biggest one-day SPX drop of the cycle on yields shock); **10Y JUMPED TO ~4.54%** (Friday close; CME milestone reference), Friday NFP came in **HOTTER** than the +85–90k consensus (exact print not in sources but yields' soaring + the −2.64% SPX gap confirms it); ES O/N MODESTLY DOWN ~−0.31% = TENTATIVE FOLLOW-THROUGH; WTI ~$92–94 / BRENT $97.22 (+4.4% w/e) — **STRAIT OF HORMUZ STILL "EFFECTIVELY CLOSED" w/ >10 mb/d SUPPLY DISRUPTION** per market commentary (no confirmed full reopening over the weekend), US-IRAN STRIKES ONGOING + ACTIVE CEASEFIRE NEGOTIATIONS BUT **NO SIGNED MoU** — Trump's "weekend MoU" claim (Thu/Fri) IS NOT EVIDENCED IN ANY SOURCE; DXY ~100 STEADY; CRYPTO DATA AMBIGUOUS — Perplexity quotes BTC ~$91K −3% O/N (sharply contradicts Friday research log's $63.8K read), ETH ~$1,682 / +6.1% O/N BUT −15.6% WEEKLY = MAJOR DATA-QUALITY FLAG → treating crypto reads as unreliable until corroborated; SPOT ETH ETF OUTFLOW STREAK $708M / 14 SESSIONS = REGIME STILL OUTFLOW; XLK −5.61% over 5 sessions through 6/5 close (severe tech-complex pullback continuing); NO MAJOR US PRE-OPEN EARNINGS OR TIER-1 MACRO PUBLICLY FLAGGED FOR 6/8 (light Monday post-NFP); **DECISION: HOLD — DEFEND XLE, NO NEW OPENS** (POST-NFP MONDAY INTO 4.54% 10Y AND −2.64% FRIDAY ROUT = WORST CONDITIONS TO ADD RISK; XLE THESIS BOTH LEGS STILL INTACT — HORMUZ EFFECTIVELY CLOSED + WTI ≥$90 FLOOR HELD — BUT ADD-ON GATE [WTI ≥$98 SUSTAINED] NOT MET, NO SIZE-UP; XLE THESIS-EXIT WATCH **LIVE** ON ANY WEEKEND-CONFIRMED MoU / HORMUZ REOPEN — NOT TRIGGERED THROUGH PRE-MARKET; CRYPTO DATA UNRELIABLE → NO BTC/ETH RE-ENTRY EVEN ON A CONSTRUCTIVE ETH DIVERGENCE READ; TECH/SEMIS −5.61% / 5-DAY WITH NO REVERSAL CATALYST → NO XLK/QQQ; FRESH WEEK OPENS BUDGET 5/5 PRESERVED FOR A REAL A-GRADE SETUP LATER THIS WEEK)
+
+**Snapshot:** Equity 98.2% of start | Cash 85.1% | Open positions: 1 (XLE) | Week opens so far: 0 of 5 | Weekly budget remaining: 5 of 5 (fresh week)
+
+**Market context** (as-of 2026-06-08 ~08:00 ET, percentages only; flagged where stale or low-confidence)
+- **S&P 500 futures (ESM26): ~−0.31% overnight** (Barchart) — modest follow-through after Friday's brutal cash SPX **−2.64%** (E-mini −2.97%) gap-down on hot NFP. **Largest one-day SPX drop of the cycle.**
+- **10Y Treasury yield: ~4.54%** (Friday close milestone per CME commentary; +bp post-NFP). Exact overnight move not pinned. **Yields-shock-driven equity rout** is the dominant Friday-into-Monday narrative.
+- **VIX:** no clean overnight print sourced. Inference from Friday's −2.64% SPX = a meaningful pop above the prior ~16–17 regime; treat as **elevated, not stale-low**, into the open.
+- **WTI crude: ~$92–94** front-month area (Brent $97.22, +4.44% over the weekend). Geopolitical risk premium still priced in. **Above the $90 XLE-validity floor; below the $98 XLE-add-on gate.**
+- **DXY: ~100.07** — essentially flat overnight, firm above 100 on the post-NFP yields move.
+- **Crypto (DATA QUALITY FLAG):** Perplexity returns BTC ~$91,151 (−3.0% O/N, −12.6% weekly), ETH ~$1,682 (+6.1% O/N, −15.6% weekly). **This BTC level conflicts violently with Friday's research-log read of ~$63.8K** — a $27K gap is not a real Friday-Monday move; one of the two reads is wrong. Treating today's crypto numbers as **unreliable** → no crypto-driven decisions. ETH spot ETFs $708M outflows / 14 consecutive sessions through 6/1 (reliable, cited).
+- **Today's catalysts:**
+  - **No top-tier US pre-open earnings publicly flagged.** Calendar-search returned no confirmed BMO names for the day.
+  - **No Tier-1 US macro release publicly flagged** for 6/8 (typical light Monday post-NFP Friday).
+  - **Fed speakers / FOMC blackout:** not confirmed either way from sources; defer to whatever shows up live.
+  - **Geopolitics:** ongoing US-Iran ceasefire negotiations (no signed MoU), continuing kinetic exchanges + Hormuz effective closure (per market commentary).
+- **Sector momentum (5 sessions through 6/5 close, where sourced):**
+  - **XLK −5.61%** over the 5-day window (Barchart) — period range $191.02 open → $179.80 low on 6/5. 3-month still +28.7%, 9-week run-up ~+47% so the pullback is correction-in-uptrend, not regime change — **but no near-term reversal catalyst.**
+  - XLE / XLF / XLV / XLI: explicit 5-day prints not surfaced from Perplexity this morning. **Carry-forward:** Friday log had DJI on a new ATH driven by value/cyclicals rotation (banks, managed healthcare), NDX/semis red — that rotation backdrop survives a post-NFP yields shock only if yields stabilize; on a continued yield grind they unwind together.
+
+**Holdings check**
+- **XLE** — instrumentID 3008, weight 14.9%, entry $58.25, Friday close rate $57.64 (pre-open Monday print same), unrealized **−1.05%**, stop $52.47 (still ~9% of headroom). **Thesis intact, both legs:**
+  - (a) **Geopolitics leg:** Strait of Hormuz still "effectively closed" w/ >10 mb/d supply disruption per market commentary; US-Iran strikes continuing; **no signed MoU through the weekend** (Trump's "as soon as this weekend" claim from Thu/Fri did not produce a sourced agreement).
+  - (b) **Price leg:** WTI $92–94 above the $90 validity floor; Brent $97 +4.4% w/e on persistent risk premium.
+  - **Watch (thesis-exit triggers, LIVE):** signed MoU + Hormuz reopen announcement → full close per rule 9. None triggered through pre-market.
+  - **Add-on gate (WTI ≥$98 sustained):** NOT MET → no size-up.
+  - **Position rule status:** above the −7% manual cut line ($54.17 area), well above the $52.47 server stop. Hold.
+
+**Trade ideas** (0–5 per day)
+
+**No A-grade ideas qualify today. Default to HOLD.** Below: every candidate screened + the explicit rejection rationale, so the decision is auditable (not lazy).
+
+1. **XLE add-on (3008, ETF — Energy)** — **Rejected. Add-on gate not met.**
+   - Add-on requires WTI ≥$98 sustained per the carried-forward gate. WTI sits $92–94. Brent at $97 with no spillover to WTI through the $98 line. Doubling the XLE exposure into a yields-shock day without a fresh price-leg confirmation = concentrating the book into a single thesis without the prerequisite signal. Re-evaluate midday only if WTI prints and holds ≥$98.
+
+2. **XLK / QQQ (3021 / 3006, ETF — Tech) post-NFP dip-buy** — **Rejected. Falling-knife into a yields shock.**
+   - XLK −5.61% over the prior 5 sessions through 6/5, then Friday's −2.64% SPX (NDX likely worse) compounds the drawdown. The pullback comes after a 9-week ~+47% run-up — that's "correction within uptrend" but it is **multi-week, not a one-day flush**, and 10Y at ~4.54% removes the rate-cut bid that the rally relied on. **Mean-revert candidate, but not today** — wait for a yields-stabilization or VIX-compression confirmation.
+
+3. **BTC / ETH (100000 / 100001, Crypto) re-entry** — **Rejected. Data quality + regime both fail.**
+   - Perplexity's BTC $91K read directly conflicts with Friday's research-log $63.8K read — one of the two is wrong, and we cannot trade on unreliable inputs. Even taking the ETH +6.1% O/N at face value, $708M / 14-session ETH-ETF outflow streak is **regime-still-outflow**, not regime-change. Re-entry gate (BTC reclaim of $74–75K w/ ETF flows flipping positive) is not validated by today's data set.
+
+4. **XLF (3017, ETF — Financials) on the yield-spike-helps-banks angle** — **Rejected. NIM-tailwind already faded by Friday's risk-off.**
+   - A higher 10Y normally lifts bank NIMs, but Friday's risk-off swept the whole tape (DJI also red on the day despite Thursday's ATH). Without a confirmed catalyst today (no bank-earnings BMO known), buying XLF on Monday morning post-NFP is buying-the-narrative not buying-the-tape. Defer.
+
+5. **XLV (3015, ETF — Healthcare) defensive rotation** — **Rejected. No catalyst.**
+   - Defensive rotation is a hypothesis that needs confirmation in price/flows, not a Monday-morning pre-emption. Re-evaluate Tue/Wed if tape sustains risk-off.
+
+6. **Single-name pre-open earnings binaries** — **Rejected. None publicly flagged + binary risk.**
+   - Strategy gate requires a documented catalyst; no Tier-1 BMO names surface in research. Even if one appears in real-time, single-name binaries are not in v1's edge.
+
+**Risk factors**
+- **Yields-shock follow-through.** Post-NFP yields at ~4.54% pressure every long-duration asset (tech, crypto, growth-cyclicals). A second leg higher in yields = a second leg lower in stocks, and XLE's geopolitical bid would only partially offset.
+- **Surprise weekend MoU headline.** A confirmed US-Iran agreement + Hormuz reopen would trigger an XLE thesis-exit per rule 9. Pre-market sources don't show one, but headlines can land mid-session — **midday must re-verify**.
+- **Crypto data noise.** The BTC quote conflict means we cannot tell whether the asset is at $63K, $91K, or somewhere else. Until the next reliable read, treat crypto as unobservable.
+- **Light Monday post-NFP.** Sparse catalyst calendar makes the tape vulnerable to position-driven drift in either direction; not a place to chase moves.
+- **Tech-complex still bleeding.** XLK −5.61% / 5-day means semis + megacaps are absorbing flows. Adding to a falling complex on a yields-up day = adverse selection.
+
+**Watchlist (rest of the week)**
+- **XLE add-on:** fires only if WTI ≥$98 sustained AND the geopolitical leg still intact.
+- **XLK / QQQ dip-buy:** fires only if 10Y stabilizes ≤4.45% AND VIX compresses ≤18 AND tech complex shows positive breadth (>60% S5INFT advancers).
+- **XLF:** wait for confirmed bank-news / earnings catalyst this week.
+- **Crypto:** need a corroborated BTC quote first; then BTC ≥$74–75K reclaim w/ BTC-ETF flows flipping positive (multi-day) before any re-entry.
+
+**Decision:** **HOLD — defend XLE, no new opens.** XLE thesis both legs intact, position above the −7% cut line, stop healthy at $52.47, add-on gate not met. No A-grade setup clears the pre-buy gate in a yields-shock, post-NFP, light-catalyst Monday tape. Week opens budget stays at 5 of 5, fully preserved. ClickUp silence (no urgent triggers — XLE not at −7%, no broken thesis, no major event hit the book overnight).
+
+---
+
 ### 2026-06-05 — Friday Pre-Market (08:00 ET) — XLE INTACT (+0.9% UNREALIZED, ENTRY $58.25 / CLOSE $58.76); **NFP DAY** = WEEK'S PRE-EMINENT PRINT (8:30 ET CONS ~+85–90k vs PRIOR +115k, UR 4.3% UNCHANGED, AHE +0.3% m/m / +3.4% y/y); WTI ~$93 ESSENTIALLY FLAT O/N AFTER −3% THURSDAY ON ISRAEL-LEBANON CEASEFIRE HOPES (HEZBOLLAH **REFUSED** TERMS, CLASHES CONTINUE → DE-ESCALATION NOT YET CONFIRMED); STRAIT OF HORMUZ STILL "EFFECTIVELY CLOSED" PER CONFIRMED REPORTS, US-IRAN KINETIC EXCHANGE ONGOING + REGIONAL SPILLOVER (BAHRAIN, KUWAIT); TRUMP "WEEKEND MoU" CLAIM **STILL UNSIGNED** (IRAN: "NO RECENT PROGRESS IN US TALKS"); US HOUSE VOTED TO RESTRICT TRUMP'S IRAN MILITARY ACTIONS (CONGRESSIONAL PUSHBACK = ADDITIONAL THESIS RISK); ES FUTURES +0.36% / NQ −0.53% PRE-NFP (TECH/SEMIS STILL HIT POST-AVGO −12% THURSDAY); SPX +0.41% / DJI +1.73% NEW ATH / NDX −0.53% THURSDAY (CLEAR ROTATION INTO VALUE/CYCLICALS); 10Y ~4.47% −2bp; BTC ~$63.8K −0.35% O/N, SPOT-BTC-ETF OUTFLOW STREAK ~$3.45B / 11–12 SESSIONS = RE-ENTRY GATE WIDENING; ETH ~$1,778 SUB-$2K; **DECISION: HOLD — DEFEND XLE, NO NEW OPENS** (PRE-NFP THURSDAY-INTO-FRIDAY = WORST PRE-EMPTION WINDOW; XLE THESIS-EXIT WATCH **LIVE** ON TRUMP WEEKEND MoU BUT NOT TRIGGERED — KINETIC EXCHANGE CONTINUES + HEZBOLLAH REFUSING THE PARALLEL CEASEFIRE; XLE ADD-ON GATE [WTI ≥$98 SUSTAINED] NOT MET — NO SIZE-UP; CRYPTO RE-ENTRY GATE WIDENING NOT NARROWING — NO BTC/ETH; PRE-NFP TECH-LONG INTO AVGO-DRIVEN NDX RED = TOP-CHASE INTO HEADWIND)
 
 **Snapshot:** Equity 98.5% of start | Cash 84.9% | Open positions: 1 (XLE) | Week opens so far: 1 of 5 | Weekly budget remaining: 4 of 5
