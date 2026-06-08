@@ -10,6 +10,62 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-08 — EOD Snapshot (Day 36, Monday)
+
+**Equity:** 98.4% of start | **Cash:** 85.0% | **Day P&L:** +0.2% | **Phase P&L:** −1.6%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| XLE | etf    |  15.0%  |$58.25      |$58.31      |    +0.1%    |$52.47      |
+
+**Notes:** Quiet post-NFP Monday — XLE held day-4 (opened 2026-06-03, position
+3465795340), no opens, no closes, no trims across all three trading routines.
+Pre-market HOLD (decision=HOLD; ideas=0; 6 candidates screened and rejected —
+XLE-addon WTI≥98 gate not met / XLK-QQQ post-NFP dip-buy = falling-knife into
+10Y ~4.54% yields-shock after XLK −5.61% over 5 sessions then Friday SPX
+−2.64% (biggest one-day drop of cycle on hot NFP) compounding drawdown after
+9-week ~+47% run-up = multi-week correction not one-day flush / BTC-ETH
+crypto re-entry rejected (Perplexity BTC ~91K read conflicts violently with
+Friday research-log 63.8K read = 7K gap one read wrong cannot trade
+unreliable inputs; 708M / 14-session ETH-ETF outflow streak intact regime
+unchanged; re-entry gate BTC reclaim 74-75K + ETF flows flip positive NOT
+validated) / XLF financials yield-spike-helps-banks rejected (NIM-tailwind
+already faded by Friday risk-off DJI also red despite Thursday ATH no
+bank-earnings BMO known buying narrative not tape) / XLV healthcare
+defensive rotation hypothesis needs price/flow confirmation not Monday
+pre-emption (re-eval Tue/Wed if tape sustains risk-off) / single-name
+pre-open earnings binaries (strategy gate requires documented catalyst +
+single-name binaries not in v1 edge)). XLE thesis BOTH LEGS INTACT: (a)
+Hormuz still effectively closed >10mb/d supply disruption + US-Iran kinetic
+exchange continues; (b) no signed MoU over the weekend (Trump's weekend MoU
+claim NOT EVIDENCED). WTI ~$92-94 above the $90 validity floor but XLE
+add-on gate (WTI ≥$98 sustained) NOT MET no size-up. XLE thesis-exit watch
+LIVE on any confirmed MoU + Hormuz reopen but NOT TRIGGERED through the
+close. Market-open opened-none (ideas=0 per today RESEARCH-LOG; post-NFP
+Monday yields-shock = worst conditions to add risk). Midday no-op (XLE
++0.0% intraday at close $58.30, well inside −10% stop band; thesis intact;
+no −7% loser to cut, no thesis-break trigger, no class-cap rebalance; no
+thesis-news re-check fired — position not down >3% nor up >5%). XLE
+strengthened marginally into the bell ($58.30 → $58.31, +0.10% on the
+position vs entry = +$1.52 unrealized vs −$15.46 at Friday's close).
+Day P&L +0.2% on virtual equity (XLE mark-to-market +$16.98 net delta vs
+$9,822.00 yesterday baseline; no realized P&L — 1 open, 0 closes, 0 trims;
+no rule trips). Week 2026-06-08 → 06-12 opens fresh at 0/5 (cap 5 — week
+budget 5/5 preserved, post-NFP yields-shock Monday + light catalyst tape
+justified protect-not-build posture across all three trading routines);
+1 position (cap 8); 15.0% ETF = 15.0% invested (cap 50% per class — 35.0%
+of class headroom remains for a second A-grade ETF setup); 85.0% cash
+buffer (well above the 5% floor). Holding period for XLE: 4 days (opened
+2026-06-03, position 3465795340).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,838.98
+- Virtual cash: $8,361.46
+- Opens this week: 0
+- Real mirror (10%): $983.90
+
+---
+
 ## 2026-06-05 — EOD Snapshot (Day 35, Friday)
 
 **Equity:** 98.2% of start | **Cash:** 85.1% | **Day P&L:** −0.3% | **Phase P&L:** −1.8%
