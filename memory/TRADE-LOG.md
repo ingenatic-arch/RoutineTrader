@@ -10,6 +10,67 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-09 — EOD Snapshot (Day 37, Tuesday)
+
+**Equity:** 98.2% of start | **Cash:** 85.2% | **Day P&L:** −0.2% | **Phase P&L:** −1.8%
+
+| Sym | Class  | Weight% | Entry      | Close      | Unrealized% | Stop       |
+|-----|--------|---------|------------|------------|-------------|------------|
+| XLE | etf    |  14.8%  |$58.25      |$57.37      |    −1.5%    |$52.47      |
+
+**Notes:** Quiet pre-CPI Tuesday — XLE held day-5 (opened 2026-06-03, position
+3465795340), no opens, no closes, no trims across all three trading routines.
+Pre-market HOLD (decision=HOLD; ideas=0; 6 candidates screened and rejected —
+XLE-addon WTI≥98 gate not met + thesis legs splitting = concentrating into
+weakening-side risk / XLK-QQQ tech rebound = -5.61% 5-day through 6/5 no
+reversal catalyst pre-CPI + 10Y climbing to 4.57% removes rate-cut bid +
+post-NFP yields-digestion ongoing / BTC-ETH crypto re-entry = BTC ~63K well
+below 74-75K reclaim gate + 14-session ~$5B spot-BTC-ETF outflow streak
+intact + Mt.Gox 10422-BTC transfer overhang = regime still outflow not
+regime change / XLF financials = yield-curve narrative faded post-Friday
+risk-off + DJI also red despite ATH + no bank-earnings BMO buying narrative
+not tape / XLV healthcare defensive rotation = no fresh catalyst + Monday-pop
+is rotation noise + pre-CPI binary risk / single-name pre-open earnings
+binaries = strategy gate requires documented catalyst + not in v1 edge).
+**XLE thesis status: kinetic-escalation leg WEAKENING but supply-disruption
+leg INTACT** — Iran stated end of military operations against Israel + Brent
+fade from $98 → $94 (kinetic leg softening) BUT Hormuz still effectively
+closed + no signed MoU + US-Iran energy strikes continuing (supply leg
+holding). Thesis-exit watch **ELEVATED to HIGH PRIORITY** with 4 explicit
+triggers any of which fires the cut: (a) confirmed Hormuz reopening,
+(b) WTI sustained <$90, (c) signed US-Iran MoU, (d) Brent <$90 with
+sustained Iran-Israel ceasefire holding. None confirmed through the close
+(WTI borderline ~$89-91 with daily indicative $89.26 but NOT confirmed
+sustained <$90; no Hormuz reopening; no signed MoU; Brent inferred
+low-mid 90s no confirmed sustained Iran-Israel ceasefire). Position not yet
+rule-9 broken. Market-open opened-none (ideas=0; pre-CPI Tuesday + active
+Iran-side de-escalation pricing-in = wrong window to add risk). Midday no-op
+(XLE −1.7% intraday at midday close $57.28, well inside −7% manual-cut line
+and −10% stop band; thesis intact pending watch; no rule-9 trigger fired;
+opportunistic news check fired given elevated watch status even though
+position not down >3% nor up >5%). XLE softened modestly through afternoon
+into the bell ($57.28 → $57.37, slight reclaim, position −1.51% vs entry =
+−$22.30 unrealized vs −$15.46 at yesterday's close). Day P&L −0.2% on virtual
+equity (XLE mark-to-market −$23.82 net delta vs $9,838.98 yesterday baseline;
+no realized P&L — 1 open, 0 closes, 0 trims; no rule trips). Week 2026-06-08
+→ 06-12 opens 0/5 (cap 5 — week budget 5/5 intact, pre-CPI Tue + post-NFP
+yields-digestion + elevated XLE thesis-exit watch justified protect-not-build
+posture across all three trading routines); 1 position (cap 8); 14.8% ETF =
+14.8% invested (cap 50% per class — 35.2% of class headroom remains for a
+second A-grade ETF setup but no candidate cleared the gate); 85.2% cash
+buffer (well above the 5% floor). Holding period for XLE: 5 days (opened
+2026-06-03, position 3465795340). CPI print Wed 6/10 = pre-eminent
+binary catalyst; pre-market 6/10 will re-verify XLE thesis-exit triggers
+before any directional commitment.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,815.16
+- Virtual cash: $8,361.46
+- Opens this week: 0
+- Real mirror (10%): $981.52
+
+---
+
 ## 2026-06-08 — EOD Snapshot (Day 36, Monday)
 
 **Equity:** 98.4% of start | **Cash:** 85.0% | **Day P&L:** +0.2% | **Phase P&L:** −1.6%
