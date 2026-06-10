@@ -1198,6 +1198,14 @@ No positions yet. Routines activate on next scheduled fire.
 
 _(market-open and midday routines append under here. Newest on top.)_
 
+### 2026-06-10 — CLOSE XLE (ETF — Energy) — thesis broken
+- positionID: 3465795340 | close orderID: 1496969608 | close token: 491bef72-b420-4359-ae3f-805a1200154b
+- side closed: long 25.339055 units | leverage: 1
+- exit rate: ~$57.90 (estimated from cash returned) | open rate: $58.25 | holding period: 7 days (2026-06-03 → 2026-06-10)
+- realized %: −0.6% on the leg (~−0.09% of equity)
+- realized P&L (internal): −$8.79 (cash returned $1,467.21 vs $1,476.00 cost; includes $2.21 platform fee at open)
+- reason: rule 9 — thesis broken. The 2026-06-03 XLE entry rested on two legs: (1) US-Iran kinetic exchange driving sustained Hormuz risk premium, (2) WTI ≥$90 validity floor. Both legs structurally inverted overnight per 2026-06-10 pre-market: (a) Iran-Israel reciprocal halt-of-attacks confirmed (Iran-side Mon + Israeli-side Tue/Wed); (b) preliminary US-Iran MoU reached Thursday 6/4 with 60-day ceasefire extension and Strait of Hormuz reopening as the explicit MoU centerpiece (Trump approval + Iran Supreme Leader signoff pending but framework on the table); (c) **WTI sustained below $90 for >18h multi-session — fired the explicit trigger (b) validity floor: Mon ~$91 → Tue <$90 settle → Wed $89.22 with intraday $86 print**; (d) OPEC+ approved another July output increase with extended compliance deadline = independent bearish supply layer; (e) XLE 5-day −3.34% per Barchart = leg-(b) tape rolling. Rule 9 thesis-exit overrides the −7% / −10% rules; closing before CPI 8:30 also removed binary print-risk on top of an already broken thesis. Book moves to 0 positions / ~100% cash heading into the CPI variance event. Opens-this-week stays 0/5; full weekly budget preserved for post-CPI A-grade setups.
+
 ### 2026-06-03 — OPEN XLE (ETF — Energy)
 - instrumentID: 3008 | order token: 4de6fd9f-79d3-4872-8b9f-ce33af14f710 | orderID: 1487442950
 - side: long | leverage: 1
