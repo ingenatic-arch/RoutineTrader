@@ -10,6 +10,46 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-10 — EOD Snapshot (Day 38, Wednesday)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.1% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** CPI-day de-risking — XLE closed at market-open under rule 9
+(thesis broken). The 2026-06-03 XLE long rested on two legs: (1) US-Iran
+kinetic-escalation driving sustained Hormuz risk premium, (2) WTI ≥$90
+validity floor. Both legs structurally inverted overnight per 2026-06-10
+pre-market: (a) Iran-Israel reciprocal halt-of-attacks confirmed; (b)
+preliminary US-Iran MoU reached Thursday 6/4 with 60-day ceasefire extension
+and Hormuz reopening as the explicit MoU centerpiece; (c) WTI sustained
+below $90 multi-session (Mon ~$91 → Tue <$90 settle → Wed $89.22, with
+intraday $86 print — fired the explicit (b) validity floor); (d) OPEC+
+approved another July output increase = independent bearish supply layer;
+(e) XLE 5-day −3.34% per Barchart = leg-(b) tape rolling. Rule-9 thesis-exit
+overrides −7%/−10% rules. Closed XLE at market-open before CPI 8:30 print
+(positionID 3465795340, close orderID 1496969608) — exit ~$57.90 vs entry
+$58.25, realized −0.6% on the leg / ~−0.09% of equity (−$8.79 internal,
+including the $2.21 platform fee at open). Pre-market HOLD on new opens
+(ideas=1 close / 0 new opens, pre-CPI binary risk + thesis-broken book
+needs flat exposure not new risk). Midday no-op (positions=0; book already
+de-risked; no rule trips). Day P&L +0.1% on virtual equity (the small
++$13.51 day delta is the platform-side credit reconciliation of the
+closed XLE leg vs yesterday's mark-to-market $9,815.16 baseline; realized
+P&L −0.09% absorbed into the day move). 0 opens this week (cap 5 — week
+budget 5/5 fully preserved for post-CPI A-grade setups); 0 positions
+(cap 8); 0% invested (cap 50% per class); 100.0% cash buffer heading into
+the CPI variance event. Correct posture into 8:30 CPI: full cash, week
+budget intact, all class headroom available for the post-print read.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-06-09 — EOD Snapshot (Day 37, Tuesday)
 
 **Equity:** 98.2% of start | **Cash:** 85.2% | **Day P&L:** −0.2% | **Phase P&L:** −1.8%
