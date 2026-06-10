@@ -214,3 +214,4 @@ Percentages only — no dollar references.
 2026-06-10T13:15:35Z | pre-market | alert | Research committed; decision=CLOSE XLE (rule-9 thesis broken); ideas=1 close / 0 new opens; ClickUp alert fired
 2026-06-10T13:39:40Z | market-open | ok | Closed XLE under rule 9 (thesis broken); opens=none; positions=0; cash~100%
 2026-06-10T13:40:06Z | unknown | ok | Market-open 2026-06-10 — closed 1 position; no new opens. • XLE close: rule-9 thesis-exit (WTI sustained <$90 + preliminary US-Iran MoU + Iran-Israel halt-attacks confirmed). Realized −0.6% on the leg / ~−0.09% of equity. Post-close
+2026-06-10T15:33:21Z | midday | ok | No-op: positions=0 (XLE closed at market-open under rule-9); cash~100%; equity 98.3%; no -7% cuts, no thesis-breaks, no class-rebalance needed; pre-CPI book de-risked; opens-this-week 0/5
