@@ -218,3 +218,4 @@ Percentages only — no dollar references.
 2026-06-10T20:16:47Z | unknown | ok | 📊 Daily summary 2026-06-10 (Day 38) Equity: 98.3% of start / Day P&L: +0.1% / Phase: −1.7% Cash: 100.0% / Positions: 0 / Opens this week: 0/5 Positions: _none_ (book flat into CPI). Today: opened 0, closed 1 (XLE — rule 9 thesis brok
 2026-06-10T20:16:49Z | daily-summary | ok | EOD snapshot committed; day P&L +0.1%; equity 98.3%; cash 100.0%; 0 positions; XLE closed under rule-9 thesis-exit; book flat into CPI; opens-this-week 0/5
 2026-06-11T13:13:44Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; book 100% cash post-XLE-cut; PPI hot-headline/soft-core; weekly budget 0/5
+2026-06-11T13:36:58Z | market-open | ok | No-op: ideas=0 per RESEARCH-LOG decision=HOLD; book 100% cash (equity 98.3%); post-CPI/PPI digestion + no A-grade catalyst; opens-this-week 0/5; weekly budget preserved 5/5
