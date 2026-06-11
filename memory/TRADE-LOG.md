@@ -10,6 +10,48 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-11 — EOD Snapshot (Day 39, Thursday)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** Post-CPI / PPI-day Thursday — book held 100% cash all session after
+yesterday's 6/10 XLE rule-9 cut. Pre-market HOLD (decision=HOLD; ideas=0;
+post-CPI/PPI digestion + no A-grade catalyst cleared the gate). PPI May 2026
+printed 8:30 ET hot-headline / soft-core, mirroring CPI's Wednesday pattern
+(headline +1.1% M/M vs +0.7% consensus, +6.5% Y/Y; core +0.4% M/M vs +0.5%
+est, in line-to-soft) = energy doing the work, broad inflation not breaking
+out. ES futures +0.73% O/N to 7,331.50 on tech bargain hunting + US-Iran
+peace-talks framing. WTI ~$89.42 (−2.65% vs 6/10 settle $91.84, intraday
+range $88.61–$94.82) = the XLE exit-trigger (b) that fired yesterday is
+deepening, not reversing. US-Iran MoU still unsigned but framework on the
+table. BTC ~$61.4K open → $63K by 7:39 ET (still ~$11–13K below the $74–75K
+re-entry gate, multi-week ETF outflow streak intact); ETH ~$1,620 → $1,660
+(deep sub-$2K, outflow regime). Market-open opened-none (ideas=0 per
+RESEARCH-LOG; no A-grade lane — XLK/QQQ tech reclaim would be a bargain-hunt
+chase into hot-headline PPI tape with yields-direction unclear and no
+single-name catalyst). Midday no-op (positions=0; nothing to cut, no
+thesis-break, no class rebalance needed). Day P&L +0.0% on virtual equity
+(equity unchanged at $9,828.67 vs yesterday's same baseline — no realized
+P&L, no positions to mark, 0 opens / 0 closes / 0 trims; no rule trips).
+Week 2026-06-08 → 06-12 opens 0/5 (cap 5 — week budget 5/5 fully preserved
+heading into Friday options expiry); 0 positions (cap 8); 0% invested
+(cap 50% per class); 100.0% cash buffer. 7th straight session at ~98–100%
+cash, acceptable per the 2026-05-01 amendment (tolerate >50% cash during
+low-signal regimes) and consistent with patience > activity. Watchlist for
+the next A-grade setup: XLK/QQQ if post-PPI tape settles cleanly with 10Y
+stable and tech bid extends; BTC/ETH re-entry gates still distant; XLE
+re-entry off the table while WTI sub-$90 holds and MoU framework persists.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-06-10 — EOD Snapshot (Day 38, Wednesday)
 
 **Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.1% | **Phase P&L:** −1.7%
