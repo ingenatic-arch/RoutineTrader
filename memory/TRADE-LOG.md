@@ -10,6 +10,66 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-12 — EOD Snapshot (Day 40, Friday)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** Week-close Friday — book held 100% cash all session for the 8th
+straight session since the 6/10 XLE rule-9 cut, closing the week
+2026-06-08 → 06-12 at **0/5 opens** (weekly budget fully preserved into next
+week — the disciplined outcome of a low-signal post-CPI/PPI volatility week +
+the rule-9 cut). Pre-market HOLD (decision=HOLD; ideas=0; UMich 10:00 ET
+sentiment/inflation-expectations binary inside the first trading hour + Friday
+quarterly-OPEX-adjacent positioning unwind + ~+2.5% stretched 24h tape into
+the cash open = no A-grade pre-print entry; 7 candidates screened and rejected
+— XLK/QQQ tech bounce continuation no single-name catalyst pre-UMich /
+BTC re-entry $63.5K still ~$11–12K below the $74–75K reclaim gate outflow
+regime intact / ETH re-entry sub-$2K outflow regime intact / XLE re-entry off
+the table while WTI sub-$90 holds — $86.09 third consecutive session deepening
+the (b) trigger that fired the 6/10 cut / XLF no NIM-tailwind catalyst with
+10Y at 4.53% / XLV/XLP/XLU defensives wrong direction against risk-on tape /
+single-name pre-open earnings binaries not in v1 edge). Market context per
+today's RESEARCH-LOG: **ES +0.79% O/N to mid-7,400s** on top of Thursday's
++1.73% (relief-rally extension), **VIX ~21.29** (still elevated post-CPI/PPI
+variance week), **10Y ~4.53%** (~7bp tighter than pre-CPI on US-Iran
+de-escalation pricing), **WTI ~$86.09 (−1.85% O/N)** third consecutive
+sub-$90 session (deepening XLE-thesis inversion), **DXY 99.81 (+0.12%)**,
+**BTC ~$63.5K (+3.35% O/N)** bounce inside outflow regime, **ETH ~$1,680**
+sub-$2K, **US-Iran 60-day MoU framework on the table but NOT ratified**,
+Hormuz still effectively closed. Market-open no-op (ideas=0 per RESEARCH-LOG;
+no A-grade lane pre-UMich; week opens 0/5 preserved into close).
+Midday no-op (positions=0; nothing to cut, no thesis-break, no class
+rebalance; book remains flat post-6/10 XLE rule-9 cut). Day P&L **+0.0%** on
+virtual equity (equity unchanged at $9,828.67 vs yesterday's same baseline —
+no realized P&L, no positions to mark, 0 opens / 0 closes / 0 trims; no rule
+trips). Week 2026-06-08 → 06-12 closes **0/5 opens** (cap 5 — fresh weekly
+budget 5/5 carries into 2026-06-15 → 06-19); 0 positions (cap 8); 0% invested
+(cap 50% per class headroom fully open); 100.0% cash buffer.
+**8th straight session at ~98–100% cash**, acceptable per the 2026-05-01
+amendment ("tolerate >50% cash during low-signal regimes") and consistent
+with patience > activity — the discipline preserved the week's 5/5 opens
+budget AND avoided the post-CPI/PPI chop / UMich binary / Friday OPEX
+positioning whipsaw. Watchlist for next week per today's RESEARCH-LOG:
+**XLK/QQQ tech re-entry** if UMich prints soft → 10Y stays ≤4.55% → tech
+holds the Thu/Fri bounce levels into Monday without giving back the ~+2.5%
+run (needs single-name or fresh catalyst to upgrade to A-grade); **BTC/ETH
+re-entry** gates unchanged (BTC reclaim $74–75K + ETF flows flipping positive
+multi-day; neither hit today); **XLE re-entry** off the table while WTI
+sub-$90 and MoU framework persist; **bank-earnings tail** next earnings
+window resets the XLF setup; any A-grade single-name catalyst with confirmed
+today-catalyst + sector flow alignment + ≥2:1 R:R. Weekly review fires next
+(routine 30 16 * * 5).
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-06-11 — EOD Snapshot (Day 39, Thursday)
 
 **Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
