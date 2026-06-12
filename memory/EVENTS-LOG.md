@@ -223,3 +223,4 @@ Percentages only — no dollar references.
 2026-06-11T21:23:43Z | unknown | ok | 📊 Daily summary 2026-06-11 (Day 39) Equity: 98.3% of start / Day P&L: +0.0% / Phase: −1.7% Cash: 100.0% / Positions: 0 / Opens this week: 0/5 Positions: • None — book 100% cash since yesterday's XLE rule-9 cut. Today: opened 0, clo
 2026-06-11T21:23:48Z | daily-summary | ok | EOD snapshot committed; day P&L +0.0%; equity 98.3%
 2026-06-12T13:12:37Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; week 06-08/06-12 opens 0/5 preserved into week close
+2026-06-12T13:36:12Z | market-open | ok | No-op: ideas=0 per RESEARCH-LOG decision=HOLD; book 100% cash (equity 98.3%); week 06-08/06-12 opens 0/5 closed/preserved into next week; UMich 10:00 ET binary + Friday OPEX = no A-grade pre-print entry
