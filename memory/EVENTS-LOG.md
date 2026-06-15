@@ -231,3 +231,4 @@ Percentages only — no dollar references.
 2026-06-12T20:40:02Z | weekly-review | ok | Week committed; grade=B-; return=+0.1%; alpha=-2.9%
 2026-06-15T13:15:45Z | pre-market | ok | Research committed; decision=HOLD; ideas=0 (BTC/ETH gates unmet; XLE thesis fully inverted on US-Iran deal + WTI -5%; tech extended into Warsh first-FOMC Wed; defensives wrong-side risk-on)
 2026-06-15T13:36:09Z | market-open | ok | No-op: ideas=0 per RESEARCH-LOG decision=HOLD; book 100% cash (equity 98.3%); week 06-15/06-19 opens 0/5; rejected BTC/ETH gates unmet, XLE cool-off, XLK/QQQ extended into Warsh first-FOMC Wed 6/17, XLF/defensives no catalyst
+2026-06-15T15:34:06Z | midday | ok | No-op: positions=0; cash 100% (equity 98.3%); no -7% cuts, no thesis-breaks, no class rebalance needed; book remains flat post-6/10 XLE rule-9 cut; week 06-15/06-19 opens 0/5 preserved; Warsh first-FOMC Wed 6/17 — defensive posture maintained
