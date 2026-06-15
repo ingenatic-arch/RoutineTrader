@@ -230,3 +230,4 @@ Percentages only — no dollar references.
 2026-06-12T20:40:00Z | unknown | ok | 📅 Weekly review — week of 2026-06-08 → 2026-06-12 Return: +0.1% / S&P 500: ~+3.0% / Alpha: −2.9% / Phase: −1.7% Grade: B− Stats: 0 opened / 1 closed / Win rate 0% / Best n/a / Worst −0.6% Open EOW: 0 positions, 0% deployed (1
 2026-06-12T20:40:02Z | weekly-review | ok | Week committed; grade=B-; return=+0.1%; alpha=-2.9%
 2026-06-15T13:15:45Z | pre-market | ok | Research committed; decision=HOLD; ideas=0 (BTC/ETH gates unmet; XLE thesis fully inverted on US-Iran deal + WTI -5%; tech extended into Warsh first-FOMC Wed; defensives wrong-side risk-on)
+2026-06-15T13:36:09Z | market-open | ok | No-op: ideas=0 per RESEARCH-LOG decision=HOLD; book 100% cash (equity 98.3%); week 06-15/06-19 opens 0/5; rejected BTC/ETH gates unmet, XLE cool-off, XLK/QQQ extended into Warsh first-FOMC Wed 6/17, XLF/defensives no catalyst
