@@ -229,3 +229,4 @@ Percentages only — no dollar references.
 2026-06-12T20:17:34Z | daily-summary | ok | EOD snapshot committed; day P&L +0.0%; equity 98.3%; cash 100.0%; 0 positions; 8th straight session ~100% cash since 6/10 XLE rule-9 cut; week 06-08/06-12 closes 0/5 opens (weekly budget preserved); UMich+OPEX Friday HOLD
 2026-06-12T20:40:00Z | unknown | ok | 📅 Weekly review — week of 2026-06-08 → 2026-06-12 Return: +0.1% / S&P 500: ~+3.0% / Alpha: −2.9% / Phase: −1.7% Grade: B− Stats: 0 opened / 1 closed / Win rate 0% / Best n/a / Worst −0.6% Open EOW: 0 positions, 0% deployed (1
 2026-06-12T20:40:02Z | weekly-review | ok | Week committed; grade=B-; return=+0.1%; alpha=-2.9%
+2026-06-15T13:15:45Z | pre-market | ok | Research committed; decision=HOLD; ideas=0 (BTC/ETH gates unmet; XLE thesis fully inverted on US-Iran deal + WTI -5%; tech extended into Warsh first-FOMC Wed; defensives wrong-side risk-on)

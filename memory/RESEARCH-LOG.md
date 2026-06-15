@@ -6,7 +6,58 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
-### 2026-06-12 — Friday Pre-Market (08:00 ET) — **POST-CPI/PPI WEEK; WEEK-END FRIDAY + UMICH SENTIMENT/INFL-EXP 10:00 ET BINARY**; BOOK 100% CASH (98.3% OF $10K BASELINE) FOR 8TH STRAIGHT SESSION SINCE 6/10 XLE RULE-9 CUT; **WEEK 06-08→06-12 OPENS 0/5 FULLY PRESERVED INTO WEEK CLOSE**
+### 2026-06-15 — Monday Pre-Market (08:00 ET) — **FRESH WEEK; FOMC WEDNESDAY 6/17 IS WARSH'S FIRST MEETING AS CHAIR (binary variance event); US-IRAN PEACE AGREEMENT REPORTED + HORMUZ REOPENING "BY END OF WEEK" → WTI −5% TO ~$80; ES +1.30% O/N RELIEF-RALLY EXTENSION**; BOOK 100% CASH (98.3% OF $10K BASELINE) FOR 9TH STRAIGHT SESSION SINCE 6/10 XLE RULE-9 CUT; **WEEK 06-15 → 06-19 OPENS 0/5 FRESH BUDGET**
+
+**Snapshot:** Equity 98.3% of start | Cash 100.0% | Open positions: 0 | Week opens so far: 0 | Weekly budget remaining: 5 of 5
+
+**Market context** (as-of 2026-06-15 ~08:00 ET, percentages only; some data sources thin — flagged inline)
+- **S&P 500 futures (ESU6): ~+1.30% overnight** to **~7,594.75** (+97.25 pts vs prior settle ~7,497.50 per CME). On top of Thursday's +1.73% cash and Friday's modest grind, the **3-session relief-rally is now ~+4% gross** — driven primarily by overnight US-Iran peace-deal headlines and continued tech bargain-hunting. **VIX: no fresh overnight print** in this morning's read — carry-forward **~21.29 area** from Friday's Schwab read (likely easing further on the de-escalation gap-up; revisit midday). **US 10Y yield: no fresh overnight print** — carry-forward **~4.53%** from Friday; directional bias is lower on de-escalation pricing but the **FOMC Wed binary dominates** any rates conviction.
+- **WTI ~$80.60 (−5.04% overnight)** per CME front-month (CLN6) — **−$4.28 vs Friday settle ~$84.88**. Brent ~$83 (−4–5%). Driver: **US-Iran "peace agreement aimed at ending the conflict and reopening the Strait of Hormuz by the end of the week"** per TradingEconomics; **US official puts ~80% chance of a deal being signed "soon"**; Iranian-port blockade lifted; tied to nuclear program rollback in exchange for economic incentives. **This is the explicit rule-9-firing thesis-break thesis from 6/10 now materializing into a signed framework** — WTI now **~$10 below the $90 validity floor**, 5th consecutive session sub-$90, accelerating not consolidating. **DXY: no reliable overnight print** in this morning's sources — carry-forward **~99.8** from Friday.
+- **BTC: ~$62–64K area** per CoinDesk (overnight broke below $62K, stabilized just under $64K) — **down ~30% YTD**, near February 2026 lows. **13 consecutive days of spot-BTC-ETF outflows; ~$1.4B last week alone; ~$2.3B YTD net outflows; >$4B since 5/15.** Largest crypto-derivatives liquidation event since October hit leveraged futures last week. **MicroStrategy's first-ever BTC sale** (Saylor framed as "capital rotation to AI, not Bitcoin impairment") = largest public corporate holder turning seller, severe negative sentiment catalyst. **Clarity Act at risk of not passing this year** per JPMorgan/Citi — removes positive regulatory catalyst. **ETH: no sourced overnight % move** in this morning's read — last confirmed level ~$1,680 (deep sub-$2K); ETF-flow data not surfaced. **Both BTC and ETH gates from Friday remain materially unmet** (BTC needs $74–75K reclaim + ETF flows flipping positive multi-day; ETH needs $2K reclaim — neither hit, both regimes deepening).
+- **Today's catalysts:**
+  - **Empire State Manufacturing Index** — typical 8:30 ET window, consensus not surfaced.
+  - **Industrial Production / Capacity Utilization** — typical 9:15 ET window, consensus not surfaced.
+  - **NAHB Housing Market Index** — typical 10:00 ET window, consensus not surfaced.
+  - All three are **second-tier prints**, not market-movers in normal conditions; can move sector ETFs intraday but don't constitute pre-open A-grade catalysts.
+  - **Pre-open earnings**: AVXL, CGC, PLAY, AIOT, RFIL — all micro/small-cap, no sector implications, **no A-grade edge for this book**.
+  - **FOMC Wednesday 6/17** — **Kevin Warsh's first FOMC meeting as Fed Chair** = major **binary variance event mid-week**. Per Cornerstone, October rate-hike probability is down to 44% from 66% W/W on US-Iran de-escalation pricing; market is pricing dovish but Warsh's voice is unknown. Any pre-FOMC directional bet is poor edge.
+  - **Geopolitics**: US-Iran peace framework + Hormuz reopening "by end of week" is **the dominant tape catalyst**; Trump publicly announced; formal signing pending. SpaceX market debut also cited as risk-on driver this morning.
+- **Sector momentum (5-day through 6/12)**: Perplexity could not return precise 5-day SPDR prints this morning. Carry-forward + extrapolation: **XLK/QQQ tech reclaim continuing** (Thu +1.73% S&P + Fri grind + ES O/N +1.30% = ~+4% over 3 sessions, tech leading); **XLE deteriorating sharply** on the WTI −5% de-escalation gap; **XLF mostly flat** as 10Y eases modestly; **defensives (XLP/XLU/XLV) lagging risk-on tape**. Revisit midday if precision matters for any setup.
+
+**Holdings check**
+- **No open positions.** Book has been 100% cash for 9 straight sessions since the 2026-06-10 XLE rule-9 cut. Nothing to evaluate, nothing to defend, no thesis-break risk on existing names. Cash 100%.
+
+**Trade ideas** (0–5 per day)
+
+Screened candidates + why each was rejected this morning:
+
+1. **BTC (Bitcoin spot)** — instrumentID: `100000`, asset class: Crypto. **Rejected — re-entry gate not met, conditions deteriorating.** Friday's RESEARCH-LOG (and Thursday's, and Wednesday's) explicitly set the BTC re-entry gate at **$74–75K reclaim + spot-BTC-ETF flows flipping positive multi-day**. This morning: BTC ~$62–64K (~$11–12K below the gate), **13 consecutive days of ETF outflows, ~$1.4B last week, ~$4B+ since 5/15**, **MicroStrategy's first BTC sale**, Clarity Act stalling. Gate is not even directionally moving toward met — it's actively deepening. Reject.
+2. **ETH (Ethereum spot)** — instrumentID: `100001`, asset class: Crypto. **Rejected — re-entry gate not met.** ETH ~$1,680 deep sub-$2K; sourced ETH-ETF flow data not available this morning but no positive catalyst has surfaced; broad crypto regime is the same outflow tape as BTC. Reject.
+3. **XLE (Energy SPDR)** — instrumentID: `3008`, asset class: ETF. **Rejected — thesis fully inverted, this morning's tape is the explicit reason the 6/10 cut happened, now confirmed.** WTI $80.60 = ~$10 below the $90 validity floor that fired the rule-9 cut, 5th straight sub-$90 session, **US-Iran peace agreement with Hormuz reopening "by end of week"** = the headline-risk de-escalation path that broke the 6/3 long is now the signed deal. Re-entering long XLE this morning would be revenge-trading the opposite direction of the explicit thesis-break — exactly the behavior the strategy rule 11 ("exit a sector after 2 consecutive losers, cool off a week") guards against (XLE 5/7 −3.6% close + 6/10 −0.6% close = 2 consecutive losers in the energy sector, both rule-9 thesis-breaks; **energy is on the cool-off list through at least 6/17**). Hard reject.
+4. **XLK (Tech SPDR)** — instrumentID: `3021`, asset class: ETF. **Rejected — extended into FOMC binary, no fresh single-name catalyst.** Tech has run ~+4% over 3 sessions (Thu cash +1.73% + Fri grind + ES O/N +1.30%); chasing into Day 4 of a relief rally **48 hours before Warsh's first FOMC** is poor edge. Even if the FOMC is dovish-priced (Oct hike prob 44% from 66%), an unknown new Chair's first press conference is high binary variance; tech sells off on a hawkish surprise hardest. Wait for the FOMC print and a pullback to ~10DMA.
+5. **QQQ (Invesco Nasdaq-100)** — instrumentID: `3006`, asset class: ETF. **Rejected — same reasoning as XLK, more concentrated in mega-cap tech which carries the same FOMC-binary risk.**
+6. **XLF (Financials SPDR)** — instrumentID: `3014`, asset class: ETF. **Rejected — no catalyst today.** 10Y modestly easing on de-escalation pricing = mild NIM headwind; **no bank-earnings catalyst this week**; FOMC Wed is the next bank-relevant binary. Wait.
+7. **XLP / XLU / XLV (defensives)** — **Rejected.** Wrong side of the risk-on tape + Iran de-escalation; chasing defensives 3 sessions into a relief rally with FOMC Wed = backward-looking thesis.
+8. **AVXL / CGC / PLAY / AIOT / RFIL pre-open earnings** — **Rejected.** All micro/small-cap, no sector-flow alignment, single-name binaries are not in this strategy's edge per the established v1 framework.
+9. **Energy short** / oil-bearish setups — **Rejected** mechanically; **rule 2: longs only.**
+
+**Risk factors**
+- **FOMC Wed 6/17 is the dominant week-ahead risk.** Kevin Warsh's first meeting as Chair = unknown reaction function. Market is pricing dovish (Oct hike prob 44%) but a single hawkish phrase ("inflation entrenched", "structural energy floor") would unwind the entire 3-session relief rally and would hit tech, crypto, and equities broadly. **The correct posture is high cash into Wed**; any pre-FOMC long needs to clear an exceptionally high A-grade bar (multi-leg catalyst, asymmetric R:R, post-FOMC-still-valid thesis). Nothing today clears that.
+- **US-Iran deal signing risk is two-sided.** ~80% chance per US official means ~20% it slips or breaks; if Iran walks at the table mid-week, WTI gaps +$5–10 back up and the entire de-escalation pricing reverses. But **going long XLE into that 20% tail = lottery ticket**, not edge, and goes against the explicit rule-9 cool-off discipline.
+- **Crypto regime is degrading, not stabilizing.** 13-day ETF outflow streak + MSTR turning seller + Clarity Act stall = three independent negative catalysts compounding. Even if BTC bounces from $62K toward $70K this week, the **gate explicitly requires the $74–75K reclaim AND flows flipping positive multi-day** — a relief-bounce alone is not the gate.
+- **Cash drag (9th straight session at ~100% cash) accumulates against the patience-vs-activity dial.** Acceptable per the 2026-05-01 amendment ("tolerate >50% cash during low-signal regimes") and reinforced by the FOMC binary mid-week, but if Wed's FOMC clears benignly AND a fresh single-name or sector catalyst lights up post-Fed, Thu/Fri pre-markets must re-evaluate aggressively — patience does not mean indefinite inaction.
+- **Data quality caveat.** This morning's Perplexity returned thin VIX/10Y/DXY/sector-precision data again. Carry-forwards used where flagged; if cash-market reads contradict materially in the first hour, midday should reassess.
+
+**Watchlist (for the week 06-15 → 06-19)**
+- **XLK / QQQ** — re-evaluate post-FOMC Wed 6/17. A dovish print + healthy retracement of the ~+4% 3-session run = clean A-grade setup for Thu/Fri.
+- **XLF** — same, post-FOMC. If yields stabilize and Warsh signals patience, banks set up well.
+- **BTC / ETH** — gates unchanged: BTC $74–75K reclaim + multi-day flow flip; ETH $2K reclaim. Until then, the regime is the wrong side of the trade.
+- **XLE / energy** — off the table this week (rule-11 cool-off + thesis-broken tape).
+- **Any A-grade single-name with confirmed today-catalyst + sector flow + ≥2:1 R:R** — always eligible, none today.
+
+**Decision:** **HOLD.** No new opens today. No trims required (account is flat). Opens-this-week stays 0; weekly budget of 5 fully intact. Defer any directional bet to **post-FOMC Wed 6/17** at minimum. The dominant edge today is preserving the 5/5 weekly opens budget and the 100% cash buffer into the FOMC variance event, NOT chasing the 3rd consecutive session of a relief rally into an unknown Chair's first press conference.
+
+---
 
 **Snapshot:** Equity 98.3% of start | Cash 100.0% | Open positions: 0 | Week opens so far: 0 | Weekly budget remaining: 5 of 5
 
