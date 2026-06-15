@@ -10,6 +10,47 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-15 — EOD Snapshot (Day 41, Monday)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** Fresh-week Monday — book held 100% cash all session for the 9th
+straight session since the 6/10 XLE rule-9 cut. New weekly budget 5/5 opens
+opens 2026-06-15 → 06-19. Pre-market HOLD (decision=HOLD; ideas=0; no
+A-grade catalyst cleared the gate — XLK/QQQ tech continuation needs single-
+name catalyst not delivered + BTC re-entry $63.5K still ~$11–12K below the
+$74–75K reclaim gate with outflow regime intact + ETH sub-$2K outflow regime
+intact + XLE re-entry off the table while WTI sub-$90 and US-Iran MoU
+framework persist + XLF no NIM-tailwind catalyst with 10Y elevated +
+XLV/XLP/XLU defensives wrong direction against risk-on tape + single-name
+pre-open earnings binaries not in v1 edge). Market-open opened-none (ideas=0
+per RESEARCH-LOG; no A-grade lane). Midday no-op (positions=0; nothing to
+cut, no thesis-break, no class rebalance; book remains flat post-6/10 XLE
+rule-9 cut). Day P&L +0.0% on virtual equity (equity unchanged at $9,828.67
+vs Friday's same baseline — no realized P&L, no positions to mark, 0 opens /
+0 closes / 0 trims; no rule trips). Week 2026-06-15 → 06-19 opens 0/5 (cap 5
+— fresh weekly budget fully intact); 0 positions (cap 8); 0% invested (cap
+50% per class headroom fully open); 100.0% cash buffer. 9th straight session
+at ~98–100% cash, acceptable per the 2026-05-01 amendment ("tolerate >50%
+cash during low-signal regimes") and consistent with patience > activity.
+Watchlist for the week unchanged from Friday: **XLK/QQQ tech re-entry** if a
+fresh single-name catalyst lands and 10Y stays contained; **BTC/ETH
+re-entry** gates ($74–75K reclaim + ETF flows flipping positive multi-day);
+**XLE re-entry** off the table while WTI sub-$90 and MoU framework persist;
+**bank-earnings tail** next earnings window resets the XLF setup; any
+A-grade single-name catalyst with confirmed today-catalyst + sector flow
+alignment + ≥2:1 R:R.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-06-12 — EOD Snapshot (Day 40, Friday)
 
 **Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
