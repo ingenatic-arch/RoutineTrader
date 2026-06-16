@@ -234,3 +234,4 @@ Percentages only — no dollar references.
 2026-06-15T15:34:06Z | midday | ok | No-op: positions=0; cash 100% (equity 98.3%); no -7% cuts, no thesis-breaks, no class rebalance needed; book remains flat post-6/10 XLE rule-9 cut; week 06-15/06-19 opens 0/5 preserved; Warsh first-FOMC Wed 6/17 — defensive posture maintained
 2026-06-15T20:17:22Z | unknown | ok | 📊 Daily summary 2026-06-15 (Day 41) Equity: 98.3% of start / Day P&L: +0.0% / Phase: −1.7% Cash: 100.0% / Positions: 0 / Opens this week: 0/5 _No open positions._ Today: opened 0, closed 0, trimmed 0. 9th straight session at ~98–100%
 2026-06-15T20:17:33Z | daily-summary | ok | EOD snapshot committed; day P&L +0.0%; equity 98.3%
+2026-06-16T13:21:50Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; FOMC eve patience
