@@ -10,6 +10,46 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-16 — EOD Snapshot (Day 42, Tuesday)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** FOMC-eve Tuesday — book held 100% cash all session for the **10th
+straight session** since the 6/10 XLE rule-9 cut. Pre-market HOLD
+(decision=HOLD; ideas=0; Warsh first-FOMC Wed 6/17 binary inside 24h + no
+A-grade catalyst cleared the gate — BTC/ETH gates unmet, XLE thesis fully
+inverted on US-Iran deal + WTI sub-$90, tech extended into FOMC eve,
+XLF/defensives no catalyst). Market-open opened-none (ideas=0 per
+RESEARCH-LOG; no A-grade lane on FOMC eve — patience > activity).
+Midday no-op (positions=0; nothing to cut, no thesis-break, no class
+rebalance needed). Day P&L **+0.0%** on virtual equity (equity unchanged
+at $9,828.67 vs Monday's same baseline — no realized P&L, no positions to
+mark, 0 opens / 0 closes / 0 trims; no rule trips). Week 2026-06-15 → 06-19
+opens **0/5** (cap 5 — weekly budget fully intact heading into FOMC Wed);
+0 positions (cap 8); 0% invested (cap 50% per class headroom fully open);
+100.0% cash buffer. **10th straight session at ~98–100% cash**, acceptable
+per the 2026-05-01 amendment ("tolerate >50% cash during low-signal
+regimes") and consistent with patience > activity — the disciplined
+posture preserves the week's 5/5 opens budget into the Warsh first-FOMC
+binary and any post-FOMC re-grade opportunity Thu pre-market. Watchlist
+heading into FOMC Wed unchanged: **post-FOMC tech re-grade** if Warsh
+signals dovish-hold and 10Y stays contained (then XLK/QQQ continuation
+could clear gate Thu pre-market); **BTC/ETH re-entry** gates unchanged
+($74–75K reclaim + ETF flows flipping positive multi-day); **XLE re-entry**
+off the table while WTI sub-$90 and US-Iran MoU framework persist;
+**bank-earnings tail** for next XLF setup; any A-grade single-name catalyst
+with confirmed today-catalyst + sector flow alignment + ≥2:1 R:R.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-06-15 — EOD Snapshot (Day 41, Monday)
 
 **Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
