@@ -235,3 +235,4 @@ Percentages only — no dollar references.
 2026-06-15T20:17:22Z | unknown | ok | 📊 Daily summary 2026-06-15 (Day 41) Equity: 98.3% of start / Day P&L: +0.0% / Phase: −1.7% Cash: 100.0% / Positions: 0 / Opens this week: 0/5 _No open positions._ Today: opened 0, closed 0, trimmed 0. 9th straight session at ~98–100%
 2026-06-15T20:17:33Z | daily-summary | ok | EOD snapshot committed; day P&L +0.0%; equity 98.3%
 2026-06-16T13:21:50Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; FOMC eve patience
+2026-06-16T13:36:24Z | market-open | ok | No-op: ideas=0 per RESEARCH-LOG decision=HOLD; book 100% cash (equity 98.3%); week 06-15/06-19 opens 0/5 preserved; 10th straight session flat; FOMC binary Warsh first-meeting Wed 6/17 → patience>activity, re-eval post-FOMC Wed PM/Thu pre-market
