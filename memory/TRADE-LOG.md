@@ -10,6 +10,52 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-17 — EOD Snapshot (Day 43, Wednesday)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** FOMC-day Wednesday (Warsh's first FOMC) — book held 100% cash all
+session for the **11th straight session** since the 6/10 XLE rule-9 cut.
+Pre-market HOLD (decision=HOLD; ideas=0; Warsh-first-FOMC 14:00 ET +
+press-conf 14:30 ET binary inside the cash session + Juneteenth Fri 6/19 US
+closed + no A-grade catalyst cleared the gate — BTC/ETH re-entry gates
+unmet (BTC ~$64.9K vs $74–75K reclaim; ETH ~$1,757 vs $2K reclaim; outflow
+regime intact), XLE rule-11 cool-off binds (WTI sub-$90 + US-Iran MoU
+framework persists), QQQ live pre-market -1.2% de-risking into print = no
+chase, VIX crushed to ~17 on Iran de-escalation pricing, defensives wrong
+direction against the de-risk-into-print tape). Market-open opened-none
+(ideas=0 per RESEARCH-LOG; no A-grade lane on FOMC day — committing into a
+binary print on equity-cash is gambling on direction, not edge). Midday
+no-op (positions=0; nothing to cut, no thesis-break, no class rebalance).
+Day P&L **+0.0%** on virtual equity (equity unchanged at $9,828.67 vs
+yesterday's same baseline — no realized P&L, no positions to mark, 0 opens
+/ 0 closes / 0 trims; no rule trips). Week 2026-06-15 → 06-19 opens **0/5**
+(cap 5 — weekly budget fully intact heading into post-FOMC Thu pre-market
+re-aggression checkpoint, then Juneteenth Fri 6/19 US closed); 0 positions
+(cap 8); 0% invested (cap 50% per class headroom fully open); 100.0% cash
+buffer. **11th straight session at ~98–100% cash**, acceptable per the
+2026-05-01 amendment ("tolerate >50% cash during low-signal regimes") —
+the disciplined posture preserves the week's 5/5 opens budget through the
+Warsh first-FOMC binary and into Thu pre-market's explicit re-aggression
+checkpoint (Friday is closed Juneteenth). Watchlist heading into Thu
+pre-market: **post-FOMC tech re-grade** if Warsh signals dovish-hold +
+SEP/dot-plot constructive + 10Y stays contained → XLK/QQQ continuation
+could clear gate Thu; **BTC/ETH re-entry** gates unchanged ($74–75K
+reclaim + ETF flows flipping positive multi-day); **XLE re-entry** off the
+table while WTI sub-$90 and US-Iran MoU framework persist; **any A-grade
+single-name catalyst** with confirmed today-catalyst + sector flow
+alignment + ≥2:1 R:R.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-06-16 — EOD Snapshot (Day 42, Tuesday)
 
 **Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
