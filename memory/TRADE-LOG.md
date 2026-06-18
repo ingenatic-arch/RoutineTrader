@@ -10,6 +10,57 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-18 — EOD Snapshot (Day 44, Thursday)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** Post-FOMC digestion Thursday — book held 100% cash all session for
+the **12th straight session** since the 6/10 XLE rule-9 cut. Pre-market HOLD
+(decision=HOLD; ideas=0 deployable; XLF Tier-2 NIM-positive trigger DID clear
+on hawkish-dot-plot (median 3.4% → 3.8%, 2Y +11 bp) but graded B+ not A-grade;
+3 binaries stacked today — initial claims 8:30, Philly Fed 8:30, LEI 10:00 —
+ON TOP of 3-day-weekend + Iran-Switzerland formal signing Fri 6/19 (US
+markets CLOSED Juneteenth); yesterday's A-grade tech-long conditional
+("dovish-hold or remove easing bias without explicit hike-signal") was
+DECISIVELY negated by the hawkish print + explicit 9/18-officials hike-signal
++ 10Y carry-forward ~4.55–4.60% above the ≤4.55% gate, QQQ flat pre-market
+vs ES +0.85% confirming tech not participating; XLE thesis structurally
+inverted (WTI ~$80 day-6+ sub-$90, XLE −6.26% Wed = tape pricing the Friday
+signing); BTC/ETH gates structurally unmet and widening (BTC ~$64.4K vs
+$74–75K reclaim gate ~$10K below; ETH ~$1,750 vs $2K reclaim gate ~14%
+below); defensives XLP/XLU duration-hit by hawkish dot-plot — wrong vehicle).
+Market-open opened-none (decision=HOLD per RESEARCH-LOG; XLF Tier-2 B+ +
+3-binary stack + 3-day-weekend + Iran-signing tail = wait for Mon 6/22
+post-Juneteenth re-grade). Midday no-op (0 positions; nothing to defend,
+cut, or rebalance). Day P&L **+0.0%** on virtual equity (equity unchanged at
+$9,828.67 vs Wednesday's same baseline — no realized P&L, no positions to
+mark, 0 opens / 0 closes / 0 trims; no rule trips). Week 2026-06-15 → 06-19
+opens **0/5** — full weekly budget preserved and week now closed (Fri 6/19
+Juneteenth US closed; today was the week's last trading session). 0
+positions (cap 8); 0% invested (cap 50% per class headroom fully open);
+100.0% cash buffer. **12th straight session at ~98–100% cash**, acceptable
+per the 2026-05-01 amendment ("tolerate >50% cash during low-signal
+regimes") — patience-now ≠ patience-indefinite; post-FOMC + post-signing
+tape should produce a deployable A-grade catalyst within the next 3–5
+sessions. Watchlist into Mon 6/22 post-Juneteenth re-grade: **XLF Tier-2
+NIM-positive lane** (NIM-shift doesn't decay over a 3-day weekend; verify
+credit spreads haven't ripped on recession-concerns); **post-signing crude
+re-pricing** could re-grade XLE/XLE-related lanes; **BTC/ETH re-entry** gates
+unchanged ($74–75K / $2K reclaims + multi-day ETF-flow flip); **FedEx (FDX)
+earnings 6/23** as proximate A-grade industrials catalyst; **any A-grade
+single-name catalyst** with confirmed today-catalyst + sector flow alignment
++ ≥2:1 R:R.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-06-17 — EOD Snapshot (Day 43, Wednesday)
 
 **Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
