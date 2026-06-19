@@ -10,6 +10,61 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-19 — EOD Snapshot (Day 45, Friday — Juneteenth, US markets closed)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** Juneteenth Friday — US equity markets CLOSED all session (NYSE/Nasdaq
+observed federal-holiday closure; book held 100% cash for the **13th straight
+session** since the 6/10 XLE rule-9 cut). Pre-market HOLD on a closed-venue
+day (decision=HOLD; ideas=0 — by construction no equity/ETF open is possible
+when the venue is closed; only crypto/24×7 instruments theoretically tradeable
+and BTC/ETH gates structurally unmet and widening: BTC ~$62.4K vs the $74–75K
+reclaim gate ~$12K below — gap WIDENED ~$2K vs Thu's ~$10K; ETH carry-forward
+sub-$2K by ~13–15%; outflow regime intact for both). Iran-Switzerland MoU
+formal signing today was largely ceremonial — the operative MoU framework
+already e-signed earlier in the week and the post-FOMC + post-signing crude
+re-pricing already baked into Thu's tape (no fresh oil/XLE re-grade catalyst
+delivered into the close). Market-open no-op (venue closed — no XLK/XLF/XLI/
+XLE/XLP/XLU/single-name long openable; crypto gates structurally unmet).
+Midday no-op (positions=0; nothing to defend, cut, trim, or rebalance).
+Day P&L **+0.0%** on virtual equity (equity unchanged at $9,828.67 vs
+yesterday's same baseline — no realized P&L, no positions to mark, 0 opens
+/ 0 closes / 0 trims; no rule trips). Week 2026-06-15 → 06-19 closes
+**0/5 opens** (cap 5 — full weekly budget preserved, week now FINAL;
+fresh budget 5/5 carries into 2026-06-22 → 06-26); 0 positions (cap 8);
+0% invested (cap 50% per class headroom fully open); 100.0% cash buffer.
+**13th straight session at ~98–100% cash**, acceptable per the 2026-05-01
+amendment ("tolerate >50% cash during low-signal regimes") — patience-now
+≠ patience-indefinite, but the discipline is justified: the post-FOMC
+hawkish dot-plot + the explicit 9/18-officials hike-signal + 10Y
+carry-forward elevated + 3-day-weekend + Iran-signing tail collectively
+argued for waiting through the close. Watchlist into Mon 6/22 post-Juneteenth
+re-grade (priority order): **XLF Tier-2 NIM-positive lane** (NIM-shift
+doesn't decay over a 3-day weekend; verify credit spreads haven't ripped
+on recession concerns over the long weekend; potential B+ → A- upgrade
+if 10Y stabilizes ≤4.55% and KRE/regional-bank breadth confirms);
+**post-signing crude re-pricing** (any Mon WTI move ≥+3% on Hormuz
+re-opening unwind or supply-snapback narrative could re-grade XLE/XOM/CVX
+lanes — though the structural inversion holds and the bar is high);
+**BTC/ETH re-entry** (gates unchanged at $74–75K reclaim + multi-day
+ETF-flow flip positive; current gap widening — pat for now);
+**FedEx (FDX) earnings Tue 6/23 AMC** as proximate A-grade industrials
+catalyst (XLI exposure if guidance constructive on global-freight demand);
+**any A-grade single-name catalyst** with confirmed today-catalyst +
+sector flow alignment + ≥2:1 R:R. Weekly review routine (`30 16 * * 5`)
+to follow this commit.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-06-18 — EOD Snapshot (Day 44, Thursday)
 
 **Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
