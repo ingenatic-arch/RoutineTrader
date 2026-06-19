@@ -254,3 +254,5 @@ Percentages only — no dollar references.
 2026-06-19T15:33:31Z | midday | ok | Closed: none; trimmed: none; positions=0 (100% cash)
 2026-06-19T20:18:35Z | unknown | ok | 📊 Daily summary 2026-06-19 (Day 45 — Juneteenth, US markets closed) Equity: 98.3% of start / Day P&L: +0.0% / Phase: −1.7% Cash: 100.0% / Positions: 0 / Opens this week: 0/5 (WEEK-FINAL) _No open positions._ Today: opened 0, closed 0
 2026-06-19T20:18:41Z | daily-summary | ok | EOD snapshot committed; day P&L +0.0%; equity 98.3%; cash 100.0%; 0 positions; Juneteenth US markets closed all session; 13th straight session ~100% cash since 6/10 XLE rule-9 cut; week 06-15/06-19 closes 0/5 opens (WEEK-FINAL); fresh 5/5 budget carries into 06-22 → 06-26; no rule trips; weekly review fires next
+2026-06-19T20:39:26Z | unknown | ok | 📅 Weekly review — week of 2026-06-15 → 2026-06-19 Return: +0.0% / S&P 500: +0.93% / Alpha: −0.9% / Phase: −1.7% Grade: B Stats: 0 opened / 0 closed / Win rate n/a / Best n/a / Worst n/a Open EOW: 0 positions, 0% deployed (100% ca
+2026-06-19T20:39:27Z | weekly-review | ok | Week committed; grade=B; return=+0.0%; alpha=-0.9%
