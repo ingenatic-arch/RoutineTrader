@@ -10,6 +10,62 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-22 — EOD Snapshot (Day 46, Monday)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** First post-Juneteenth + first post-FOMC cash-session Monday — book
+held 100% cash all session for the **14th straight session** since the 6/10
+XLE rule-9 cut. Pre-market HOLD (decision=HOLD; ideas=0 — Iran-Switzerland
+MoU formal signing DELAYED (not walked-away, not confirmed — Swiss
+implementation talks postponed per Reuters/wires) + Iran again declared
+Strait of Hormuz closed YET Brent ~$78.7–79.2 / WTI ~$76.15 −2% O/N (tape
+treating the closure as partial/porous — 4 Qatari LNG tankers transited Mon
+despite broader shipping slowdown; Hormuz-premium already baked in from
+prior weeks) — XLE narrative supportive but **tape rejecting** (WTI −2%
+O/N) = lane fails confirmation; XLK closed Thu 6/18 +3.04% absorbing the
+hawkish FOMC dot-plot but extended into Mon without today-catalyst (no
+A-grade lane); XLF Tier-2 NIM-positive trigger structurally valid but
+**tape rejected** post-FOMC (Thu −0.89%) — downgrades the lane; BTC ~$65K
+still ~$10K / 13% below the $74–75K reclaim gate (weekend bounce from
+~$62.4K but gate unmet); ETH carry-forward sub-$2K; LEI 10:00 ET minor
+binary). Market-open opened-none (decision=HOLD per RESEARCH-LOG; no
+A-grade lane clears the gate). Midday no-op (positions=0; nothing to
+defend, cut, trim, or rebalance). Day P&L **+0.0%** on virtual equity
+(equity unchanged at $9,828.67 vs Fri's same baseline — no realized P&L,
+no positions to mark, 0 opens / 0 closes / 0 trims; no rule trips). Fresh
+week 2026-06-22 → 06-26 opens **0/5** (cap 5 — weekly budget fully intact);
+0 positions (cap 8); 0% invested (cap 50% per class headroom fully open);
+100.0% cash buffer. **14th straight session at ~98–100% cash**, acceptable
+per the 2026-05-01 amendment ("tolerate >50% cash during low-signal
+regimes") — the disciplined posture is justified: the post-FOMC + post-
+signing-delay tape is mixed (XLK tape-confirmed but extended w/o today-
+catalyst; XLF NIM-valid but tape-rejected; XLE narrative-supportive but
+tape-rejecting; BTC/ETH gates unmet; crude tape contradicting the Hormuz-
+closure declaration). Watchlist into Tue 6/23 pre-market re-grade: **FedEx
+(FDX) earnings Tue AMC** as proximate A-grade industrials catalyst (XLI
+exposure if guidance constructive on global-freight demand); **XLK
+follow-through** if Mon close holds the +3.04% Thu absorption with a
+today-catalyst (mega-cap earnings/guidance, AI capex print, or sector
+flow); **XLF re-grade** if Mon tape stabilizes and credit spreads tighten
+post-FOMC digestion (NIM-shift doesn't decay over 24h); **post-MoU-delay
+crude re-pricing** if Tue WTI moves materially (≥+3% on Hormuz-closure
+escalation or ≤−2% on signing-back-on-the-table); **BTC/ETH re-entry**
+gates unchanged ($74–75K reclaim + multi-day ETF-flow flip positive — gap
+narrowed slightly on weekend bounce but still ~13% below); **any A-grade
+single-name catalyst** with confirmed today-catalyst + sector flow
+alignment + ≥2:1 R:R.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-06-19 — EOD Snapshot (Day 45, Friday — Juneteenth, US markets closed)
 
 **Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
