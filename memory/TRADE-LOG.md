@@ -10,6 +10,85 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-24 — EOD Snapshot (Day 48, Wednesday)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** Wednesday T+3 of the post-Juneteenth fresh week — book held 100%
+cash all session for the **16th straight session** since the 6/10 XLE rule-9
+cut. Pre-market HOLD (decision=HOLD; ideas=0 — Iran-MoU narrative re-twisted
+again (today's Perplexity read: NOT signed / interim deal "in dispute" /
+Iran's 6/20 Strait of Hormuz closure remains contested / Swiss-hosted talks
+ongoing / "limited exchanges" + tanker harassment continuing — reverses
+yday's "interim deal in force" confidence framing), BUT the tape does not
+care: WTI CLN6 ~$72.08 −1.5% O/N (day-14+ sub-$80, **day-2 sub-$74**, $1.4
+/ −1.9% below yday pre-mkt $73.5) — supply-bearish price action continuing
+regardless of MoU narrative flips (OPEC+ July output add + Hormuz partial
+transits resuming apparently dominating the price); DXY ~101.7 +0.27% O/N
+(~+0.6% vs yday 101.05, now pushing 52-wk highs — hawkish-Fed divergence
+carry intact); **ES futures conflicting reads — one source +0.16% at 6:53
+ET (ES Sept 7,449.50), another −1.26% "this morning" — data-quality flag,
+no clean overnight signal**; VIX/10Y no fresh prints (carry-forward VIX
+~16.78 / 10Y ~4.46–4.51%); **XLK cash-market 6/23 close $184.99 = −3.73%
+from 6/22 $192.15** = severe 1-day reversal (post-FOMC relief-rally
+unwound in a single Tuesday session) — tech lane even further off,
+watchlist gate ≤$187 satisfied on price but absent today-catalyst +
+10Y still above 4.40% = lane not actionable; **FedEx (FDX) Q4 FY26
+reported last night: beat EPS $6.31 vs $5.96 cons / revenue $25.01B vs
+$24.04B, but margin/earnings guidance soft (~11% rev growth at falling
+margins) → stock −5%+ AH on top of −3.6% reg-session** = industrials
+read-through soft (volume OK, margin risk elevated), transports/logistics
+under pressure = no XLI lane; BTC ~$62,752 −1.98% / 24h (~$2K lower vs
+yday $63,957; spot-BTC-ETF latest-day −$114M = 4th consecutive outflow
+day, regime intact); ETH ~$1,680 −1 to −2% / 24h (sub-$2K) — both crypto
+gates still unmet by ~$11–12K / ~17% (BTC) and ~$320 / ~16% (ETH),
+widening not narrowing; today's catalyst deck: MBA mortgage apps 7:00 ET
+(tier-3), New Home Sales May 10:00 ET (cons ~622K vs prior 632K = mild
+miss expected, housing binary not edge), LEI May 10:00 ET (cons +0.1%
+front-month growth signal), BLS productivity/unit-labor-costs by industry
+10:00 ET (tier-3); no major US large-cap pre-open earnings — small-cap
+slate only). Market-open opened-none (decision=HOLD per RESEARCH-LOG;
+ideas=0; no A-grade lane clears the gate). Midday no-op (positions=0;
+nothing to defend, cut, trim, or rebalance). Day P&L **+0.0%** on virtual
+equity (equity unchanged at $9,828.67 vs Tue's same baseline — no realized
+P&L, no positions to mark, 0 opens / 0 closes / 0 trims; no rule trips).
+Week 2026-06-22 → 06-26 opens **0/5** (cap 5 — full budget preserved T+3
+of 5-session week, 5 of 5 intact for any A-grade lane Thu/Fri post-FDX
+digestion, post-housing prints, mid-week tech/financials re-read); 0
+positions (cap 8); 0% invested (cap 50% per class headroom fully open);
+100.0% cash buffer. **16th straight session at ~98–100% cash**, acceptable
+per the 2026-05-01 amendment ("tolerate >50% cash during low-signal
+regimes") — the disciplined posture is justified: calm VIX 16.78 + 10Y
+carry-forward 4.46–4.51% (still above 4.40% tech-gate) + WTI bearish
+day-14+ sub-$80 day-2 sub-$74 + XLK −3.73% single-day unwind shows
+post-FOMC relief was fragile + FDX soft guide kills XLI lane + no A-grade
+catalyst = correct posture is dry powder, not deployment. Watchlist into
+Thu 6/25 pre-market re-grade: **XLK pullback follow-through** (gate ≤$187
+satisfied on price; needs 10Y sub-4.40% + fresh AI/semis catalyst + tape
+stabilization for re-entry — chase risk if relief-rally restarts without
+those gates); **XLF re-engage** on two consecutive green sessions
+confirming NIM-positive bid post-FOMC, or XLF outperforms XLK ≥0.5% on a
+session as inverse-rotation evidence (NIM-shift thesis structurally
+valid, awaiting tape confirmation); **XLI lane re-grade** post-FDX
+margin-guide digestion (if transports/logistics stabilize Thu/Fri despite
+FDX, the lane re-opens; otherwise wait for a different catalyst);
+**post-MoU crude re-pricing tail** unchanged (XLE re-entry gated on MoU
+collapses + Hormuz full-shutdown headline + WTI ≥$85 sustained 2 sessions
+— current narrative + tape both bearish); **BTC/ETH re-entry** gates
+unchanged ($74–75K reclaim + multi-day ETF-flow flip positive — gap
+widening on 4-day outflow streak); **any A-grade single-name catalyst**
+with confirmed today-catalyst + sector flow alignment + ≥2:1 R:R.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-06-23 — EOD Snapshot (Day 47, Tuesday)
 
 **Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
