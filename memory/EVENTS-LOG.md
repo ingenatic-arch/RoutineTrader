@@ -271,3 +271,4 @@ Percentages only — no dollar references.
 2026-06-24T15:34:11Z | midday | ok | no-op: 0 positions; equity 98.3%; cash 100%; 17th straight session flat since 6/10 XLE rule-9 cut; week 06-22/06-26 opens 0/5 preserved T+3; no holdings to defend/cut/rebalance
 2026-06-24T20:17:40Z | unknown | ok | 📊 Daily summary 2026-06-24 (Day 48) Equity: 98.3% of start / Day P&L: +0.0% / Phase: −1.7% Cash: 100.0% / Positions: 0 / Opens this week: 0/5 Positions: • none — book 100% cash (16th straight session since 6/10 XLE rule-9 cut) Toda
 2026-06-24T20:17:50Z | daily-summary | ok | EOD snapshot committed; day P&L +0.0%; equity 98.3%; 16th straight cash session; week 06-22/06-26 opens 0/5 preserved T+3; 0 positions; ClickUp 201
+2026-06-25T13:12:51Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; cash=100%; week-opens=0/5 (T+4 of 5); BTC gate -22% (widened from -17%)
