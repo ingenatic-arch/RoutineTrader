@@ -10,6 +10,87 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-26 — EOD Snapshot (Day 50, Friday)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** Friday T+5 — final session of week 06-22 → 06-26 and **month/quarter-end** —
+book held 100% cash all session for the **19th straight session** since the
+6/10 XLE rule-9 cut. Pre-market HOLD (decision=HOLD; ideas=0 — PCE-day setup
+was an explicit two-sided binary that violated the pre-buy gate: May headline
+PCE consensus +0.4% m/m / +4.1% y/y and core +0.3% m/m / +3.4% y/y, with
+4.1% the highest since Apr-2023 and macro commentary explicitly flagging
+"Fed hike on the table" if the print runs hot — no pre-position edge in
+either direction; UMich final June 10:00 ET secondary; ES Sep ~7,370 −0.71%
+O/N risk-off into the print; VIX 18.89 last close = +12.6% over the
+carry-forward 16.78 = first material vol expansion of the week confirming
+event-risk premium being priced in; 10Y eased to ~4.38% / 8–13bp below yday
+back below the 4.40% tech-gate but on event-anticipation not durable
+duration relief; gold ATH $3,052 +0.6% O/N flight bid; WTI ~$70.26 −2.3%
+O/N day-16+ sub-$80 day-4+ sub-$74 — XLE thesis deeper inverted into
+month-end; DXY ~101.2 −0.22% still in 52-wk-high band; BTC ~$59–61K /
+ETH ~$1,575 −3.4%/24h — crypto gates widening to ~−22% / ~−21%; Iran
+narrative remained constructive (60-day roadmap framing, VP Vance
+"good foundation" remark, US waived some sanctions = first tangible
+delivery) but tape dominant; no scheduled Fed speakers; no tier-1
+pre-open earnings; no A-grade lane clears the gate; month/quarter-end
+rebalance window = single-session dislocations possible into the cash
+close but not today-tradable on a two-sided macro binary). Market-open
+opened-none (decision=HOLD per RESEARCH-LOG; PCE-day binary blocker;
+ideas=0; no lane clears the gate). Midday no-op (positions=0; nothing to
+defend, cut, trim, or rebalance). Day P&L **+0.0%** on virtual equity
+(equity unchanged at $9,828.67 vs Thu's same baseline — no realized P&L,
+no positions to mark, 0 opens / 0 closes / 0 trims; no rule trips).
+Week 06-22 → 06-26 closes **0/5 opens** (cap 5 — full budget unused for
+the **3rd consecutive week**: 06-08/06-12 0/5, 06-15/06-19 0/5,
+06-22/06-26 0/5; 7 rejected candidates logged across the week's research,
+zero cleared the A-grade gate); 0 positions (cap 8); 0% invested (cap
+50% per class headroom fully open); 100.0% cash buffer. **19th straight
+session at ~98–100% cash**, acceptable per the 2026-05-01 amendment
+("tolerate >50% cash during low-signal regimes") — disciplined posture
+justified across the week by: VIX 16.78 → 18.89 (calm regime expanding
+only into the PCE print) + 10Y carry-forward 4.46–4.51% above the 4.40%
+tech-gate until today's event-anticipation easing + WTI bearish day-16+
+sub-$80 / day-4+ sub-$74 / first sub-$70 print Thu = XLE thesis deeper
+inverted not less + BTC/ETH gates *widened* materially across the week
+(BTC −17% → −22%; ETH −16% → −21%) + 13-day BTC-ETF outflow streak
+~$4.4B intact + Iran narrative re-flipped constructive but tape
+dominant + no A-grade single-name catalyst = correct posture is dry
+powder. Friday's outcome will be tomorrow's pre-market read (post-PCE
+tape direction + month/quarter-end positioning carry-over). Watchlist
+into Mon 6/29 week 06-29 → 07-03 fresh budget (5/5 opens available,
+pre-Fri July-4 holiday-shortened or full week pending calendar):
+**post-PCE rate-print durability** — if 10Y holds sub-4.40% on a
+non-hot print, the tech-gate re-opens; if 10Y reverses on a hot print,
+duration carry stays adverse; **XLK pullback follow-through** (gate
+≤$187 satisfied on price; needs 10Y sub-4.40% durable + fresh
+AI/semis catalyst + tape stabilization for re-entry); **XLF NIM
+re-engage** on two consecutive green sessions confirming NIM-positive
+bid (NIM-shift thesis structurally valid, awaiting tape confirmation
+that has not arrived for ~3 weeks); **post-MoU crude re-pricing tail**
+fully inverted (XLE re-entry gated on MoU collapses + WTI ≥$85
+sustained 2 sessions — current narrative constructive + tape day-16+
+bearish = lane structurally off); **BTC/ETH re-entry** gates unchanged
+($74–75K reclaim + multi-day ETF-flow flip positive — gaps widened
+sharply across the week, 13-day outflow streak intact); **any A-grade
+single-name catalyst** with confirmed today-catalyst + sector flow
+alignment + ≥2:1 R:R; **month/quarter-end positioning carry-over**
+into early-July tape could create lane-clearing dislocations or
+just-as-easily a thin holiday-week tape that doesn't reward
+deployment — stay disciplined. Friday weekly review will grade the
+0/5/0/5/0/5 three-week sequence: discipline preserved across a
+multi-week low-signal regime is the meta-rule honored, not a failure.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-06-25 — EOD Snapshot (Day 49, Thursday)
 
 **Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
