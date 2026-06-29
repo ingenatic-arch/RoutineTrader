@@ -285,3 +285,4 @@ Percentages only — no dollar references.
 2026-06-26T20:39:13Z | unknown | ok | 📅 Weekly review — week of 2026-06-22 → 2026-06-26 Return: +0.0% / S&P 500: ~−1.9% / Alpha: +1.9% / Phase: −1.7% 60/40 proxy: ~−3.8% / Alpha vs 60/40: +3.8% Grade: A− Stats: 0 opened / 0 closed / Win rate n/a / Best n/a / Wors
 2026-06-29T13:16:38Z | pre-market | ok | Research committed; decision=HOLD; ideas=0
 2026-06-29T13:36:50Z | market-open | ok | Opened: none; positions=0; pre-buy gate passed 0 ideas; today RESEARCH-LOG decision=HOLD (20th straight cash session since 6/10 XLE rule-9 cut; week 06-29/07-03 opens 0/5 T+0 of 4); no A-grade lane cleared the gate; no ClickUp alert (silence by design)
+2026-06-29T15:34:00Z | midday | ok | Closed: none; trimmed: none; positions=0
