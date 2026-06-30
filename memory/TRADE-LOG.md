@@ -10,6 +10,71 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-06-30 — EOD Snapshot (Day 52, Tuesday)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** Tuesday T+1 of week 06-29 → 07-03 (US July-4 Fri holiday-shortened
+week, 4 sessions) and **Q2 quarter-end** — book held 100% cash all session for
+the **21st straight session** since the 6/10 XLE rule-9 cut. Pre-market HOLD
+(decision=HOLD; ideas=0 — XLV **promoted to PRIMARY A-grade-pending watchlist**
+on 5-day +6.5% sector leadership / new 5-yr high $160.74 Mon close (+1.41%/day)
+but no XLV-broad today-catalyst and Wed 7/1 ISM Mfg PMI binary T-1 disallows
+pre-positioning; XLK Mon reclaim session-1 only (+2.3–2.4% w/ elevated volume
+off 6/23 −3.73% rout) and 5-day still −3.4% net = bounce-not-trend; VIX 17.65
+−4.13%/day = 2nd relief session, now within +5% of carry-forward 16.78 calm
+baseline = post-PCE vol premium almost fully unwound; ES Sep ~7,500 −0.1% O/N
+flat-to-down after Mon's +0.7% bounce = no 2nd-day thrust; 10Y ~4.37–4.38%
+essentially unchanged vs Mon = still in 4.30–4.40 limbo band, XLK full A-grade
+gate still requires durable sub-4.30 not yet hit; WTI CLU6 ~$70 −1–2% O/N
+day-18+ sub-$80 / day-6+ sub-$74 = WTI bear leg **extending**, notably did NOT
+rip on weekend Hormuz kinetic re-escalation (Qatari tanker + evac-route vessel
+attacks + **US strikes on Iranian coastal infrastructure** = first material
+post-MoU kinetic re-escalation, but market pricing supply-normalization
+dominant over friction) → XLE thesis deeper inverted (both legs structurally
+missing); DXY ~101.4 +0.25–0.30% O/N high-band hawkish-Fed divergence intact;
+BTC ~$60K (flat-to-+0.3%/24h, $59,850–$60,251 cluster) / ETH ~$1,578–1,593 =
+gate unmet ~$14–15K (~23%) / ~$420 (~21%) — essentially unchanged vs Mon;
+spot-BTC-ETF latest daily −$650.8M = 4-consecutive-weeks outflow regime
+intact ~−$5.4B aggregate; no scheduled tier-1 Fed speakers; no A-grade lane
+clears the gate). Market-open opened-none (decision=HOLD per RESEARCH-LOG;
+ideas=0; no lane clears the gate). Midday no-op (positions=0; nothing to
+defend, cut, trim, or rebalance). Day P&L **+0.0%** on virtual equity
+(equity unchanged at $9,828.67 vs Mon's same baseline — no realized P&L, no
+positions to mark, 0 opens / 0 closes / 0 trims; no rule trips). Week 06-29
+→ 07-03 **0/5 opens T+1 of 4** (cap 5 — full budget intact for any A-grade
+lane Wed–Thu, Fri July-4 closed); 0 positions (cap 8); 0% invested (cap 50%
+per class headroom fully open); 100.0% cash buffer. **21st straight session
+at ~98–100% cash**, acceptable per the 2026-05-01 amendment ("tolerate >50%
+cash during low-signal regimes") — disciplined posture remains correct: the
+post-PCE tape's defensives-led rotation extended into Tue with XLV new
+5-yr-high leadership and XLK only session-1 reclaim incomplete; XLE
+structurally deeper inverted on weekend Hormuz kinetic event failing to bid
+WTI; BTC/ETH gates unchanged at ~−23% / ~−21% with the ETF outflow regime
+intact; no A-grade single-name catalyst on the deck. Watchlist into Wed 7/1
+pre-market re-grade: **XLV A-grade promotion** — needs Tue session-2 green
+continuation (today's print pending close) + Wed-post-ISM in-line/soft (Wed
+7/1 10:00 ET ISM Mfg PMI = binary; XLV PRIMARY lane requires the post-print
+clear); **XLK re-entry** — needs durable sub-4.30 10Y + session-2 reclaim
+follow-through with volume; **post-PCE durability** — does 10Y break sub-4.30
+or stay 4.30–4.40 limbo; **BTC-ETF outflow streak** — first inflow day would
+be the structural inflection (4 weeks / −$5.4B intact, gate $74–75K reclaim
+still ~23% away); **WTI/XLE re-engage** — gated on MoU collapses + WTI ≥$85
+sustained 2 sessions; weekend kinetic friction not enough — lane still
+structurally off; **any A-grade single-name catalyst** with confirmed
+today-catalyst + sector flow alignment + ≥2:1 R:R; **Wed 7/1 ISM Mfg PMI**
+binary = pre-position-blocker today, lane-opener Wed-post-print.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-06-29 — EOD Snapshot (Day 51, Monday)
 
 **Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
