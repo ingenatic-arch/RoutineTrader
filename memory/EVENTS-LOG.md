@@ -294,3 +294,4 @@ Percentages only — no dollar references.
 2026-06-30T20:17:19Z | unknown | ok | 📊 Daily summary 2026-06-30 (Day 52, Tuesday — Q2 quarter-end) Equity: 98.3% of start / Day P&L: +0.0% / Phase: −1.7% Cash: 100.0% / Positions: 0 / Opens this week: 0/5 (T+1 of 4) No positions. Today: opened 0, closed 0, trimmed 0. Pr
 2026-06-30T20:17:26Z | daily-summary | ok | EOD snapshot committed; day P&L +0.0%; equity 98.3% of start (credit=,828.67); 0 positions; 21st straight cash session since 6/10 XLE rule-9 cut; week 06-29/07-03 opens 0/5 T+1 of 4
 2026-07-01T13:12:51Z | pre-market | ok | Research committed; decision=HOLD; ideas=0 (XLV session-2 −1.61% ATH fade / 10Y +9bp to 4.47% / ISM+JOLTS+ADP tier-1 binary blocks pre-position; 22nd straight cash session; week 0/5)
+2026-07-01T13:36:37Z | market-open | ok | Opened: none; positions=0; pre-print HOLD per RESEARCH-LOG (tier-1 ISM 10:00 ET binary)
