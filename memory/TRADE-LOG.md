@@ -10,6 +10,97 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-07-01 — EOD Snapshot (Day 53, Wednesday)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** Wednesday T+2 of week 06-29 → 07-03 (US July-4 Fri holiday-shortened
+week, 4 sessions) and **TIER-1 BINARY DAY** — book held 100% cash all session
+for the **22nd straight session** since the 6/10 XLE rule-9 cut. Pre-market
+HOLD (decision=HOLD; ideas=0) — three simultaneous macro binaries stacked at
+08:15 ET ADP June + 10:00 ET ISM Mfg PMI June (cons ~53.7 vs May 54.0) +
+10:00 ET JOLTS May (cons 7.3M) = pre-buy gate explicitly disallowed
+pre-positioning; **XLV A-grade promotion CANCELLED** — Tue 6/30 close −1.61%
+at 5-yr high $161.25 = session-2 green continuation leg from Mon/Tue watchlist
+**FAILED** (one-day distribution fade at ATH off Mon's +1.41% new-high thrust;
+5-day tally still +4.26% but momentum stall at ATH is a red flag not a
+promotion signal); **10Y yield JUMPED ~+9bp O/N to 4.47%** vs Tue's 4.37–4.38%
+= structural shift, biggest single overnight rate move post-FOMC = **XLK
+sub-4.30 re-entry gate moved structurally further from met, not closer** (Mon
+reclaim now has adverse rate-tape drag); VIX 17.11 = post-PCE vol premium
+~100% unwound / calm baseline essentially reclaimed (~+2% above 6/19's 16.78);
+ES Sep-2026 +0.72% O/N = first meaningful overnight risk-on thrust since Mon
+follow-through but timing (T-2 hours to tier-1 binary) argued positioning-
+into-the-print not durable directional; **divergence alert** — ES +0.72% up
+WHILE 10Y +9bp up = equities bidding despite rising yields into a tier-1
+binary = unstable pre-print configuration; WTI CLU6 ~$70 −0.62% O/N = day-19+
+sub-$80 / day-7+ sub-$74 = WTI bear leg extending; Iran/Hormuz weekend
+kinetic re-escalation carry-over (1 ship struck, ~8,500 seafarers stranded
+per latest reports) still failing to bid WTI = supply-normalization dominant
+→ XLE structurally inverted (both thesis legs missing); DXY / gold no fresh
+O/N print, carry-forward ~101.4 / ~$4,052 ATH zone with rising-yields fresh
+headwind for gold flight-bid case; **BTC ~$58,600 −1.0%/24h = re-entry gate
+$74–75K WIDENED to ~$15–16K / ~26% unmet vs Tue's ~$14–15K / ~23%** (gate
+moving further from met); ETH ~$1,580 +1.5%/24h = sub-$2K gate ~$420 / ~21%
+unmet (marginal ETH-over-BTC ratio bid, not stand-alone catalyst); BTC-ETF
+flow read today = **data-quality wobble** (mixed reads across sources — one
+"13-day outflow streak of ~−$4.4B earlier June" + one "$996M weekly inflow"
++ one "April 2026 $1.97B monthly inflow" alongside Tue's clean "−$650.8M
+latest daily / −$1.79B latest weekly / 4-week −$5.4B") = do NOT read as
+confirmed regime flip, outflow-regime remains base case pending clean 3+
+consecutive inflow-day print; **MiCA EU transitional period ENDED TODAY 7/1**
+= crypto-venue-access micro-headwind (not US-market driver but reinforces
+"no fresh bullish crypto catalyst"); GIS pre-open earnings = defensive-food
+single-name (skipped, not a sector-flow driver); NKE AMC = not actionable
+pre-market (Thu 7/2 pre-market re-grade item); no confirmed Fed speakers.
+Market-open opened-none (decision=HOLD per RESEARCH-LOG; ideas=0; pre-print
+HOLD; tier-1 binary blocked pre-position). Midday no-op (positions=0; nothing
+to defend, cut, trim, or rebalance; equity 98.3% cash 100.0%). Day P&L
+**+0.0%** on virtual equity (equity unchanged at $9,828.67 vs Tue's same
+baseline — no realized P&L, no positions to mark, 0 opens / 0 closes / 0
+trims; no rule trips). Week 06-29 → 07-03 **0/5 opens T+2 of 4** (cap 5 —
+full budget intact for any A-grade lane Thu 7/2 post-NFP, Fri 7/3 closed for
+July-4); 0 positions (cap 8); 0% invested (cap 50% per class headroom fully
+open); 100.0% cash buffer. **22nd straight session at ~98–100% cash**,
+acceptable per the 2026-05-01 amendment ("tolerate >50% cash during
+low-signal regimes") — disciplined posture remains correct: XLV promotion
+leg FAILED on Tue's ATH fade; XLK re-entry gate WIDENED overnight on the
++9bp 10Y move (rate leg structurally worse, not closer); XLE deeper inverted
+on weekend Hormuz kinetic failing to bid WTI; BTC gate WIDENED to ~26%;
+ETH-over-BTC marginal outperformance is a ratio bid not a lane; tier-1 binary
+triple-print at 08:15/10:00 ET made pre-positioning explicitly disallowed by
+the pre-buy gate; no A-grade lane cleared the gate pre-print. Watchlist into
+Thu 7/2 pre-market re-grade: **post-ISM/JOLTS/ADP tape** — did the 10:00 ET
+triple print produce a durable sector lane (XLI / XLB if ISM hot with WTI
+cooperating; XLK / XLU if cool with 10Y reversal sub-4.40); **10Y reversal**
+— any move back sub-4.40 revives the XLK gate-narrowing narrative, any
+extension above 4.50 confirms structural rate-regime shift and further
+punishes rate-sensitives; **XLV re-establishment** — needs Wed close green
++ 5-yr-high defended; Wed extending Tue's fade = healthcare lane off the
+board pending fresh leadership; **Thu 7/2 NFP pre-open** — final tier-1
+macro of the holiday-shortened week (NFP moved from Fri 7/3 closed to Thu
+pre-open); will re-set the week's rate narrative and gate any Thu-session
+lane; **NKE AMC print tonight** — single-name lane potential for Thu
+pre-market; **BTC-ETF flow flip** — need clean 3+ consecutive inflow-day
+print or one week ≥ +$1B net inflow to shift crypto-lane thesis; today's
+mixed data-quality read is NOT that signal; **Iran/Hormuz tail** — kinetic
+friction continues but WTI not responding; a materially wider incident
+(naval clash, tanker sinking) could finally trigger supply-premium
+repricing; **any A-grade single-name catalyst** with confirmed today-catalyst
++ sector flow alignment + ≥2:1 R:R for Thu 7/2. Meta-rule holds:
+**patience > activity** through a tier-1-binary-blocked pre-print regime with
+XLV promotion cancelled and XLK gate widening.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-06-30 — EOD Snapshot (Day 52, Tuesday)
 
 **Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
