@@ -10,6 +10,101 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-07-02 — EOD Snapshot (Day 54, Thursday)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** Thursday T+3 of week 06-29 → 07-03 (US July-4 Fri holiday-shortened
+week, 4 sessions — Fri 7/3 closed) and **TIER-1 BINARY DAY** — book held 100%
+cash all session for the **23rd straight session** since the 6/10 XLE rule-9
+cut. Pre-market HOLD (decision=HOLD; ideas=0) — tier-1 stack was 08:30 ET
+NFP-June + Weekly Jobless Claims + Avg Hourly Earnings + Unemployment Rate
+(NFP pulled forward from Fri 7/3 which is closed for July-4), 10:00 ET ISM
+Services June (NewOrders 57.3 / Prices 71.3 vs prior 57/69) + June Factory
+Orders, plus Fed Chair Warsh intraday remarks; pre-buy gate disallowed
+pre-positioning into a stacked tier-1 pre-open + long-weekend gap-risk (Sat/Sun
+BTC prints and Sun/Mon O/N futures with US markets shut Fri). Wed 7/1 pre-print
+prints handicap = **cool tape base-case** carried into Thu (ISM Mfg PMI
+53.3 cool with Employment 49.7 contraction; ADP +98K vs cons 112K cool), but
+10Y +9bp O/N Wed to 4.47% did **NOT** reverse on the cool prints = rate-tape
+DECOUPLED from growth-tape (supply/term-premium dominant) = XLK sub-4.30
+re-entry gate ~18bp further from met, not closer; 10Y Thu 4.48% carry-forward
+= +1bp above Wed = 2-day +10-11bp jump DURABLE. **XLV promotion leg** — Wed
+close direction unavailable in research (data-quality gap) = XLV cannot be
+scored, remains **off the A-grade lane** until Thu tape confirms; the Tue 6/30
+−1.61% ATH fade already invalidated the promotion continuation, no data
+overrode it. **XLE** deeper inverted: WTI Aug ~$68 −1.8% O/N = 4th consecutive
+session sub-$70, day-20+ sub-$80; both thesis legs (MoU collapse + WTI ≥$85)
+structurally missing. **BTC ~$60K +2–3%/24h**; $74–75K re-entry gate STILL
+~$14–15K / ~23–24% unmet (essentially unchanged, mild BTC bid not regime
+flip); spot-BTC-ETF Wed 7/1 net **−$223M** clean print = **outflow regime
+CONFIRMED intact**, June 2026 closed **worst month on record ~−$4.5B**, 2026
+YTD flows slightly net-negative. **ETH ~$1,600 +2–3%/24h**, sub-$2K gate
+~$400 / ~20% unmet (mild narrowing). **Gold ~$4,033** = −10.8% vs 30-days-ago
+= confirmed correction phase; rising yields + firm DXY = adverse for flight-bid
+thesis. **VIX 16.45** = calm baseline BELOW 6/19 carry-forward 16.78 for first
+time = post-PCE vol premium ~100% unwound + additional relief priced;
+contracting INTO tier-1 NFP + Fri-holiday event window is unusual = neutral
+positioning, not absent risk. ES Sep-2026 −0.22% O/N = modest give-back after
+Wed's +0.72% O/N thrust which faded intraday to −0.3 to −0.5% cash close =
+pre-NFP holding pattern, not a directional signal. **Crypto Fear & Greed 20 =
+Extreme Fear** consistent with deepening ETF-outflow regime; sentiment did
+not thaw on mild BTC bid. Market-open opened-none (decision=HOLD per
+RESEARCH-LOG; ideas=0; pre-print HOLD; tier-1 stack + long-weekend gap-risk
+blocked pre-position; **no A-grade lane cleared the pre-buy gate**). Midday
+no-op (positions=0; nothing to defend, cut, trim, or rebalance; equity 98.3%
+cash 100.0%; post-NFP tier-1 print already digested by market-open HOLD; the
+10:00 ET ISM-Services print + Warsh intraday remarks did NOT produce a durable
+A-grade sector lane meeting the mid-session promotion bar — no XLK/XLB/XLI/XLU
+five-day-momentum data available to re-score into a durable rotation lane, and
+the still-elevated 10Y ~4.48 rate-regime continues to punish rate-sensitives).
+Day P&L **+0.0%** on virtual equity (equity unchanged at $9,828.67 vs Wed's
+same baseline — no realized P&L, no positions to mark, 0 opens / 0 closes /
+0 trims; no rule trips). Week 06-29 → 07-03 **0/5 opens T+3 of 3** (cap 5 —
+holiday-shortened 4-session week, Fri 7/3 closed for July-4 = **the week's
+opens budget is now effectively unusable** since no more sessions remain; week
+closes as **0-open low-signal week**); 0 positions (cap 8); 0% invested (cap
+50% per class headroom fully open); 100.0% cash buffer. **23rd straight
+session at ~98–100% cash**, acceptable per the 2026-05-01 amendment ("tolerate
+>50% cash during low-signal regimes") — disciplined posture remains correct:
+XLV promotion leg FAILED on Tue's ATH fade with no Thu data to revive it; XLK
+re-entry gate WIDENED structurally on the durable 2-day +10-11bp 10Y jump
+(rate leg materially worse, not closer); XLE deeper inverted on 4th sub-$70
+WTI session; BTC gate ~23–24% unmet with ETF-outflow regime confirmed intact
+(worst-month-on-record ~−$4.5B for June 2026); ETH-over-BTC marginal ratio bid
+is not a stand-alone lane; tier-1 NFP + ISM-Services + Warsh + long-weekend
+gap-risk made pre-positioning + intraday-promotion both explicitly disallowed;
+no A-grade lane cleared the gate pre-print, nor promoted post-print. Watchlist
+into next week (Mon 7/6 pre-market re-grade — Tue 7/7 is the next tradable
+session with Fri 7/3 closed): **NFP-June + ISM-Services post-print tape re-read**
+(final cash-close direction on the tier-1 stack; sector-flow winners/losers of
+the ISM-Mfg-cool / ISM-Svc-hot rotation asymmetry setup); **10Y trajectory** —
+any move back sub-4.40 revives the XLK gate-narrowing narrative, any extension
+above 4.50 confirms structural rate-regime shift and further punishes
+rate-sensitives; **XLV re-establishment** — needs a fresh green continuation
+day above 5-yr high $161.25 to re-enter the A-grade lane candidate list; **XLE
+optionality** — geopolitical / OPEC+ supply catalyst or WTI reclaim $74–80 as
+threshold to reconsider the bear inversion; **BTC re-entry gate** monitor
+$74–75K + ETF-flow reversal (require clean 3+ consecutive inflow-day print);
+**post-holiday NKE fiscal Q4 print recap** (Wed 7/1 AMC → post-holiday tape
+read Mon 7/6); **Fed speakers post-holiday** including any Warsh intraday
+Thursday follow-through commentary that reached wires. Long-weekend gap-risk
+factors to track over 7/3–7/5: any weekend Iran/Hormuz kinetic escalation
+(WTI-supply catalyst that has failed to bid the tape 3 consecutive sessions);
+weekend BTC prints (extreme-fear sentiment + confirmed outflow-regime = risk
+skewed to further BTC weakness on any adverse crypto-headline catalyst);
+Sun/Mon O/N ES-futures print for weekend risk-off/-on read into Tue 7/7 open.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-07-01 — EOD Snapshot (Day 53, Wednesday)
 
 **Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%

@@ -301,3 +301,5 @@ Percentages only — no dollar references.
 2026-07-02T13:11:26Z | pre-market | ok | Research committed; decision=HOLD; ideas=0; tier-1 NFP 08:30 ET pre-print blocker + Fri 7/3 closed long-weekend gap risk; conditional post-print lanes A-E documented for market-open
 2026-07-02T13:36:43Z | market-open | ok | Opened: none; positions=0
 2026-07-02T15:33:16Z | midday | ok | no-op: positions=0; nothing to cut/trim/rebalance; equity 98.3% cash 100.0% (credit=$9,828.67); post-NFP tier-1 print already digested by market-open (HOLD); 23rd straight cash session since 6/10 XLE rule-9 cut; week 06-29/07-03 opens 0/5 T+3 of 3 (Fri 7/3 closed July-4)
+2026-07-02T20:17:16Z | unknown | ok | 📊 Daily summary 2026-07-02 (Day 54, Thursday) Equity: 98.3% of start / Day P&L: +0.0% / Phase: −1.7% Cash: 100.0% / Positions: 0 / Opens this week: 0/5 _No open positions._ Today: opened 0, closed 0, trimmed 0. HOLD per pre-market (tie
+2026-07-02T20:17:22Z | daily-summary | ok | EOD snapshot committed; day P&L +0.0%; equity 98.3%; positions=0; cash=100.0%; opens-this-week 0/5 (week closes 0-open — Fri 7/3 US-July-4 closed); 23rd straight cash session since 6/10 XLE rule-9 cut
