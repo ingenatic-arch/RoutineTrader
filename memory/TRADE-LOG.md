@@ -10,6 +10,57 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-07-03 — EOD Snapshot (Day 55, Friday — Independence Day observed, US markets CLOSED)
+
+**Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
+
+_No open positions._
+
+**Notes:** Friday 2026-07-03 — **US cash equity markets CLOSED for
+Independence Day (observed)** since July 4 falls on Saturday. No cash session,
+no NYSE trading. Book held 100% cash for the **24th straight session** since
+the 6/10 XLE rule-9 cut. Pre-market decision=HOLD (mechanical: no session);
+market-open opened-none (mechanical: no session); midday no-op (mechanical:
+no session). Portfolio unchanged from Thursday 7/2 EOD: equity $9,828.67 =
+98.3% of $10k phase-start baseline, credit $9,828.67 = 100.0% cash, 0
+positions, 0 orders. Day P&L **+0.0%** on virtual equity (no positions to
+mark, no realized P&L, 0 opens / 0 closes / 0 trims; no rule trips). **Week
+06-29 → 07-03 CLOSES 0/5 opens** (holiday-shortened 4-session week: Mon
+6/29 Q2 quarter-end HOLD; Tue 6/30 Q2 quarter-end HOLD + XLV promotion CANCELLED
+on −1.61% ATH fade; Wed 7/1 tier-1 binary triple day HOLD; Thu 7/2 tier-1 NFP
++ ISM-Services + Warsh + long-weekend gap-risk HOLD; Fri 7/3 closed). Week
+closes as **0-open low-signal week** — 4th consecutive week at 0-1 opens under
+the post-6/10 defensive regime. Long-weekend gap-risk window OPEN through
+7/3–7/5: any weekend Iran/Hormuz kinetic escalation (WTI-supply catalyst that
+has failed to bid the tape 3+ consecutive sessions), weekend BTC prints
+(extreme-fear sentiment + confirmed outflow-regime = risk skewed to further
+BTC weakness on adverse crypto-headline catalyst), Sun/Mon O/N ES-futures
+print for weekend risk-off/-on read into Tue 7/7 open. Watchlist into next
+week (Mon 7/6 pre-market re-grade; **Tue 7/7 is the next tradable session
+following the long-weekend, actually Mon 7/6 IS the next tradable session**):
+NFP-June + ISM-Services + ISM-Mfg post-print tape re-read (final cash-close
+sector-flow winners/losers of the ISM-Mfg-cool / ISM-Svc-hot rotation
+asymmetry setup); **10Y trajectory** — any move back sub-4.40 revives the XLK
+gate-narrowing narrative, any extension above 4.50 confirms structural
+rate-regime shift; **XLV re-establishment** — needs a fresh green
+continuation day above 5-yr high $161.25 to re-enter the A-grade lane
+candidate list; **XLE optionality** — geopolitical / OPEC+ supply catalyst
+or WTI reclaim $74–80 as threshold; **BTC re-entry gate** — monitor $74–75K +
+ETF-flow reversal (require clean 3+ consecutive inflow-day print); **NKE
+fiscal Q4 print recap** (Wed 7/1 AMC → post-holiday tape read Mon 7/6);
+**Fed speakers post-holiday** including any Warsh intraday Thursday
+follow-through commentary. **Weekly-review routine** scheduled today 16:30 ET
+will grade week 06-29 → 07-03 and assess any strategy amendments warranted by
+the 4th consecutive low-signal week under the post-6/10 defensive regime.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.67
+- Virtual cash: $9,828.67
+- Opens this week: 0
+- Real mirror (10%): $982.87
+
+---
+
 ## 2026-07-02 — EOD Snapshot (Day 54, Thursday)
 
 **Equity:** 98.3% of start | **Cash:** 100.0% | **Day P&L:** +0.0% | **Phase P&L:** −1.7%
