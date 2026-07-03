@@ -6,6 +6,50 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-07-03 — Friday Pre-Market (08:00 ET) — **US CASH MARKETS CLOSED: INDEPENDENCE DAY (OBSERVED) — JULY 4 FALLS SATURDAY, NYSE/NASDAQ/US TREASURY CASH CLOSED FRI 7/3; NO TRADING SESSION TODAY; NEXT SESSION MON 7/6**
+
+**Snapshot:** Equity **98.3%** of start | Cash **100.0%** | Open positions: **0** | Week 06-29 → 07-03 opens so far: **0/5** (T+4 of 4-session holiday-shortened week; today closed — **week closes as 0-open low-signal week**)
+
+**Market context** (as-of 2026-07-03 ~08:00 ET, percentages only; US cash markets CLOSED so most reads are pre-open futures / offshore only)
+- **US CASH MARKETS CLOSED TODAY** — NYSE, Nasdaq, US Treasury cash market all closed for **Independence Day (observed)**; July 4 2026 falls on Saturday so observance moves to Friday 7/3. **No trading session today**; the `market-open` routine will run into a closed tape and open nothing. Next tradable session: **Mon 7/6**.
+- **ES Sep-2026 +0.30% O/N to ~7,551** — modest positive drift on holiday-thin flows; Thu 7/2 cash S&P closed roughly unchanged with Sep-ES down −0.25% intra-session (per Barchart). Today's O/N thrust is a partial rebound from Thu's futures give-back. **Read as noise on holiday flow, not a directional Monday tell**.
+- **VIX / US 10Y**: no reliable fresh overnight print (US Treasury cash market closed today; index quotes stale). Carry-forward last known: VIX ~16.45 (Thu close), 10Y ~4.48% (Thu carry). **Rate-tape leg for XLK re-entry gate depends on the yield reaction to Thu's weak NFP once cash Treasury reopens Mon** — see NFP note below.
+- **NFP JUNE (RELEASED THU 7/2 08:30 ET) = MATERIAL DOWNSIDE MISS**:
+  - Headline **+57K vs consensus ~110–115K** — one of the weakest prints of the cycle.
+  - Prior (May) revised **DOWN to +129K**.
+  - Unemployment rate **4.2%** (below cons 4.3%).
+  - AHE **+0.3% m/m / +3.5% y/y** — wages in-line, not hot.
+  - Private payrolls **+49K** — private-sector cooling confirmed on top of Wed's ADP +98K miss.
+  - **Read**: labor-cycle slowdown validated. This is a **structurally dovish shift** for the rate-tape, in-cycle with Wed's ISM Mfg Employment 49.7 contraction and ADP +98K. **The XLK re-entry gate (sub-4.30 durable 10Y) has a materially better path from here** IF Mon's cash Treasury reopen prints a sustained rally (10Y lower yield) — which is the Bayesian base-case reaction to a NFP surprise this large, though holiday-liquidity distortion could delay confirmation until Tue.
+- **WTI Aug ~$68.50 −1% area O/N** — **day-21+ sub-$70, day-8+ sub-$74**. Both XLE thesis legs (MoU-collapse-driven Hormuz repricing + WTI ≥$85 validity floor) remain structurally missing. Hormuz strait remains disrupted from prior kinetic events but **no fresh overnight tanker attacks reported** — carry-forward de-escalation-ish backdrop, WTI shows no supply-premium bid.
+- **DXY ~100.7 marginally weaker** — modest dollar softening consistent with the dovish NFP fingerprint; not a decisive DXY-break lane yet (would need sustained sub-100).
+- **BTC ~$61.3K +1.7%/24h** — tested $62K overnight, breaking out of the multi-day slump. **Re-entry gate $74–75K = ~$13–14K / ~22% unmet, NARROWED marginally vs Thu's ~23%** but still deep-below-gate. Spot BTC ETFs do not trade weekends — no ETF flow tell available; the confirmed June 2026 worst-month-on-record ~−$4.5B outflow regime holds pending Mon 7/6 flow print.
+- **ETH ~$1,714 +5.42%/24h** — meaningful outperformance vs BTC (BTC +1.7% vs ETH +5.4%; ETH/BTC ratio ticking up). Sub-$2K gate ~$286 / ~17% unmet, **narrowed from Thu's ~20%** — ETH-over-BTC ratio-lane is *slightly* more constructive, still not a stand-alone A-grade lane.
+- **Sector momentum**: no fresh sector data available today (US markets closed Fri; last known 5-day tape ran through Thu 7/2 close and was not scored in Thu's log — data-quality gap continues for XLK/XLV/XLB/XLI). **Monday 7/6 pre-market will be the first re-score window**.
+- **ISM Services June (Thu 7/2 10:00 ET)**: research did not return the released figure — Perplexity source thin on this specific print. Consensus watchlist was NewOrders 57.3 / Prices 71.3 vs prior 57.0 / 69.0. **Data-quality gap; Mon 7/6 pre-market should recover the actual print before scoring any Services-driven lane**.
+
+**Holdings check**
+- No open positions. Nothing to evaluate. **24th consecutive session at ~98–100% cash** since the 6/10 XLE rule-9 cut — acceptable per the 2026-05-01 amendment ("tolerate >50% cash during low-signal regimes"); disciplined posture remains correct.
+
+**Trade ideas** (0–5 per day; HOLD is the default when no idea clears the gate)
+- **None today — market is closed.** No trading session exists to open into. The pre-buy gate is structurally impossible to clear (no live tape to price against, no session to hold through). **Decision is trivially HOLD; ideas=0.**
+- Watchlist carry-forward into **Mon 7/6 pre-market re-grade** (Tue 7/7 is functionally the next full-attention session after a full weekend + holiday digest):
+  1. **XLK re-entry lane** — the sub-4.30% durable-10Y gate has a *newly plausible* path after Thu's weak NFP. Signal to watch: Mon 7/6 US Treasury reopen — does 10Y rally sub-4.40% cleanly and hold? Sustained rally + XLK green-continuation-off-Mon = candidate for A-grade promotion by Tue/Wed.
+  2. **XLV promotion (re-check)** — the Tue 6/30 −1.61% ATH fade invalidated the prior promotion continuation leg. Needs a fresh green-session basis; data-quality gap on Thu 7/2 close remains. Monday's tape decides whether XLV is back on the promotion lane or off it for the week.
+  3. **BTC re-entry gate ($74–75K)** — still ~22% unmet even after O/N +1.7%. Requires *both* a spot break above $74K *and* the ETF-flow regime flipping to net-inflow (worst-month-on-record ~−$4.5B outflow print must be broken). Not close.
+  4. **ETH re-entry gate (sub-$2K → back over $2K)** — narrowed to ~17% unmet on the +5.4% O/N thrust. Watch for ratio-lane confirmation (ETH/BTC continued expansion) + sub-$2K reclaim by mid-next-week.
+  5. **XLE** — no lane. WTI sub-$70 day-21+ + no fresh Hormuz kinetic escalation = both thesis legs structurally missing; off the board for the foreseeable window.
+
+**Risk factors**
+- **Weekend gap risk on Mon 7/6 open**: BTC/ETH trade all weekend; any weekend crypto move (positive or negative) will be priced into Mon reopens without an ETF-flow filter until Mon flow print. Watch for weekend Hormuz kinetic re-escalation (tanker strikes) — would re-arm the XLE thesis leg overnight.
+- **NFP-reaction delay**: the +57K print is materially dovish, but with US Treasury cash closed today, the yield reaction may be *distorted* on Mon's reopen (backed-up flows, thin liquidity). A false-move yield print Mon morning that reverses Tue is a risk for pre-positioning the XLK re-entry lane too early.
+- **ISM Services print data-quality gap**: cannot score the Services lane until the actual release value is recovered — a hot Services print (Prices ≥ prior 69.0 or NewOrders spike) would *soften* the dovish-NFP read; a cool print reinforces it.
+- **Holiday-thin ES tape**: the +0.30% O/N drift is on light volume and should not be over-read as a directional Mon tell.
+
+**Decision:** **HOLD.** No new opens (no session). No trims / no closes (no positions). Cash 100%. Opens-this-week finalizes **0/5**; new 5-open budget begins Mon 7/6. **Week 06-29 → 07-03 closes as 0-open low-signal holiday-shortened week — disciplined dry-powder posture preserved into a materially changed macro backdrop (weak NFP repricing the rate-tape into next week)**.
+
+---
+
 ### 2026-07-02 — Thursday Pre-Market (08:00 ET) — **TIER-1 BINARY DAY: NFP JUNE 08:30 ET (pre-open, moved from Fri 7/3 which is closed for July-4) + JOBLESS CLAIMS 08:30 ET + AVG HOURLY EARNINGS + UNEMPLOYMENT RATE; 10:00 ET ISM SERVICES JUNE (NewOrders 57.3 / Prices 71.3 vs prior 57 / 69) + JUNE FACTORY ORDERS; FED CHAIR WARSH INTRADAY REMARKS**
 
 **Snapshot:** Equity **98.3%** of start | Cash **100.0%** | Open positions: **0** | Week 06-29 → 07-03 opens so far: **0/5** (T+3 of 4-session holiday-shortened week; Fri 7/3 closed for July-4)
