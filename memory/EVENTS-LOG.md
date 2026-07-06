@@ -313,3 +313,4 @@ Percentages only — no dollar references.
 2026-07-06T13:15:22Z | pre-market | ok | Research committed; decision=OPEN 1; ideas=1 (XLV 15% A-grade — post-NFP-miss defensive rotation / fresh ATH breakout / two-session reclaim gate met)
 2026-07-06T13:37:34Z | market-open | ok | Opened: XLV; positions=1
 2026-07-06T13:37:36Z | unknown | ok | Market-open 2026-07-06 — opened 1 position. • XLV 15% (stop −10%, target +20%, R:R 2.0:1) Post-fill: equity 98.3% of start / cash ~83.3% / positions 1. Thesis: post-NFP-miss defensive rotation, XLV fresh ATH breakout + 5-day sector le
+2026-07-06T15:33:14Z | midday | ok | No action: 1 position XLV at -0.43% (well above -7%); cash 85%; class exposure Health Care 15% (<50% cap).
