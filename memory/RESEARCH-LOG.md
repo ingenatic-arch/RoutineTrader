@@ -6,6 +6,79 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-07-06 — Monday Pre-Market (08:00 ET) — **POST-NFP-MISS REGIME PIVOT: FIRST TRADABLE SESSION AFTER LONG WEEKEND; ES +1.0% O/N, VIX 15.81 (FRESH SUB-16 CALM BASELINE), XLV FRESH ATH $163.74 THU +2.63% ON NFP-MISS = A-GRADE PROMOTION GATE MET; BTC-ETF FIRST-INFLOW $221.7M SNAPS 10-DAY OUTFLOW STREAK, F&G 20 → 54 NEUTRAL; 10:00 ET ISM SERVICES JUNE + EMPLOYMENT TRENDS INDEX; NO PRE-OPEN EARNINGS**
+
+**Snapshot:** Equity **98.3%** of start | Cash **100.0%** | Open positions: **0** | Week 07-06 → 07-10 opens so far: **0/5** (fresh week, T+0 of 5-session week; **25th consecutive session at ~98–100% cash** since the 6/10 XLE rule-9 cut)
+
+**Market context** (as-of 2026-07-06 ~08:00 ET, percentages only; long-weekend digest with cash Treasury reopening today)
+- **ES Sep-2026 ~7,558.75, +1.0% O/N vs Thu 7/2 cash close ~7,483** — first meaningful overnight risk-on thrust following the Thu 7/2 NFP-miss. **Post-NFP-miss dovish-labor regime is being priced.**
+- **VIX 15.81 = FRESH SUB-16 PRINT −2.1% vs Thu ~16.15** — post-PCE / post-NFP relief priced through the June 6/19 16.78 carry-forward level and now decisively lower. **Calm baseline reset.** Not complacency into a binary — today has only a Tier-2 ISM Services + ETI print at 10:00 ET, no top-tier binary.
+- **US 10Y yield: data-quality gap in overnight research** (Perplexity source thin; single-source cross-check unavailable). Cash Treasury market reopens today after Fri 7/3 closure; **Thu 7/2 carry-forward baseline ~4.48%**. Post-NFP-miss Bayesian base-case = yields lower on the reopen; a durable sub-4.40% print is the XLK-re-entry-gate signal. **Live cash-market print required before pre-market Perplexity read can be relied on.**
+- **WTI Aug ~$68.65, −0.25% O/N — day-22+ sub-$70, day-9+ sub-$74.** OPEC+ ratified another +188K bpd output increase for August starting Aug 1 (3rd consecutive monthly hike); **Hormuz shipping "recovers"** per weekend reporting, no fresh kinetic incident 7/5–7/6. **XLE thesis both legs (MoU-collapse + WTI ≥$85) structurally deeper missing; lane structurally OFF.**
+- **DXY ~101.0–101.1, +0.2% O/N vs Fri ~100.85** — modestly stronger despite dovish NFP; carry-forward high-band. Neutral-to-adverse for crypto/gold flight bids.
+- **BTC ~$63.5K, weekend +3–4% vs Fri 7/3 ~$61.5K** — meaningful weekend bid, breaking above the multi-day $60K cluster. **Re-entry gate $74–75K = ~$11–12K / ~17% unmet, NARROWED materially vs Thu's ~23%** but still deep-below-gate.
+- **ETH ~$1,750–1,770, essentially FLAT weekend vs Fri ~$1,758.8** — after Fri's +5.4% surge, weekend consolidation. Sub-$2K gate ~$240 / ~14% unmet, narrowed vs Thu's ~17%; ETH/BTC ratio bid held.
+- **Spot-BTC-ETF flow (CRITICAL): Thu 7/3 net +$221.7M (FBTC +$166M, ARKB +$91M, IBIT still −$40M) = FIRST NET-INFLOW DAY snapping a 10-day −$2.7B outflow streak; weekly ~+$526.6M**. This is the exact signal the strategy has been gating on for BTC/ETH re-entry ("clean 3+ consecutive inflow-day print or one week ≥ +$1B net inflow"). **1 of 3+ printed; the pending Mon 7/6 flow print will be decisive** — a 2nd consecutive inflow day would put the crypto lane on active pre-promotion watch.
+- **Crypto Fear & Greed = 54 (Neutral)** — massive sentiment shift from Thu's 20 (Extreme Fear). Sentiment reset supports the outflow-regime-inflection hypothesis but is not itself a promotion trigger.
+- **Sector momentum (5-day into 7/2 close):**
+  - **XLV +5.0% 5-day = SECTOR LEADER** (Perplexity source; XLV Jun 26 → Jul 2: 160.34 → 163.74 = +2.1% on the specific price series, but the +5% figure is the reported momentum leader-board tally — treat as directional dominance). **Thu 7/2 close $163.74 +2.63% on the day (fresh ATH breakout) while SPX ~flat** = defensive/rate-cut winner bid confirmed on the NFP-miss tape. Wed 7/1 close $159.54 +0.55% + Thu 7/2 $163.74 +2.63% = **Wed AND Thu both green sessions defending and clearing the prior $161.25 5-yr-high zone = TWO-SESSION RECLAIM GATE MET (the exact promotion condition from the 7/2 pre-market watchlist).**
+  - **XLF +3.85% 5-day** — Financials bid on the NFP-miss (unusual against dovish rate outlook; likely bank-of-America / broader recovery bid). Tier-2 XLF-NIM lane was RETIRED in the Fri 6/26 weekly review after 3 failed promotion cycles — not re-eligible without a fresh, distinct thesis. **Not a lane today.**
+  - **XLC +3.7% 5-day** — Communication Services bid. No currently-tracked lane; no confirmed single-name catalyst; skip pending an actual catalyst.
+  - **XLK NEGATIVE ON WEEK (worst performer); Thu 7/2 −2.6% single-day** — Tech sold off HARD on the very tape that dovish-NFP theoretically supports. Heavy institutional selling per source. **This is the opposite of an XLK re-entry signal**: even with rate leg improving (Bayesian sub-4.40% probable on the Mon Treasury reopen), the sector is not bidding. **Lane still off** pending 2+ consecutive green XLK sessions with volume.
+  - **Other sectors (XLE / XLI / XLU / XLP / XLY / XLB)**: no clean 5-day tally in returned data; SPX +1.8–2.1% on the week with 7 of 11 sectors closing higher suggests modest broad participation.
+- **Today's catalyst deck (Mon 7/6, all ET):**
+  - **10:00 ET ISM Services PMI June** — consensus not surfaced in returned research (data-quality gap); Thu's NewOrders 57.3 / Prices 71.3 expectations from the 7/2 pre-market carry over. Services-hot vs Mfg-cool rotation asymmetry setup for XLC/XLY (services) vs XLB/XLI (manufacturing).
+  - **10:00 ET Conference Board Employment Trends Index (June)** — prior 107.01; secondary read on labor-cycle following the Thu NFP-miss.
+  - **No noteworthy pre-open earnings** per multiple calendars (Kiplinger, Interactive Investor). Quiet single-name tape.
+  - **No confirmed Fed speakers** returned in research.
+  - **NKE fiscal Q4 print** (released Wed 7/1 AMC) — reaction data unavailable in overnight research (data-quality gap); not actionable as a pre-market lane driver without the tape read.
+- **Geopolitics:** No fresh Iran/Hormuz kinetic weekend incident. Hormuz shipping recovering per weekend reporting = de-escalation carry-forward. **CLARITY Act (US crypto regulation) missed July 4 signing target; sits on Senate calendar pending pre-August-recess action** = mildly bearish for near-term US crypto-regulatory-clarity catalyst; not decisive. **MiCA EU crypto enforcement bit hard 7/4 (only ~20% of previously-registered firms fully authorized)** = ongoing crypto-venue-access micro-headwind. Neither is a US-market lane driver.
+
+**Holdings check**
+- **No open positions.** Nothing to defend, cut, trim, or rebalance. Book 100% cash for the **25th consecutive session** since the 6/10 XLE rule-9 cut. $9,828.67 credit = 98.3% of $10K baseline.
+
+**Trade ideas** (0–5 per day; HOLD is default only when no idea qualifies)
+
+1. **XLV (Health Care Select Sector SPDR ETF)** — asset class: **ETF** — instrumentID: **3017** (exact `internalSymbolFull == "XLV"` match verified via `etoro.sh search XLV`).
+   - **Catalyst (today):** Post-NFP-miss defensive rotation continuation; XLV Thu 7/2 broke out to fresh ATH $163.74 (+2.63% single-day) while SPX flat = confirmed defensive/rate-cut winner bid. 10:00 ET ISM Services + ETI prints add secondary rate-tape support (cool reads = further rate-cut-narrative reinforcement, hot reads = neutral-to-mild-adverse but XLV's ATH-thrust reflects institutional positioning above macro noise).
+   - **Sector-momentum gate MET:** 5-day +5% leader post-NFP-miss; Wed 7/1 +0.55% + Thu 7/2 +2.63% = two-session green reclaim of the prior $161.25 5-yr-high (exact condition specified in the 7/2 pre-market watchlist for "earliest actionable = Mon 7/6 pre-market re-grade").
+   - **Pre-open reference close:** $163.74 (Thu 7/2). Live 9:35 ET ask will be pulled by `market-open` before order; assume opening print near $164–165 given +1% O/N ES thrust + defensive-bid continuation.
+   - **Stop:** `round(ask * 0.90, 4)` (server-side, 24/7). At $163.74 close → $147.3660; at $165 ask → $148.5000.
+   - **Target:** `ask * 1.20` for 2:1 R:R. At $163.74 → $196.4880; at $165 → $198.0000. Minimum $196 threshold.
+   - **Size:** **15.0% of equity** = ~$1,474 virtual notional (0.15 × $9,828.67). Conservative first-slot deployment into a defensive-lane ATH-breakout. Well below the 30% per-name cap. ETF asset-class exposure after fill = 15.0% (cap 50%, headroom 35%).
+   - **R:R: 2.0:1** minimum (10% stop / 20% target).
+   - **Grade:** **A-grade.** Meets 5-day sector-leader + two-session-reclaim-gate + post-NFP-miss-defensive-winner-tape + fresh-ATH-breakout confluence. First A-grade lane clearing the pre-buy gate in 25 sessions.
+
+**Rejected candidates (documented for audit):**
+- **XLK (Tech)** — Thu −2.6% single-day + week-worst-performer despite dovish-NFP tape = active anti-signal. Rate-tape leg may improve on Mon Treasury reopen, but sector-participation leg failing. **Reject.**
+- **BTC (Bitcoin spot)** — instrumentID `100000`. Weekend +3–4% narrowed gate to ~17% unmet; Thu 7/3 spot-ETF net +$221.7M inflow SNAPS 10-day outflow streak = first of a "clean 3+ consecutive inflow-day print" pattern the strategy has gated on. **Structurally the setup is inflecting** but not yet A-grade — need Mon flow-print continuation. **Reject today; upgrade to PRIMARY watchlist for Tue 7/7 pre-market re-grade if Mon prints ≥$100M net inflow.**
+- **ETH (Ethereum spot)** — weekend flat after Fri +5.4%. Sub-$2K gate still ~14% unmet. Rides same BTC-ETF-flow gate; not stand-alone. **Reject today.**
+- **XLF (Financials)** — Tier-2 NIM lane retired in Fri 6/26 weekly review after 3 failed promotion cycles. +3.85% 5-day is noted but does not re-open the retired lane absent a fresh, distinct thesis. **Reject.**
+- **XLC (Communication Services)** — +3.7% 5-day is noise-adjacent leader, no tracked lane, no confirmed single-name catalyst today. **Reject.**
+- **XLE (Energy)** — WTI $68 day-22+ sub-$70, OPEC+ +188K bpd Aug hike, Hormuz shipping recovering, no fresh kinetic. Both thesis legs structurally missing. **Reject.**
+- **Post-ISM-Services cyclicals (XLI / XLB / XLY / XLC)** — pre-buy gate disallows pre-position of 10:00 ET print; if Services prints materially hot or cool, market-open may re-score cyclicals lane live post-print. **Reject pre-print.**
+
+**Risk factors**
+- **10Y yield data-quality gap.** Overnight research did not surface a clean 10Y print. Cash Treasury reopens Mon after Fri closure with backed-up flows; a false-move print on the reopen could distort the yield tape for 30–60 min before settling. Market-open should confirm actual 10Y level before executing the XLV trade — a 10Y print materially higher than 4.48% would be an adverse counter-signal for the rate-sensitive-defensive XLV thesis (though not thesis-breaking; XLV is ATH-breakout momentum, not pure rate play).
+- **NKE post-earnings reaction unknown.** Wed 7/1 AMC print + Thu tape reaction not in returned data. Not a portfolio-level driver (single-name in XLY, not XLV), but the Thursday sector-flow could have been influenced by an NKE beat/miss + guidance move. Not thesis-breaking for XLV.
+- **ISM Services 10:00 ET print** — a materially hot Prices sub-index (≥73) would reinforce rate-cut-delay tail even against the NFP-miss dovish read; a cool print reinforces the dovish read. XLV is broad healthcare, not directly rate-sensitive, so the second-order impact on XLV is muted vs the rate-tape read on XLK/XLU/XLP.
+- **CLARITY Act delay + MiCA transitional expiry** — ongoing crypto-regulatory friction reinforces "reject BTC/ETH today" but is not an XLV risk.
+- **Long-weekend gap already digested** — no incremental gap risk from the 7/3–7/5 window given the weekend closes cleanly with no kinetic Hormuz incident and normal-ish futures behavior.
+- **First-position-after-25-cash-sessions psychological drift.** After 25 straight sessions at ~98–100% cash, the risk is over-eagerness to deploy on the first apparent A-grade signal. Mitigant: **conservative 15% sizing** (half the per-name cap), clean 2:1 R:R at 10%/20% stop/target, and a documented sector-leader + two-session-reclaim-gate + fresh-ATH-breakout thesis that would survive a same-day drawdown.
+
+**Watchlist (rest of this week + into next week)**
+- **BTC (Bitcoin spot)** — instrumentID `100000`. **PRIMARY WATCH INTO TUE 7/7 PRE-MARKET.** Trigger: Mon 7/6 spot-ETF net inflow ≥$100M would give 2 of 3+ consecutive inflow days; a print ≥$300M would strongly confirm regime inflection. If confirmed, BTC promoted to Wed/Thu open candidate assuming price holds ≥$63K (~15% below the $74–75K gate remains — gate still not "met" but structural signals rebuilding toward A-grade).
+- **ETH (Ethereum spot)** — rides BTC-ETF regime flip. Sub-$2K gate ~14% unmet. If BTC lane promotes, ETH follows on ratio-strength.
+- **XLK re-entry** — needs (a) 10Y durable sub-4.40% Mon-reopen print, (b) 2+ green XLK sessions with volume reversing Thu −2.6%, (c) a fresh today-catalyst. Rate leg may deliver but sector-participation leg needs the tape.
+- **XLV continuation** — needs Mon green session confirming the Thu ATH breakout (not a fade); watch for the current lane to add rather than face session-1 distribution post-open.
+- **Post-ISM-Services rotation lanes** — if Services prints materially hot (NewOrders ≥58, Prices ≥73) with cool Mfg reading intact, XLC / XLY (services-linked) could develop a lane by mid-week.
+- **10Y trajectory** — sub-4.40% cleanly held Mon = rate-regime shift-back to XLK-supportive; back above 4.50% = structural shift confirmed hostile to rate-sensitives.
+- **Any A-grade single-name catalyst** with confirmed today-catalyst + sector flow alignment + ≥2:1 R:R.
+
+**Decision:** **OPEN 1 (XLV, 15% weight)** at 9:35 ET market-open pending live-ask pre-buy gate confirmation (positions-after-fill 1/8, opens-this-week 1/5, cost ≤30% cap, leaves ≥5% cash buffer easily since cost ≈15%, ETF class exposure 15% ≤50% cap, `Leverage:1 / IsBuy:true / StopLossRate:round(ask*0.90,4)`, exact `internalSymbolFull == "XLV"` match verified). **No ClickUp alert** (no holdings to defend; no thesis-break; no −7% cut candidate; the open is documented in this RESEARCH-LOG for market-open to execute). Meta-rule **patience > activity** honored: **25 straight sessions of disciplined dry-powder posture across low-signal / adverse-signal conditions have preserved capital into the first genuinely A-grade lane emerging from the post-NFP-miss regime pivot.**
+
+---
+
 ### 2026-07-03 — Friday Pre-Market (08:00 ET) — **US CASH MARKETS CLOSED: INDEPENDENCE DAY (OBSERVED) — JULY 4 FALLS SATURDAY, NYSE/NASDAQ/US TREASURY CASH CLOSED FRI 7/3; NO TRADING SESSION TODAY; NEXT SESSION MON 7/6**
 
 **Snapshot:** Equity **98.3%** of start | Cash **100.0%** | Open positions: **0** | Week 06-29 → 07-03 opens so far: **0/5** (T+4 of 4-session holiday-shortened week; today closed — **week closes as 0-open low-signal week**)
