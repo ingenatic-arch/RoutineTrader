@@ -2247,6 +2247,13 @@ No positions yet. Routines activate on next scheduled fire.
 
 _(market-open and midday routines append under here. Newest on top.)_
 
+### 2026-07-06 — OPEN XLV (ETF — Health Care)
+- instrumentID: 3017 | order token: 472d987c-68e6-43c8-b488-9a041d35bf28 | orderID: 1522189446
+- side: long | leverage: 1
+- amount_usd (internal): $1,474.00 | amount_pct_equity: 15.0%
+- entry ask: $162.24 | stop: $146.0160 (−10%) | target: $194.6880 (+20%) | R:R: 2.0:1
+- thesis: post-NFP-miss defensive-rotation continuation; XLV Thu 7/2 fresh ATH $163.74 (+2.63%) while SPX flat + 5-day sector leader +5% + Wed 7/1 +0.55% AND Thu 7/2 +2.63% = two-session green reclaim of prior $161.25 5-yr-high (promotion gate met per 7/2 pre-market watchlist). VIX 15.81 fresh sub-16 calm baseline. First A-grade lane clearing the pre-buy gate in 25 sessions of disciplined dry-powder posture.
+
 ### 2026-06-10 — CLOSE XLE (ETF — Energy) — thesis broken
 - positionID: 3465795340 | close orderID: 1496969608 | close token: 491bef72-b420-4359-ae3f-805a1200154b
 - side closed: long 25.339055 units | leverage: 1

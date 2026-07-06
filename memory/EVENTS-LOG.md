@@ -311,3 +311,5 @@ Percentages only — no dollar references.
 2026-07-03T20:38:17Z | unknown | ok | 📅 Weekly review — week of 2026-06-29 → 2026-07-03 Return: +0.0% / S&P 500: +1.24% / Alpha: −1.24% / Phase: −1.7% Grade: C+ Stats: 0 opened / 0 closed / Win rate n/a / Best n/a / Worst n/a Open EOW: 0 positions, 0% deployed (100% 
 2026-07-03T20:38:22Z | weekly-review | ok | Week 06-29 to 07-03 committed; grade=C+; return=+0.0%; alpha=-1.2%
 2026-07-06T13:15:22Z | pre-market | ok | Research committed; decision=OPEN 1; ideas=1 (XLV 15% A-grade — post-NFP-miss defensive rotation / fresh ATH breakout / two-session reclaim gate met)
+2026-07-06T13:37:34Z | market-open | ok | Opened: XLV; positions=1
+2026-07-06T13:37:36Z | unknown | ok | Market-open 2026-07-06 — opened 1 position. • XLV 15% (stop −10%, target +20%, R:R 2.0:1) Post-fill: equity 98.3% of start / cash ~83.3% / positions 1. Thesis: post-NFP-miss defensive rotation, XLV fresh ATH breakout + 5-day sector le
