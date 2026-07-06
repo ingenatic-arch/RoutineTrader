@@ -314,3 +314,5 @@ Percentages only — no dollar references.
 2026-07-06T13:37:34Z | market-open | ok | Opened: XLV; positions=1
 2026-07-06T13:37:36Z | unknown | ok | Market-open 2026-07-06 — opened 1 position. • XLV 15% (stop −10%, target +20%, R:R 2.0:1) Post-fill: equity 98.3% of start / cash ~83.3% / positions 1. Thesis: post-NFP-miss defensive rotation, XLV fresh ATH breakout + 5-day sector le
 2026-07-06T15:33:14Z | midday | ok | No action: 1 position XLV at -0.43% (well above -7%); cash 85%; class exposure Health Care 15% (<50% cap).
+2026-07-06T20:17:14Z | unknown | ok | 📊 Daily summary 2026-07-06 (Day 56, Monday) Equity: 98.3% of start / Day P&L: −0.0% / Phase: −1.7% Cash: 85.0% / Positions: 1 / Opens this week: 1/5 Positions: • XLV (stocks) 15% / −0.0% / stop −10% Today: opened 1 (XLV, 15% A-
+2026-07-06T20:17:20Z | daily-summary | ok | EOD snapshot committed; day P&L -0.0%; equity 98.3% of start (credit=$9,826.10); 1 position (XLV 15%); cash=85.0%; opens-this-week 1/5 T+1 of 5; ended 24-session cash-only streak on XLV A-grade defensive-rotation open; midday no-op (all risk gates green); no rule trips
