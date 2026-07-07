@@ -6,6 +6,52 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-07-07 — Tuesday Pre-Market (08:00 ET) — **XLV DAY-2 CONTINUATION: PRE-MARKET $163.07 +0.7% O/N ~0.4% BELOW THU 7/2 ATH $163.74; ES −0.23% O/N FADING MON'S +1.0% GAP-UP; VIX 15.86 SUB-16 CALM HELD; 10Y 4.49% CARRY (SUB-4.40% XLK GATE STILL UNMET); WTI +0.6% ~$68.99 STILL DAY-23+ SUB-$70; BTC ~$64K, ETH ~$1.77K; 8:30 ET MAY TRADE BALANCE (CONS ~−$75B) TIER-2 ONLY; NO MAJOR PRE-OPEN EARNINGS, NO FED SPEAKERS; NATO ANKARA SUMMIT 7/7–7/8 HEADLINE-RISK — HOLD**
+
+**Snapshot:** Equity **98.3%** of start | Cash **85.0%** | Open positions: **1** (XLV 15.0% Health Care) | Week 07-06 → 07-10 opens so far: **1/5** (T+1 of 5-session week; Mon 7/6 XLV open snapped 24-session cash-only streak since the 6/10 XLE rule-9 cut)
+
+**Market context** (as-of 2026-07-07 ~08:00 ET, percentages only; overnight fade of Mon's post-holiday reopening gap-up)
+- **ES Sep-2026 ~7,574.25, −0.23% O/N vs Mon 7/6 cash close ~7,591** — first overnight FADE-move following the Mon +1.0% gap-up on the post-NFP-miss dovish-labor regime bid. **Not a reversal** (magnitude small, no proximate binary catalyst); consistent with typical T+2 digestion after a post-holiday reopening thrust. **Watch for cash-open confirmation** — a green cash session would validate the dovish-labor regime; a sub-Mon-close cash session would flag a stall.
+- **VIX 15.86 Mon 7/6 cash close = SUB-16 CALM BASELINE HELD** (+0.3% vs Fri 7/3 baseline ~15.81; essentially unchanged). Post-PCE / post-NFP calm baseline maintained. **No fresh vol premium** into a light-catalyst day.
+- **US 10Y yield ~4.49% (Thu 7/2 carry-forward; Fri 7/3 closed for holiday, Mon 7/6 fresh print not yet published as-of pre-market data pull, data-quality caveat)** — **structurally UNCHANGED from the 4.48% Thu 7/2 baseline**. The XLK-re-entry-gate durable-sub-4.40% signal is **NOT MET**; gate remains ~9bp / ~2% below current — no XLK lane rotation available today. Bayesian read: cash-Treasury reopen Mon 7/6 into Mon 7/6 cash close likely absorbed dovish-NFP bid modestly; a Tue 7/7 durable sub-4.40% print remains the trigger.
+- **WTI Aug ~$68.99, +0.6% O/N — day-23+ sub-$70, day-10+ sub-$74.** Modest bounce from Mon's $68.65 close but **structural bearish narrative reinforced overnight**: (a) **Strait of Hormuz maritime flows continuing to recover** per TradingEconomics/Barchart (pricing out prior conflict risk); (b) **OPEC+ +188K bpd August quota increase ratified** (3rd consecutive monthly hike, unwinding curbs); (c) **Saudi Arabia cut Arab Light OSP to Asia by $11/bbl (vs $8 expected)** = aggressive supply push. **XLE thesis structurally deeper missing; lane structurally OFF, no path to re-enter this week.**
+- **DXY ~100.94 Mon 7/6 close** — modestly softer vs Mon pre-market ~101.0 read but essentially at high-band carry-forward. Neutral for crypto/gold flight bids.
+- **BTC ~$64.07K, +0.8% O/N vs Mon $63.55K** — extends the weekend +3–4% bid. **Re-entry gate $74–75K = ~$10–11K / ~16% unmet, marginally narrowed vs Mon's ~17% gate.** Weekend bid attention-worthy but still deep-below-gate; ETF-flow print continuity is the key readthrough (see below).
+- **ETH ~$1,770, +1.5% O/N vs Mon ~$1,747** — mild outperformance vs BTC's +0.8%. Sub-$2K gate ~$230 / ~13% unmet, marginally narrowed vs Mon's ~14%.
+- **Spot-BTC-ETF flow gate (CRITICAL for BTC re-entry):** Thu 7/3 net +$221.7M was the FIRST inflow day snapping the 10-day outflow streak (Mon 7/6 pre-market read); **Mon 7/6 flow print not yet cleanly surfaced in overnight data (data-quality caveat)**. 1-of-3+-consecutive-inflow-day gate — status uncertain until Tue 7/7 EOD flow print. Sentiment: crypto Fear & Greed near neutral (~50s) supports the outflow-inflection hypothesis but is not a trigger.
+- **Sector momentum:** 5-day tallies not cleanly surfaced in overnight Perplexity data (source gap; State Street 5-day panel un-scraped for today). **Carry-forward from Mon 7/6 pre-market baseline: XLV +5.0% 5-day leader; XLF +3.85%; XLC +3.7%; XLK negative on week.** Individual constituent news: MarketChameleon flags **Abbott / AstraZeneca / Eli Lilly in focus** as major healthcare constituents — consistent with the XLV thesis intact-leg, no adverse single-name catalyst.
+- **Today's catalyst deck (Tue 7/7, all ET) — LIGHT TIER-2 SESSION:**
+  - **8:30 ET US International Trade in Goods and Services (May)** — consensus deficit **~−$75B to −$78B**. Tier-2 print; input to Q2 GDP tracking and USD/exporter sentiment; sharp surprise moves industrials/exporters/DXY.
+  - **8:30 ET Advance Goods Trade Balance (May)** — published alongside; goods-detail readthrough for industrials/exporters.
+  - **Midday US Treasury 6-month bill auction** — front-end yield input; recent stop-outs in the low-to-mid 3.8% range; watch for meaningful move as rate-cut-expectations proxy.
+  - **After-close earnings** — no large-caps; mid/small-caps (Enerpac EPAC, Penguin Solutions PENG, Helen of Troy HELE, Americas Car-Mart CRMT, Saratoga SAR). **No portfolio-relevant name.**
+  - **NATO Ankara Summit (7/7–7/8)** — 31 heads of state; agenda includes defense-posture / burden-sharing / Ukraine / China / Middle East. **Headline-risk day-and-a-half** — defense stocks / energy / FX potentially reactive to communiqués or bilateral news; no direct portfolio exposure.
+  - **NO major pre-open earnings; NO Fed speakers.** Light session — flows dominated by trade-data reaction, auction outcome, and NATO tape.
+
+**Holdings check** (thesis-intact? y/n and reason)
+- **XLV (Health Care, 15.0% weight, entry $162.06, mark ~$162.02, unrealized −0.02%)** — **THESIS INTACT (Y).** Day-2 continuation setup: Mon 7/6 close $161.96 was −0.06% below entry $162.06 (essentially flat, not a stall signal on Day 1); **overnight pre-market $163.07 = +0.7% from Mon close, above entry, and ~0.4% below Thu 7/2 fresh ATH close $163.74.** Constructive after-hours + pre-market strength (Robinhood Mon range 160.25–163.82 = elevated 16.12M vol vs 12.27M avg indicates two-way conviction, not distribution-only). Sector news backdrop: Abbott / AstraZeneca / Eli Lilly attention flags (no adverse constituent break). **Rule-8 (−7% manual cut) not near** — stop $146.02 = −9.90% is ~7.3% below current mark. **Rule-9 (thesis broken)** — post-NFP-miss defensive-rotation thesis remains intact (VIX sub-16 calm, 10Y still elevated but not pushing down defensives, XLV leading tape). **Continue to hold.** ATH clearance ($163.74 close / $163.85 intraday) would be a Day-2-continuation validation and open the door to a future ADD case; sub-entry $162.06 cash close would flag a stall (watch, not yet rule-9).
+
+**Trade ideas** (0–5 for today)
+- **No new open ideas today.** Rationale below in Decision.
+
+**Risk factors** (what could break the outlook)
+- **XLV thesis-break risk:** an XLV cash-session close below entry $162.06 without a clear macro-catalyst reason = stall signal; two-consecutive sub-entry closes would elevate to rule-9 watch. **Also: any adverse single-name break at LLY / ABT / AZN** given their weight in the constituent basket.
+- **ES fade-continuation:** the −0.23% overnight is small but if it continues into a red cash session that undoes >50% of Mon's +1.0% gap, the post-NFP-miss dovish-labor regime bid is being questioned by the tape. **Not a today-trigger for XLV** (which is a defensive-rotation lane), but a broad-tape stall signal.
+- **10Y yield UP-side surprise:** if the Mon 7/6 (fresh print) or Tue intraday 10Y prints materially above 4.55% (rejecting the sub-4.40% XLK gate outright), the dovish-labor regime hypothesis weakens and defensive-rotation loses its rate-tailwind — mildly adverse for XLV over multi-session horizon but not a today-trigger.
+- **Trade Balance 8:30 ET surprise:** a materially wider deficit than −$78B could pressure DXY / industrials / exporters; a materially narrower could bid DXY / crypto-flight adverse. Not portfolio-impacting on XLV directly.
+- **NATO Ankara headline risk (7/7–7/8):** low direct-portfolio impact but any Ukraine / Middle East / China communiqué could re-price defense / energy / crypto intraday.
+- **Data-quality gaps this pre-market:** Perplexity source coverage was thin for (a) State Street 5-day sector panel; (b) live 10Y intraday print; (c) Mon 7/6 spot-BTC-ETF flow print. **Do not over-trade on inferred readthroughs.**
+
+**Decision:** **HOLD.** Rationale:
+1. **No fresh A-grade thesis clears the pre-buy gate today.** The XLK re-entry lane requires durable 10Y sub-4.40% (unmet, gate still ~9bp above); the XLE lane is structurally OFF (WTI supply-narrative deeper-bearish); the BTC re-entry lane requires 3+ consecutive ETF-inflow-day confirmation (1/3+ printed, Mon 7/6 flow uncertain, still ~16% below $74–75K gate); no single-name catalyst (earnings / macro / geopolitical) has materialized overnight for a fresh open.
+2. **The existing XLV position is doing exactly what the thesis called for** — Day-1 essentially flat, Day-2 pre-market +0.7% into ATH clearance zone. **Adding today would front-run the ATH-break confirmation.** Cleaner add trigger: XLV cash close above $163.74 (fresh ATH) with volume expansion — that's a Wed 7/8 pre-market re-evaluation, not a Tue open trigger.
+3. **Week budget preserved: 1/5 opens used, 4 slots remaining Wed–Fri.** No pressure to force opens.
+4. **Light Tier-2 catalyst deck** — trade data + auction + NATO headlines but no top-tier binary. No reason to consume risk budget on a low-signal session.
+
+Continue disciplined dry-powder posture with existing 15% XLV expression. **HOLD; no opens; no trims; no ClickUp alert** (nothing urgent — XLV comfortably above rule-8 cut, no thesis break, no adverse overnight headline against open positions).
+
+---
+
 ### 2026-07-06 — Monday Pre-Market (08:00 ET) — **POST-NFP-MISS REGIME PIVOT: FIRST TRADABLE SESSION AFTER LONG WEEKEND; ES +1.0% O/N, VIX 15.81 (FRESH SUB-16 CALM BASELINE), XLV FRESH ATH $163.74 THU +2.63% ON NFP-MISS = A-GRADE PROMOTION GATE MET; BTC-ETF FIRST-INFLOW $221.7M SNAPS 10-DAY OUTFLOW STREAK, F&G 20 → 54 NEUTRAL; 10:00 ET ISM SERVICES JUNE + EMPLOYMENT TRENDS INDEX; NO PRE-OPEN EARNINGS**
 
 **Snapshot:** Equity **98.3%** of start | Cash **100.0%** | Open positions: **0** | Week 07-06 → 07-10 opens so far: **0/5** (fresh week, T+0 of 5-session week; **25th consecutive session at ~98–100% cash** since the 6/10 XLE rule-9 cut)
