@@ -6,7 +6,61 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
-### 2026-07-07 — Tuesday Pre-Market (08:00 ET) — **XLV DAY-2 CONTINUATION: PRE-MARKET $163.07 +0.7% O/N ~0.4% BELOW THU 7/2 ATH $163.74; ES −0.23% O/N FADING MON'S +1.0% GAP-UP; VIX 15.86 SUB-16 CALM HELD; 10Y 4.49% CARRY (SUB-4.40% XLK GATE STILL UNMET); WTI +0.6% ~$68.99 STILL DAY-23+ SUB-$70; BTC ~$64K, ETH ~$1.77K; 8:30 ET MAY TRADE BALANCE (CONS ~−$75B) TIER-2 ONLY; NO MAJOR PRE-OPEN EARNINGS, NO FED SPEAKERS; NATO ANKARA SUMMIT 7/7–7/8 HEADLINE-RISK — HOLD**
+### 2026-07-08 — Wednesday Pre-Market (08:00 ET) — **XLV DAY-3 CONTINUATION AT/NEAR ATH $165.61 (CLOSE ~$164.54, +1.5% UNREALIZED); ES −0.10% O/N QUIET; VIX +2.3% MODEST BID FROM ~16 CALM; 10Y ELEVATED ~4.54% (XLK RE-ENTRY GATE STILL FAR); WTI +0.1% ~$68.78 STRUCTURALLY BEARISH DAY-24+ SUB-$70 EVEN WITH IRAN-BAHRAIN DRONE HEADLINE; BTC ~$63K RANGE-BOUND; NATO ANKARA DAY-2; **2:00 PM FOMC MINUTES = DAY'S BINARY DRIVER**; NO MAJOR PRE-OPEN EARNINGS (HELE only); TECH −6% 5D vs FINANCIALS +4.3% 5D ROTATION SIGNAL — HOLD (do not pre-position ahead of FOMC minutes)**
+
+**Snapshot:** Equity **98.5%** of start | Cash **84.8%** | Open positions: **1** (XLV 15.2% Health Care) | Week 07-06 → 07-10 opens so far: **1/5** (T+3 of 5-session week; XLV Mon 7/6 open)
+
+**Market context** (as-of 2026-07-08 ~08:00 ET, percentages only; quiet overnight ahead of 2 PM FOMC Minutes)
+- **ES Sep-2026 ~−0.10% O/N** — quiet fade extending Tue's session digestion. **Not directional** — market clearly parked ahead of 2 PM FOMC Minutes; typical low-conviction O/N flow with the day's binary catalyst still 6 hours away.
+- **VIX +2.3% O/N** — mild vol bid from ~16 calm baseline; consistent with pre-event caution ahead of FOMC Minutes, not a regime break. Sub-16 calm broadly intact.
+- **US 10Y yield ~4.54%** — **elevated / drifted higher vs Mon-Tue ~4.49% carry**. XLK-re-entry sub-4.40% gate now ~14bp / ~3% below current = **structurally further from trigger**, not closer. Rate-sensitive names cautious into FOMC Minutes reveal.
+- **WTI Aug ~$68.78, +0.1% O/N — day-24+ sub-$70, day-11+ sub-$74.** Notably muted response to overnight Iran-Bahrain drone headline (below) — market not pricing conflict escalation. Structural bearish leg intact: OPEC+ supply, Saudi OSP cuts, Hormuz flows recovered. **XLE lane structurally OFF; no A-grade energy entry available even with headline.**
+- **DXY: no clean 2026-07-08 pre-market print in overnight data (data-quality caveat)** — carry-forward ~101 from Mon 7/6. Neutral read.
+- **BTC ~$62–64K range, O/N ±1–2%** — modestly higher on ETF-inflow inflection ($224M inflow snapping 6-day outflow streak per overnight tape). Still deep below $74–75K re-entry gate; gate ~$11–13K / ~17–20% away = **NO PATH THIS WEEK.**
+- **ETH modestly higher O/N; no clean %; sub-$2K gate unmet.** Network activity flagged supportive but no fresh catalyst driving a gate crossing.
+- **Sector momentum (5D through 2026-07-07):** **XLK Tech ≈ −6.0%** (major weakness; growth unwind); **XLF Financials +4.3%** (5D leader — fresh leadership vs prior YTD −4% lag); **XLV Health Care +1.1%** (grinding; the held-position thesis); XLE −1.2%; XLP +0.2%; XLU −2.0%; XLI insufficient data. **Rotation signal: growth (tech) → value/defensive (financials + healthcare) is real and multi-week; it is NOT a same-day entry trigger pre-FOMC.**
+- **Today's catalyst deck (Wed 7/8, all ET) — LIGHT UNTIL 2 PM:**
+  - **7:00 AM MBA Mortgage Applications** — tier-3, weekly housing activity.
+  - **10:00 AM May Wholesale Trade Sales / Inventories** — tier-2 distribution/inventory print.
+  - **10:30 AM EIA Petroleum Status** — tier-2 crude/product inventory read; oil-sensitive.
+  - **11:30 AM Treasury 4-mo bill auction** — tier-3 front-end read.
+  - **1:00 PM Treasury 10-year note auction** — tier-2; direct read on long-end appetite ahead of Minutes; a soft auction into a hawkish Minutes = double rate-shock risk.
+  - **2:00 PM FOMC MINUTES** — **DAY'S BINARY.** Detailed reveal of the last meeting's rate-path debate; historically a major intraday driver. Hawkish tape supports financials/USD; dovish supports growth/crypto/rate-sensitives.
+  - **3:00 PM Consumer Credit** — consensus ~+$19B; tier-3, post-Minutes noise.
+  - **Pre-open earnings:** Helen of Troy (HELE) ~$0.01 EPS estimate. **No large-cap portfolio-relevant name.** LEVI post-close.
+  - **NATO Ankara Summit Day 2 (7/7–7/8)** — final communiqués/bilaterals may hit intraday; defense/energy/FX headline-risk. **No direct portfolio exposure.**
+- **Geopolitics — Iran drone attack on Bahrain:** overnight reports of an Iranian military drone strike on Bahrain. **WTI reaction muted (+0.1%)** — market reading as isolated incident, not escalation. No portfolio thesis-break trigger, but **watch for a second-headline escalation** that would spike oil and shift XLV bond-proxy tone via yield moves.
+
+**Holdings check**
+- **XLV (Health Care) — 15.2% equity, +1.5% unrealized (close $164.45 vs entry $162.06). Thesis INTACT.** ETF trading near ATH $165.61 (52-wk high) with day-range $163.45–$165.61. Underpinning drivers all still live: (a) defensive-rotation flow from tech (−6% 5D vs XLV grinding new highs); (b) major constituent momentum — ABBV, LLY, JNJ on new highs, heavy XLV call buying (~5,300 vs 1,000 puts per overnight tape); (c) GLP-1 tailwind (CMS Bridge Program went live 7/1, Lilly Zepbound / Foundayo ~$50/mo copays); (d) EU CHMP positive nod for Lilly's Jaypirca (6/26 catalyst still tailwind); (e) health-insurer softening cost-trend (Humana +6%, UnitedHealth +5%, Cigna +4% recently); (f) Aroon indicator turned bullish 7/7. **No overnight thesis-break event; no > 3% overnight gap; stop $146.02 far below (10% floor).** **Continue to HOLD; do not top-up at ATH pre-FOMC.**
+
+**Trade ideas** (0–5 per day; HOLD is default when no idea qualifies)
+
+Screened candidates + verdict:
+
+1. **XLF (Financials SPDR)** — instrumentID (not resolved; would resolve if promoting). Asset class: ETF. Catalyst: 5D leader +4.3% — clear beneficiary of the tech-to-financials rotation; bank-earnings kickoff **next week** (JPM/WFC/C/BAC line-up); FOMC Minutes hawkish tape supports NIM narrative. **Rejected: TIMING WRONG PRE-FOMC.** The dominant catalyst today is the 2 PM Minutes reveal — buying rate-sensitive financials 6 hours before a binary macro event is a coin flip, not an A-grade thesis. If Minutes tilt hawkish AND XLF holds intraday, market-open can revisit tomorrow (7/9) with post-Minutes tape. Add to watchlist as **B+ conditional**: promote to A-grade only after Minutes reveal + a durable move confirming direction.
+2. **Top-up XLV to 20–25%** — Catalyst: same rotation/GLP-1/insurer thesis as the existing 15% leg. **Rejected: LATE-CYCLE ENTRY at ATH.** XLV closed $164.45 vs 52-wk high $165.61 (**within 0.7% of ATH**). Adding at ATH ahead of FOMC Minutes is exactly the wrong risk-reward — a hawkish Minutes could re-price defensives on rate-shock, and any top-up entry now buys ~1.5% above the existing leg with no fresh single-name catalyst. HOLD the existing 15% and let the thesis compound.
+3. **XLE (Energy) on Iran-Bahrain drone headline** — Catalyst: geopolitical escalation. **Rejected: MARKET NOT CONFIRMING.** WTI +0.1% overnight after the drone attack = the tape is reading this as isolated, not systemic. Buying XLE into unconfirmed geopolitical premium against the OPEC+ supply / Saudi OSP-cut / Hormuz-flows-recovered structural bearish leg = fighting the tape. If a second-headline escalation drives WTI ≥ $75 with confirmation, XLE re-enters the watchlist; not today.
+4. **BTC / ETH on ETF-inflow inflection** — Catalyst: $224M spot-BTC-ETF inflow snapping 6-day outflow streak. **Rejected: PRICE DEEP BELOW GATE.** BTC ~$63K vs $74–75K re-entry gate = ~17% away; ETH ~13% below sub-$2K gate. One inflow day = not the 3+ consecutive inflow durability gate. Extreme-Fear-adjacent regime + FOMC Minutes overhead risk = wrong entry.
+5. **HELE pre-open earnings play** — Catalyst: Helen of Troy earnings pre-market. **Rejected: SMALL-CAP EARNINGS BINARY.** Not a portfolio-relevant name; earnings-day binary without an edge = gamble.
+
+**Risk factors**
+- **FOMC Minutes surprise (2 PM ET) = day's dominant risk.** A hawkish surprise (more members leaning "hold longer" or discussing a hike option) → 10Y likely > 4.6%, XLK further under pressure but XLF cushioned; XLV neutral-to-slightly-negative on rate-shock. A dovish surprise (broader cut-openness) → XLK rebound, XLV modestly positive on defensive rotation-plus-rate-relief combo. **Base case is neutral-to-slightly-hawkish; XLV thesis survives either way, but a 5% rate-shock day would test the stop math.** Watch XLV close vs 10DMA (~$162 est) as the confirmation gauge.
+- **10Y auction (1 PM) tail risk.** A meaningful tail (poor demand) into a hawkish Minutes = double rate-shock; watch 10Y > 4.60% as flag for defensive-sector distress.
+- **Iran-Bahrain second-headline escalation.** If a second Iran-linked incident hits intraday driving WTI ≥ $75, expect a defensive-to-cyclical rotation flip (energy bid, staples/healthcare fade); XLV would still hold on GLP-1 and insurer legs but momentum would pause.
+- **XLV at ATH extension risk.** Grinding 3 consecutive sessions of new highs into an FOMC binary = mean-reversion risk. A −2 to −3% intraday pullback is within noise and does not break thesis; a −4%+ day on a hawkish Minutes shock combined with rate-sensitive-defensive sell = midday scan candidate to re-evaluate (but stop is 10% down at $146.02 = far below).
+- **NATO Ankara final-day communiqué.** Defense-spending / burden-sharing language could bid defense names or shift European risk-on/off; no direct portfolio exposure so headline is watch-only.
+- **Data quality caveat:** DXY overnight print not surfaced in supplied data. Treating as neutral carry-forward. Not decision-critical today.
+
+**Watchlist for the rest of the week (7/8 → 7/10)**
+- **XLF (Financials)** — B+ conditional. Promote to A-grade only after FOMC Minutes reveal (hawkish or neutral tone) + XLF holds 5D high intraday. Position size 15% max on entry (respects 50% class cap since we have 0% financials currently). Pair-trade lens: XLF long paired with existing XLV long = 30% defensive-rotation deployment, well within limits.
+- **BTC re-entry on 3-of-N consecutive ETF-inflow days** confirming outflow-streak inflection is durable. Gate still $74–75K spot — needs both price and flow-persistence.
+- **XLK re-entry** requires durable 10Y sub-4.40% + a bounce off tech's 5D −6% waterfall. Neither is close; not on this week's radar unless FOMC minutes are meaningfully dovish.
+- **XLV top-up to 20–25%** only on a pullback to 10DMA (~$162 est) with thesis intact — not at ATH.
+
+**Decision:** **HOLD.** No new opens today. No trims required (XLV thesis intact, +1.5%, well within all caps: 15.2% position vs 30% cap, 15.2% class vs 50% cap, 84.8% cash). Opens-this-week stays **1/5**; weekly budget of 5 preserves 4 slots for post-FOMC-Minutes A-grade setups Thu/Fri. **Rationale: 2 PM FOMC Minutes is a binary intraday event that dominates all rate-sensitive entries (XLF, XLE, XLK) and defensive entries (XLV top-up). Cash 84.8% is deliberate dry-powder posture into the binary — not cash-drag inertia.**
+
+---
 
 **Snapshot:** Equity **98.3%** of start | Cash **85.0%** | Open positions: **1** (XLV 15.0% Health Care) | Week 07-06 → 07-10 opens so far: **1/5** (T+1 of 5-session week; Mon 7/6 XLV open snapped 24-session cash-only streak since the 6/10 XLE rule-9 cut)
 
