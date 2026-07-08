@@ -10,6 +10,66 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-07-08 — EOD Snapshot (Day 58, Wednesday)
+
+**Equity:** 98.3% of start | **Cash:** 85.0% | **Day P&L:** −0.2% | **Phase P&L:** −1.7%
+
+| Sym | Class  | Weight% | Entry   | Close   | Unrealized% | Stop    |
+|-----|--------|---------|---------|---------|-------------|---------|
+| XLV | stocks |  15.0%  | $162.06 | $162.32 |    +0.2%    | $146.02 |
+
+**Notes:** Wednesday T+3 of week 07-06 → 07-10 and **Day-3 continuation of the
+XLV A-grade defensive-rotation open** placed Mon 7/6 09:37 ET. Pre-market
+decision=HOLD (0 ideas — XLV thesis intact but Day-3 needing continuation
+print, no fresh A-grade catalyst); market-open opened-none (mechanical:
+HOLD); midday no-op (XLV mark near flat intraday well above −7% rule-8 cut,
+class exposure ETF 15.0% vs 50% cap, cash 85.0% vs 5–10% minimum = all risk
+gates green). Tape delivered a Day-3 STALL/GIVE-BACK rather than clean
+continuation: XLV closed **$162.32 (+0.16% vs $162.06 entry — barely-green
+hold above entry)** = give-back of essentially all of Tuesday's fresh
+session-high mark ($164.45 = −1.30% intraday from Tue close). Read: still
+above entry ($162.06) AND above prior 5-yr high $161.25 = ATH-breakout leg
+technically intact but Day-3 momentum FADED = one-day watch trigger for
+rule-10 3-day-stall pattern (Day-4 must green or first stall-signal clock
+starts). Day P&L **−0.2%** on virtual equity ($9,828.82 vs Tue 7/7 EOD
+$9,848.20 = −$19.38 = −0.197% rounded to −0.2%): XLV unrealized mark rolled
+back from +$21.74 to +$2.36 (delta −$19.38 = −1.30% on $1,474 invested =
+−0.20% on equity) drove all of the day decline, no fee drag today (fees
+already netted at Mon open). Phase P&L slips back to **−1.7%** (was −1.5%):
+Tuesday's first-meaningful-recovery gain fully reversed, equity floor drops
+from 98.5% back to 98.3% of $10k start — back to Monday's opening-day
+baseline. Week 07-06 → 07-10 **1/5 opens T+3 of 5** (no new opens today —
+RESEARCH-LOG HOLD); 1 position (cap 8, ample room); 15.0% invested (cap 30%
+per name / 50% per class both comfortable — ETF-broad 15.0% of 50% cap);
+85.0% cash buffer (well above 5–10% floor). No rule trips (rule-8 −7% not
+near — position is +0.2% not −7%; rule-9 thesis-break not warranted —
+defensive-rotation thesis technically intact holding above prior 5-yr high;
+rule-10 3-day-stall not yet triggered — position is Day-3 still green above
+entry but Day-3 GIVE-BACK is the first stall-signal to watch — a red Day-4
+close below entry $162.06 tomorrow would activate the stall clock). Watchlist
+into Thu 7/9: **XLV Day-4 continuation** — CRITICAL after today's give-back —
+require green Day-4 close above entry $162.06 AND ideally reclaim above Tue
+high $164.45 to validate the multi-day ATH-breakout leg (a red Day-4 close
+below entry = stall clock starts; a close below $161.25 = full thesis-break
+candidate warranting rule-9 cut consideration); **VIX** — hold sub-16 calm
+baseline is regime-supportive, break above 17 = risk-off tell that would
+pressure the XLV mark further; **10Y trajectory** — sub-4.40 revives XLK
+gate-narrowing narrative and reinforces defensive-rotation flow, extension
+above 4.50 pressures rate-sensitives including XLV; **XLK sub-4.30 gate**
+unmet baseline; **XLE** deeper structurally inverted (WTI thesis-broken);
+**BTC re-entry gate** monitor $74–75K + clean 3+ consecutive ETF-inflow-day
+print; **Q2 earnings-season kickoff** window opening (megacap prints starting
+mid-July, Health Care sector reports weighing into XLV Days-4+); **Fed
+speakers / Aug FOMC** positioning windows.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,828.82
+- Virtual cash: $8,352.46
+- Opens this week: 1
+- Real mirror (10%): $982.88
+
+---
+
 ## 2026-07-07 — EOD Snapshot (Day 57, Tuesday)
 
 **Equity:** 98.5% of start | **Cash:** 84.8% | **Day P&L:** +0.2% | **Phase P&L:** −1.5%

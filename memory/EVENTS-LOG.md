@@ -324,3 +324,5 @@ Percentages only — no dollar references.
 2026-07-08T13:14:12Z | pre-market | ok | Research committed; decision=HOLD; ideas=0 (XLF/XLV-topup/XLE/BTC/HELE all screened & rejected pre-FOMC-Minutes); holdings=XLV +1.5% intact
 2026-07-08T13:36:21Z | market-open | ok | No opens: RESEARCH-LOG decision HOLD (0 ideas; XLF timing-wrong pre-FOMC-Minutes, XLV top-up late-cycle ATH); XLV 15.2% intact +1.5%; week 1/5 opens preserved; positions=1
 2026-07-08T15:33:19Z | midday | ok | No-op: XLV +0.7% (thesis intact, ATH-hold pre-FOMC-Minutes 2PM); 1 position; class etf 15.0%; cash 84.9%; no cuts/thesis-breaks/rebalance
+2026-07-08T20:16:57Z | unknown | ok | 📊 Daily summary 2026-07-08 (Day 58) Equity: 98.3% of start / Day P&L: −0.2% / Phase: −1.7% Cash: 85.0% / Positions: 1 / Opens this week: 1/5 Positions: • XLV (stocks) 15% / +0.2% / stop −10% Today: opened 0, closed 0, trimmed 0. 
+2026-07-08T20:17:02Z | daily-summary | ok | EOD snapshot committed; day P&L -0.2%; equity 98.3%
