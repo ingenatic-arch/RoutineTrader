@@ -6,6 +6,68 @@ Most-recent at the top. Each entry is the basis for any trade decision in the
 
 ---
 
+### 2026-07-09 — Thursday Pre-Market (08:00 ET) — **XLV DAY-4 STALL WATCH ACTIVE — PRE-MKT $161.87 = 0.12% BELOW ENTRY $162.06 = FIRST TOUCH OF STALL-CLOCK TRIGGER; ES −0.96% O/N RISK-OFF (STEP-UP FROM WED −0.10%); VIX 16.95 +0.3% CALM STILL SUB-17; 10Y 4.59% EXTENDED HIGHER FROM WED 4.54% ON HAWKISH-LEAN FOMC MINUTES (XLK GATE FURTHER); WTI $72.96 −0.8% DAY-25+ SUB-$75 STRUCTURAL BEARISH (XLE OFF); BTC ~$62–63K / ETH ~$1.75K FLAT — BOTH FAR FROM RE-ENTRY GATES; **8:30 AM JOBLESS CLAIMS = MORNING BINARY**; 1:00 PM 30Y AUCTION + NYFED WILLIAMS 9:00 / DALLAS LOGAN 1:30 = RATE-SHOCK STACK; PEP PRE-OPEN EARNINGS (NAME-SPECIFIC, NOT SECTOR); IRAN-ISRAEL WAR "INFLATION SCAR" BACKGROUND; NO A-GRADE ADD LANE — HOLD (do not add into risk-off tape; XLV Day-4 close below entry $162.06 activates rule-10 stall clock for midday review)**
+
+**Snapshot:** Equity **98.3%** of start | Cash **85.0%** | Open positions: **1** (XLV 15.0% Health Care) | Week 07-06 → 07-10 opens so far: **1/5** (T+4 of 5-session week; XLV Mon 7/6 open)
+
+**Market context** (as-of 2026-07-09 ~08:00 ET, percentages only; risk-off overnight step-up from Wed's quiet; hawkish-lean FOMC-Minutes hangover)
+- **ES Sep-2026 ~−0.96% O/N** — **meaningful risk-off step-up from Wed −0.10%**; digesting hawkish-lean FOMC Minutes (Fed held 3.50–3.75% with a divided panel; some participants argued policy is not restrictive and saw case for hikes). Directional not parked — early-session pressure baked in ahead of 8:30 claims.
+- **VIX 16.95, +0.3% O/N** — **still sub-17 calm** despite equity fade; vol market not pricing regime break. Modest bid consistent with the ES tape rather than escalating fear.
+- **US 10Y yield ~4.59%** — **extended higher ~5bp vs Wed 4.54%; ~10bp vs Mon-Tue 4.49%**. Directly pressures rate-sensitive/bond-proxy names including XLV. XLK-re-entry sub-4.40% gate now ~19bp / ~4% below current = **further from trigger, structurally**. 30Y auction 1:00 PM = live rate-shock risk if it tails; NYFed Williams 9:00 AM + Dallas Logan 1:30 PM stack the reveal.
+- **WTI Aug ~$72.96, −0.8% O/N — day-25+ sub-$75, day-12+ sub-$74.** Brent $78.07, ~flat. Structural bearish leg intact even against the "US-Israeli war with Iran" background — market not pricing supply disruption despite the geopolitical framing. **XLE lane structurally OFF; no A-grade energy entry available.**
+- **DXY ~100.98, ~flat O/N** — neutral / no fresh directional signal into claims. Iran-war "inflation scar" narrative not showing up in dollar flow yet.
+- **BTC ~$62–63K, roughly flat / mildly negative O/N; ETF flows constructive (~$2B renewed inflows over past two weeks).** Still deep below the $74–75K re-entry gate; gate ~$11–13K / ~18–20% away = **NO PATH THIS WEEK.** Weekly +5% but O/N sideways.
+- **ETH ~$1,750, ~flat O/N** — bearish "rounding top" technical flag surfaced. Sub-$2K re-entry gate unmet.
+- **Sector momentum (5D through 2026-07-08):** live-tape sources returned insufficient / interactive-only data this morning (data-quality caveat). Wed's carry-forward read remains the working baseline: **XLK Tech ≈ −6.0% 5D** (major growth unwind); **XLF Financials +4.3% 5D** (fresh leader on hawkish-lean Fed); **XLV Health Care +1.1% 5D** (the held position — grinding); XLE −1.2%; XLP +0.2%; XLU −2.0%. Rotation signal (growth → value/defensive) still directional but Wed's XLV give-back + today's O/N risk-off tests the defensive-bid durability. Reassess midday from cash tape.
+- **Today's catalyst deck (Thu 7/9, all ET) — FRONT-LOADED:**
+  - **8:30 AM Initial Jobless Claims (week 7/4)** — **MORNING BINARY.** Consensus ~215–220K vs prior 218K. Bad print (>230K) = growth-scare, likely defensive bid returns → supports XLV; good print (<210K) = growth-holds + hawkish re-price on 10Y → pressures rate-sensitives.
+  - **9:00 AM NY Fed Williams speaks** — post-Minutes Fed-speak; can reshape front-end curve.
+  - **10:00 AM Existing Home Sales (June)** — consensus ~4.20M; tier-2 housing read.
+  - **10:00 AM Business Formation Statistics (June)** — tier-3 dynamism read.
+  - **11:00 AM Weekly Petroleum inventory data** — oil-tape read, XLE-irrelevant given structural break.
+  - **1:00 PM Treasury 30-year bond auction** — **KEY LONG-END READ.** A soft tail here on top of an already-elevated 10Y would be direct pain for XLV bond-proxy tone.
+  - **1:30 PM Dallas Fed Logan speaks** — post-lunch Fed-speak; second Fed voice today.
+  - **Pre-open earnings:** **PepsiCo (PEP)** — consensus EPS ~$2.20–2.23, revenue ~$24B. Staples sector read-through but NAME-SPECIFIC, not XLV-relevant. Simply Good Foods (SMPL) also pre-open. WD-40 (WDFC) after-close.
+  - **Fed balance sheet update** — after close, tier-3.
+- **Geopolitics — Iran-Israel war continues:** IMF/market commentary flagging a lasting "inflation scar" through 2027 from the conflict (via energy prices, defense spending, supply disruption channels). **Not a fresh headline today** — background risk factor influencing rate/inflation expectations, not a same-day directional catalyst. WTI −0.8% confirms market not pricing acute supply-shock today.
+
+**Holdings check**
+- **XLV (Health Care) — 15.0% equity, +0.2% unrealized (close 7/8 $162.32 vs entry $162.06). Thesis INTACT but STALL WATCH ACTIVE.** Pre-market $161.87 = **−0.26% gap down vs $162.30 close, ~$0.19 / 0.12% BELOW entry $162.06** — first touch of the Wed-flagged rule-10 stall-clock trigger. **Not a rule-9 thesis-break:** no adverse XLV-constituent catalyst overnight (routine FDA-feed items only — Trutakna IgA-nephropathy approval 7/7, VOYXACT snapshot 7/8; no marquee-holding earnings, no policy break). **Not a rule-8 −7% cut:** position is +0.2% unrealized (open $1,476.36 vs cost $1,474.00), close-rate $162.32 sits $16.30 (10.0%) above stop $146.02. **Rule-10 stall clock:** Wed's plan flagged today explicitly — "a red Day-4 close below entry $162.06 tomorrow would activate the stall clock" — pre-market print sits at that line. **Midday review MUST reassess:** (a) if XLV holds/reclaims above $162.06 by 12:30 ET, thesis continues on watch — no action; (b) if XLV extends below $161.25 (prior 5-year high) intraday with 10Y bidding higher on Fed-speak/auction, promote to rule-9 thesis-break candidate; (c) if XLV holds red but stays $161.25–$162.06, note stall clock started but no midday action until Day-5. **No overnight thesis-break event; no > 3% gap; stop far below (10% floor); position sizing 15.0% within all caps.** **Continue to HOLD open; do NOT add at pre-market weakness; do NOT pre-cut on a Day-4 red print alone.**
+
+**Trade ideas** (0–5 per day; HOLD is default when no idea qualifies)
+
+- **None A-grade today.** Rationale for HOLD as the default disposition:
+  1. **Risk-off O/N tape (ES −0.96%) into a front-loaded rate-event stack** (8:30 claims + 9:00 Williams + 1:00 30Y auction + 1:30 Logan) is not a setup to add into. Adding pre-8:30 into hawkish-Minutes hangover concentrates timing risk when there's no A-grade lane below.
+  2. The pre-buy gate requires a **documented catalyst today** — none of the below clear that bar cleanly.
+
+Screened candidates + verdict:
+
+1. **XLK / QQQ (Tech-add lane)** — instrumentIDs 3021 / 3006, ETF. **Rejected.** 10Y at 4.59% is ~19bp above the sub-4.40% XLK re-entry gate — further from trigger, not closer. Hawkish-Minutes hangover + Fed-speak + 30Y auction all skew rates higher today, not lower. No path to gate crossing this session.
+2. **XLE (Energy)** — instrumentID 3008, ETF. **Rejected.** WTI $72.96 = day-25+ sub-$75, structural bearish leg intact even under Iran-Israel war framing. Thesis dead; no lane.
+3. **XLF (Financials, 5D leader)** — instrumentID 3011, ETF. **Rejected.** The rotation signal is real (+4.3% 5D vs XLK −6%) and hawkish-Minutes normally supports the group, but there's **no fresh 7/9 XLF-specific catalyst** — Q2 bank earnings begin next week (JPM, WFC, C, BAC around 7/14–7/16 typical window). Buying the extended leader into a risk-off tape without a same-day trigger = chasing. Watchlist for next Monday's pre-market ahead of bank prints.
+4. **BTC / ETH (Crypto add)** — instrumentIDs 100000 / 100001. **Rejected.** BTC $62–63K deep below $74–75K re-entry gate; ETH sub-$2K gate also unmet; ETH technical "rounding top" flag = bearish micro-structure. ETF flows constructive but that's a slow-drip narrative, not a same-day A-grade trigger.
+5. **Gold (defensive / inflation-scar hedge)** — no exact-match check run because there's no same-day trigger; the "inflation scar" story is a slow multi-quarter thesis, not a Thursday catalyst. **Deferred.** Revisit if Iran-Israel produces a fresh acute headline that breaks WTI higher.
+6. **PEP (PepsiCo pre-earnings)** — **Rejected.** Pre-buy gate explicitly forbids binary earnings bets; consensus-in-line print is a coin flip on reaction. If PEP posts a clean beat + Fed-speak stays neutral, may become a post-print continuation candidate for tomorrow's pre-market — not today.
+7. **XLV top-up** — **Rejected.** Adding to an already-open Day-4 stall-watch position on a −0.26% pre-market gap-down would violate the "don't top-up at ATH pre-FOMC" prior discipline in reverse (don't average down without a fresh catalyst either). Class exposure already 15.0% of 50% cap — plenty of room, but wrong moment.
+
+**Risk factors**
+- **XLV Day-4 stall-clock trigger sits at $162.06 close.** Pre-market pointing to a red open. If XLV closes below entry today, rule-10 3-day-stall clock activates for tomorrow (Fri 7/10) — midday must monitor and daily-summary must flag.
+- **10Y at 4.59% + 30Y auction 1 PM = live rate-shock risk.** A tailed auction would push yields higher into the close, directly pressuring XLV bond-proxy tone. Not a rule trip on its own, but a compounding risk on the stall watch.
+- **8:30 claims direction unknown.** Both directions are plausible pain: bad print helps XLV defensive bid but signals growth-scare (risk-off broader); good print keeps growth-hold narrative but re-prices 10Y higher (rate-sensitive pain).
+- **Iran-Israel war headline risk is asymmetric.** Any fresh escalation (Hormuz closure, direct-force incident) that spikes WTI would break the day-25 structural bearish oil setup and could shift the whole tape's tone. Current O/N reads flat on the framing — no acute signal — but it's the one thing that can change fastest.
+- **Cash 85%, position 15%.** Dry powder posture is deliberate into a data-heavy week. Not "cash drag" — this is a documented low-signal-regime posture with only one thesis alive, and the 5–10% cash floor is a minimum, not a target.
+
+**Watchlist**
+- **XLF (financials) — bank earnings week begins ~7/14.** Next Monday pre-market is the natural re-evaluation window. Pre-earnings setup at the sector level, not name-level, given the 5D leadership.
+- **BTC** — re-entry gate $74–75K + clean 3+ consecutive ETF-inflow-day streak. Currently gate ~$11–13K away; not imminent.
+- **XLK** — re-entry gate 10Y sub-4.40% + tech leadership reclaim. Currently 10Y drifting the wrong way; not imminent.
+- **Gold (GLD)** — inflation-scar/Iran-Israel hedge candidate if a fresh acute headline breaks. Route through exact `internalSymbolFull` match when the trigger fires.
+- **XLV** — if today's Day-4 stall clock activates, tomorrow's rule-10 assessment governs. If XLV instead reclaims $162.06 → $164.45 intraday, the ATH-breakout leg re-validates.
+
+**Decision:** **HOLD.** No new opens today. No trims required. Opens-this-week stays 1/5; weekly budget preserves 4 slots into Fri 7/10 (and if today closes red on XLV without triggering a rule-9 exit, the plausible Fri action is a rule-10 stall-cut of XLV, not a new open). Midday review MUST evaluate the Day-4 stall clock against a live close-rate and the 8:30 claims reaction.
+
+---
+
 ### 2026-07-08 — Wednesday Pre-Market (08:00 ET) — **XLV DAY-3 CONTINUATION AT/NEAR ATH $165.61 (CLOSE ~$164.54, +1.5% UNREALIZED); ES −0.10% O/N QUIET; VIX +2.3% MODEST BID FROM ~16 CALM; 10Y ELEVATED ~4.54% (XLK RE-ENTRY GATE STILL FAR); WTI +0.1% ~$68.78 STRUCTURALLY BEARISH DAY-24+ SUB-$70 EVEN WITH IRAN-BAHRAIN DRONE HEADLINE; BTC ~$63K RANGE-BOUND; NATO ANKARA DAY-2; **2:00 PM FOMC MINUTES = DAY'S BINARY DRIVER**; NO MAJOR PRE-OPEN EARNINGS (HELE only); TECH −6% 5D vs FINANCIALS +4.3% 5D ROTATION SIGNAL — HOLD (do not pre-position ahead of FOMC minutes)**
 
 **Snapshot:** Equity **98.5%** of start | Cash **84.8%** | Open positions: **1** (XLV 15.2% Health Care) | Week 07-06 → 07-10 opens so far: **1/5** (T+3 of 5-session week; XLV Mon 7/6 open)
