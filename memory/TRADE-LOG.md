@@ -10,6 +10,87 @@ The dollar figures below are for internal reconciliation of tomorrow's Day-P&L m
 
 ---
 
+## 2026-07-10 — EOD Snapshot (Day 60, Friday)
+
+**Equity:** 98.2% of start | **Cash:** 85.1% | **Day P&L:** −0.1% | **Phase P&L:** −1.8%
+
+| Sym | Class  | Weight% | Entry   | Close   | Unrealized% | Stop    |
+|-----|--------|---------|---------|---------|-------------|---------|
+| XLV | stocks |  14.9%  | $162.06 | $160.82 |    −0.8%    | $146.02 |
+
+**Notes:** Friday T+5 (final session) of week 07-06 → 07-10 and **Day-5 of the
+XLV A-grade defensive-rotation open** placed Mon 7/6 09:37 ET. Pre-market
+decision=HOLD (0 A-grade ideas — XLV thesis intact but Day-5 needed continuation
+print, XLF promoted to Mon 7/13 pre-earnings watchlist, no fresh A-grade
+catalyst clearing the pre-buy gate on a Friday quiet-tape session with the
+weekly-review 16:30 ET scheduled and DAL binary earnings ineligible per
+rule-2 no-single-name-earnings gate); market-open opened-none (mechanical:
+HOLD); midday no-op (XLV unrealized −0.7% intraday at live $160.96 well above
+−7% rule-8 cut, thesis intact with Day-5 slight-red vs Thu's barely-green
+$162.16 reclaim = intraday drift only per the midday read, class exposure
+ETF-broad 14.9% vs 50% cap, cash 85.1% vs 5–10% minimum = all risk gates
+green). Tape delivered the **Day-5 RED CLOSE BELOW ENTRY** that yesterday's
+watchlist explicitly flagged as CRITICAL — XLV closed **$160.82 (−0.77% vs
+$162.06 entry — first red mark below entry since the Mon 7/6 fill, and
+critically a close BELOW prior 5-yr high $161.25)** = drift of −0.83% vs
+Thu's $162.16 close on the Day-5 continuation-fail. Read: this is the
+**rule-10 3-day-stall activator** we watched into (Thu was Day-4 barely-green
+hold above entry; Fri Day-5 red below entry starts the 3-day stall clock)
+AND is also a **rule-9 thesis-break candidate** on close below prior 5-yr
+high $161.25 (multi-day ATH-breakout leg now fully invalidated — one close
+above $164.45 in the 5-session hold, followed by 3 consecutive fades back
+below the breakout level). Day P&L **−0.1%** on virtual equity ($9,815.18
+vs Thu 7/9 EOD $9,827.37 = −$12.19 = −0.124% rounded to −0.1%): XLV
+unrealized mark rolled from +$0.91 to −$11.28 (delta −$12.19 = −0.83% on
+$1,474 invested = −0.12% on equity) drove the entire day drift, no fee drag
+today (fees already netted at Mon open). Phase P&L slips to **−1.8%**
+(was −1.7%): equity floor drops from 98.3% to 98.2% of $10k start, new
+phase-P&L low since the Mon 7/6 XLV open reset the phase drift curve.
+Week 07-06 → 07-10 **CLOSES 1/5 opens** (5th consecutive week at 0–1 opens
+under the post-6/10 defensive regime — 4 of 5 slots unused into next week,
+disciplined dry-powder posture); 1 position (cap 8, ample room); 14.9%
+invested (cap 30% per name / 50% per class both comfortable — ETF-broad
+14.9% of 50% cap); 85.1% cash buffer (well above 5–10% floor). Rule trips:
+**rule-10 3-day-stall clock ACTIVATED** (Wed 7/8 give-back, Thu 7/9
+barely-green Day-4 hold, Fri 7/10 Day-5 red close below entry = pattern
+match; Mon 7/13 midday needs green reclaim above entry $162.06 to
+extinguish, another red day compounds to rule-9 territory); **rule-9
+thesis-break candidate on close below prior 5-yr high $161.25** — Fri
+$160.82 is $0.43 below the breakout level = ATH-breakout leg technically
+broken, thesis validity now depends on immediate Mon 7/13 tape (green
+reclaim above $161.25 = leg re-established watch, extension below = full
+thesis-break rule-9 cut trigger); rule-8 −7% not near (position is −0.8%
+not −7%). Watchlist into Mon 7/13: **XLV rule-10/rule-9 decision** —
+CRITICAL — Mon 7/13 open above entry $162.06 AND close green with reclaim
+above $161.25 = both stall clock extinguished AND thesis-break candidate
+withdrawn; open red at/below $160.82 with intraday drift lower = midday
+rule-9 cut consideration (weekly review may pre-authorize the cut if the
+regime read warrants); **XLF post-earnings** — Mon 7/13 JPM+WFC+C pre-open
+prints per pre-market watchlist promotion — post-print NIM read gates
+XLF re-engage lane; **VIX** — hold sub-16 calm baseline is regime-
+supportive, break above 17 = risk-off tell that would pressure the XLV
+mark further and support the rule-9 cut path; **10Y trajectory** —
+sub-4.40 revives XLK gate-narrowing narrative, extension above 4.50
+pressures rate-sensitives including XLV; **XLK sub-4.30 gate** unmet
+baseline (10Y ~4.55–4.59 today per pre-market); **XLE** dead sub-$75 WTI
+$72.53 despite Hormuz headline (WTI thesis-broken); **BTC re-entry gate**
+monitor $74–75K + clean 3+ consecutive ETF-inflow-day print (gates unmet);
+**Q2 earnings-season kickoff** window opens Mon 7/13 (JPM+WFC+C financials
+lead, Health Care sector reports later in July weighing into XLV lane);
+**Fed speakers / Aug FOMC** positioning windows. **Weekly-review 16:30 ET
+today** will grade week 07-06 → 07-10 (1-open XLV outcome under the
+post-6/10 defensive regime), assess the Day-5 close-below-entry rule-10
+activation, and formally consider whether to pre-authorize a Mon 7/13
+midday cut if the tape does not reclaim.
+
+_Internal (reconciliation only, not shown to user):_
+- Virtual equity: $9,815.18
+- Virtual cash: $8,352.46
+- Opens this week: 1
+- Real mirror (10%): $981.52
+
+---
+
 ## 2026-07-09 — EOD Snapshot (Day 59, Thursday)
 
 **Equity:** 98.3% of start | **Cash:** 85.0% | **Day P&L:** −0.0% | **Phase P&L:** −1.7%
